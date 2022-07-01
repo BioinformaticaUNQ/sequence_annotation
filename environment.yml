@@ -1,4 +1,3 @@
 name: sequence_annotation
 channels:
   - defaults
-prefix: /home/luciano/anaconda3/envs/sequence_annotation
