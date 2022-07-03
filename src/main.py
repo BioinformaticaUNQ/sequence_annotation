@@ -1,6 +1,5 @@
 import argparse
-import queries
-import json
+from services.proteins_search_service import ProteinsSearchService
 
 
 def main():
@@ -18,24 +17,11 @@ def main():
                         help="results are exported to a file")
 
     args = parser.parse_args()
-
+    service = ProteinsSearchService()
     if args.pdb_ids:
-        perform_search(args.pdb_ids, args.save_file)
+        service.search(args.pdb_ids, args.save_file)
     if args.from_file:
-        perform_search(args.from_file, args.save_file)
-
-
-def perform_search(pdb_list, save_results):
-    responses = []
-    for pdb_id in pdb_list:
-        responses.append(queries.Queries.get_annotations(pdb_id))
-    if save_results:
-        output_file = open("annotations.json", "a")
-        output_file.write(json.dumps(responses, indent=4, sort_keys=True))
-        output_file.close()
-    else:
-        print(json.dumps(responses, indent=4, sort_keys=True))
-
+        service.search(args.from_file, args.save_file)
 
 if __name__ == '__main__':
     main()
