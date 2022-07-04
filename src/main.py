@@ -4,8 +4,8 @@ from services.proteins_search_service import ProteinsSearchService
 
 def main():
     parser = argparse.ArgumentParser(description='annotations for protein sequences and structures')
-    group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument('-ids', '--pdb-ids',
+    group = parser.add_mutually_exclusive_group()#(required=True)
+    group.add_argument('-i', '--pdb-ids',
                        type=str,
                        nargs="*",
                        help="returns annotations for the given PDB id")
