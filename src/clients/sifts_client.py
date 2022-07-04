@@ -21,5 +21,3 @@ class SiftsPDBClient:
     
     def residue_listing_by_pdb_id(self,pdb_id):
         return self.__basic_get_call(entry_url,"residue_listing",pdb_id)
-
-    

@@ -1,3 +1,6 @@
 name: sequence_annotation
 channels:
   - defaults
+dependencies:
+  - python=3.10
+  - requests

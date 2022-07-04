@@ -26,9 +26,7 @@ class ProteinsSearchService:
             output_file.close()
         else:
             print(json.dumps(responses, indent=4, sort_keys=True))
-            
-            
-    
+
     def search_in_sites(self,pdb):
 
         pdb_id = pdb.lower()
@@ -90,4 +88,4 @@ def foundSecondaryStruct(self, chain, pdb_id):
             structure.strands = strands
     
     chain.secondary_structure = structure.__dict__
-            
+
