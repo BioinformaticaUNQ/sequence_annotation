@@ -68,19 +68,25 @@ def foundSecondaryStruct(self, chain, pdb_id):
     helices = []
     strands = []
     structure = SecondaryStructure()
+
     
     for s in second_struct_info:
         if s.get('chain_id') == chain.chain_id:
-           
-            if(s.get('secondary_structure').get('helices')):
-                for h in s.get('secondary_structure').get('helices') :
+
+            helicesFound = s.get('secondary_structure').get('helices')
+            if(helicesFound):
+                for h in helicesFound :
                     a = Aminoacid()
+                    print(json.dumps(h.get("start"), indent= 1))
                     a.residue_number_start = h.get('start').get('residue_number')
                     a.residue_number_end = h.get('end').get('residue_number')
                     helices.append(a.__dict__)
+                exit()
+
                 
-            if(s.get('secondary_structure').get('strands')):
-                for p in s.get('secondary_structure').get('strands') :
+            strands = s.get('secondary_structure').get('strands')
+            if(strands):
+                for p in strands :
                     a = Aminoacid()
                     a.residue_number_start = p.get('start').get('residue_number')
                     a.residue_number_end = p.get('end').get('residue_number')
