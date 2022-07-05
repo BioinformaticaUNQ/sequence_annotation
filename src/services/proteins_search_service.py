@@ -16,7 +16,6 @@ class ProteinsSearchService:
         
         responses = []
         for pdb_id in pdb_list:
-            
             protein = self.search_in_sites(pdb_id)
             responses.append(protein)
             
@@ -72,18 +71,20 @@ def foundSecondaryStruct(self, chain, pdb_id):
     
     for s in second_struct_info:
         if s.get('chain_id') == chain.chain_id:
-            
-            for h in s.get('secondary_structure').get('helices') :
-                a = Aminoacid()
-                a.residue_number_start = h.get('start').get('residue_number')
-                a.residue_number_end = h.get('end').get('residue_number')
-                helices.append(a.__dict__)
+           
+            if(s.get('secondary_structure').get('helices')):
+                for h in s.get('secondary_structure').get('helices') :
+                    a = Aminoacid()
+                    a.residue_number_start = h.get('start').get('residue_number')
+                    a.residue_number_end = h.get('end').get('residue_number')
+                    helices.append(a.__dict__)
                 
-            for p in s.get('secondary_structure').get('strands') :
-                a = Aminoacid()
-                a.residue_number_start = p.get('start').get('residue_number')
-                a.residue_number_end = p.get('end').get('residue_number')
-                strands.append(a.__dict__)
+            if(s.get('secondary_structure').get('strands')):
+                for p in s.get('secondary_structure').get('strands') :
+                    a = Aminoacid()
+                    a.residue_number_start = p.get('start').get('residue_number')
+                    a.residue_number_end = p.get('end').get('residue_number')
+                    strands.append(a.__dict__)
             structure.helices = helices
             structure.strands = strands
     
