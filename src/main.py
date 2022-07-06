@@ -1,7 +1,6 @@
 import argparse
 from services.proteins_search_service import ProteinsSearchService
 
-
 def main():
     parser = argparse.ArgumentParser(description='annotations for protein sequences and structures')
     group = parser.add_mutually_exclusive_group()#(required=True)
