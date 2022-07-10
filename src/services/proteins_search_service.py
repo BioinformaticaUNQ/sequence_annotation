@@ -16,7 +16,7 @@ class ProteinsSearchService:
         
         responses = []
         for pdb_id in pdb_list:
-            protein = self.search_in_sites(pdb_id)
+            protein = self.search_in_sites(pdb_id.strip())
             responses.append(protein)
             
         if save_results:

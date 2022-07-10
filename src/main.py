@@ -11,7 +11,7 @@ def main():
                        help="returns annotations for the given PDB id")
     group.add_argument('-f', '--from-file',
                        type=argparse.FileType('r'),
-                       help="returns annotations for the PDB ids contained on a specified text file")
+                       help="returns annotations for the PDB ids contained on a specified text file: Expect a single PDB id per line (no commas)")
     parser.add_argument('-s', '--save-file',
                         action='store_true',
                         help="results are exported to a file")
