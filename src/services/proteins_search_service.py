@@ -43,10 +43,29 @@ class ProteinsSearchService:
         residues_chains = residues_data[0].get('chains')
 
         # Obtains the missing residues
-        uniprot_summary = self.uniprot_client.full_info_by_pdb_id(pdb_id)
-        uniprot_accession_id = uniprot_summary.get("results")[0].get("primaryAccession")
-        mobidb_annotations = self.modidb_client.missing_residues(uniprot_accession_id)
-        missing_residues = [v for k, v in mobidb_annotations.items() if "derived-missing_residues-th_90" in k]
+
+        # pending: entries to look for:
+        # mobi_th90_str_fraction
+        # mobi_th50_dis_fraction
+        # mobi_missing_th90_dis_fraction
+        # mobi_iupl_dis_fraction
+        # mobi_iups_dis_fraction
+
+        # pending: output format:
+        # { "chains": [ { "chain_id": "A", "residues": [
+        # { "name": "ASP", "number": 1, “unip_seq_index”: 25, "mobi_th50_dis_fraction": true },.....}
+
+        uniprot_summary = self.sifts_client.uniprot_data_by_pdb_id(pdb_id)
+        uniprot_accession_ids = list(uniprot_summary.get(pdb_id).get("UniProt").keys())
+
+        mobidb_annotations = [self.modidb_client.missing_residues(accession_id) for accession_id in
+                              uniprot_accession_ids]
+
+        missing_residues = []
+
+        for annotation in mobidb_annotations:
+            current_acc_data = {annotation.get("acc"): [dict((k, v) for k, v in annotation.items() if "missing_residues" in k)]}
+            missing_residues.append(current_acc_data)
 
         residues_response = []
         chains_and_residues = []
