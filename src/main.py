@@ -1,5 +1,6 @@
 import argparse
 from services.proteins_search_service import ProteinsSearchService
+from services.path_validation import validate_path
 
 def main():
     parser = argparse.ArgumentParser(description='annotations for protein sequences and structures')
@@ -14,13 +15,18 @@ def main():
     parser.add_argument('-s', '--save-file',
                         action='store_true',
                         help="results are exported to a file")
+    parser.add_argument('-p', '--file-path',
+                        type=str,
+                        help="Change the created file path. Expect an .json extension. Default: annotations.json at program root")
 
     args = parser.parse_args()
+    validate_path(args.file_path)
+
     service = ProteinsSearchService()
     if args.pdb_ids:
-        service.search(args.pdb_ids, args.save_file)
+        service.search(args.pdb_ids, args.save_file, args.file_path)
     if args.from_file:
-        service.search(args.from_file, args.save_file)
+        service.search(args.from_file, args.save_file, args.file_path)
 
 if __name__ == '__main__':
     main()

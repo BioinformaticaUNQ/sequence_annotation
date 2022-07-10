@@ -12,7 +12,7 @@ class ProteinsSearchService:
     sifts_client = SiftsPDBClient()
     uniprot_client = UniprotPDBClient()
 
-    def search(self,pdb_list, save_results):
+    def search(self,pdb_list, save_results, path):
         
         responses = []
         for pdb_id in pdb_list:
@@ -20,7 +20,8 @@ class ProteinsSearchService:
             responses.append(protein)
             
         if save_results:
-            output_file = open("annotations.json", "a")
+            file_path = path if path else "annotations.json"
+            output_file = open(file_path, "a")
             output_file.write(json.dumps(responses, indent=4, sort_keys=True))
             output_file.close()
         else:
