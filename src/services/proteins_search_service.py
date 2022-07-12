@@ -1,6 +1,6 @@
 from clients.sifts_client import SiftsPDBClient
 from clients.uniprot_client import UniprotPDBClient
-from clients.modidb_client import ModiDBClient
+from clients.mobidb_client import MobiDBClient
 from dto.protein import Protein
 from dto.chains import Chain
 from dto.residues import Residue
@@ -12,7 +12,7 @@ import json
 class ProteinsSearchService:
     sifts_client = SiftsPDBClient()
     uniprot_client = UniprotPDBClient()
-    modidb_client = ModiDBClient()
+    mobidb_client = MobiDBClient()
 
     def search(self, pdb_list, save_results, path):
 
@@ -59,7 +59,7 @@ class ProteinsSearchService:
         uniprot_summary = self.sifts_client.uniprot_data_by_pdb_id(pdb_id)
         uniprot_accession_ids = list(uniprot_summary.get(pdb_id).get("UniProt").keys())
 
-        mobidb_annotations = [self.modidb_client.missing_residues(accession_id) for accession_id in
+        mobidb_annotations = [self.mobidb_client.missing_residues(accession_id) for accession_id in
                               uniprot_accession_ids]
 
         missing_residues = []
