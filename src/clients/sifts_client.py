@@ -8,7 +8,9 @@ pdb_to_uniprot_mapping_url = "mappings/uniprot/"
 class SiftsPDBClient:
 
     def __basic_get_call(self, base_url, domain, pdb_id):
-        return requests.get(base_url + domain + "/" + pdb_id).json()
+        response = requests.get(base_url + domain + "/" + pdb_id)
+        response.raise_for_status()
+        return response.json()
 
     def summary_by_pdb_id(self, pdb_id):
         return self.__basic_get_call(entry_url, "summary", pdb_id)
