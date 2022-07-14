@@ -1,5 +1,3 @@
+[![Unit Tests](https://github.com/BioinformaticaUNQ/sequence_annotation/actions/workflows/ci.yml/badge.svg)](github.com/BioinformaticaUNQ/sequence_annotation/actions/workflows/ci.yml)
 
-Luciano Cardozo Casariego
-Alejo
-Maria Laura
-fasdd
+TP final
