@@ -2,19 +2,19 @@ import unittest
 import sys
 sys.path.append("..")
 from src.services.proteins_search_service import ProteinsSearchService
-from .._1thj import _1thj
-from .._1a7e import _1a7e
-from .._1ej1 import _1ej1
-from .._1lxa import _1lxa
-from .._2cpe import _2cpe
-from .._3lvl import _3lvl
-from .._3ogb import _3ogb
+from _1thj import _1thj
+from _1a7e import _1a7e
+from _1ej1 import _1ej1
+from _1lxa import _1lxa
+from _2cpe import _2cpe
+from _3lvl import _3lvl
+from _3ogb import _3ogb
 
 class ProteinSearchServiceTestCase(unittest.TestCase):
     def setUp(self):
         self.service = ProteinsSearchService()
     
-    def __basic_test_search(self,pdb_id, expected_protein_result, test_scondary_structure=False, test_missing_residues=False):
+    def __basic_test_search(self,pdb_id, expected_protein_result, test_scondary_structure=False):
         response = self.service.search_in_sites(pdb_id)
         self.assertEqual(response["pdb_id"],expected_protein_result["pdb_id"])
         self.assertEqual(response["sequence"],expected_protein_result["sequence"])
@@ -36,8 +36,8 @@ class ProteinSearchServiceTestCase(unittest.TestCase):
         return response
 
     def __basic_test_missing_residues(self, missing_testing_residues_list, missing_expected_residues_list, derive_missing_residues_list):
-        self.assertEquals(len(missing_testing_residues_list),len(derive_missing_residues_list))
-        self.assertEquals(len(missing_expected_residues_list),len(derive_missing_residues_list))
+        self.assertEqual(len(missing_testing_residues_list),len(derive_missing_residues_list))
+        self.assertEqual(len(missing_expected_residues_list),len(derive_missing_residues_list))
 
         for n in range(len(missing_testing_residues_list)):
             actual_missing_expected_residue = missing_expected_residues_list[n]
@@ -58,7 +58,7 @@ class ProteinSearchServiceTestCase(unittest.TestCase):
 
                 for j in range(len(actual_expected_basic_p0a6b9_residue["regions"])):
                     for k in range(len(actual_expected_basic_p0a6b9_residue["regions"][j])):
-                        self.assertEquals(actual_response_basic_p0a6b9_residue["regions"][j][k],actual_expected_basic_p0a6b9_residue["regions"][j][k])
+                        self.assertEqual(actual_response_basic_p0a6b9_residue["regions"][j][k],actual_expected_basic_p0a6b9_residue["regions"][j][k])
 
 
 
