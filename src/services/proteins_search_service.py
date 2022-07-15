@@ -1,13 +1,11 @@
 from requests.exceptions import HTTPError
-from src.utils.pretty_print import PrettyPrint
-from src.clients.sifts_client import SiftsPDBClient
-from src.clients.uniprot_client import UniprotPDBClient
-from src.clients.mobidb_client import MobiDBClient
-from src.dto.protein import Protein
-from src.dto.chains import Chain
-from src.dto.residues import Residue
-from src.dto.chains import SecondaryStructure
-from src.dto.chains import Aminoacid
+from utils.pretty_print import PrettyPrint
+from clients.sifts_client import SiftsPDBClient
+from clients.uniprot_client import UniprotPDBClient
+from clients.mobidb_client import MobiDBClient
+from dto.protein import Protein
+from dto.chains import Chain,SecondaryStructure,Aminoacid
+from dto.residues import Residue
 import json
 
 
