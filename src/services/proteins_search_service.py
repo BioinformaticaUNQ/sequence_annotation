@@ -14,7 +14,7 @@ class ProteinsSearchService:
     uniprot_client = UniprotPDBClient()
     mobidb_client = MobiDBClient()
 
-    def search(self, pdb_list, save_results, path):
+    def search(self, pdb_list, save_results):
 
         responses = []
         for pdb_id in pdb_list:
@@ -25,7 +25,7 @@ class ProteinsSearchService:
 
         if responses:
             if save_results:
-                file_path = path if path else "annotations.json"
+                file_path = save_results
                 output_file = open(file_path, "a")
                 output_file.write(json.dumps(responses, indent=4, sort_keys=True))
                 output_file.close()
