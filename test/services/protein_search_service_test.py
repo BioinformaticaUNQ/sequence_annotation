@@ -2,7 +2,7 @@ import unittest
 import sys
 sys.path.append("..")
 from src.services.proteins_search_service import ProteinsSearchService
-from data_sample import query_data_example
+from src.utils.data_sample import query_data_example
 
 class ProteinSearchServiceTestCase(unittest.TestCase):
     def setUp(self):

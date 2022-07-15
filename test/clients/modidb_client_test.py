@@ -1,8 +1,8 @@
 import unittest
 import sys
 sys.path.append("..")
-from clients.mobidb_client import MobiDBClient
-from data_sample import query_data_example
+from src.clients.mobidb_client import MobiDBClient
+from src.utils.data_sample import query_data_example
 
 class MobidbTestCase(unittest.TestCase):
     def setUp(self):
