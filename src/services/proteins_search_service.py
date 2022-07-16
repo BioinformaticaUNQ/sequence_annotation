@@ -4,7 +4,7 @@ from clients.sifts_client import SiftsPDBClient
 from clients.uniprot_client import UniprotPDBClient
 from clients.mobidb_client import MobiDBClient
 from dto.protein import Protein
-from dto.chains import Chain,SecondaryStructure,Aminoacid
+from dto.chains import Chain, SecondaryStructure, Aminoacid
 from dto.residues import Residue
 import json
 
@@ -76,12 +76,20 @@ class ProteinsSearchService:
         except HTTPError:
             PrettyPrint.warning_output(f"WARNING: The missing residues for {pdb_id.upper()} could not be found")
 
-        missing_residues = []
+        missing_residues = {}
 
         for annotation in mobidb_annotations:
             current_acc_data = {
-                annotation.get("acc"): [dict((k, v) for k, v in annotation.items() if "missing_residues" in k)]}
-            missing_residues.append(current_acc_data)
+                annotation.get("acc"): [dict((k, v) for k, v in annotation.items() if
+                                             all(keyword in k for keyword in ["missing_residues", pdb_id]))]
+            }
+
+            for key in current_acc_data:
+                for elem in current_acc_data[key]:
+                    if elem:
+                        current_chain_id = list(elem.keys())[0]
+                        missing_residues[current_chain_id] = elem.get(current_chain_id)
+                        missing_residues[current_chain_id]["uniprot_source"] = key
 
         residues_response = []
         chains_and_residues = []
