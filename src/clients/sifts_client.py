@@ -1,8 +1,10 @@
 import requests
 
-url = "https://www.ebi.ac.uk/pdbe/api/"
+ebiurl = "https://www.ebi.ac.uk/pdbe/"
+url = ebiurl + "api/"
 entry_url = url + "pdb/entry/"
 pdb_to_uniprot_mapping_url = "mappings/uniprot/"
+residues_uniprot_url = "graph-api/uniprot/interface_residues/"
 
 
 class SiftsPDBClient:
@@ -29,3 +31,6 @@ class SiftsPDBClient:
 
     def uniprot_data_by_pdb_id(self, pdb_id):
         return self .__basic_get_call(url, pdb_to_uniprot_mapping_url, pdb_id)
+    
+    def uniprot_residues_by_accession_id(self, accession_id):
+        return self .__basic_get_call(ebiurl, residues_uniprot_url, accession_id)

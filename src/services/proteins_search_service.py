@@ -33,11 +33,13 @@ class ProteinsSearchService:
             else:
                 PrettyPrint.ok_output("\n" + json.dumps(responses, indent=4, sort_keys=True))
 
+
+
     def search_in_sites(self, pdb):
 
         pdb_id = pdb.lower()
 
-        # Obtains the protein sequence
+        # Obtains the protein pdb sequence
         try:
             molecules = self.sifts_client.molecules_by_pdb_id(pdb_id)
         except HTTPError:
@@ -45,11 +47,12 @@ class ProteinsSearchService:
             return
 
         molecules_data = list(molecules[pdb_id])
-        sequence = molecules_data[0].get('sequence')
+        sequence = molecules_data[0].get('pdb_sequence')
 
         # Obtains the chains and its residues
         residues = self.sifts_client.residue_listing_by_pdb_id(pdb_id)
         residues_data = list(residues[pdb_id].get('molecules'))
+        # Take the first entity
         residues_chains = residues_data[0].get('chains')
 
         # Obtains the missing residues
@@ -100,6 +103,9 @@ class ProteinsSearchService:
                 r = Residue(amins.get('residue_name'), amins.get('residue_number'))
                 residues_response.append(r.__dict__)
             chain.residues = residues_response
+            
+            
+            self.found_uniprot_positions(sequence, uniprot_accession_ids, chain)
 
             self.found_secondary_struct(chain, pdb_id)
 
@@ -107,6 +113,8 @@ class ProteinsSearchService:
 
         protein = Protein(pdb_id.upper(), sequence, chains_and_residues, missing_residues)
         return protein.__dict__
+
+#---------------------------------------------------------------------------------------------
 
     def found_secondary_struct(self, chain, pdb_id):
         # Obtains which residues are part of helices or strands
@@ -143,3 +151,28 @@ class ProteinsSearchService:
                 structure.strands = strands
 
         chain.secondary_structure = structure.__dict__
+        
+    
+    def found_uniprot_positions(self, sequence, uniprot_accession_ids, chain):
+        
+        try:
+            accession_id = uniprot_accession_ids[0]
+            rdata = self.sifts_client.uniprot_residues_by_accession_id(accession_id)
+            uni_sequence = rdata.get(accession_id).get("sequence")
+            uni_residues = rdata.get(accession_id).get("data")[0].get("residues")
+            first = uni_residues[0]
+            uni_sequence_sub = uni_sequence[first.get("startIndex") - 1:len(uni_sequence)]
+            startPosition = sequence.index(uni_sequence_sub)
+    
+            i = 0
+            uniprotIndex = uni_residues[0].get("startIndex")
+            while i < len(chain.residues):
+                if i == startPosition:
+                    chain.residues[i]["uniprot_number"] = uniprotIndex
+                if i > startPosition:
+                    uniprotIndex = uniprotIndex + 1
+                    chain.residues[i]["uniprot_number"] = uniprotIndex
+                i = i + 1
+        except Exception:
+            PrettyPrint.warning_output(f"WARNING: The uniprot positions could not be found")
+
