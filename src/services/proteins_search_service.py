@@ -94,10 +94,10 @@ class ProteinsSearchService:
                         missing_residues[current_chain_id] = elem.get(current_chain_id)
                         missing_residues[current_chain_id]["uniprot_source"] = key
 
-        residues_response = []
-        chains_and_residues = []
 
+        chains_and_residues = []
         for c in residues_chains:
+            residues_response = []
             chain = Chain(c.get('chain_id'))
             for amins in c.get('residues'):
                 r = Residue(amins.get('residue_name'), amins.get('residue_number'))
@@ -105,7 +105,7 @@ class ProteinsSearchService:
             chain.residues = residues_response
             
             
-            self.found_uniprot_positions(sequence, uniprot_accession_ids, chain)
+            self.found_uniprot_positions(uniprot_accession_ids,uniprot_summary.get(pdb_id).get("UniProt"), chain)
 
             self.found_secondary_struct(chain, pdb_id)
 
@@ -153,26 +153,42 @@ class ProteinsSearchService:
         chain.secondary_structure = structure.__dict__
         
     
-    def found_uniprot_positions(self, sequence, uniprot_accession_ids, chain):
+    def found_uniprot_positions(self, uniprot_accession_ids, uniprot_dic, chain):
         
         try:
             accession_id = uniprot_accession_ids[0]
-            rdata = self.sifts_client.uniprot_residues_by_accession_id(accession_id)
-            uni_sequence = rdata.get(accession_id).get("sequence")
-            uni_residues = rdata.get(accession_id).get("data")[0].get("residues")
-            first = uni_residues[0]
-            uni_sequence_sub = uni_sequence[first.get("startIndex") - 1:len(uni_sequence)]
-            startPosition = sequence.index(uni_sequence_sub)
-    
-            i = 0
-            uniprotIndex = uni_residues[0].get("startIndex")
-            while i < len(chain.residues):
-                if i == startPosition:
-                    chain.residues[i]["uniprot_number"] = uniprotIndex
-                if i > startPosition:
-                    uniprotIndex = uniprotIndex + 1
-                    chain.residues[i]["uniprot_number"] = uniprotIndex
-                i = i + 1
+            mapping_list = uniprot_dic.get(accession_id).get("mappings")
+            for mapping_dic in mapping_list:
+                if mapping_dic.get("chain_id") == chain.chain_id:
+                    rnumber = mapping_dic.get("start").get("residue_number")
+                    uninumber = mapping_dic.get("unp_start")
+                    i = 0
+                    while i < len(chain.residues):
+                        if chain.residues[i]["number"] == rnumber:
+                            chain.residues[i]["uniprot_number"] = uninumber
+                        elif chain.residues[i]["number"] > rnumber:
+                            uninumber = uninumber + 1
+                            chain.residues[i]["uniprot_number"] = uninumber
+                        i = i + 1
+                    break
+                        
+            
+            #rdata = self.sifts_client.uniprot_residues_by_accession_id(accession_id)
+            #uni_sequence = rdata.get(accession_id).get("sequence")
+            #uni_residues = rdata.get(accession_id).get("data")[0].get("residues")
+            #first = uni_residues[0]
+            #uni_sequence_sub = uni_sequence[first.get("startIndex") - 1:len(uni_sequence)]
+            #startPosition = sequence.index(uni_sequence_sub)
+            #i = 0
+            #uniprotIndex = uni_residues[0].get("startIndex")
+            #while i < len(chain.residues):
+            #    if i == startPosition:
+            #        chain.residues[i]["uniprot_number"] = uniprotIndex
+            #    if i > startPosition:
+            #        uniprotIndex = uniprotIndex + 1
+            #        chain.residues[i]["uniprot_number"] = uniprotIndex
+            #    i = i + 1
+                
         except Exception:
             PrettyPrint.warning_output(f"WARNING: The uniprot positions could not be found")
 
