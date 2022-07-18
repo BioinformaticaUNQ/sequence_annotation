@@ -5,6 +5,51 @@ query_data_example = {
     "uniprot_sequence": "EQQKFSPRYIELVVVADHGMFKKYNSNLNTIRKWVHEMVNSMNGFYRSVDVTASLANLEVWSKKDLINVQKDSRETLKSFGEWRERDLLPRISHDNAQLLTAIVFDGHTIGRAYTGGMCDPRHSVGVVMDHSPKNLQVAVTMAHELGHNLGMHHDGNQCHCDAASCIMADSLSVVLSYEFSDCSQNQYQTYLTKHNPQCILNEPL"
 }
 _1a7e = {
+    "related_uniprot_accessions": [
+         "P02247"
+      ],
+    "summary": [
+        {
+            "related_structures": [],
+            "split_entry": [],
+            "title": "HYDROXOMET MYOHEMERYTHRIN FROM THEMISTE ZOSTERICOLA",
+            "release_date": "19981014",
+            "experimental_method": [
+                "X-ray diffraction"
+            ],
+            "experimental_method_class": [
+                "x-ray"
+            ],
+            "revision_date": "20211103",
+            "entry_authors": [
+                "Martins, L.J.",
+                "Hill, C.P.",
+                "Ellis Junior, W.R."
+            ],
+            "deposition_site": None,
+            "number_of_entities": {
+                "polypeptide": 1,
+                "dna": 0,
+                "ligand": 2,
+                "dna/rna": 0,
+                "rna": 0,
+                "sugar": 0,
+                "water": 1,
+                "other": 0,
+                "carbohydrate_polymer": 0
+            },
+            "processing_site": "BNL",
+            "deposition_date": "19980312",
+            "assemblies": [
+                {
+                    "assembly_id": "1",
+                    "form": "homo",
+                    "preferred": True,
+                    "name": "monomer"
+                }
+            ]
+        }
+    ],
     "chains": [
         {
             "chain_id": "A",
@@ -487,9 +532,61 @@ _1a7e = {
     ],
     "missing_residues": {},
     "pdb_id": "1A7E",
-    "sequence": "GWEIPEPYVWDESFRVFYEQLDEEHKKIFKGIFDCIRDNSAPNLATLVKVTTNHFTHEEAMMDAAKYSEVVPHKKMHKDFLEKIGGLSAPVDAKNVDYCKEWNVNHIKGTDFKYKGKL"
+    "pdb_sequence": "GWEIPEPYVWDESFRVFYEQLDEEHKKIFKGIFDCIRDNSAPNLATLVKVTTNHFTHEEAMMDAAKYSEVVPHKKMHKDFLEKIGGLSAPVDAKNVDYCKEWNVNHIKGTDFKYKGKL"
 }
 _1ej1 = {
+    "related_uniprot_accessions": [
+        "P63073"
+    ],
+    "summary": [
+        {
+            "related_structures": [],
+            "split_entry": [],
+            "title": "COCRYSTAL STRUCTURE OF THE MESSENGER RNA 5' CAP-BINDING PROTEIN (EIF4E) BOUND TO 7-METHYL-GDP",
+            "release_date": "20000315",
+            "experimental_method": [
+                "X-ray diffraction"
+            ],
+            "experimental_method_class": [
+                "x-ray"
+            ],
+            "revision_date": "20210203",
+            "entry_authors": [
+                "Marcotrigiano, J.",
+                "Gingras, A.-C.",
+                "Sonenberg, N.",
+                "Burley, S.K."
+            ],
+            "deposition_site": "RCSB",
+            "number_of_entities": {
+                "polypeptide": 1,
+                "dna": 0,
+                "ligand": 1,
+                "dna/rna": 0,
+                "rna": 0,
+                "sugar": 0,
+                "water": 1,
+                "other": 0,
+                "carbohydrate_polymer": 0
+            },
+            "processing_site": "RCSB",
+            "deposition_date": "20000229",
+            "assemblies": [
+                {
+                    "assembly_id": "1",
+                    "form": "homo",
+                    "preferred": True,
+                    "name": "monomer"
+                },
+                {
+                    "assembly_id": "2",
+                    "form": "homo",
+                    "preferred": False,
+                    "name": "monomer"
+                }
+            ]
+        }
+    ],
     "chains": [
         {
             "chain_id": "A",
@@ -3563,9 +3660,52 @@ _1ej1 = {
             }
         },
     "pdb_id": "1EJ1",
-    "sequence": "VANPEHYIKHPLQNRWALWFFKNDKSKTWQANLRLISKFDTVEDFWALYNHIQLSSNLMPGCDYSLFKDGIEPMWEDEKNKRGGRWLITLNKQQRRSDLDRFWLETLLCLIGESFDDYSDDVCGAVVNVRAKGDKIAIWTTECENRDAVTHIGRVYKERLGLPPKIVIGYQSHADTATKSGSTTKNRFVV"
+    "pdb_sequence": "VANPEHYIKHPLQNRWALWFFKNDKSKTWQANLRLISKFDTVEDFWALYNHIQLSSNLMPGCDYSLFKDGIEPMWEDEKNKRGGRWLITLNKQQRRSDLDRFWLETLLCLIGESFDDYSDDVCGAVVNVRAKGDKIAIWTTECENRDAVTHIGRVYKERLGLPPKIVIGYQSHADTATKSGSTTKNRFVV"
 }
 _1lxa = {
+    "related_uniprot_accessions": [
+        "P0A722"
+    ],
+    "summary": [
+        {
+            "related_structures": [],
+            "split_entry": [],
+            "title": "UDP N-ACETYLGLUCOSAMINE ACYLTRANSFERASE",
+            "release_date": "19951207",
+            "experimental_method": [
+                "X-ray diffraction"
+            ],
+            "experimental_method_class": [
+                "x-ray"
+            ],
+            "revision_date": "20190814",
+            "entry_authors": [
+                "Roderick, S.L."
+            ],
+            "deposition_site": None,
+            "number_of_entities": {
+                "polypeptide": 1,
+                "dna": 0,
+                "ligand": 0,
+                "dna/rna": 0,
+                "rna": 0,
+                "sugar": 0,
+                "water": 0,
+                "other": 0,
+                "carbohydrate_polymer": 0
+            },
+            "processing_site": "BNL",
+            "deposition_date": "19951007",
+            "assemblies": [
+                {
+                    "assembly_id": "1",
+                    "form": "homo",
+                    "preferred": True,
+                    "name": "trimer"
+                }
+            ]
+        }
+    ],
     "chains": [
         {
             "chain_id": "A",
@@ -4624,9 +4764,60 @@ _1lxa = {
     ],
     "missing_residues": {},
     "pdb_id": "1LXA",
-    "sequence": "MIDKSAFVHPTAIVEEGASIGANAHIGPFCIVGPHVEIGEGTVLKSHVVVNGHTKIGRDNEIYQFASIGEVNQDLKYAGEPTRVEIGDRNRIRESVTIHRGTVQGGGLTKVGSDNLLMINAHIAHDCTVGNRCILANNATLAGHVSVDDFAIIGGMTAVHQFCIIGAHVMVGGCSGVAQDVPPYVIAQGNHATPFGVNIEGLKRRGFSREAITAIRNAYKLIYRSGKTLDEVKPEIAELAETYPEVKAFTDFFARSTRGLIR"
+    "pdb_sequence": "MIDKSAFVHPTAIVEEGASIGANAHIGPFCIVGPHVEIGEGTVLKSHVVVNGHTKIGRDNEIYQFASIGEVNQDLKYAGEPTRVEIGDRNRIRESVTIHRGTVQGGGLTKVGSDNLLMINAHIAHDCTVGNRCILANNATLAGHVSVDDFAIIGGMTAVHQFCIIGAHVMVGGCSGVAQDVPPYVIAQGNHATPFGVNIEGLKRRGFSREAITAIRNAYKLIYRSGKTLDEVKPEIAELAETYPEVKAFTDFFARSTRGLIR"
 }
 _1thj = {
+    "related_uniprot_accessions": [
+        "P40881"
+    ],
+    "summary": [
+        {
+            "related_structures": [],
+            "split_entry": [],
+            "title": "CARBONIC ANHYDRASE FROM METHANOSARCINA",
+            "release_date": "19961014",
+            "experimental_method": [
+                "X-ray diffraction"
+            ],
+            "experimental_method_class": [
+                "x-ray"
+            ],
+            "revision_date": "20110713",
+            "entry_authors": [
+                "Kisker, C.",
+                "Schindelin, H.",
+                "Rees, D.C."
+            ],
+            "deposition_site": None,
+            "number_of_entities": {
+                "polypeptide": 1,
+                "dna": 0,
+                "ligand": 1,
+                "dna/rna": 0,
+                "rna": 0,
+                "sugar": 0,
+                "water": 1,
+                "other": 0,
+                "carbohydrate_polymer": 0
+            },
+            "processing_site": None,
+            "deposition_date": "19960402",
+            "assemblies": [
+                {
+                    "assembly_id": "1",
+                    "form": "homo",
+                    "preferred": True,
+                    "name": "trimer"
+                },
+                {
+                    "assembly_id": "2",
+                    "form": "homo",
+                    "preferred": False,
+                    "name": "hexamer"
+                }
+            ]
+        }
+    ],
     "chains": [
         {
             "chain_id": "A",
@@ -12366,9 +12557,59 @@ _1thj = {
             }
         },
     "pdb_id": "1THJ",
-    "sequence": "MQEITVDEFSNIRENPVTPWNPEPSAPVIDPTAYIDPEASVIGEVTIGANVMVSPMASIRSDEGMPIFVGDRSNVQDGVVLHALETINEEGEPIEDNIVEVDGKEYAVYIGNNVSLAHQSQVHGPAAVGDDTFIGMQAFVFKSKVGNNCVLEPRSAAIGVTIPDGRYIPAGMVVTSQAEADKLPEVTDDYAYSHTNEAVVYVNVHLAEGYKETS"
+    "pdb_sequence": "MQEITVDEFSNIRENPVTPWNPEPSAPVIDPTAYIDPEASVIGEVTIGANVMVSPMASIRSDEGMPIFVGDRSNVQDGVVLHALETINEEGEPIEDNIVEVDGKEYAVYIGNNVSLAHQSQVHGPAAVGDDTFIGMQAFVFKSKVGNNCVLEPRSAAIGVTIPDGRYIPAGMVVTSQAEADKLPEVTDDYAYSHTNEAVVYVNVHLAEGYKETS"
 }
 _2cpe = {
+    "related_uniprot_accessions": [
+        "Q01844"
+    ],
+    "summary": [
+        {
+            "related_structures": [],
+            "split_entry": [],
+            "title": "Solution structure of the RNA recognition motif of Ewing Sarcoma(EWS) protein",
+            "release_date": "20051119",
+            "experimental_method": [
+                "Solution NMR"
+            ],
+            "experimental_method_class": [
+                "nmr"
+            ],
+            "revision_date": "20220309",
+            "entry_authors": [
+                "Nagata, T.",
+                "Muto, Y.",
+                "Inoue, M.",
+                "Kigawa, T.",
+                "Terada, T.",
+                "Shirouzu, M.",
+                "Yokoyama, S.",
+                "RIKEN Structural Genomics/Proteomics Initiative (RSGI)"
+            ],
+            "deposition_site": "PDBJ",
+            "number_of_entities": {
+                "polypeptide": 1,
+                "dna": 0,
+                "ligand": 0,
+                "dna/rna": 0,
+                "rna": 0,
+                "sugar": 0,
+                "water": 0,
+                "other": 0,
+                "carbohydrate_polymer": 0
+            },
+            "processing_site": "PDBJ",
+            "deposition_date": "20050519",
+            "assemblies": [
+                {
+                    "assembly_id": "1",
+                    "form": "homo",
+                    "preferred": True,
+                    "name": "monomer"
+                }
+            ]
+        }
+    ],
     "chains": [
         {
             "chain_id": "A",
@@ -12831,9 +13072,57 @@ _2cpe = {
     ],
     "missing_residues": {},
     "pdb_id": "2CPE",
-    "sequence": "GSSGSSGDPDEDSDNSAIYVQGLNDSVTLDDLADFFKQCGVVKMNKRTGQPMIHIYLDKETGKPKGDATVSYEDPPTAKAAVEWFDGKDFQGSKLKVSLARKKPPMNSGPSSG"
+    "pdb_sequence": "GSSGSSGDPDEDSDNSAIYVQGLNDSVTLDDLADFFKQCGVVKMNKRTGQPMIHIYLDKETGKPKGDATVSYEDPPTAKAAVEWFDGKDFQGSKLKVSLARKKPPMNSGPSSG"
 }
 _3lvl = {
+    "related_uniprot_accessions": [
+        "P0A6B9",
+        "P0ACD6"
+    ],
+    "summary": [
+        {
+            "related_structures": [],
+            "split_entry": [],
+            "title": "Crystal Structure of E.coli IscS-IscU complex",
+            "release_date": "20100421",
+            "experimental_method": [
+                "X-ray diffraction"
+            ],
+            "experimental_method_class": [
+                "x-ray"
+            ],
+            "revision_date": "20171108",
+            "entry_authors": [
+                "Shi, R.",
+                "Proteau, A.",
+                "Matte, A.",
+                "Cygler, M.",
+                "Montreal-Kingston Bacterial Structural Genomics Initiative (BSGI)"
+            ],
+            "deposition_site": "RCSB",
+            "number_of_entities": {
+                "polypeptide": 2,
+                "dna": 0,
+                "ligand": 1,
+                "dna/rna": 0,
+                "rna": 0,
+                "sugar": 0,
+                "water": 1,
+                "other": 0,
+                "carbohydrate_polymer": 0
+            },
+            "processing_site": "RCSB",
+            "deposition_date": "20100222",
+            "assemblies": [
+                {
+                    "assembly_id": "1",
+                    "form": "hetero",
+                    "preferred": True,
+                    "name": "tetramer"
+                }
+            ]
+        }
+    ],
     "chains": [
         {
             "chain_id": "B",
@@ -14565,9 +14854,54 @@ _3lvl = {
             }
         },
     "pdb_id": "3LVL",
-    "sequence": "MGSSHHHHHHGSMYGVYRAMKLPIYLDYSATTPVDPRVAEKMMQFMTMDGTFGNPASRSHRFGWQAEEAVDIARNQIADLVGADPREIVFTSGATESDNLAIKGAANFYQKKGKHIITSKTEHKAVLDTCRQLEREGFEVTYLAPQRNGIIDLKELEAAMRDDTILVSIMHVNNEIGVVQDIAAIGEMCRARGIIYHVDATQSVGKLPIDLSQLKVDLMSFSGHKIYGPKGIGALYVRRKPRVRIEAQMHGGGHERGMRSGTLPVHQIVGMGEAYRIAKEEMATEMERLRGLRNRLWNGIKDIEEVYLNGDLEHGAPNILNVSFNYVEGESLIMALKDLAVSSGSACTSASLEPSYVLRALGLNDELAHSSIRFSLGRFTTEEEIDYTIELVRKSIGRLRDLSPLWEMYKQGVDLNSIEWAHH"
+    "pdb_sequence": "MGSSHHHHHHGSMYGVYRAMKLPIYLDYSATTPVDPRVAEKMMQFMTMDGTFGNPASRSHRFGWQAEEAVDIARNQIADLVGADPREIVFTSGATESDNLAIKGAANFYQKKGKHIITSKTEHKAVLDTCRQLEREGFEVTYLAPQRNGIIDLKELEAAMRDDTILVSIMHVNNEIGVVQDIAAIGEMCRARGIIYHVDATQSVGKLPIDLSQLKVDLMSFSGHKIYGPKGIGALYVRRKPRVRIEAQMHGGGHERGMRSGTLPVHQIVGMGEAYRIAKEEMATEMERLRGLRNRLWNGIKDIEEVYLNGDLEHGAPNILNVSFNYVEGESLIMALKDLAVSSGSACTSASLEPSYVLRALGLNDELAHSSIRFSLGRFTTEEEIDYTIELVRKSIGRLRDLSPLWEMYKQGVDLNSIEWAHH"
 }
 _3ogb = {
+    "related_uniprot_accessions": [
+        "P02185"
+    ],
+    "summary": [
+        {
+            "related_structures": [],
+            "split_entry": [],
+            "title": "Sperm whale myoglobin mutant H64W deoxy-form",
+            "release_date": "20100908",
+            "experimental_method": [
+                "X-ray diffraction"
+            ],
+            "experimental_method_class": [
+                "x-ray"
+            ],
+            "revision_date": "20110713",
+            "entry_authors": [
+                "Birukou, I.",
+                "Soman, J.",
+                "Olson, J.S."
+            ],
+            "deposition_site": "RCSB",
+            "number_of_entities": {
+                "polypeptide": 1,
+                "dna": 0,
+                "ligand": 2,
+                "dna/rna": 0,
+                "rna": 0,
+                "sugar": 0,
+                "water": 1,
+                "other": 0,
+                "carbohydrate_polymer": 0
+            },
+            "processing_site": "RCSB",
+            "deposition_date": "20100816",
+            "assemblies": [
+                {
+                    "assembly_id": "1",
+                    "form": "homo",
+                    "preferred": True,
+                    "name": "monomer"
+                }
+            ]
+        }
+    ],
     "chains": [
         {
             "chain_id": "A",
@@ -15219,5 +15553,5 @@ _3ogb = {
             }
         },
     "pdb_id": "3OGB",
-    "sequence": "MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKWGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG"
+    "pdb_sequence": "MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKWGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG"
 }

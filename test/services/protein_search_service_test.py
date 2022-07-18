@@ -13,7 +13,9 @@ class ProteinSearchServiceTestCase(unittest.TestCase):
     def __basic_test_search(self, pdb_id, expected_protein_result, test_secondary_structure=False):
         response = self.service.search_in_sites(pdb_id)
         self.assertEqual(response["pdb_id"], expected_protein_result["pdb_id"])
-        self.assertEqual(response["sequence"], expected_protein_result["sequence"])
+        self.assertEqual(response["related_uniprot_accessions"], expected_protein_result["related_uniprot_accessions"])
+        self.assertEqual(response["summary"], expected_protein_result["summary"])
+        self.assertEqual(response["pdb_sequence"], expected_protein_result["pdb_sequence"])
         self.assertEqual(len(response["chains"]), len(expected_protein_result["chains"]))
         for i in range(len(expected_protein_result["chains"])):
             actual_response_chain = response["chains"][i]
