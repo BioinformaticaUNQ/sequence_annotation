@@ -43,40 +43,40 @@ class ProteinsSearchService:
         molecules_data = list(molecules[pdb_id])
         pdb_sequence = molecules_data[0].get('pdb_sequence')
 
-        # Obtains the chains, residues and secondary structures
-        residues = self.sifts_client.residue_listing_by_pdb_id(pdb_id)
-        residues_data = list(residues[pdb_id].get('molecules'))
-        residues_chains = residues_data[0].get('chains')
-        
         # Uniprot accessions for the given pdb id
         uniprot_accessions = self.sifts_client.uniprot_data_by_pdb_id(pdb_id).get(pdb_id).get("UniProt")
         related_uniprot_accessions = list(uniprot_accessions.keys())
-        
-        chains_and_residues = self.get_chains_composition(residues_chains, pdb_id, uniprot_accessions, related_uniprot_accessions)
 
         # Missing residues per protein chain
         missing_residues = self.found_missing_residues(pdb_id, related_uniprot_accessions)
 
-        protein = Protein(pdb_id.upper(), related_uniprot_accessions, summary, pdb_sequence, chains_and_residues, missing_residues)
+        # Obtains the chains, residues and secondary structures
+        residues = self.sifts_client.residue_listing_by_pdb_id(pdb_id)
+        residues_data = list(residues[pdb_id].get('molecules'))
+        residues_chains = residues_data[0].get('chains')
+
+        chains_and_residues = self.get_chains_composition(residues_chains, pdb_id, uniprot_accessions,
+                                                          related_uniprot_accessions)
+
+        protein = Protein(pdb_id.upper(), related_uniprot_accessions, summary, pdb_sequence, chains_and_residues,
+                          missing_residues)
 
         return protein.__dict__
 
     def get_chains_composition(self, residues_chains, pdb_id, uniprot_dic, uniprot_accession_ids):
-        
+
         chains_and_residues = []
-        
+
         for c in residues_chains:
             residues_response = []
             chain = Chain(c.get('chain_id'))
             for amins in c.get('residues'):
-                r = Residue(amins.get('residue_name'), amins.get('residue_number'))
+                r = Residue(amins.get('residue_name'), amins.get('author_residue_number'))
                 residues_response.append(r.__dict__)
             chain.residues = residues_response
 
-            self.found_uniprot_positions(uniprot_accession_ids,uniprot_dic, chain)
-
             self.found_secondary_struct(chain, pdb_id)
-            
+
             chains_and_residues.append(chain.__dict__)
 
         return chains_and_residues
@@ -136,27 +136,4 @@ class ProteinsSearchService:
                 structure.strands = strands
 
         chain.secondary_structure = structure.__dict__
-        
-
-    def found_uniprot_positions(self, uniprot_accession_ids, uniprot_dic, chain):
-        
-        try:
-            accession_id = uniprot_accession_ids[0]
-            mapping_list = uniprot_dic.get(accession_id).get("mappings")
-            for mapping_dic in mapping_list:
-                if mapping_dic.get("chain_id") == chain.chain_id:
-                    rnumber = mapping_dic.get("start").get("residue_number")
-                    uninumber = mapping_dic.get("unp_start")
-                    i = 0
-                    while i < len(chain.residues):
-                        if chain.residues[i]["number"] == rnumber:
-                            chain.residues[i]["uniprot_number"] = uninumber
-                        elif chain.residues[i]["number"] > rnumber:
-                            uninumber = uninumber + 1
-                            chain.residues[i]["uniprot_number"] = uninumber
-                        i = i + 1
-                    break
-
-        except Exception:
-            PrettyPrint.warning_output(f"WARNING: The uniprot positions could not be found")
 
