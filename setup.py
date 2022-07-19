@@ -13,5 +13,5 @@ setup(
                 'sequence_annotation = sequence_annotation:main'
             ]
         }, 
-    install_requires=['requests >= 2.13.0, argparse'],
+    install_requires=['requests >= 2.13.0'],
 )
