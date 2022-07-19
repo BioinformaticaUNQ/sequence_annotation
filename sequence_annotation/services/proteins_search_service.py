@@ -55,15 +55,14 @@ class ProteinsSearchService:
         residues_data = list(residues[pdb_id].get('molecules'))
         residues_chains = residues_data[0].get('chains')
 
-        chains_and_residues = self.get_chains_composition(residues_chains, pdb_id, uniprot_accessions,
-                                                          related_uniprot_accessions)
+        chains_and_residues = self.get_chains_composition(residues_chains, pdb_id)
 
         protein = Protein(pdb_id.upper(), related_uniprot_accessions, summary, pdb_sequence, chains_and_residues,
                           missing_residues)
 
         return protein.__dict__
 
-    def get_chains_composition(self, residues_chains, pdb_id, uniprot_dic, uniprot_accession_ids):
+    def get_chains_composition(self, residues_chains, pdb_id):
 
         chains_and_residues = []
 
