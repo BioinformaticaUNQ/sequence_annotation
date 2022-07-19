@@ -17,3 +17,15 @@ Follow instructions in [RELEASE A VERSION](RELEASE.md).
 `sequence_annotation -i XXXX` where XXXX is a PDB id, it will show the info about that PDB in terminal
 
 `sequence_annotation -i XXXX -s 'PATH TO FILE'` where XXXX is a PDB id and PATH TO FILE is path to a new file, the the result will be printed in the new file
+
+## Actual manteiners
+
+Angelo Padron
+Maria Laura Medici
+Alvaro Piorno
+
+## Dead in battle :skull_and_crossbones:
+
+Luciano Cardozo
+Alejo
+Cristian Espindola
