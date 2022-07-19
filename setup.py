@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='sequence_annotation',
-    version='0.0.6',
+    version='0.0.7',
     url='https://github.com/BioinformaticaUNQ/sequence_annotation.git',
     author='BioInformatico UNQ',
     author_email='author@gmail.com',
