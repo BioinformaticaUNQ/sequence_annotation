@@ -12,11 +12,14 @@ Follow instructions in [RELEASE A VERSION](RELEASE.md).
 
 ## Quickstart
 
-`sequence_annotation -h` will give you information on the needed and optional parameters
+`sequence_annotation -h` <br>
+ Will give you information on the needed and optional parameters <br>
 
-`sequence_annotation -i XXXX` where XXXX is a PDB id, it will show the info about that PDB in terminal
+`sequence_annotation -i XXXX` <br>
+ Where XXXX is a PDB id, it will show the info about that PDB in terminal <br>
 
-`sequence_annotation -i XXXX -s 'PATH TO FILE'` where XXXX is a PDB id and PATH TO FILE is path to a new file, the the result will be printed in the new file
+`sequence_annotation -i XXXX -s 'PATH TO FILE'` <br>
+ Where XXXX is a PDB id and PATH TO FILE is path to a new file, the the result will be printed in the new file <br>
 
 ## Actual manteiners
 
