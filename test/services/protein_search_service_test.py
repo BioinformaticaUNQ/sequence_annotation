@@ -13,7 +13,9 @@ class ProteinSearchServiceTestCase(unittest.TestCase):
     def __basic_test_search(self, pdb_id, expected_protein_result, test_secondary_structure=False):
         response = self.service.search_in_sites(pdb_id)
         self.assertEqual(response["pdb_id"], expected_protein_result["pdb_id"])
-        self.assertEqual(response["sequence"], expected_protein_result["sequence"])
+        self.assertEqual(response["related_uniprot_accessions"], expected_protein_result["related_uniprot_accessions"])
+        self.assertEqual(response["summary"], expected_protein_result["summary"])
+        self.assertEqual(response["pdb_sequence"], expected_protein_result["pdb_sequence"])
         self.assertEqual(len(response["chains"]), len(expected_protein_result["chains"]))
         for i in range(len(expected_protein_result["chains"])):
             actual_response_chain = response["chains"][i]
@@ -80,27 +82,29 @@ class ProteinSearchServiceTestCase(unittest.TestCase):
 
     def test_search_3lvl(self):
         response = self.__basic_test_search("3lvl", _3lvl)
+
         self.assertEqual(len(response["missing_residues"]), len(_3lvl["missing_residues"]))
-        response_p0a6b9 = response["missing_residues"][0]["P0A6B9"]
-        response_p0acd6 = response["missing_residues"][1]["P0ACD6"]
-        expected_p0a6b9 = _3lvl["missing_residues"][0]["P0A6B9"]
-        expected_p0acd6 = _3lvl["missing_residues"][1]["P0ACD6"]
 
-        self.assertEqual(len(response_p0a6b9), len(expected_p0a6b9))
-        self.assertEqual(len(response_p0acd6), len(expected_p0acd6))
+        response_p0a6b9 = response["missing_residues"]["derived-missing_residues-mobi-3lvl_A"]
+        response_p0acd6 = response["missing_residues"]["derived-missing_residues-mobi-3lvl_B"]
+        expected_p0a6b9 = _3lvl["missing_residues"]["derived-missing_residues-mobi-3lvl_A"]
+        expected_p0acd6 = _3lvl["missing_residues"]["derived-missing_residues-mobi-3lvl_B"]
 
-        derive_missing_residues_p0a6b9 = ["derived-missing_residues-mobi-3lvj_A",
-                                          "derived-missing_residues-mobi-3lvj_B",
-                                          "derived-missing_residues-mobi-3lvk_A",
-                                          "derived-missing_residues-mobi-3lvl_B",
-                                          "derived-missing_residues-mobi-3lvm_A",
-                                          "derived-missing_residues-mobi-3lvm_B", "derived-missing_residues-priority",
-                                          "derived-missing_residues-th_90",
-                                          "derived-missing_residues_context_dependent-th_90"]
-        derive_missing_residues_p0acd6 = ["derived-missing_residues-mobi-3lvl_A", "derived-missing_residues-priority",
-                                          "derived-missing_residues-th_90"]
-        self.__basic_test_missing_residues([response_p0a6b9, response_p0acd6], [expected_p0a6b9, expected_p0acd6],
-                                           [derive_missing_residues_p0a6b9, derive_missing_residues_p0acd6])
+        self.assertEqual(response_p0a6b9, expected_p0a6b9)
+        self.assertEqual(response_p0acd6, expected_p0acd6)
+
+        # derive_missing_residues_p0a6b9 = ["derived-missing_residues-mobi-3lvj_A",
+        #                                   "derived-missing_residues-mobi-3lvj_B",
+        #                                   "derived-missing_residues-mobi-3lvk_A",
+        #                                   "derived-missing_residues-mobi-3lvl_B",
+        #                                   "derived-missing_residues-mobi-3lvm_A",
+        #                                   "derived-missing_residues-mobi-3lvm_B", "derived-missing_residues-priority",
+        #                                   "derived-missing_residues-th_90",
+        #                                   "derived-missing_residues_context_dependent-th_90"]
+        # derive_missing_residues_p0acd6 = ["derived-missing_residues-mobi-3lvl_A", "derived-missing_residues-priority",
+        #                                   "derived-missing_residues-th_90"]
+        # self.__basic_test_missing_residues([response_p0a6b9, response_p0acd6], [expected_p0a6b9, expected_p0acd6],
+        #                                    [derive_missing_residues_p0a6b9, derive_missing_residues_p0acd6])
 
     def test_search_3ogb(self):
         self.__basic_test_search("3ogb", _3ogb)

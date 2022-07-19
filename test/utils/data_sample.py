@@ -5,6 +5,51 @@ query_data_example = {
     "uniprot_sequence": "EQQKFSPRYIELVVVADHGMFKKYNSNLNTIRKWVHEMVNSMNGFYRSVDVTASLANLEVWSKKDLINVQKDSRETLKSFGEWRERDLLPRISHDNAQLLTAIVFDGHTIGRAYTGGMCDPRHSVGVVMDHSPKNLQVAVTMAHELGHNLGMHHDGNQCHCDAASCIMADSLSVVLSYEFSDCSQNQYQTYLTKHNPQCILNEPL"
 }
 _1a7e = {
+    "related_uniprot_accessions": [
+         "P02247"
+      ],
+    "summary": [
+        {
+            "related_structures": [],
+            "split_entry": [],
+            "title": "HYDROXOMET MYOHEMERYTHRIN FROM THEMISTE ZOSTERICOLA",
+            "release_date": "19981014",
+            "experimental_method": [
+                "X-ray diffraction"
+            ],
+            "experimental_method_class": [
+                "x-ray"
+            ],
+            "revision_date": "20211103",
+            "entry_authors": [
+                "Martins, L.J.",
+                "Hill, C.P.",
+                "Ellis Junior, W.R."
+            ],
+            "deposition_site": None,
+            "number_of_entities": {
+                "polypeptide": 1,
+                "dna": 0,
+                "ligand": 2,
+                "dna/rna": 0,
+                "rna": 0,
+                "sugar": 0,
+                "water": 1,
+                "other": 0,
+                "carbohydrate_polymer": 0
+            },
+            "processing_site": "BNL",
+            "deposition_date": "19980312",
+            "assemblies": [
+                {
+                    "assembly_id": "1",
+                    "form": "homo",
+                    "preferred": True,
+                    "name": "monomer"
+                }
+            ]
+        }
+    ],
     "chains": [
         {
             "chain_id": "A",
@@ -485,13376 +530,6714 @@ _1a7e = {
             "secondary_structure": {}
         }
     ],
-    "missing_residues": [
+    "missing_residues": {},
+    "pdb_id": "1A7E",
+    "pdb_sequence": "GWEIPEPYVWDESFRVFYEQLDEEHKKIFKGIFDCIRDNSAPNLATLVKVTTNHFTHEEAMMDAAKYSEVVPHKKMHKDFLEKIGGLSAPVDAKNVDYCKEWNVNHIKGTDFKYKGKL"
+}
+_1ej1 = {
+    "related_uniprot_accessions": [
+        "P63073"
+    ],
+    "summary": [
         {
-            "P02247": [
+            "related_structures": [],
+            "split_entry": [],
+            "title": "COCRYSTAL STRUCTURE OF THE MESSENGER RNA 5' CAP-BINDING PROTEIN (EIF4E) BOUND TO 7-METHYL-GDP",
+            "release_date": "20000315",
+            "experimental_method": [
+                "X-ray diffraction"
+            ],
+            "experimental_method_class": [
+                "x-ray"
+            ],
+            "revision_date": "20210203",
+            "entry_authors": [
+                "Marcotrigiano, J.",
+                "Gingras, A.-C.",
+                "Sonenberg, N.",
+                "Burley, S.K."
+            ],
+            "deposition_site": "RCSB",
+            "number_of_entities": {
+                "polypeptide": 1,
+                "dna": 0,
+                "ligand": 1,
+                "dna/rna": 0,
+                "rna": 0,
+                "sugar": 0,
+                "water": 1,
+                "other": 0,
+                "carbohydrate_polymer": 0
+            },
+            "processing_site": "RCSB",
+            "deposition_date": "20000229",
+            "assemblies": [
                 {
-                    "derived-missing_residues-mobi-2igf_P": {
-                        "content_count": 12,
-                        "content_fraction": 0.102,
-                        "regions": [
-                            [
-                                76,
-                                87
-                            ]
-                        ],
-                        "source_id": "2igf_P"
-                    },
-                    "derived-missing_residues_context_dependent-th_90": {
-                        "content_count": 12,
-                        "content_fraction": 0.102,
-                        "regions": [
-                            [
-                                76,
-                                87
-                            ]
-                        ]
-                    }
+                    "assembly_id": "1",
+                    "form": "homo",
+                    "preferred": True,
+                    "name": "monomer"
+                },
+                {
+                    "assembly_id": "2",
+                    "form": "homo",
+                    "preferred": False,
+                    "name": "monomer"
                 }
             ]
         }
     ],
-    "pdb_id": "1A7E",
-    "sequence": "GWEIPEPYVWDESFRVFYEQLDEEHKKIFKGIFDCIRDNSAPNLATLVKVTTNHFTHEEAMMDAAKYSEVVPHKKMHKDFLEKIGGLSAPVDAKNVDYCKEWNVNHIKGTDFKYKGKL"
-}
-_1ej1 = {
     "chains": [
         {
             "chain_id": "A",
             "residues": [
-                {
-                    "name": "VAL",
-                    "number": 1
-                },
-                {
-                    "name": "ALA",
-                    "number": 2
-                },
-                {
-                    "name": "ASN",
-                    "number": 3
-                },
-                {
-                    "name": "PRO",
-                    "number": 4
-                },
-                {
-                    "name": "GLU",
-                    "number": 5
-                },
-                {
-                    "name": "HIS",
-                    "number": 6
-                },
-                {
-                    "name": "TYR",
-                    "number": 7
-                },
-                {
-                    "name": "ILE",
-                    "number": 8
-                },
-                {
-                    "name": "LYS",
-                    "number": 9
-                },
-                {
-                    "name": "HIS",
-                    "number": 10
-                },
-                {
-                    "name": "PRO",
-                    "number": 11
-                },
-                {
-                    "name": "LEU",
-                    "number": 12
-                },
-                {
-                    "name": "GLN",
-                    "number": 13
-                },
-                {
-                    "name": "ASN",
-                    "number": 14
-                },
-                {
-                    "name": "ARG",
-                    "number": 15
-                },
-                {
-                    "name": "TRP",
-                    "number": 16
-                },
-                {
-                    "name": "ALA",
-                    "number": 17
-                },
-                {
-                    "name": "LEU",
-                    "number": 18
-                },
-                {
-                    "name": "TRP",
-                    "number": 19
-                },
-                {
-                    "name": "PHE",
-                    "number": 20
-                },
-                {
-                    "name": "PHE",
-                    "number": 21
-                },
-                {
-                    "name": "LYS",
-                    "number": 22
-                },
-                {
-                    "name": "ASN",
-                    "number": 23
-                },
-                {
-                    "name": "ASP",
-                    "number": 24
-                },
-                {
-                    "name": "LYS",
-                    "number": 25
-                },
-                {
-                    "name": "SER",
-                    "number": 26
-                },
-                {
-                    "name": "LYS",
-                    "number": 27
-                },
-                {
-                    "name": "THR",
-                    "number": 28
-                },
-                {
-                    "name": "TRP",
-                    "number": 29
-                },
-                {
-                    "name": "GLN",
-                    "number": 30
-                },
-                {
-                    "name": "ALA",
-                    "number": 31
-                },
-                {
-                    "name": "ASN",
-                    "number": 32
-                },
-                {
-                    "name": "LEU",
-                    "number": 33
-                },
-                {
-                    "name": "ARG",
-                    "number": 34
-                },
-                {
-                    "name": "LEU",
-                    "number": 35
-                },
-                {
-                    "name": "ILE",
-                    "number": 36
-                },
-                {
-                    "name": "SER",
-                    "number": 37
-                },
-                {
-                    "name": "LYS",
-                    "number": 38
-                },
-                {
-                    "name": "PHE",
-                    "number": 39
-                },
-                {
-                    "name": "ASP",
-                    "number": 40
-                },
-                {
-                    "name": "THR",
-                    "number": 41
-                },
-                {
-                    "name": "VAL",
-                    "number": 42
-                },
-                {
-                    "name": "GLU",
-                    "number": 43
-                },
-                {
-                    "name": "ASP",
-                    "number": 44
-                },
-                {
-                    "name": "PHE",
-                    "number": 45
-                },
-                {
-                    "name": "TRP",
-                    "number": 46
-                },
-                {
-                    "name": "ALA",
-                    "number": 47
-                },
-                {
-                    "name": "LEU",
-                    "number": 48
-                },
-                {
-                    "name": "TYR",
-                    "number": 49
-                },
-                {
-                    "name": "ASN",
-                    "number": 50
-                },
-                {
-                    "name": "HIS",
-                    "number": 51
-                },
-                {
-                    "name": "ILE",
-                    "number": 52
-                },
-                {
-                    "name": "GLN",
-                    "number": 53
-                },
-                {
-                    "name": "LEU",
-                    "number": 54
-                },
-                {
-                    "name": "SER",
-                    "number": 55
-                },
-                {
-                    "name": "SER",
-                    "number": 56
-                },
-                {
-                    "name": "ASN",
-                    "number": 57
-                },
-                {
-                    "name": "LEU",
-                    "number": 58
-                },
-                {
-                    "name": "MET",
-                    "number": 59
-                },
-                {
-                    "name": "PRO",
-                    "number": 60
-                },
-                {
-                    "name": "GLY",
-                    "number": 61
-                },
-                {
-                    "name": "CYS",
-                    "number": 62
-                },
-                {
-                    "name": "ASP",
-                    "number": 63
-                },
-                {
-                    "name": "TYR",
-                    "number": 64
-                },
-                {
-                    "name": "SER",
-                    "number": 65
-                },
-                {
-                    "name": "LEU",
-                    "number": 66
-                },
-                {
-                    "name": "PHE",
-                    "number": 67
-                },
-                {
-                    "name": "LYS",
-                    "number": 68
-                },
-                {
-                    "name": "ASP",
-                    "number": 69
-                },
-                {
-                    "name": "GLY",
-                    "number": 70
-                },
-                {
-                    "name": "ILE",
-                    "number": 71
-                },
-                {
-                    "name": "GLU",
-                    "number": 72
-                },
-                {
-                    "name": "PRO",
-                    "number": 73
-                },
-                {
-                    "name": "MET",
-                    "number": 74
-                },
-                {
-                    "name": "TRP",
-                    "number": 75
-                },
-                {
-                    "name": "GLU",
-                    "number": 76
-                },
-                {
-                    "name": "ASP",
-                    "number": 77
-                },
-                {
-                    "name": "GLU",
-                    "number": 78
-                },
-                {
-                    "name": "LYS",
-                    "number": 79
-                },
-                {
-                    "name": "ASN",
-                    "number": 80
-                },
-                {
-                    "name": "LYS",
-                    "number": 81
-                },
-                {
-                    "name": "ARG",
-                    "number": 82
-                },
-                {
-                    "name": "GLY",
-                    "number": 83
-                },
-                {
-                    "name": "GLY",
-                    "number": 84
-                },
-                {
-                    "name": "ARG",
-                    "number": 85
-                },
-                {
-                    "name": "TRP",
-                    "number": 86
-                },
-                {
-                    "name": "LEU",
-                    "number": 87
-                },
-                {
-                    "name": "ILE",
-                    "number": 88
-                },
-                {
-                    "name": "THR",
-                    "number": 89
-                },
-                {
-                    "name": "LEU",
-                    "number": 90
-                },
-                {
-                    "name": "ASN",
-                    "number": 91
-                },
-                {
-                    "name": "LYS",
-                    "number": 92
-                },
-                {
-                    "name": "GLN",
-                    "number": 93
-                },
-                {
-                    "name": "GLN",
-                    "number": 94
-                },
-                {
-                    "name": "ARG",
-                    "number": 95
-                },
-                {
-                    "name": "ARG",
-                    "number": 96
-                },
-                {
-                    "name": "SER",
-                    "number": 97
-                },
-                {
-                    "name": "ASP",
-                    "number": 98
-                },
-                {
-                    "name": "LEU",
-                    "number": 99
-                },
-                {
-                    "name": "ASP",
-                    "number": 100
-                },
-                {
-                    "name": "ARG",
-                    "number": 101
-                },
-                {
-                    "name": "PHE",
-                    "number": 102
-                },
-                {
-                    "name": "TRP",
-                    "number": 103
-                },
-                {
-                    "name": "LEU",
-                    "number": 104
-                },
-                {
-                    "name": "GLU",
-                    "number": 105
-                },
-                {
-                    "name": "THR",
-                    "number": 106
-                },
-                {
-                    "name": "LEU",
-                    "number": 107
-                },
-                {
-                    "name": "LEU",
-                    "number": 108
-                },
-                {
-                    "name": "CYS",
-                    "number": 109
-                },
-                {
-                    "name": "LEU",
-                    "number": 110
-                },
-                {
-                    "name": "ILE",
-                    "number": 111
-                },
-                {
-                    "name": "GLY",
-                    "number": 112
-                },
-                {
-                    "name": "GLU",
-                    "number": 113
-                },
-                {
-                    "name": "SER",
-                    "number": 114
-                },
-                {
-                    "name": "PHE",
-                    "number": 115
-                },
-                {
-                    "name": "ASP",
-                    "number": 116
-                },
-                {
-                    "name": "ASP",
-                    "number": 117
-                },
-                {
-                    "name": "TYR",
-                    "number": 118
-                },
-                {
-                    "name": "SER",
-                    "number": 119
-                },
-                {
-                    "name": "ASP",
-                    "number": 120
-                },
-                {
-                    "name": "ASP",
-                    "number": 121
-                },
-                {
-                    "name": "VAL",
-                    "number": 122
-                },
-                {
-                    "name": "CYS",
-                    "number": 123
-                },
-                {
-                    "name": "GLY",
-                    "number": 124
-                },
-                {
-                    "name": "ALA",
-                    "number": 125
-                },
-                {
-                    "name": "VAL",
-                    "number": 126
-                },
-                {
-                    "name": "VAL",
-                    "number": 127
-                },
-                {
-                    "name": "ASN",
-                    "number": 128
-                },
-                {
-                    "name": "VAL",
-                    "number": 129
-                },
-                {
-                    "name": "ARG",
-                    "number": 130
-                },
-                {
-                    "name": "ALA",
-                    "number": 131
-                },
-                {
-                    "name": "LYS",
-                    "number": 132
-                },
-                {
-                    "name": "GLY",
-                    "number": 133
-                },
-                {
-                    "name": "ASP",
-                    "number": 134
-                },
-                {
-                    "name": "LYS",
-                    "number": 135
-                },
-                {
-                    "name": "ILE",
-                    "number": 136
-                },
-                {
-                    "name": "ALA",
-                    "number": 137
-                },
-                {
-                    "name": "ILE",
-                    "number": 138
-                },
-                {
-                    "name": "TRP",
-                    "number": 139
-                },
-                {
-                    "name": "THR",
-                    "number": 140
-                },
-                {
-                    "name": "THR",
-                    "number": 141
-                },
-                {
-                    "name": "GLU",
-                    "number": 142
-                },
-                {
-                    "name": "CYS",
-                    "number": 143
-                },
-                {
-                    "name": "GLU",
-                    "number": 144
-                },
-                {
-                    "name": "ASN",
-                    "number": 145
-                },
-                {
-                    "name": "ARG",
-                    "number": 146
-                },
-                {
-                    "name": "ASP",
-                    "number": 147
-                },
-                {
-                    "name": "ALA",
-                    "number": 148
-                },
-                {
-                    "name": "VAL",
-                    "number": 149
-                },
-                {
-                    "name": "THR",
-                    "number": 150
-                },
-                {
-                    "name": "HIS",
-                    "number": 151
-                },
-                {
-                    "name": "ILE",
-                    "number": 152
-                },
-                {
-                    "name": "GLY",
-                    "number": 153
-                },
-                {
-                    "name": "ARG",
-                    "number": 154
-                },
-                {
-                    "name": "VAL",
-                    "number": 155
-                },
-                {
-                    "name": "TYR",
-                    "number": 156
-                },
-                {
-                    "name": "LYS",
-                    "number": 157
-                },
-                {
-                    "name": "GLU",
-                    "number": 158
-                },
-                {
-                    "name": "ARG",
-                    "number": 159
-                },
-                {
-                    "name": "LEU",
-                    "number": 160
-                },
-                {
-                    "name": "GLY",
-                    "number": 161
-                },
-                {
-                    "name": "LEU",
-                    "number": 162
-                },
-                {
-                    "name": "PRO",
-                    "number": 163
-                },
-                {
-                    "name": "PRO",
-                    "number": 164
-                },
-                {
-                    "name": "LYS",
-                    "number": 165
-                },
-                {
-                    "name": "ILE",
-                    "number": 166
-                },
-                {
-                    "name": "VAL",
-                    "number": 167
-                },
-                {
-                    "name": "ILE",
-                    "number": 168
-                },
-                {
-                    "name": "GLY",
-                    "number": 169
-                },
-                {
-                    "name": "TYR",
-                    "number": 170
-                },
-                {
-                    "name": "GLN",
-                    "number": 171
-                },
-                {
-                    "name": "SER",
-                    "number": 172
-                },
-                {
-                    "name": "HIS",
-                    "number": 173
-                },
-                {
-                    "name": "ALA",
-                    "number": 174
-                },
-                {
-                    "name": "ASP",
-                    "number": 175
-                },
-                {
-                    "name": "THR",
-                    "number": 176
-                },
-                {
-                    "name": "ALA",
-                    "number": 177
-                },
-                {
-                    "name": "THR",
-                    "number": 178
-                },
-                {
-                    "name": "LYS",
-                    "number": 179
-                },
-                {
-                    "name": "SER",
-                    "number": 180
-                },
-                {
-                    "name": "GLY",
-                    "number": 181
-                },
-                {
-                    "name": "SER",
-                    "number": 182
-                },
-                {
-                    "name": "THR",
-                    "number": 183
-                },
-                {
-                    "name": "THR",
-                    "number": 184
-                },
-                {
-                    "name": "LYS",
-                    "number": 185
-                },
-                {
-                    "name": "ASN",
-                    "number": 186
-                },
-                {
-                    "name": "ARG",
-                    "number": 187
-                },
-                {
-                    "name": "PHE",
-                    "number": 188
-                },
-                {
-                    "name": "VAL",
-                    "number": 189
-                },
-                {
-                    "name": "VAL",
-                    "number": 190
-                },
-                {
-                    "name": "VAL",
-                    "number": 1
-                },
-                {
-                    "name": "ALA",
-                    "number": 2
-                },
-                {
-                    "name": "ASN",
-                    "number": 3
-                },
-                {
-                    "name": "PRO",
-                    "number": 4
-                },
-                {
-                    "name": "GLU",
-                    "number": 5
-                },
-                {
-                    "name": "HIS",
-                    "number": 6
-                },
-                {
-                    "name": "TYR",
-                    "number": 7
-                },
-                {
-                    "name": "ILE",
-                    "number": 8
-                },
-                {
-                    "name": "LYS",
-                    "number": 9
-                },
-                {
-                    "name": "HIS",
-                    "number": 10
-                },
-                {
-                    "name": "PRO",
-                    "number": 11
-                },
-                {
-                    "name": "LEU",
-                    "number": 12
-                },
-                {
-                    "name": "GLN",
-                    "number": 13
-                },
-                {
-                    "name": "ASN",
-                    "number": 14
-                },
-                {
-                    "name": "ARG",
-                    "number": 15
-                },
-                {
-                    "name": "TRP",
-                    "number": 16
-                },
-                {
-                    "name": "ALA",
-                    "number": 17
-                },
-                {
-                    "name": "LEU",
-                    "number": 18
-                },
-                {
-                    "name": "TRP",
-                    "number": 19
-                },
-                {
-                    "name": "PHE",
-                    "number": 20
-                },
-                {
-                    "name": "PHE",
-                    "number": 21
-                },
-                {
-                    "name": "LYS",
-                    "number": 22
-                },
-                {
-                    "name": "ASN",
-                    "number": 23
-                },
-                {
-                    "name": "ASP",
-                    "number": 24
-                },
-                {
-                    "name": "LYS",
-                    "number": 25
-                },
-                {
-                    "name": "SER",
-                    "number": 26
-                },
-                {
-                    "name": "LYS",
-                    "number": 27
-                },
-                {
-                    "name": "THR",
-                    "number": 28
-                },
-                {
-                    "name": "TRP",
-                    "number": 29
-                },
-                {
-                    "name": "GLN",
-                    "number": 30
-                },
-                {
-                    "name": "ALA",
-                    "number": 31
-                },
-                {
-                    "name": "ASN",
-                    "number": 32
-                },
-                {
-                    "name": "LEU",
-                    "number": 33
-                },
-                {
-                    "name": "ARG",
-                    "number": 34
-                },
-                {
-                    "name": "LEU",
-                    "number": 35
-                },
-                {
-                    "name": "ILE",
-                    "number": 36
-                },
-                {
-                    "name": "SER",
-                    "number": 37
-                },
-                {
-                    "name": "LYS",
-                    "number": 38
-                },
-                {
-                    "name": "PHE",
-                    "number": 39
-                },
-                {
-                    "name": "ASP",
-                    "number": 40
-                },
-                {
-                    "name": "THR",
-                    "number": 41
-                },
-                {
-                    "name": "VAL",
-                    "number": 42
-                },
-                {
-                    "name": "GLU",
-                    "number": 43
-                },
-                {
-                    "name": "ASP",
-                    "number": 44
-                },
-                {
-                    "name": "PHE",
-                    "number": 45
-                },
-                {
-                    "name": "TRP",
-                    "number": 46
-                },
-                {
-                    "name": "ALA",
-                    "number": 47
-                },
-                {
-                    "name": "LEU",
-                    "number": 48
-                },
-                {
-                    "name": "TYR",
-                    "number": 49
-                },
-                {
-                    "name": "ASN",
-                    "number": 50
-                },
-                {
-                    "name": "HIS",
-                    "number": 51
-                },
-                {
-                    "name": "ILE",
-                    "number": 52
-                },
-                {
-                    "name": "GLN",
-                    "number": 53
-                },
-                {
-                    "name": "LEU",
-                    "number": 54
-                },
-                {
-                    "name": "SER",
-                    "number": 55
-                },
-                {
-                    "name": "SER",
-                    "number": 56
-                },
-                {
-                    "name": "ASN",
-                    "number": 57
-                },
-                {
-                    "name": "LEU",
-                    "number": 58
-                },
-                {
-                    "name": "MET",
-                    "number": 59
-                },
-                {
-                    "name": "PRO",
-                    "number": 60
-                },
-                {
-                    "name": "GLY",
-                    "number": 61
-                },
-                {
-                    "name": "CYS",
-                    "number": 62
-                },
-                {
-                    "name": "ASP",
-                    "number": 63
-                },
-                {
-                    "name": "TYR",
-                    "number": 64
-                },
-                {
-                    "name": "SER",
-                    "number": 65
-                },
-                {
-                    "name": "LEU",
-                    "number": 66
-                },
-                {
-                    "name": "PHE",
-                    "number": 67
-                },
-                {
-                    "name": "LYS",
-                    "number": 68
-                },
-                {
-                    "name": "ASP",
-                    "number": 69
-                },
-                {
-                    "name": "GLY",
-                    "number": 70
-                },
-                {
-                    "name": "ILE",
-                    "number": 71
-                },
-                {
-                    "name": "GLU",
-                    "number": 72
-                },
-                {
-                    "name": "PRO",
-                    "number": 73
-                },
-                {
-                    "name": "MET",
-                    "number": 74
-                },
-                {
-                    "name": "TRP",
-                    "number": 75
-                },
-                {
-                    "name": "GLU",
-                    "number": 76
-                },
-                {
-                    "name": "ASP",
-                    "number": 77
-                },
-                {
-                    "name": "GLU",
-                    "number": 78
-                },
-                {
-                    "name": "LYS",
-                    "number": 79
-                },
-                {
-                    "name": "ASN",
-                    "number": 80
-                },
-                {
-                    "name": "LYS",
-                    "number": 81
-                },
-                {
-                    "name": "ARG",
-                    "number": 82
-                },
-                {
-                    "name": "GLY",
-                    "number": 83
-                },
-                {
-                    "name": "GLY",
-                    "number": 84
-                },
-                {
-                    "name": "ARG",
-                    "number": 85
-                },
-                {
-                    "name": "TRP",
-                    "number": 86
-                },
-                {
-                    "name": "LEU",
-                    "number": 87
-                },
-                {
-                    "name": "ILE",
-                    "number": 88
-                },
-                {
-                    "name": "THR",
-                    "number": 89
-                },
-                {
-                    "name": "LEU",
-                    "number": 90
-                },
-                {
-                    "name": "ASN",
-                    "number": 91
-                },
-                {
-                    "name": "LYS",
-                    "number": 92
-                },
-                {
-                    "name": "GLN",
-                    "number": 93
-                },
-                {
-                    "name": "GLN",
-                    "number": 94
-                },
-                {
-                    "name": "ARG",
-                    "number": 95
-                },
-                {
-                    "name": "ARG",
-                    "number": 96
-                },
-                {
-                    "name": "SER",
-                    "number": 97
-                },
-                {
-                    "name": "ASP",
-                    "number": 98
-                },
-                {
-                    "name": "LEU",
-                    "number": 99
-                },
-                {
-                    "name": "ASP",
-                    "number": 100
-                },
-                {
-                    "name": "ARG",
-                    "number": 101
-                },
-                {
-                    "name": "PHE",
-                    "number": 102
-                },
-                {
-                    "name": "TRP",
-                    "number": 103
-                },
-                {
-                    "name": "LEU",
-                    "number": 104
-                },
-                {
-                    "name": "GLU",
-                    "number": 105
-                },
-                {
-                    "name": "THR",
-                    "number": 106
-                },
-                {
-                    "name": "LEU",
-                    "number": 107
-                },
-                {
-                    "name": "LEU",
-                    "number": 108
-                },
-                {
-                    "name": "CYS",
-                    "number": 109
-                },
-                {
-                    "name": "LEU",
-                    "number": 110
-                },
-                {
-                    "name": "ILE",
-                    "number": 111
-                },
-                {
-                    "name": "GLY",
-                    "number": 112
-                },
-                {
-                    "name": "GLU",
-                    "number": 113
-                },
-                {
-                    "name": "SER",
-                    "number": 114
-                },
-                {
-                    "name": "PHE",
-                    "number": 115
-                },
-                {
-                    "name": "ASP",
-                    "number": 116
-                },
-                {
-                    "name": "ASP",
-                    "number": 117
-                },
-                {
-                    "name": "TYR",
-                    "number": 118
-                },
-                {
-                    "name": "SER",
-                    "number": 119
-                },
-                {
-                    "name": "ASP",
-                    "number": 120
-                },
-                {
-                    "name": "ASP",
-                    "number": 121
-                },
-                {
-                    "name": "VAL",
-                    "number": 122
-                },
-                {
-                    "name": "CYS",
-                    "number": 123
-                },
-                {
-                    "name": "GLY",
-                    "number": 124
-                },
-                {
-                    "name": "ALA",
-                    "number": 125
-                },
-                {
-                    "name": "VAL",
-                    "number": 126
-                },
-                {
-                    "name": "VAL",
-                    "number": 127
-                },
-                {
-                    "name": "ASN",
-                    "number": 128
-                },
-                {
-                    "name": "VAL",
-                    "number": 129
-                },
-                {
-                    "name": "ARG",
-                    "number": 130
-                },
-                {
-                    "name": "ALA",
-                    "number": 131
-                },
-                {
-                    "name": "LYS",
-                    "number": 132
-                },
-                {
-                    "name": "GLY",
-                    "number": 133
-                },
-                {
-                    "name": "ASP",
-                    "number": 134
-                },
-                {
-                    "name": "LYS",
-                    "number": 135
-                },
-                {
-                    "name": "ILE",
-                    "number": 136
-                },
-                {
-                    "name": "ALA",
-                    "number": 137
-                },
-                {
-                    "name": "ILE",
-                    "number": 138
-                },
-                {
-                    "name": "TRP",
-                    "number": 139
-                },
-                {
-                    "name": "THR",
-                    "number": 140
-                },
-                {
-                    "name": "THR",
-                    "number": 141
-                },
-                {
-                    "name": "GLU",
-                    "number": 142
-                },
-                {
-                    "name": "CYS",
-                    "number": 143
-                },
-                {
-                    "name": "GLU",
-                    "number": 144
-                },
-                {
-                    "name": "ASN",
-                    "number": 145
-                },
-                {
-                    "name": "ARG",
-                    "number": 146
-                },
-                {
-                    "name": "ASP",
-                    "number": 147
-                },
-                {
-                    "name": "ALA",
-                    "number": 148
-                },
-                {
-                    "name": "VAL",
-                    "number": 149
-                },
-                {
-                    "name": "THR",
-                    "number": 150
-                },
-                {
-                    "name": "HIS",
-                    "number": 151
-                },
-                {
-                    "name": "ILE",
-                    "number": 152
-                },
-                {
-                    "name": "GLY",
-                    "number": 153
-                },
-                {
-                    "name": "ARG",
-                    "number": 154
-                },
-                {
-                    "name": "VAL",
-                    "number": 155
-                },
-                {
-                    "name": "TYR",
-                    "number": 156
-                },
-                {
-                    "name": "LYS",
-                    "number": 157
-                },
-                {
-                    "name": "GLU",
-                    "number": 158
-                },
-                {
-                    "name": "ARG",
-                    "number": 159
-                },
-                {
-                    "name": "LEU",
-                    "number": 160
-                },
-                {
-                    "name": "GLY",
-                    "number": 161
-                },
-                {
-                    "name": "LEU",
-                    "number": 162
-                },
-                {
-                    "name": "PRO",
-                    "number": 163
-                },
-                {
-                    "name": "PRO",
-                    "number": 164
-                },
-                {
-                    "name": "LYS",
-                    "number": 165
-                },
-                {
-                    "name": "ILE",
-                    "number": 166
-                },
-                {
-                    "name": "VAL",
-                    "number": 167
-                },
-                {
-                    "name": "ILE",
-                    "number": 168
-                },
-                {
-                    "name": "GLY",
-                    "number": 169
-                },
-                {
-                    "name": "TYR",
-                    "number": 170
-                },
-                {
-                    "name": "GLN",
-                    "number": 171
-                },
-                {
-                    "name": "SER",
-                    "number": 172
-                },
-                {
-                    "name": "HIS",
-                    "number": 173
-                },
-                {
-                    "name": "ALA",
-                    "number": 174
-                },
-                {
-                    "name": "ASP",
-                    "number": 175
-                },
-                {
-                    "name": "THR",
-                    "number": 176
-                },
-                {
-                    "name": "ALA",
-                    "number": 177
-                },
-                {
-                    "name": "THR",
-                    "number": 178
-                },
-                {
-                    "name": "LYS",
-                    "number": 179
-                },
-                {
-                    "name": "SER",
-                    "number": 180
-                },
-                {
-                    "name": "GLY",
-                    "number": 181
-                },
-                {
-                    "name": "SER",
-                    "number": 182
-                },
-                {
-                    "name": "THR",
-                    "number": 183
-                },
-                {
-                    "name": "THR",
-                    "number": 184
-                },
-                {
-                    "name": "LYS",
-                    "number": 185
-                },
-                {
-                    "name": "ASN",
-                    "number": 186
-                },
-                {
-                    "name": "ARG",
-                    "number": 187
-                },
-                {
-                    "name": "PHE",
-                    "number": 188
-                },
-                {
-                    "name": "VAL",
-                    "number": 189
-                },
-                {
-                    "name": "VAL",
-                    "number": 190
-                }
-            ],
+                    {
+                        "name": "VAL",
+                        "number": 1,
+                        "uniprot_number": 28
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 2,
+                        "uniprot_number": 29
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 3,
+                        "uniprot_number": 30
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 4,
+                        "uniprot_number": 31
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 5,
+                        "uniprot_number": 32
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 6,
+                        "uniprot_number": 33
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 7,
+                        "uniprot_number": 34
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 8,
+                        "uniprot_number": 35
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 9,
+                        "uniprot_number": 36
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 10,
+                        "uniprot_number": 37
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 11,
+                        "uniprot_number": 38
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 12,
+                        "uniprot_number": 39
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 13,
+                        "uniprot_number": 40
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 14,
+                        "uniprot_number": 41
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 15,
+                        "uniprot_number": 42
+                    },
+                    {
+                        "name": "TRP",
+                        "number": 16,
+                        "uniprot_number": 43
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 17,
+                        "uniprot_number": 44
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 18,
+                        "uniprot_number": 45
+                    },
+                    {
+                        "name": "TRP",
+                        "number": 19,
+                        "uniprot_number": 46
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 20,
+                        "uniprot_number": 47
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 21,
+                        "uniprot_number": 48
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 22,
+                        "uniprot_number": 49
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 23,
+                        "uniprot_number": 50
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 24,
+                        "uniprot_number": 51
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 25,
+                        "uniprot_number": 52
+                    },
+                    {
+                        "name": "SER",
+                        "number": 26,
+                        "uniprot_number": 53
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 27,
+                        "uniprot_number": 54
+                    },
+                    {
+                        "name": "THR",
+                        "number": 28,
+                        "uniprot_number": 55
+                    },
+                    {
+                        "name": "TRP",
+                        "number": 29,
+                        "uniprot_number": 56
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 30,
+                        "uniprot_number": 57
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 31,
+                        "uniprot_number": 58
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 32,
+                        "uniprot_number": 59
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 33,
+                        "uniprot_number": 60
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 34,
+                        "uniprot_number": 61
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 35,
+                        "uniprot_number": 62
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 36,
+                        "uniprot_number": 63
+                    },
+                    {
+                        "name": "SER",
+                        "number": 37,
+                        "uniprot_number": 64
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 38,
+                        "uniprot_number": 65
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 39,
+                        "uniprot_number": 66
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 40,
+                        "uniprot_number": 67
+                    },
+                    {
+                        "name": "THR",
+                        "number": 41,
+                        "uniprot_number": 68
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 42,
+                        "uniprot_number": 69
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 43,
+                        "uniprot_number": 70
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 44,
+                        "uniprot_number": 71
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 45,
+                        "uniprot_number": 72
+                    },
+                    {
+                        "name": "TRP",
+                        "number": 46,
+                        "uniprot_number": 73
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 47,
+                        "uniprot_number": 74
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 48,
+                        "uniprot_number": 75
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 49,
+                        "uniprot_number": 76
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 50,
+                        "uniprot_number": 77
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 51,
+                        "uniprot_number": 78
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 52,
+                        "uniprot_number": 79
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 53,
+                        "uniprot_number": 80
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 54,
+                        "uniprot_number": 81
+                    },
+                    {
+                        "name": "SER",
+                        "number": 55,
+                        "uniprot_number": 82
+                    },
+                    {
+                        "name": "SER",
+                        "number": 56,
+                        "uniprot_number": 83
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 57,
+                        "uniprot_number": 84
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 58,
+                        "uniprot_number": 85
+                    },
+                    {
+                        "name": "MET",
+                        "number": 59,
+                        "uniprot_number": 86
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 60,
+                        "uniprot_number": 87
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 61,
+                        "uniprot_number": 88
+                    },
+                    {
+                        "name": "CYS",
+                        "number": 62,
+                        "uniprot_number": 89
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 63,
+                        "uniprot_number": 90
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 64,
+                        "uniprot_number": 91
+                    },
+                    {
+                        "name": "SER",
+                        "number": 65,
+                        "uniprot_number": 92
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 66,
+                        "uniprot_number": 93
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 67,
+                        "uniprot_number": 94
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 68,
+                        "uniprot_number": 95
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 69,
+                        "uniprot_number": 96
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 70,
+                        "uniprot_number": 97
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 71,
+                        "uniprot_number": 98
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 72,
+                        "uniprot_number": 99
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 73,
+                        "uniprot_number": 100
+                    },
+                    {
+                        "name": "MET",
+                        "number": 74,
+                        "uniprot_number": 101
+                    },
+                    {
+                        "name": "TRP",
+                        "number": 75,
+                        "uniprot_number": 102
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 76,
+                        "uniprot_number": 103
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 77,
+                        "uniprot_number": 104
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 78,
+                        "uniprot_number": 105
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 79,
+                        "uniprot_number": 106
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 80,
+                        "uniprot_number": 107
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 81,
+                        "uniprot_number": 108
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 82,
+                        "uniprot_number": 109
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 83,
+                        "uniprot_number": 110
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 84,
+                        "uniprot_number": 111
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 85,
+                        "uniprot_number": 112
+                    },
+                    {
+                        "name": "TRP",
+                        "number": 86,
+                        "uniprot_number": 113
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 87,
+                        "uniprot_number": 114
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 88,
+                        "uniprot_number": 115
+                    },
+                    {
+                        "name": "THR",
+                        "number": 89,
+                        "uniprot_number": 116
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 90,
+                        "uniprot_number": 117
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 91,
+                        "uniprot_number": 118
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 92,
+                        "uniprot_number": 119
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 93,
+                        "uniprot_number": 120
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 94,
+                        "uniprot_number": 121
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 95,
+                        "uniprot_number": 122
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 96,
+                        "uniprot_number": 123
+                    },
+                    {
+                        "name": "SER",
+                        "number": 97,
+                        "uniprot_number": 124
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 98,
+                        "uniprot_number": 125
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 99,
+                        "uniprot_number": 126
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 100,
+                        "uniprot_number": 127
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 101,
+                        "uniprot_number": 128
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 102,
+                        "uniprot_number": 129
+                    },
+                    {
+                        "name": "TRP",
+                        "number": 103,
+                        "uniprot_number": 130
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 104,
+                        "uniprot_number": 131
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 105,
+                        "uniprot_number": 132
+                    },
+                    {
+                        "name": "THR",
+                        "number": 106,
+                        "uniprot_number": 133
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 107,
+                        "uniprot_number": 134
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 108,
+                        "uniprot_number": 135
+                    },
+                    {
+                        "name": "CYS",
+                        "number": 109,
+                        "uniprot_number": 136
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 110,
+                        "uniprot_number": 137
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 111,
+                        "uniprot_number": 138
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 112,
+                        "uniprot_number": 139
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 113,
+                        "uniprot_number": 140
+                    },
+                    {
+                        "name": "SER",
+                        "number": 114,
+                        "uniprot_number": 141
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 115,
+                        "uniprot_number": 142
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 116,
+                        "uniprot_number": 143
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 117,
+                        "uniprot_number": 144
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 118,
+                        "uniprot_number": 145
+                    },
+                    {
+                        "name": "SER",
+                        "number": 119,
+                        "uniprot_number": 146
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 120,
+                        "uniprot_number": 147
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 121,
+                        "uniprot_number": 148
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 122,
+                        "uniprot_number": 149
+                    },
+                    {
+                        "name": "CYS",
+                        "number": 123,
+                        "uniprot_number": 150
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 124,
+                        "uniprot_number": 151
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 125,
+                        "uniprot_number": 152
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 126,
+                        "uniprot_number": 153
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 127,
+                        "uniprot_number": 154
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 128,
+                        "uniprot_number": 155
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 129,
+                        "uniprot_number": 156
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 130,
+                        "uniprot_number": 157
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 131,
+                        "uniprot_number": 158
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 132,
+                        "uniprot_number": 159
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 133,
+                        "uniprot_number": 160
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 134,
+                        "uniprot_number": 161
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 135,
+                        "uniprot_number": 162
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 136,
+                        "uniprot_number": 163
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 137,
+                        "uniprot_number": 164
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 138,
+                        "uniprot_number": 165
+                    },
+                    {
+                        "name": "TRP",
+                        "number": 139,
+                        "uniprot_number": 166
+                    },
+                    {
+                        "name": "THR",
+                        "number": 140,
+                        "uniprot_number": 167
+                    },
+                    {
+                        "name": "THR",
+                        "number": 141,
+                        "uniprot_number": 168
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 142,
+                        "uniprot_number": 169
+                    },
+                    {
+                        "name": "CYS",
+                        "number": 143,
+                        "uniprot_number": 170
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 144,
+                        "uniprot_number": 171
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 145,
+                        "uniprot_number": 172
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 146,
+                        "uniprot_number": 173
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 147,
+                        "uniprot_number": 174
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 148,
+                        "uniprot_number": 175
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 149,
+                        "uniprot_number": 176
+                    },
+                    {
+                        "name": "THR",
+                        "number": 150,
+                        "uniprot_number": 177
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 151,
+                        "uniprot_number": 178
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 152,
+                        "uniprot_number": 179
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 153,
+                        "uniprot_number": 180
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 154,
+                        "uniprot_number": 181
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 155,
+                        "uniprot_number": 182
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 156,
+                        "uniprot_number": 183
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 157,
+                        "uniprot_number": 184
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 158,
+                        "uniprot_number": 185
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 159,
+                        "uniprot_number": 186
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 160,
+                        "uniprot_number": 187
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 161,
+                        "uniprot_number": 188
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 162,
+                        "uniprot_number": 189
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 163,
+                        "uniprot_number": 190
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 164,
+                        "uniprot_number": 191
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 165,
+                        "uniprot_number": 192
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 166,
+                        "uniprot_number": 193
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 167,
+                        "uniprot_number": 194
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 168,
+                        "uniprot_number": 195
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 169,
+                        "uniprot_number": 196
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 170,
+                        "uniprot_number": 197
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 171,
+                        "uniprot_number": 198
+                    },
+                    {
+                        "name": "SER",
+                        "number": 172,
+                        "uniprot_number": 199
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 173,
+                        "uniprot_number": 200
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 174,
+                        "uniprot_number": 201
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 175,
+                        "uniprot_number": 202
+                    },
+                    {
+                        "name": "THR",
+                        "number": 176,
+                        "uniprot_number": 203
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 177,
+                        "uniprot_number": 204
+                    },
+                    {
+                        "name": "THR",
+                        "number": 178,
+                        "uniprot_number": 205
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 179,
+                        "uniprot_number": 206
+                    },
+                    {
+                        "name": "SER",
+                        "number": 180,
+                        "uniprot_number": 207
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 181,
+                        "uniprot_number": 208
+                    },
+                    {
+                        "name": "SER",
+                        "number": 182,
+                        "uniprot_number": 209
+                    },
+                    {
+                        "name": "THR",
+                        "number": 183,
+                        "uniprot_number": 210
+                    },
+                    {
+                        "name": "THR",
+                        "number": 184,
+                        "uniprot_number": 211
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 185,
+                        "uniprot_number": 212
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 186,
+                        "uniprot_number": 213
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 187,
+                        "uniprot_number": 214
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 188,
+                        "uniprot_number": 215
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 189,
+                        "uniprot_number": 216
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 190,
+                        "uniprot_number": 217
+                    }
+                ],
             "secondary_structure": {}
         },
         {
             "chain_id": "B",
             "residues": [
-                {
-                    "name": "VAL",
-                    "number": 1
-                },
-                {
-                    "name": "ALA",
-                    "number": 2
-                },
-                {
-                    "name": "ASN",
-                    "number": 3
-                },
-                {
-                    "name": "PRO",
-                    "number": 4
-                },
-                {
-                    "name": "GLU",
-                    "number": 5
-                },
-                {
-                    "name": "HIS",
-                    "number": 6
-                },
-                {
-                    "name": "TYR",
-                    "number": 7
-                },
-                {
-                    "name": "ILE",
-                    "number": 8
-                },
-                {
-                    "name": "LYS",
-                    "number": 9
-                },
-                {
-                    "name": "HIS",
-                    "number": 10
-                },
-                {
-                    "name": "PRO",
-                    "number": 11
-                },
-                {
-                    "name": "LEU",
-                    "number": 12
-                },
-                {
-                    "name": "GLN",
-                    "number": 13
-                },
-                {
-                    "name": "ASN",
-                    "number": 14
-                },
-                {
-                    "name": "ARG",
-                    "number": 15
-                },
-                {
-                    "name": "TRP",
-                    "number": 16
-                },
-                {
-                    "name": "ALA",
-                    "number": 17
-                },
-                {
-                    "name": "LEU",
-                    "number": 18
-                },
-                {
-                    "name": "TRP",
-                    "number": 19
-                },
-                {
-                    "name": "PHE",
-                    "number": 20
-                },
-                {
-                    "name": "PHE",
-                    "number": 21
-                },
-                {
-                    "name": "LYS",
-                    "number": 22
-                },
-                {
-                    "name": "ASN",
-                    "number": 23
-                },
-                {
-                    "name": "ASP",
-                    "number": 24
-                },
-                {
-                    "name": "LYS",
-                    "number": 25
-                },
-                {
-                    "name": "SER",
-                    "number": 26
-                },
-                {
-                    "name": "LYS",
-                    "number": 27
-                },
-                {
-                    "name": "THR",
-                    "number": 28
-                },
-                {
-                    "name": "TRP",
-                    "number": 29
-                },
-                {
-                    "name": "GLN",
-                    "number": 30
-                },
-                {
-                    "name": "ALA",
-                    "number": 31
-                },
-                {
-                    "name": "ASN",
-                    "number": 32
-                },
-                {
-                    "name": "LEU",
-                    "number": 33
-                },
-                {
-                    "name": "ARG",
-                    "number": 34
-                },
-                {
-                    "name": "LEU",
-                    "number": 35
-                },
-                {
-                    "name": "ILE",
-                    "number": 36
-                },
-                {
-                    "name": "SER",
-                    "number": 37
-                },
-                {
-                    "name": "LYS",
-                    "number": 38
-                },
-                {
-                    "name": "PHE",
-                    "number": 39
-                },
-                {
-                    "name": "ASP",
-                    "number": 40
-                },
-                {
-                    "name": "THR",
-                    "number": 41
-                },
-                {
-                    "name": "VAL",
-                    "number": 42
-                },
-                {
-                    "name": "GLU",
-                    "number": 43
-                },
-                {
-                    "name": "ASP",
-                    "number": 44
-                },
-                {
-                    "name": "PHE",
-                    "number": 45
-                },
-                {
-                    "name": "TRP",
-                    "number": 46
-                },
-                {
-                    "name": "ALA",
-                    "number": 47
-                },
-                {
-                    "name": "LEU",
-                    "number": 48
-                },
-                {
-                    "name": "TYR",
-                    "number": 49
-                },
-                {
-                    "name": "ASN",
-                    "number": 50
-                },
-                {
-                    "name": "HIS",
-                    "number": 51
-                },
-                {
-                    "name": "ILE",
-                    "number": 52
-                },
-                {
-                    "name": "GLN",
-                    "number": 53
-                },
-                {
-                    "name": "LEU",
-                    "number": 54
-                },
-                {
-                    "name": "SER",
-                    "number": 55
-                },
-                {
-                    "name": "SER",
-                    "number": 56
-                },
-                {
-                    "name": "ASN",
-                    "number": 57
-                },
-                {
-                    "name": "LEU",
-                    "number": 58
-                },
-                {
-                    "name": "MET",
-                    "number": 59
-                },
-                {
-                    "name": "PRO",
-                    "number": 60
-                },
-                {
-                    "name": "GLY",
-                    "number": 61
-                },
-                {
-                    "name": "CYS",
-                    "number": 62
-                },
-                {
-                    "name": "ASP",
-                    "number": 63
-                },
-                {
-                    "name": "TYR",
-                    "number": 64
-                },
-                {
-                    "name": "SER",
-                    "number": 65
-                },
-                {
-                    "name": "LEU",
-                    "number": 66
-                },
-                {
-                    "name": "PHE",
-                    "number": 67
-                },
-                {
-                    "name": "LYS",
-                    "number": 68
-                },
-                {
-                    "name": "ASP",
-                    "number": 69
-                },
-                {
-                    "name": "GLY",
-                    "number": 70
-                },
-                {
-                    "name": "ILE",
-                    "number": 71
-                },
-                {
-                    "name": "GLU",
-                    "number": 72
-                },
-                {
-                    "name": "PRO",
-                    "number": 73
-                },
-                {
-                    "name": "MET",
-                    "number": 74
-                },
-                {
-                    "name": "TRP",
-                    "number": 75
-                },
-                {
-                    "name": "GLU",
-                    "number": 76
-                },
-                {
-                    "name": "ASP",
-                    "number": 77
-                },
-                {
-                    "name": "GLU",
-                    "number": 78
-                },
-                {
-                    "name": "LYS",
-                    "number": 79
-                },
-                {
-                    "name": "ASN",
-                    "number": 80
-                },
-                {
-                    "name": "LYS",
-                    "number": 81
-                },
-                {
-                    "name": "ARG",
-                    "number": 82
-                },
-                {
-                    "name": "GLY",
-                    "number": 83
-                },
-                {
-                    "name": "GLY",
-                    "number": 84
-                },
-                {
-                    "name": "ARG",
-                    "number": 85
-                },
-                {
-                    "name": "TRP",
-                    "number": 86
-                },
-                {
-                    "name": "LEU",
-                    "number": 87
-                },
-                {
-                    "name": "ILE",
-                    "number": 88
-                },
-                {
-                    "name": "THR",
-                    "number": 89
-                },
-                {
-                    "name": "LEU",
-                    "number": 90
-                },
-                {
-                    "name": "ASN",
-                    "number": 91
-                },
-                {
-                    "name": "LYS",
-                    "number": 92
-                },
-                {
-                    "name": "GLN",
-                    "number": 93
-                },
-                {
-                    "name": "GLN",
-                    "number": 94
-                },
-                {
-                    "name": "ARG",
-                    "number": 95
-                },
-                {
-                    "name": "ARG",
-                    "number": 96
-                },
-                {
-                    "name": "SER",
-                    "number": 97
-                },
-                {
-                    "name": "ASP",
-                    "number": 98
-                },
-                {
-                    "name": "LEU",
-                    "number": 99
-                },
-                {
-                    "name": "ASP",
-                    "number": 100
-                },
-                {
-                    "name": "ARG",
-                    "number": 101
-                },
-                {
-                    "name": "PHE",
-                    "number": 102
-                },
-                {
-                    "name": "TRP",
-                    "number": 103
-                },
-                {
-                    "name": "LEU",
-                    "number": 104
-                },
-                {
-                    "name": "GLU",
-                    "number": 105
-                },
-                {
-                    "name": "THR",
-                    "number": 106
-                },
-                {
-                    "name": "LEU",
-                    "number": 107
-                },
-                {
-                    "name": "LEU",
-                    "number": 108
-                },
-                {
-                    "name": "CYS",
-                    "number": 109
-                },
-                {
-                    "name": "LEU",
-                    "number": 110
-                },
-                {
-                    "name": "ILE",
-                    "number": 111
-                },
-                {
-                    "name": "GLY",
-                    "number": 112
-                },
-                {
-                    "name": "GLU",
-                    "number": 113
-                },
-                {
-                    "name": "SER",
-                    "number": 114
-                },
-                {
-                    "name": "PHE",
-                    "number": 115
-                },
-                {
-                    "name": "ASP",
-                    "number": 116
-                },
-                {
-                    "name": "ASP",
-                    "number": 117
-                },
-                {
-                    "name": "TYR",
-                    "number": 118
-                },
-                {
-                    "name": "SER",
-                    "number": 119
-                },
-                {
-                    "name": "ASP",
-                    "number": 120
-                },
-                {
-                    "name": "ASP",
-                    "number": 121
-                },
-                {
-                    "name": "VAL",
-                    "number": 122
-                },
-                {
-                    "name": "CYS",
-                    "number": 123
-                },
-                {
-                    "name": "GLY",
-                    "number": 124
-                },
-                {
-                    "name": "ALA",
-                    "number": 125
-                },
-                {
-                    "name": "VAL",
-                    "number": 126
-                },
-                {
-                    "name": "VAL",
-                    "number": 127
-                },
-                {
-                    "name": "ASN",
-                    "number": 128
-                },
-                {
-                    "name": "VAL",
-                    "number": 129
-                },
-                {
-                    "name": "ARG",
-                    "number": 130
-                },
-                {
-                    "name": "ALA",
-                    "number": 131
-                },
-                {
-                    "name": "LYS",
-                    "number": 132
-                },
-                {
-                    "name": "GLY",
-                    "number": 133
-                },
-                {
-                    "name": "ASP",
-                    "number": 134
-                },
-                {
-                    "name": "LYS",
-                    "number": 135
-                },
-                {
-                    "name": "ILE",
-                    "number": 136
-                },
-                {
-                    "name": "ALA",
-                    "number": 137
-                },
-                {
-                    "name": "ILE",
-                    "number": 138
-                },
-                {
-                    "name": "TRP",
-                    "number": 139
-                },
-                {
-                    "name": "THR",
-                    "number": 140
-                },
-                {
-                    "name": "THR",
-                    "number": 141
-                },
-                {
-                    "name": "GLU",
-                    "number": 142
-                },
-                {
-                    "name": "CYS",
-                    "number": 143
-                },
-                {
-                    "name": "GLU",
-                    "number": 144
-                },
-                {
-                    "name": "ASN",
-                    "number": 145
-                },
-                {
-                    "name": "ARG",
-                    "number": 146
-                },
-                {
-                    "name": "ASP",
-                    "number": 147
-                },
-                {
-                    "name": "ALA",
-                    "number": 148
-                },
-                {
-                    "name": "VAL",
-                    "number": 149
-                },
-                {
-                    "name": "THR",
-                    "number": 150
-                },
-                {
-                    "name": "HIS",
-                    "number": 151
-                },
-                {
-                    "name": "ILE",
-                    "number": 152
-                },
-                {
-                    "name": "GLY",
-                    "number": 153
-                },
-                {
-                    "name": "ARG",
-                    "number": 154
-                },
-                {
-                    "name": "VAL",
-                    "number": 155
-                },
-                {
-                    "name": "TYR",
-                    "number": 156
-                },
-                {
-                    "name": "LYS",
-                    "number": 157
-                },
-                {
-                    "name": "GLU",
-                    "number": 158
-                },
-                {
-                    "name": "ARG",
-                    "number": 159
-                },
-                {
-                    "name": "LEU",
-                    "number": 160
-                },
-                {
-                    "name": "GLY",
-                    "number": 161
-                },
-                {
-                    "name": "LEU",
-                    "number": 162
-                },
-                {
-                    "name": "PRO",
-                    "number": 163
-                },
-                {
-                    "name": "PRO",
-                    "number": 164
-                },
-                {
-                    "name": "LYS",
-                    "number": 165
-                },
-                {
-                    "name": "ILE",
-                    "number": 166
-                },
-                {
-                    "name": "VAL",
-                    "number": 167
-                },
-                {
-                    "name": "ILE",
-                    "number": 168
-                },
-                {
-                    "name": "GLY",
-                    "number": 169
-                },
-                {
-                    "name": "TYR",
-                    "number": 170
-                },
-                {
-                    "name": "GLN",
-                    "number": 171
-                },
-                {
-                    "name": "SER",
-                    "number": 172
-                },
-                {
-                    "name": "HIS",
-                    "number": 173
-                },
-                {
-                    "name": "ALA",
-                    "number": 174
-                },
-                {
-                    "name": "ASP",
-                    "number": 175
-                },
-                {
-                    "name": "THR",
-                    "number": 176
-                },
-                {
-                    "name": "ALA",
-                    "number": 177
-                },
-                {
-                    "name": "THR",
-                    "number": 178
-                },
-                {
-                    "name": "LYS",
-                    "number": 179
-                },
-                {
-                    "name": "SER",
-                    "number": 180
-                },
-                {
-                    "name": "GLY",
-                    "number": 181
-                },
-                {
-                    "name": "SER",
-                    "number": 182
-                },
-                {
-                    "name": "THR",
-                    "number": 183
-                },
-                {
-                    "name": "THR",
-                    "number": 184
-                },
-                {
-                    "name": "LYS",
-                    "number": 185
-                },
-                {
-                    "name": "ASN",
-                    "number": 186
-                },
-                {
-                    "name": "ARG",
-                    "number": 187
-                },
-                {
-                    "name": "PHE",
-                    "number": 188
-                },
-                {
-                    "name": "VAL",
-                    "number": 189
-                },
-                {
-                    "name": "VAL",
-                    "number": 190
-                },
-                {
-                    "name": "VAL",
-                    "number": 1
-                },
-                {
-                    "name": "ALA",
-                    "number": 2
-                },
-                {
-                    "name": "ASN",
-                    "number": 3
-                },
-                {
-                    "name": "PRO",
-                    "number": 4
-                },
-                {
-                    "name": "GLU",
-                    "number": 5
-                },
-                {
-                    "name": "HIS",
-                    "number": 6
-                },
-                {
-                    "name": "TYR",
-                    "number": 7
-                },
-                {
-                    "name": "ILE",
-                    "number": 8
-                },
-                {
-                    "name": "LYS",
-                    "number": 9
-                },
-                {
-                    "name": "HIS",
-                    "number": 10
-                },
-                {
-                    "name": "PRO",
-                    "number": 11
-                },
-                {
-                    "name": "LEU",
-                    "number": 12
-                },
-                {
-                    "name": "GLN",
-                    "number": 13
-                },
-                {
-                    "name": "ASN",
-                    "number": 14
-                },
-                {
-                    "name": "ARG",
-                    "number": 15
-                },
-                {
-                    "name": "TRP",
-                    "number": 16
-                },
-                {
-                    "name": "ALA",
-                    "number": 17
-                },
-                {
-                    "name": "LEU",
-                    "number": 18
-                },
-                {
-                    "name": "TRP",
-                    "number": 19
-                },
-                {
-                    "name": "PHE",
-                    "number": 20
-                },
-                {
-                    "name": "PHE",
-                    "number": 21
-                },
-                {
-                    "name": "LYS",
-                    "number": 22
-                },
-                {
-                    "name": "ASN",
-                    "number": 23
-                },
-                {
-                    "name": "ASP",
-                    "number": 24
-                },
-                {
-                    "name": "LYS",
-                    "number": 25
-                },
-                {
-                    "name": "SER",
-                    "number": 26
-                },
-                {
-                    "name": "LYS",
-                    "number": 27
-                },
-                {
-                    "name": "THR",
-                    "number": 28
-                },
-                {
-                    "name": "TRP",
-                    "number": 29
-                },
-                {
-                    "name": "GLN",
-                    "number": 30
-                },
-                {
-                    "name": "ALA",
-                    "number": 31
-                },
-                {
-                    "name": "ASN",
-                    "number": 32
-                },
-                {
-                    "name": "LEU",
-                    "number": 33
-                },
-                {
-                    "name": "ARG",
-                    "number": 34
-                },
-                {
-                    "name": "LEU",
-                    "number": 35
-                },
-                {
-                    "name": "ILE",
-                    "number": 36
-                },
-                {
-                    "name": "SER",
-                    "number": 37
-                },
-                {
-                    "name": "LYS",
-                    "number": 38
-                },
-                {
-                    "name": "PHE",
-                    "number": 39
-                },
-                {
-                    "name": "ASP",
-                    "number": 40
-                },
-                {
-                    "name": "THR",
-                    "number": 41
-                },
-                {
-                    "name": "VAL",
-                    "number": 42
-                },
-                {
-                    "name": "GLU",
-                    "number": 43
-                },
-                {
-                    "name": "ASP",
-                    "number": 44
-                },
-                {
-                    "name": "PHE",
-                    "number": 45
-                },
-                {
-                    "name": "TRP",
-                    "number": 46
-                },
-                {
-                    "name": "ALA",
-                    "number": 47
-                },
-                {
-                    "name": "LEU",
-                    "number": 48
-                },
-                {
-                    "name": "TYR",
-                    "number": 49
-                },
-                {
-                    "name": "ASN",
-                    "number": 50
-                },
-                {
-                    "name": "HIS",
-                    "number": 51
-                },
-                {
-                    "name": "ILE",
-                    "number": 52
-                },
-                {
-                    "name": "GLN",
-                    "number": 53
-                },
-                {
-                    "name": "LEU",
-                    "number": 54
-                },
-                {
-                    "name": "SER",
-                    "number": 55
-                },
-                {
-                    "name": "SER",
-                    "number": 56
-                },
-                {
-                    "name": "ASN",
-                    "number": 57
-                },
-                {
-                    "name": "LEU",
-                    "number": 58
-                },
-                {
-                    "name": "MET",
-                    "number": 59
-                },
-                {
-                    "name": "PRO",
-                    "number": 60
-                },
-                {
-                    "name": "GLY",
-                    "number": 61
-                },
-                {
-                    "name": "CYS",
-                    "number": 62
-                },
-                {
-                    "name": "ASP",
-                    "number": 63
-                },
-                {
-                    "name": "TYR",
-                    "number": 64
-                },
-                {
-                    "name": "SER",
-                    "number": 65
-                },
-                {
-                    "name": "LEU",
-                    "number": 66
-                },
-                {
-                    "name": "PHE",
-                    "number": 67
-                },
-                {
-                    "name": "LYS",
-                    "number": 68
-                },
-                {
-                    "name": "ASP",
-                    "number": 69
-                },
-                {
-                    "name": "GLY",
-                    "number": 70
-                },
-                {
-                    "name": "ILE",
-                    "number": 71
-                },
-                {
-                    "name": "GLU",
-                    "number": 72
-                },
-                {
-                    "name": "PRO",
-                    "number": 73
-                },
-                {
-                    "name": "MET",
-                    "number": 74
-                },
-                {
-                    "name": "TRP",
-                    "number": 75
-                },
-                {
-                    "name": "GLU",
-                    "number": 76
-                },
-                {
-                    "name": "ASP",
-                    "number": 77
-                },
-                {
-                    "name": "GLU",
-                    "number": 78
-                },
-                {
-                    "name": "LYS",
-                    "number": 79
-                },
-                {
-                    "name": "ASN",
-                    "number": 80
-                },
-                {
-                    "name": "LYS",
-                    "number": 81
-                },
-                {
-                    "name": "ARG",
-                    "number": 82
-                },
-                {
-                    "name": "GLY",
-                    "number": 83
-                },
-                {
-                    "name": "GLY",
-                    "number": 84
-                },
-                {
-                    "name": "ARG",
-                    "number": 85
-                },
-                {
-                    "name": "TRP",
-                    "number": 86
-                },
-                {
-                    "name": "LEU",
-                    "number": 87
-                },
-                {
-                    "name": "ILE",
-                    "number": 88
-                },
-                {
-                    "name": "THR",
-                    "number": 89
-                },
-                {
-                    "name": "LEU",
-                    "number": 90
-                },
-                {
-                    "name": "ASN",
-                    "number": 91
-                },
-                {
-                    "name": "LYS",
-                    "number": 92
-                },
-                {
-                    "name": "GLN",
-                    "number": 93
-                },
-                {
-                    "name": "GLN",
-                    "number": 94
-                },
-                {
-                    "name": "ARG",
-                    "number": 95
-                },
-                {
-                    "name": "ARG",
-                    "number": 96
-                },
-                {
-                    "name": "SER",
-                    "number": 97
-                },
-                {
-                    "name": "ASP",
-                    "number": 98
-                },
-                {
-                    "name": "LEU",
-                    "number": 99
-                },
-                {
-                    "name": "ASP",
-                    "number": 100
-                },
-                {
-                    "name": "ARG",
-                    "number": 101
-                },
-                {
-                    "name": "PHE",
-                    "number": 102
-                },
-                {
-                    "name": "TRP",
-                    "number": 103
-                },
-                {
-                    "name": "LEU",
-                    "number": 104
-                },
-                {
-                    "name": "GLU",
-                    "number": 105
-                },
-                {
-                    "name": "THR",
-                    "number": 106
-                },
-                {
-                    "name": "LEU",
-                    "number": 107
-                },
-                {
-                    "name": "LEU",
-                    "number": 108
-                },
-                {
-                    "name": "CYS",
-                    "number": 109
-                },
-                {
-                    "name": "LEU",
-                    "number": 110
-                },
-                {
-                    "name": "ILE",
-                    "number": 111
-                },
-                {
-                    "name": "GLY",
-                    "number": 112
-                },
-                {
-                    "name": "GLU",
-                    "number": 113
-                },
-                {
-                    "name": "SER",
-                    "number": 114
-                },
-                {
-                    "name": "PHE",
-                    "number": 115
-                },
-                {
-                    "name": "ASP",
-                    "number": 116
-                },
-                {
-                    "name": "ASP",
-                    "number": 117
-                },
-                {
-                    "name": "TYR",
-                    "number": 118
-                },
-                {
-                    "name": "SER",
-                    "number": 119
-                },
-                {
-                    "name": "ASP",
-                    "number": 120
-                },
-                {
-                    "name": "ASP",
-                    "number": 121
-                },
-                {
-                    "name": "VAL",
-                    "number": 122
-                },
-                {
-                    "name": "CYS",
-                    "number": 123
-                },
-                {
-                    "name": "GLY",
-                    "number": 124
-                },
-                {
-                    "name": "ALA",
-                    "number": 125
-                },
-                {
-                    "name": "VAL",
-                    "number": 126
-                },
-                {
-                    "name": "VAL",
-                    "number": 127
-                },
-                {
-                    "name": "ASN",
-                    "number": 128
-                },
-                {
-                    "name": "VAL",
-                    "number": 129
-                },
-                {
-                    "name": "ARG",
-                    "number": 130
-                },
-                {
-                    "name": "ALA",
-                    "number": 131
-                },
-                {
-                    "name": "LYS",
-                    "number": 132
-                },
-                {
-                    "name": "GLY",
-                    "number": 133
-                },
-                {
-                    "name": "ASP",
-                    "number": 134
-                },
-                {
-                    "name": "LYS",
-                    "number": 135
-                },
-                {
-                    "name": "ILE",
-                    "number": 136
-                },
-                {
-                    "name": "ALA",
-                    "number": 137
-                },
-                {
-                    "name": "ILE",
-                    "number": 138
-                },
-                {
-                    "name": "TRP",
-                    "number": 139
-                },
-                {
-                    "name": "THR",
-                    "number": 140
-                },
-                {
-                    "name": "THR",
-                    "number": 141
-                },
-                {
-                    "name": "GLU",
-                    "number": 142
-                },
-                {
-                    "name": "CYS",
-                    "number": 143
-                },
-                {
-                    "name": "GLU",
-                    "number": 144
-                },
-                {
-                    "name": "ASN",
-                    "number": 145
-                },
-                {
-                    "name": "ARG",
-                    "number": 146
-                },
-                {
-                    "name": "ASP",
-                    "number": 147
-                },
-                {
-                    "name": "ALA",
-                    "number": 148
-                },
-                {
-                    "name": "VAL",
-                    "number": 149
-                },
-                {
-                    "name": "THR",
-                    "number": 150
-                },
-                {
-                    "name": "HIS",
-                    "number": 151
-                },
-                {
-                    "name": "ILE",
-                    "number": 152
-                },
-                {
-                    "name": "GLY",
-                    "number": 153
-                },
-                {
-                    "name": "ARG",
-                    "number": 154
-                },
-                {
-                    "name": "VAL",
-                    "number": 155
-                },
-                {
-                    "name": "TYR",
-                    "number": 156
-                },
-                {
-                    "name": "LYS",
-                    "number": 157
-                },
-                {
-                    "name": "GLU",
-                    "number": 158
-                },
-                {
-                    "name": "ARG",
-                    "number": 159
-                },
-                {
-                    "name": "LEU",
-                    "number": 160
-                },
-                {
-                    "name": "GLY",
-                    "number": 161
-                },
-                {
-                    "name": "LEU",
-                    "number": 162
-                },
-                {
-                    "name": "PRO",
-                    "number": 163
-                },
-                {
-                    "name": "PRO",
-                    "number": 164
-                },
-                {
-                    "name": "LYS",
-                    "number": 165
-                },
-                {
-                    "name": "ILE",
-                    "number": 166
-                },
-                {
-                    "name": "VAL",
-                    "number": 167
-                },
-                {
-                    "name": "ILE",
-                    "number": 168
-                },
-                {
-                    "name": "GLY",
-                    "number": 169
-                },
-                {
-                    "name": "TYR",
-                    "number": 170
-                },
-                {
-                    "name": "GLN",
-                    "number": 171
-                },
-                {
-                    "name": "SER",
-                    "number": 172
-                },
-                {
-                    "name": "HIS",
-                    "number": 173
-                },
-                {
-                    "name": "ALA",
-                    "number": 174
-                },
-                {
-                    "name": "ASP",
-                    "number": 175
-                },
-                {
-                    "name": "THR",
-                    "number": 176
-                },
-                {
-                    "name": "ALA",
-                    "number": 177
-                },
-                {
-                    "name": "THR",
-                    "number": 178
-                },
-                {
-                    "name": "LYS",
-                    "number": 179
-                },
-                {
-                    "name": "SER",
-                    "number": 180
-                },
-                {
-                    "name": "GLY",
-                    "number": 181
-                },
-                {
-                    "name": "SER",
-                    "number": 182
-                },
-                {
-                    "name": "THR",
-                    "number": 183
-                },
-                {
-                    "name": "THR",
-                    "number": 184
-                },
-                {
-                    "name": "LYS",
-                    "number": 185
-                },
-                {
-                    "name": "ASN",
-                    "number": 186
-                },
-                {
-                    "name": "ARG",
-                    "number": 187
-                },
-                {
-                    "name": "PHE",
-                    "number": 188
-                },
-                {
-                    "name": "VAL",
-                    "number": 189
-                },
-                {
-                    "name": "VAL",
-                    "number": 190
-                }
-            ],
+                    {
+                        "name": "VAL",
+                        "number": 1,
+                        "uniprot_number": 28
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 2,
+                        "uniprot_number": 29
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 3,
+                        "uniprot_number": 30
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 4,
+                        "uniprot_number": 31
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 5,
+                        "uniprot_number": 32
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 6,
+                        "uniprot_number": 33
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 7,
+                        "uniprot_number": 34
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 8,
+                        "uniprot_number": 35
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 9,
+                        "uniprot_number": 36
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 10,
+                        "uniprot_number": 37
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 11,
+                        "uniprot_number": 38
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 12,
+                        "uniprot_number": 39
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 13,
+                        "uniprot_number": 40
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 14,
+                        "uniprot_number": 41
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 15,
+                        "uniprot_number": 42
+                    },
+                    {
+                        "name": "TRP",
+                        "number": 16,
+                        "uniprot_number": 43
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 17,
+                        "uniprot_number": 44
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 18,
+                        "uniprot_number": 45
+                    },
+                    {
+                        "name": "TRP",
+                        "number": 19,
+                        "uniprot_number": 46
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 20,
+                        "uniprot_number": 47
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 21,
+                        "uniprot_number": 48
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 22,
+                        "uniprot_number": 49
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 23,
+                        "uniprot_number": 50
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 24,
+                        "uniprot_number": 51
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 25,
+                        "uniprot_number": 52
+                    },
+                    {
+                        "name": "SER",
+                        "number": 26,
+                        "uniprot_number": 53
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 27,
+                        "uniprot_number": 54
+                    },
+                    {
+                        "name": "THR",
+                        "number": 28,
+                        "uniprot_number": 55
+                    },
+                    {
+                        "name": "TRP",
+                        "number": 29,
+                        "uniprot_number": 56
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 30,
+                        "uniprot_number": 57
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 31,
+                        "uniprot_number": 58
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 32,
+                        "uniprot_number": 59
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 33,
+                        "uniprot_number": 60
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 34,
+                        "uniprot_number": 61
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 35,
+                        "uniprot_number": 62
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 36,
+                        "uniprot_number": 63
+                    },
+                    {
+                        "name": "SER",
+                        "number": 37,
+                        "uniprot_number": 64
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 38,
+                        "uniprot_number": 65
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 39,
+                        "uniprot_number": 66
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 40,
+                        "uniprot_number": 67
+                    },
+                    {
+                        "name": "THR",
+                        "number": 41,
+                        "uniprot_number": 68
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 42,
+                        "uniprot_number": 69
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 43,
+                        "uniprot_number": 70
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 44,
+                        "uniprot_number": 71
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 45,
+                        "uniprot_number": 72
+                    },
+                    {
+                        "name": "TRP",
+                        "number": 46,
+                        "uniprot_number": 73
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 47,
+                        "uniprot_number": 74
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 48,
+                        "uniprot_number": 75
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 49,
+                        "uniprot_number": 76
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 50,
+                        "uniprot_number": 77
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 51,
+                        "uniprot_number": 78
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 52,
+                        "uniprot_number": 79
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 53,
+                        "uniprot_number": 80
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 54,
+                        "uniprot_number": 81
+                    },
+                    {
+                        "name": "SER",
+                        "number": 55,
+                        "uniprot_number": 82
+                    },
+                    {
+                        "name": "SER",
+                        "number": 56,
+                        "uniprot_number": 83
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 57,
+                        "uniprot_number": 84
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 58,
+                        "uniprot_number": 85
+                    },
+                    {
+                        "name": "MET",
+                        "number": 59,
+                        "uniprot_number": 86
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 60,
+                        "uniprot_number": 87
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 61,
+                        "uniprot_number": 88
+                    },
+                    {
+                        "name": "CYS",
+                        "number": 62,
+                        "uniprot_number": 89
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 63,
+                        "uniprot_number": 90
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 64,
+                        "uniprot_number": 91
+                    },
+                    {
+                        "name": "SER",
+                        "number": 65,
+                        "uniprot_number": 92
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 66,
+                        "uniprot_number": 93
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 67,
+                        "uniprot_number": 94
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 68,
+                        "uniprot_number": 95
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 69,
+                        "uniprot_number": 96
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 70,
+                        "uniprot_number": 97
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 71,
+                        "uniprot_number": 98
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 72,
+                        "uniprot_number": 99
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 73,
+                        "uniprot_number": 100
+                    },
+                    {
+                        "name": "MET",
+                        "number": 74,
+                        "uniprot_number": 101
+                    },
+                    {
+                        "name": "TRP",
+                        "number": 75,
+                        "uniprot_number": 102
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 76,
+                        "uniprot_number": 103
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 77,
+                        "uniprot_number": 104
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 78,
+                        "uniprot_number": 105
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 79,
+                        "uniprot_number": 106
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 80,
+                        "uniprot_number": 107
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 81,
+                        "uniprot_number": 108
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 82,
+                        "uniprot_number": 109
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 83,
+                        "uniprot_number": 110
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 84,
+                        "uniprot_number": 111
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 85,
+                        "uniprot_number": 112
+                    },
+                    {
+                        "name": "TRP",
+                        "number": 86,
+                        "uniprot_number": 113
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 87,
+                        "uniprot_number": 114
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 88,
+                        "uniprot_number": 115
+                    },
+                    {
+                        "name": "THR",
+                        "number": 89,
+                        "uniprot_number": 116
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 90,
+                        "uniprot_number": 117
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 91,
+                        "uniprot_number": 118
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 92,
+                        "uniprot_number": 119
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 93,
+                        "uniprot_number": 120
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 94,
+                        "uniprot_number": 121
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 95,
+                        "uniprot_number": 122
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 96,
+                        "uniprot_number": 123
+                    },
+                    {
+                        "name": "SER",
+                        "number": 97,
+                        "uniprot_number": 124
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 98,
+                        "uniprot_number": 125
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 99,
+                        "uniprot_number": 126
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 100,
+                        "uniprot_number": 127
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 101,
+                        "uniprot_number": 128
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 102,
+                        "uniprot_number": 129
+                    },
+                    {
+                        "name": "TRP",
+                        "number": 103,
+                        "uniprot_number": 130
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 104,
+                        "uniprot_number": 131
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 105,
+                        "uniprot_number": 132
+                    },
+                    {
+                        "name": "THR",
+                        "number": 106,
+                        "uniprot_number": 133
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 107,
+                        "uniprot_number": 134
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 108,
+                        "uniprot_number": 135
+                    },
+                    {
+                        "name": "CYS",
+                        "number": 109,
+                        "uniprot_number": 136
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 110,
+                        "uniprot_number": 137
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 111,
+                        "uniprot_number": 138
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 112,
+                        "uniprot_number": 139
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 113,
+                        "uniprot_number": 140
+                    },
+                    {
+                        "name": "SER",
+                        "number": 114,
+                        "uniprot_number": 141
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 115,
+                        "uniprot_number": 142
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 116,
+                        "uniprot_number": 143
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 117,
+                        "uniprot_number": 144
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 118,
+                        "uniprot_number": 145
+                    },
+                    {
+                        "name": "SER",
+                        "number": 119,
+                        "uniprot_number": 146
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 120,
+                        "uniprot_number": 147
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 121,
+                        "uniprot_number": 148
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 122,
+                        "uniprot_number": 149
+                    },
+                    {
+                        "name": "CYS",
+                        "number": 123,
+                        "uniprot_number": 150
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 124,
+                        "uniprot_number": 151
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 125,
+                        "uniprot_number": 152
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 126,
+                        "uniprot_number": 153
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 127,
+                        "uniprot_number": 154
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 128,
+                        "uniprot_number": 155
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 129,
+                        "uniprot_number": 156
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 130,
+                        "uniprot_number": 157
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 131,
+                        "uniprot_number": 158
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 132,
+                        "uniprot_number": 159
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 133,
+                        "uniprot_number": 160
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 134,
+                        "uniprot_number": 161
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 135,
+                        "uniprot_number": 162
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 136,
+                        "uniprot_number": 163
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 137,
+                        "uniprot_number": 164
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 138,
+                        "uniprot_number": 165
+                    },
+                    {
+                        "name": "TRP",
+                        "number": 139,
+                        "uniprot_number": 166
+                    },
+                    {
+                        "name": "THR",
+                        "number": 140,
+                        "uniprot_number": 167
+                    },
+                    {
+                        "name": "THR",
+                        "number": 141,
+                        "uniprot_number": 168
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 142,
+                        "uniprot_number": 169
+                    },
+                    {
+                        "name": "CYS",
+                        "number": 143,
+                        "uniprot_number": 170
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 144,
+                        "uniprot_number": 171
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 145,
+                        "uniprot_number": 172
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 146,
+                        "uniprot_number": 173
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 147,
+                        "uniprot_number": 174
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 148,
+                        "uniprot_number": 175
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 149,
+                        "uniprot_number": 176
+                    },
+                    {
+                        "name": "THR",
+                        "number": 150,
+                        "uniprot_number": 177
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 151,
+                        "uniprot_number": 178
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 152,
+                        "uniprot_number": 179
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 153,
+                        "uniprot_number": 180
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 154,
+                        "uniprot_number": 181
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 155,
+                        "uniprot_number": 182
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 156,
+                        "uniprot_number": 183
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 157,
+                        "uniprot_number": 184
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 158,
+                        "uniprot_number": 185
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 159,
+                        "uniprot_number": 186
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 160,
+                        "uniprot_number": 187
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 161,
+                        "uniprot_number": 188
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 162,
+                        "uniprot_number": 189
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 163,
+                        "uniprot_number": 190
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 164,
+                        "uniprot_number": 191
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 165,
+                        "uniprot_number": 192
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 166,
+                        "uniprot_number": 193
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 167,
+                        "uniprot_number": 194
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 168,
+                        "uniprot_number": 195
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 169,
+                        "uniprot_number": 196
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 170,
+                        "uniprot_number": 197
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 171,
+                        "uniprot_number": 198
+                    },
+                    {
+                        "name": "SER",
+                        "number": 172,
+                        "uniprot_number": 199
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 173,
+                        "uniprot_number": 200
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 174,
+                        "uniprot_number": 201
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 175,
+                        "uniprot_number": 202
+                    },
+                    {
+                        "name": "THR",
+                        "number": 176,
+                        "uniprot_number": 203
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 177,
+                        "uniprot_number": 204
+                    },
+                    {
+                        "name": "THR",
+                        "number": 178,
+                        "uniprot_number": 205
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 179,
+                        "uniprot_number": 206
+                    },
+                    {
+                        "name": "SER",
+                        "number": 180,
+                        "uniprot_number": 207
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 181,
+                        "uniprot_number": 208
+                    },
+                    {
+                        "name": "SER",
+                        "number": 182,
+                        "uniprot_number": 209
+                    },
+                    {
+                        "name": "THR",
+                        "number": 183,
+                        "uniprot_number": 210
+                    },
+                    {
+                        "name": "THR",
+                        "number": 184,
+                        "uniprot_number": 211
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 185,
+                        "uniprot_number": 212
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 186,
+                        "uniprot_number": 213
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 187,
+                        "uniprot_number": 214
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 188,
+                        "uniprot_number": 215
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 189,
+                        "uniprot_number": 216
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 190,
+                        "uniprot_number": 217
+                    }
+                ],
             "secondary_structure": {}
         }
     ],
-    "missing_residues": [
-        {
-            "P63073": [
-                {
-                    "derived-missing_residues-mobi-1ej1_A": {
-                        "content_count": 12,
-                        "content_fraction": 0.055,
-                        "regions": [
-                            [
-                                28,
-                                35
-                            ],
-                            [
-                                208,
-                                211
-                            ]
-                        ],
-                        "source_id": "1ej1_A"
-                    },
-                    "derived-missing_residues-mobi-1ej4_A": {
-                        "content_count": 11,
-                        "content_fraction": 0.051,
-                        "regions": [
-                            [
-                                28,
-                                31
-                            ],
-                            [
-                                206,
-                                212
-                            ]
-                        ],
-                        "source_id": "1ej4_A"
-                    },
-                    "derived-missing_residues-mobi-1ejh_A": {
-                        "content_count": 10,
-                        "content_fraction": 0.046,
-                        "regions": [
-                            [
-                                28,
-                                31
-                            ],
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "1ejh_A"
-                    },
-                    "derived-missing_residues-mobi-1ejh_B": {
-                        "content_count": 10,
-                        "content_fraction": 0.046,
-                        "regions": [
-                            [
-                                28,
-                                31
-                            ],
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "1ejh_B"
-                    },
-                    "derived-missing_residues-mobi-1ejh_C": {
-                        "content_count": 9,
-                        "content_fraction": 0.041,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "1ejh_C"
-                    },
-                    "derived-missing_residues-mobi-1ejh_D": {
-                        "content_count": 21,
-                        "content_fraction": 0.097,
-                        "regions": [
-                            [
-                                28,
-                                34
-                            ],
-                            [
-                                119,
-                                123
-                            ],
-                            [
-                                204,
-                                212
-                            ]
-                        ],
-                        "source_id": "1ejh_D"
-                    },
-                    "derived-missing_residues-mobi-1l8b_A": {
-                        "content_count": 13,
-                        "content_fraction": 0.06,
-                        "regions": [
-                            [
-                                28,
-                                35
-                            ],
-                            [
-                                207,
-                                211
-                            ]
-                        ],
-                        "source_id": "1l8b_A"
-                    },
-                    "derived-missing_residues-mobi-5bxv_A": {
-                        "content_count": 17,
-                        "content_fraction": 0.078,
-                        "regions": [
-                            [
-                                27,
-                                32
-                            ],
-                            [
-                                207,
-                                217
-                            ]
-                        ],
-                        "source_id": "5bxv_A"
-                    },
-                    "derived-missing_residues-mobi-5bxv_C": {
-                        "content_count": 10,
-                        "content_fraction": 0.046,
-                        "regions": [
-                            [
-                                27,
-                                32
-                            ],
-                            [
-                                206,
-                                209
-                            ]
-                        ],
-                        "source_id": "5bxv_C"
-                    },
-                    "derived-missing_residues-mobi-5j5o_A": {
-                        "content_count": 9,
-                        "content_fraction": 0.041,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "5j5o_A"
-                    },
-                    "derived-missing_residues-mobi-5j5o_B": {
-                        "content_count": 9,
-                        "content_fraction": 0.041,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "5j5o_B"
-                    },
-                    "derived-missing_residues-mobi-5j5o_C": {
-                        "content_count": 11,
-                        "content_fraction": 0.051,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                204,
-                                211
-                            ]
-                        ],
-                        "source_id": "5j5o_C"
-                    },
-                    "derived-missing_residues-mobi-5j5o_D": {
-                        "content_count": 11,
-                        "content_fraction": 0.051,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                195,
-                                196
-                            ],
-                            [
-                                205,
-                                210
-                            ]
-                        ],
-                        "source_id": "5j5o_D"
-                    },
-                    "derived-missing_residues-mobi-5j5y_A": {
-                        "content_count": 8,
-                        "content_fraction": 0.037,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                206,
-                                210
-                            ]
-                        ],
-                        "source_id": "5j5y_A"
-                    },
-                    "derived-missing_residues-mobi-5j5y_B": {
-                        "content_count": 9,
-                        "content_fraction": 0.041,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "5j5y_B"
-                    },
-                    "derived-missing_residues-mobi-5j5y_C": {
-                        "content_count": 35,
-                        "content_fraction": 0.161,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                171,
-                                175
-                            ],
-                            [
-                                191,
-                                217
-                            ]
-                        ],
-                        "source_id": "5j5y_C"
-                    },
-                    "derived-missing_residues-mobi-5j5y_D": {
-                        "content_count": 28,
-                        "content_fraction": 0.129,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                87,
-                                88
-                            ],
-                            [
-                                108,
-                                110
-                            ],
-                            [
-                                148,
-                                148
-                            ],
-                            [
-                                169,
-                                171
-                            ],
-                            [
-                                191,
-                                196
-                            ],
-                            [
-                                204,
-                                212
-                            ],
-                            [
-                                217,
-                                217
-                            ]
-                        ],
-                        "source_id": "5j5y_D"
-                    },
-                    "derived-missing_residues-mobi-5m7v_A": {
-                        "content_count": 9,
-                        "content_fraction": 0.041,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "5m7v_A"
-                    },
-                    "derived-missing_residues-mobi-5m7v_B": {
-                        "content_count": 9,
-                        "content_fraction": 0.041,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "5m7v_B"
-                    },
-                    "derived-missing_residues-mobi-5m7v_C": {
-                        "content_count": 26,
-                        "content_fraction": 0.12,
-                        "regions": [
-                            [
-                                28,
-                                31
-                            ],
-                            [
-                                196,
-                                217
-                            ]
-                        ],
-                        "source_id": "5m7v_C"
-                    },
-                    "derived-missing_residues-mobi-5m7v_D": {
-                        "content_count": 31,
-                        "content_fraction": 0.143,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                190,
-                                217
-                            ]
-                        ],
-                        "source_id": "5m7v_D"
-                    },
-                    "derived-missing_residues-mobi-5m7w_A": {
-                        "content_count": 10,
-                        "content_fraction": 0.046,
-                        "regions": [
-                            [
-                                28,
-                                31
-                            ],
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "5m7w_A"
-                    },
-                    "derived-missing_residues-mobi-5m7w_B": {
-                        "content_count": 9,
-                        "content_fraction": 0.041,
-                        "regions": [
-                            [
-                                28,
-                                31
-                            ],
-                            [
-                                206,
-                                210
-                            ]
-                        ],
-                        "source_id": "5m7w_B"
-                    },
-                    "derived-missing_residues-mobi-5m7w_C": {
-                        "content_count": 24,
-                        "content_fraction": 0.111,
-                        "regions": [
-                            [
-                                28,
-                                31
-                            ],
-                            [
-                                108,
-                                110
-                            ],
-                            [
-                                201,
-                                217
-                            ]
-                        ],
-                        "source_id": "5m7w_C"
-                    },
-                    "derived-missing_residues-mobi-5m7w_D": {
-                        "content_count": 22,
-                        "content_fraction": 0.101,
-                        "regions": [
-                            [
-                                28,
-                                31
-                            ],
-                            [
-                                200,
-                                217
-                            ]
-                        ],
-                        "source_id": "5m7w_D"
-                    },
-                    "derived-missing_residues-mobi-5m7x_A": {
-                        "content_count": 9,
-                        "content_fraction": 0.041,
-                        "regions": [
-                            [
-                                28,
-                                29
-                            ],
-                            [
-                                205,
-                                211
-                            ]
-                        ],
-                        "source_id": "5m7x_A"
-                    },
-                    "derived-missing_residues-mobi-5m7x_B": {
-                        "content_count": 8,
-                        "content_fraction": 0.037,
-                        "regions": [
-                            [
-                                28,
-                                29
-                            ],
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "5m7x_B"
-                    },
-                    "derived-missing_residues-mobi-5m7x_C": {
-                        "content_count": 33,
-                        "content_fraction": 0.152,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                51,
-                                53
-                            ],
-                            [
-                                108,
-                                111
-                            ],
-                            [
-                                169,
-                                170
-                            ],
-                            [
-                                191,
-                                211
-                            ]
-                        ],
-                        "source_id": "5m7x_C"
-                    },
-                    "derived-missing_residues-mobi-5m7x_D": {
-                        "content_count": 15,
-                        "content_fraction": 0.069,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                200,
-                                211
-                            ]
-                        ],
-                        "source_id": "5m7x_D"
-                    },
-                    "derived-missing_residues-mobi-5m7z_A": {
-                        "content_count": 9,
-                        "content_fraction": 0.041,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "5m7z_A"
-                    },
-                    "derived-missing_residues-mobi-5m7z_B": {
-                        "content_count": 10,
-                        "content_fraction": 0.046,
-                        "regions": [
-                            [
-                                28,
-                                31
-                            ],
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "5m7z_B"
-                    },
-                    "derived-missing_residues-mobi-5m7z_C": {
-                        "content_count": 49,
-                        "content_fraction": 0.226,
-                        "regions": [
-                            [
-                                28,
-                                31
-                            ],
-                            [
-                                102,
-                                113
-                            ],
-                            [
-                                168,
-                                171
-                            ],
-                            [
-                                179,
-                                181
-                            ],
-                            [
-                                192,
-                                217
-                            ]
-                        ],
-                        "source_id": "5m7z_C"
-                    },
-                    "derived-missing_residues-mobi-5m7z_D": {
-                        "content_count": 34,
-                        "content_fraction": 0.157,
-                        "regions": [
-                            [
-                                28,
-                                32
-                            ],
-                            [
-                                179,
-                                180
-                            ],
-                            [
-                                191,
-                                217
-                            ]
-                        ],
-                        "source_id": "5m7z_D"
-                    },
-                    "derived-missing_residues-mobi-5m80_A": {
-                        "content_count": 10,
-                        "content_fraction": 0.046,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                205,
-                                211
-                            ]
-                        ],
-                        "source_id": "5m80_A"
-                    },
-                    "derived-missing_residues-mobi-5m80_B": {
-                        "content_count": 9,
-                        "content_fraction": 0.041,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "5m80_B"
-                    },
-                    "derived-missing_residues-mobi-5m80_C": {
-                        "content_count": 26,
-                        "content_fraction": 0.12,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                190,
-                                196
-                            ],
-                            [
-                                202,
-                                217
-                            ]
-                        ],
-                        "source_id": "5m80_C"
-                    },
-                    "derived-missing_residues-mobi-5m80_D": {
-                        "content_count": 32,
-                        "content_fraction": 0.147,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                189,
-                                217
-                            ]
-                        ],
-                        "source_id": "5m80_D"
-                    },
-                    "derived-missing_residues-mobi-5m81_A": {
-                        "content_count": 3,
-                        "content_fraction": 0.014,
-                        "regions": [
-                            [
-                                28,
-                                28
-                            ],
-                            [
-                                207,
-                                208
-                            ]
-                        ],
-                        "source_id": "5m81_A"
-                    },
-                    "derived-missing_residues-mobi-5m81_B": {
-                        "content_count": 2,
-                        "content_fraction": 0.009,
-                        "regions": [
-                            [
-                                206,
-                                207
-                            ]
-                        ],
-                        "source_id": "5m81_B"
-                    },
-                    "derived-missing_residues-mobi-5m81_C": {
-                        "content_count": 12,
-                        "content_fraction": 0.055,
-                        "regions": [
-                            [
-                                28,
-                                31
-                            ],
-                            [
-                                204,
-                                211
-                            ]
-                        ],
-                        "source_id": "5m81_C"
-                    },
-                    "derived-missing_residues-mobi-5m81_D": {
-                        "content_count": 15,
-                        "content_fraction": 0.069,
-                        "regions": [
-                            [
-                                28,
-                                31
-                            ],
-                            [
-                                201,
-                                211
-                            ]
-                        ],
-                        "source_id": "5m81_D"
-                    },
-                    "derived-missing_residues-mobi-5m83_A": {
-                        "content_count": 9,
-                        "content_fraction": 0.041,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "5m83_A"
-                    },
-                    "derived-missing_residues-mobi-5m83_B": {
-                        "content_count": 19,
-                        "content_fraction": 0.088,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                190,
-                                191
-                            ],
-                            [
-                                204,
-                                217
-                            ]
-                        ],
-                        "source_id": "5m83_B"
-                    },
-                    "derived-missing_residues-mobi-5m84_A": {
-                        "content_count": 10,
-                        "content_fraction": 0.046,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                205,
-                                211
-                            ]
-                        ],
-                        "source_id": "5m84_A"
-                    },
-                    "derived-missing_residues-mobi-5m84_B": {
-                        "content_count": 13,
-                        "content_fraction": 0.06,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                189,
-                                191
-                            ],
-                            [
-                                205,
-                                211
-                            ]
-                        ],
-                        "source_id": "5m84_B"
-                    },
-                    "derived-missing_residues-mobi-5osx_A": {
-                        "content_count": 12,
-                        "content_fraction": 0.055,
-                        "regions": [
-                            [
-                                28,
-                                31
-                            ],
-                            [
-                                204,
-                                211
-                            ]
-                        ],
-                        "source_id": "5osx_A"
-                    },
-                    "derived-missing_residues-mobi-5osx_B": {
-                        "content_count": 12,
-                        "content_fraction": 0.055,
-                        "regions": [
-                            [
-                                28,
-                                31
-                            ],
-                            [
-                                204,
-                                211
-                            ]
-                        ],
-                        "source_id": "5osx_B"
-                    },
-                    "derived-missing_residues-mobi-5osx_C": {
-                        "content_count": 49,
-                        "content_fraction": 0.226,
-                        "regions": [
-                            [
-                                28,
-                                31
-                            ],
-                            [
-                                55,
-                                59
-                            ],
-                            [
-                                105,
-                                110
-                            ],
-                            [
-                                168,
-                                172
-                            ],
-                            [
-                                189,
-                                217
-                            ]
-                        ],
-                        "source_id": "5osx_C"
-                    },
-                    "derived-missing_residues-mobi-5osx_D": {
-                        "content_count": 62,
-                        "content_fraction": 0.286,
-                        "regions": [
-                            [
-                                28,
-                                31
-                            ],
-                            [
-                                49,
-                                56
-                            ],
-                            [
-                                168,
-                                217
-                            ]
-                        ],
-                        "source_id": "5osx_D"
-                    },
-                    "derived-missing_residues-mobi-6gkj_A": {
-                        "content_count": 6,
-                        "content_fraction": 0.028,
-                        "regions": [
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "6gkj_A"
-                    },
-                    "derived-missing_residues-mobi-6gkj_B": {
-                        "content_count": 8,
-                        "content_fraction": 0.037,
-                        "regions": [
-                            [
-                                28,
-                                29
-                            ],
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "6gkj_B"
-                    },
-                    "derived-missing_residues-mobi-6gkj_C": {
-                        "content_count": 16,
-                        "content_fraction": 0.074,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                110,
-                                111
-                            ],
-                            [
-                                201,
-                                211
-                            ]
-                        ],
-                        "source_id": "6gkj_C"
-                    },
-                    "derived-missing_residues-mobi-6gkj_D": {
-                        "content_count": 9,
-                        "content_fraction": 0.041,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "6gkj_D"
-                    },
-                    "derived-missing_residues-mobi-6gkk_A": {
-                        "content_count": 8,
-                        "content_fraction": 0.037,
-                        "regions": [
-                            [
-                                28,
-                                29
-                            ],
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "6gkk_A"
-                    },
-                    "derived-missing_residues-mobi-6gkk_B": {
-                        "content_count": 6,
-                        "content_fraction": 0.028,
-                        "regions": [
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "6gkk_B"
-                    },
-                    "derived-missing_residues-mobi-6gkk_C": {
-                        "content_count": 11,
-                        "content_fraction": 0.051,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                204,
-                                211
-                            ]
-                        ],
-                        "source_id": "6gkk_C"
-                    },
-                    "derived-missing_residues-mobi-6gkk_D": {
-                        "content_count": 12,
-                        "content_fraction": 0.055,
-                        "regions": [
-                            [
-                                28,
-                                31
-                            ],
-                            [
-                                204,
-                                211
-                            ]
-                        ],
-                        "source_id": "6gkk_D"
-                    },
-                    "derived-missing_residues-mobi-6gkl_A": {
-                        "content_count": 7,
-                        "content_fraction": 0.032,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                207,
-                                210
-                            ]
-                        ],
-                        "source_id": "6gkl_A"
-                    },
-                    "derived-missing_residues-mobi-6gkl_B": {
-                        "content_count": 6,
-                        "content_fraction": 0.028,
-                        "regions": [
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "6gkl_B"
-                    },
-                    "derived-missing_residues-mobi-6gkl_C": {
-                        "content_count": 10,
-                        "content_fraction": 0.046,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                205,
-                                211
-                            ]
-                        ],
-                        "source_id": "6gkl_C"
-                    },
-                    "derived-missing_residues-mobi-6gkl_D": {
-                        "content_count": 10,
-                        "content_fraction": 0.046,
-                        "regions": [
-                            [
-                                28,
-                                31
-                            ],
-                            [
-                                205,
-                                210
-                            ]
-                        ],
-                        "source_id": "6gkl_D"
-                    },
-                    "derived-missing_residues-mobi-6u06_A": {
-                        "content_count": 8,
-                        "content_fraction": 0.037,
-                        "regions": [
-                            [
-                                28,
-                                29
-                            ],
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "6u06_A"
-                    },
-                    "derived-missing_residues-mobi-6u06_B": {
-                        "content_count": 8,
-                        "content_fraction": 0.037,
-                        "regions": [
-                            [
-                                28,
-                                29
-                            ],
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "6u06_B"
-                    },
-                    "derived-missing_residues-mobi-6u06_C": {
-                        "content_count": 8,
-                        "content_fraction": 0.037,
-                        "regions": [
-                            [
-                                204,
-                                211
-                            ]
-                        ],
-                        "source_id": "6u06_C"
-                    },
-                    "derived-missing_residues-mobi-6u06_D": {
-                        "content_count": 8,
-                        "content_fraction": 0.037,
-                        "regions": [
-                            [
-                                28,
-                                29
-                            ],
-                            [
-                                55,
-                                55
-                            ],
-                            [
-                                207,
-                                211
-                            ]
-                        ],
-                        "source_id": "6u06_D"
-                    },
-                    "derived-missing_residues-mobi-6u09_A": {
-                        "content_count": 8,
-                        "content_fraction": 0.037,
-                        "regions": [
-                            [
-                                28,
-                                29
-                            ],
-                            [
-                                205,
-                                210
-                            ]
-                        ],
-                        "source_id": "6u09_A"
-                    },
-                    "derived-missing_residues-mobi-6u09_B": {
-                        "content_count": 9,
-                        "content_fraction": 0.041,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                205,
-                                210
-                            ]
-                        ],
-                        "source_id": "6u09_B"
-                    },
-                    "derived-missing_residues-mobi-6u09_C": {
-                        "content_count": 6,
-                        "content_fraction": 0.028,
-                        "regions": [
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "6u09_C"
-                    },
-                    "derived-missing_residues-mobi-6u09_D": {
-                        "content_count": 7,
-                        "content_fraction": 0.032,
-                        "regions": [
-                            [
-                                28,
-                                28
-                            ],
-                            [
-                                207,
-                                212
-                            ]
-                        ],
-                        "source_id": "6u09_D"
-                    },
-                    "derived-missing_residues-mobi-6ylr_A": {
-                        "content_count": 6,
-                        "content_fraction": 0.028,
-                        "regions": [
-                            [
-                                28,
-                                31
-                            ],
-                            [
-                                208,
-                                209
-                            ]
-                        ],
-                        "source_id": "6ylr_A"
-                    },
-                    "derived-missing_residues-mobi-6ylr_B": {
-                        "content_count": 20,
-                        "content_fraction": 0.092,
-                        "regions": [
-                            [
-                                28,
-                                28
-                            ],
-                            [
-                                50,
-                                53
-                            ],
-                            [
-                                203,
-                                217
-                            ]
-                        ],
-                        "source_id": "6ylr_B"
-                    },
-                    "derived-missing_residues-mobi-6ylt_A": {
-                        "content_count": 10,
-                        "content_fraction": 0.046,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                205,
-                                211
-                            ]
-                        ],
-                        "source_id": "6ylt_A"
-                    },
-                    "derived-missing_residues-mobi-6ylt_B": {
-                        "content_count": 7,
-                        "content_fraction": 0.032,
-                        "regions": [
-                            [
-                                28,
-                                29
-                            ],
-                            [
-                                206,
-                                210
-                            ]
-                        ],
-                        "source_id": "6ylt_B"
-                    },
-                    "derived-missing_residues-mobi-6ylt_C": {
-                        "content_count": 9,
-                        "content_fraction": 0.041,
-                        "regions": [
-                            [
-                                28,
-                                31
-                            ],
-                            [
-                                206,
-                                210
-                            ]
-                        ],
-                        "source_id": "6ylt_C"
-                    },
-                    "derived-missing_residues-mobi-6ylt_D": {
-                        "content_count": 8,
-                        "content_fraction": 0.037,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                206,
-                                210
-                            ]
-                        ],
-                        "source_id": "6ylt_D"
-                    },
-                    "derived-missing_residues-mobi-6ylv_A": {
-                        "content_count": 7,
-                        "content_fraction": 0.032,
-                        "regions": [
-                            [
-                                28,
-                                28
-                            ],
-                            [
-                                206,
-                                211
-                            ]
-                        ],
-                        "source_id": "6ylv_A"
-                    },
-                    "derived-missing_residues-mobi-6ylv_B": {
-                        "content_count": 5,
-                        "content_fraction": 0.023,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                206,
-                                207
-                            ]
-                        ],
-                        "source_id": "6ylv_B"
-                    },
-                    "derived-missing_residues-mobi-6ylv_C": {
-                        "content_count": 11,
-                        "content_fraction": 0.051,
-                        "regions": [
-                            [
-                                28,
-                                31
-                            ],
-                            [
-                                205,
-                                211
-                            ]
-                        ],
-                        "source_id": "6ylv_C"
-                    },
-                    "derived-missing_residues-mobi-6ylv_D": {
-                        "content_count": 12,
-                        "content_fraction": 0.055,
-                        "regions": [
-                            [
-                                28,
-                                30
-                            ],
-                            [
-                                203,
-                                211
-                            ]
-                        ],
-                        "source_id": "6ylv_D"
-                    },
-                    "derived-missing_residues-th_90": {
-                        "content_count": 6,
-                        "content_fraction": 0.028,
-                        "regions": [
-                            [
-                                27,
-                                28
-                            ],
-                            [
-                                207,
-                                210
-                            ]
-                        ]
-                    },
-                    "derived-missing_residues_context_dependent-th_90": {
-                        "content_count": 26,
-                        "content_fraction": 0.12,
-                        "regions": [
-                            [
-                                29,
-                                31
-                            ],
-                            [
-                                191,
-                                206
-                            ],
-                            [
-                                211,
-                                217
-                            ]
-                        ]
-                    }
-                }
-            ]
-        }
-    ],
+    "missing_residues": {
+            "derived-missing_residues-mobi-1ej1_A": {
+                "content_count": 12,
+                "content_fraction": 0.055,
+                "regions": [
+                    [
+                        28,
+                        35
+                    ],
+                    [
+                        208,
+                        211
+                    ]
+                ],
+                "source_id": "1ej1_A",
+                "uniprot_source": "P63073"
+            }
+        },
     "pdb_id": "1EJ1",
-    "sequence": "VANPEHYIKHPLQNRWALWFFKNDKSKTWQANLRLISKFDTVEDFWALYNHIQLSSNLMPGCDYSLFKDGIEPMWEDEKNKRGGRWLITLNKQQRRSDLDRFWLETLLCLIGESFDDYSDDVCGAVVNVRAKGDKIAIWTTECENRDAVTHIGRVYKERLGLPPKIVIGYQSHADTATKSGSTTKNRFVV"
+    "pdb_sequence": "VANPEHYIKHPLQNRWALWFFKNDKSKTWQANLRLISKFDTVEDFWALYNHIQLSSNLMPGCDYSLFKDGIEPMWEDEKNKRGGRWLITLNKQQRRSDLDRFWLETLLCLIGESFDDYSDDVCGAVVNVRAKGDKIAIWTTECENRDAVTHIGRVYKERLGLPPKIVIGYQSHADTATKSGSTTKNRFVV"
 }
 _1lxa = {
+    "related_uniprot_accessions": [
+        "P0A722"
+    ],
+    "summary": [
+        {
+            "related_structures": [],
+            "split_entry": [],
+            "title": "UDP N-ACETYLGLUCOSAMINE ACYLTRANSFERASE",
+            "release_date": "19951207",
+            "experimental_method": [
+                "X-ray diffraction"
+            ],
+            "experimental_method_class": [
+                "x-ray"
+            ],
+            "revision_date": "20190814",
+            "entry_authors": [
+                "Roderick, S.L."
+            ],
+            "deposition_site": None,
+            "number_of_entities": {
+                "polypeptide": 1,
+                "dna": 0,
+                "ligand": 0,
+                "dna/rna": 0,
+                "rna": 0,
+                "sugar": 0,
+                "water": 0,
+                "other": 0,
+                "carbohydrate_polymer": 0
+            },
+            "processing_site": "BNL",
+            "deposition_date": "19951007",
+            "assemblies": [
+                {
+                    "assembly_id": "1",
+                    "form": "homo",
+                    "preferred": True,
+                    "name": "trimer"
+                }
+            ]
+        }
+    ],
     "chains": [
         {
             "chain_id": "A",
             "residues": [
-                {
-                    "name": "MET",
-                    "number": 1
-                },
-                {
-                    "name": "ILE",
-                    "number": 2
-                },
-                {
-                    "name": "ASP",
-                    "number": 3
-                },
-                {
-                    "name": "LYS",
-                    "number": 4
-                },
-                {
-                    "name": "SER",
-                    "number": 5
-                },
-                {
-                    "name": "ALA",
-                    "number": 6
-                },
-                {
-                    "name": "PHE",
-                    "number": 7
-                },
-                {
-                    "name": "VAL",
-                    "number": 8
-                },
-                {
-                    "name": "HIS",
-                    "number": 9
-                },
-                {
-                    "name": "PRO",
-                    "number": 10
-                },
-                {
-                    "name": "THR",
-                    "number": 11
-                },
-                {
-                    "name": "ALA",
-                    "number": 12
-                },
-                {
-                    "name": "ILE",
-                    "number": 13
-                },
-                {
-                    "name": "VAL",
-                    "number": 14
-                },
-                {
-                    "name": "GLU",
-                    "number": 15
-                },
-                {
-                    "name": "GLU",
-                    "number": 16
-                },
-                {
-                    "name": "GLY",
-                    "number": 17
-                },
-                {
-                    "name": "ALA",
-                    "number": 18
-                },
-                {
-                    "name": "SER",
-                    "number": 19
-                },
-                {
-                    "name": "ILE",
-                    "number": 20
-                },
-                {
-                    "name": "GLY",
-                    "number": 21
-                },
-                {
-                    "name": "ALA",
-                    "number": 22
-                },
-                {
-                    "name": "ASN",
-                    "number": 23
-                },
-                {
-                    "name": "ALA",
-                    "number": 24
-                },
-                {
-                    "name": "HIS",
-                    "number": 25
-                },
-                {
-                    "name": "ILE",
-                    "number": 26
-                },
-                {
-                    "name": "GLY",
-                    "number": 27
-                },
-                {
-                    "name": "PRO",
-                    "number": 28
-                },
-                {
-                    "name": "PHE",
-                    "number": 29
-                },
-                {
-                    "name": "CYS",
-                    "number": 30
-                },
-                {
-                    "name": "ILE",
-                    "number": 31
-                },
-                {
-                    "name": "VAL",
-                    "number": 32
-                },
-                {
-                    "name": "GLY",
-                    "number": 33
-                },
-                {
-                    "name": "PRO",
-                    "number": 34
-                },
-                {
-                    "name": "HIS",
-                    "number": 35
-                },
-                {
-                    "name": "VAL",
-                    "number": 36
-                },
-                {
-                    "name": "GLU",
-                    "number": 37
-                },
-                {
-                    "name": "ILE",
-                    "number": 38
-                },
-                {
-                    "name": "GLY",
-                    "number": 39
-                },
-                {
-                    "name": "GLU",
-                    "number": 40
-                },
-                {
-                    "name": "GLY",
-                    "number": 41
-                },
-                {
-                    "name": "THR",
-                    "number": 42
-                },
-                {
-                    "name": "VAL",
-                    "number": 43
-                },
-                {
-                    "name": "LEU",
-                    "number": 44
-                },
-                {
-                    "name": "LYS",
-                    "number": 45
-                },
-                {
-                    "name": "SER",
-                    "number": 46
-                },
-                {
-                    "name": "HIS",
-                    "number": 47
-                },
-                {
-                    "name": "VAL",
-                    "number": 48
-                },
-                {
-                    "name": "VAL",
-                    "number": 49
-                },
-                {
-                    "name": "VAL",
-                    "number": 50
-                },
-                {
-                    "name": "ASN",
-                    "number": 51
-                },
-                {
-                    "name": "GLY",
-                    "number": 52
-                },
-                {
-                    "name": "HIS",
-                    "number": 53
-                },
-                {
-                    "name": "THR",
-                    "number": 54
-                },
-                {
-                    "name": "LYS",
-                    "number": 55
-                },
-                {
-                    "name": "ILE",
-                    "number": 56
-                },
-                {
-                    "name": "GLY",
-                    "number": 57
-                },
-                {
-                    "name": "ARG",
-                    "number": 58
-                },
-                {
-                    "name": "ASP",
-                    "number": 59
-                },
-                {
-                    "name": "ASN",
-                    "number": 60
-                },
-                {
-                    "name": "GLU",
-                    "number": 61
-                },
-                {
-                    "name": "ILE",
-                    "number": 62
-                },
-                {
-                    "name": "TYR",
-                    "number": 63
-                },
-                {
-                    "name": "GLN",
-                    "number": 64
-                },
-                {
-                    "name": "PHE",
-                    "number": 65
-                },
-                {
-                    "name": "ALA",
-                    "number": 66
-                },
-                {
-                    "name": "SER",
-                    "number": 67
-                },
-                {
-                    "name": "ILE",
-                    "number": 68
-                },
-                {
-                    "name": "GLY",
-                    "number": 69
-                },
-                {
-                    "name": "GLU",
-                    "number": 70
-                },
-                {
-                    "name": "VAL",
-                    "number": 71
-                },
-                {
-                    "name": "ASN",
-                    "number": 72
-                },
-                {
-                    "name": "GLN",
-                    "number": 73
-                },
-                {
-                    "name": "ASP",
-                    "number": 74
-                },
-                {
-                    "name": "LEU",
-                    "number": 75
-                },
-                {
-                    "name": "LYS",
-                    "number": 76
-                },
-                {
-                    "name": "TYR",
-                    "number": 77
-                },
-                {
-                    "name": "ALA",
-                    "number": 78
-                },
-                {
-                    "name": "GLY",
-                    "number": 79
-                },
-                {
-                    "name": "GLU",
-                    "number": 80
-                },
-                {
-                    "name": "PRO",
-                    "number": 81
-                },
-                {
-                    "name": "THR",
-                    "number": 82
-                },
-                {
-                    "name": "ARG",
-                    "number": 83
-                },
-                {
-                    "name": "VAL",
-                    "number": 84
-                },
-                {
-                    "name": "GLU",
-                    "number": 85
-                },
-                {
-                    "name": "ILE",
-                    "number": 86
-                },
-                {
-                    "name": "GLY",
-                    "number": 87
-                },
-                {
-                    "name": "ASP",
-                    "number": 88
-                },
-                {
-                    "name": "ARG",
-                    "number": 89
-                },
-                {
-                    "name": "ASN",
-                    "number": 90
-                },
-                {
-                    "name": "ARG",
-                    "number": 91
-                },
-                {
-                    "name": "ILE",
-                    "number": 92
-                },
-                {
-                    "name": "ARG",
-                    "number": 93
-                },
-                {
-                    "name": "GLU",
-                    "number": 94
-                },
-                {
-                    "name": "SER",
-                    "number": 95
-                },
-                {
-                    "name": "VAL",
-                    "number": 96
-                },
-                {
-                    "name": "THR",
-                    "number": 97
-                },
-                {
-                    "name": "ILE",
-                    "number": 98
-                },
-                {
-                    "name": "HIS",
-                    "number": 99
-                },
-                {
-                    "name": "ARG",
-                    "number": 100
-                },
-                {
-                    "name": "GLY",
-                    "number": 101
-                },
-                {
-                    "name": "THR",
-                    "number": 102
-                },
-                {
-                    "name": "VAL",
-                    "number": 103
-                },
-                {
-                    "name": "GLN",
-                    "number": 104
-                },
-                {
-                    "name": "GLY",
-                    "number": 105
-                },
-                {
-                    "name": "GLY",
-                    "number": 106
-                },
-                {
-                    "name": "GLY",
-                    "number": 107
-                },
-                {
-                    "name": "LEU",
-                    "number": 108
-                },
-                {
-                    "name": "THR",
-                    "number": 109
-                },
-                {
-                    "name": "LYS",
-                    "number": 110
-                },
-                {
-                    "name": "VAL",
-                    "number": 111
-                },
-                {
-                    "name": "GLY",
-                    "number": 112
-                },
-                {
-                    "name": "SER",
-                    "number": 113
-                },
-                {
-                    "name": "ASP",
-                    "number": 114
-                },
-                {
-                    "name": "ASN",
-                    "number": 115
-                },
-                {
-                    "name": "LEU",
-                    "number": 116
-                },
-                {
-                    "name": "LEU",
-                    "number": 117
-                },
-                {
-                    "name": "MET",
-                    "number": 118
-                },
-                {
-                    "name": "ILE",
-                    "number": 119
-                },
-                {
-                    "name": "ASN",
-                    "number": 120
-                },
-                {
-                    "name": "ALA",
-                    "number": 121
-                },
-                {
-                    "name": "HIS",
-                    "number": 122
-                },
-                {
-                    "name": "ILE",
-                    "number": 123
-                },
-                {
-                    "name": "ALA",
-                    "number": 124
-                },
-                {
-                    "name": "HIS",
-                    "number": 125
-                },
-                {
-                    "name": "ASP",
-                    "number": 126
-                },
-                {
-                    "name": "CYS",
-                    "number": 127
-                },
-                {
-                    "name": "THR",
-                    "number": 128
-                },
-                {
-                    "name": "VAL",
-                    "number": 129
-                },
-                {
-                    "name": "GLY",
-                    "number": 130
-                },
-                {
-                    "name": "ASN",
-                    "number": 131
-                },
-                {
-                    "name": "ARG",
-                    "number": 132
-                },
-                {
-                    "name": "CYS",
-                    "number": 133
-                },
-                {
-                    "name": "ILE",
-                    "number": 134
-                },
-                {
-                    "name": "LEU",
-                    "number": 135
-                },
-                {
-                    "name": "ALA",
-                    "number": 136
-                },
-                {
-                    "name": "ASN",
-                    "number": 137
-                },
-                {
-                    "name": "ASN",
-                    "number": 138
-                },
-                {
-                    "name": "ALA",
-                    "number": 139
-                },
-                {
-                    "name": "THR",
-                    "number": 140
-                },
-                {
-                    "name": "LEU",
-                    "number": 141
-                },
-                {
-                    "name": "ALA",
-                    "number": 142
-                },
-                {
-                    "name": "GLY",
-                    "number": 143
-                },
-                {
-                    "name": "HIS",
-                    "number": 144
-                },
-                {
-                    "name": "VAL",
-                    "number": 145
-                },
-                {
-                    "name": "SER",
-                    "number": 146
-                },
-                {
-                    "name": "VAL",
-                    "number": 147
-                },
-                {
-                    "name": "ASP",
-                    "number": 148
-                },
-                {
-                    "name": "ASP",
-                    "number": 149
-                },
-                {
-                    "name": "PHE",
-                    "number": 150
-                },
-                {
-                    "name": "ALA",
-                    "number": 151
-                },
-                {
-                    "name": "ILE",
-                    "number": 152
-                },
-                {
-                    "name": "ILE",
-                    "number": 153
-                },
-                {
-                    "name": "GLY",
-                    "number": 154
-                },
-                {
-                    "name": "GLY",
-                    "number": 155
-                },
-                {
-                    "name": "MET",
-                    "number": 156
-                },
-                {
-                    "name": "THR",
-                    "number": 157
-                },
-                {
-                    "name": "ALA",
-                    "number": 158
-                },
-                {
-                    "name": "VAL",
-                    "number": 159
-                },
-                {
-                    "name": "HIS",
-                    "number": 160
-                },
-                {
-                    "name": "GLN",
-                    "number": 161
-                },
-                {
-                    "name": "PHE",
-                    "number": 162
-                },
-                {
-                    "name": "CYS",
-                    "number": 163
-                },
-                {
-                    "name": "ILE",
-                    "number": 164
-                },
-                {
-                    "name": "ILE",
-                    "number": 165
-                },
-                {
-                    "name": "GLY",
-                    "number": 166
-                },
-                {
-                    "name": "ALA",
-                    "number": 167
-                },
-                {
-                    "name": "HIS",
-                    "number": 168
-                },
-                {
-                    "name": "VAL",
-                    "number": 169
-                },
-                {
-                    "name": "MET",
-                    "number": 170
-                },
-                {
-                    "name": "VAL",
-                    "number": 171
-                },
-                {
-                    "name": "GLY",
-                    "number": 172
-                },
-                {
-                    "name": "GLY",
-                    "number": 173
-                },
-                {
-                    "name": "CYS",
-                    "number": 174
-                },
-                {
-                    "name": "SER",
-                    "number": 175
-                },
-                {
-                    "name": "GLY",
-                    "number": 176
-                },
-                {
-                    "name": "VAL",
-                    "number": 177
-                },
-                {
-                    "name": "ALA",
-                    "number": 178
-                },
-                {
-                    "name": "GLN",
-                    "number": 179
-                },
-                {
-                    "name": "ASP",
-                    "number": 180
-                },
-                {
-                    "name": "VAL",
-                    "number": 181
-                },
-                {
-                    "name": "PRO",
-                    "number": 182
-                },
-                {
-                    "name": "PRO",
-                    "number": 183
-                },
-                {
-                    "name": "TYR",
-                    "number": 184
-                },
-                {
-                    "name": "VAL",
-                    "number": 185
-                },
-                {
-                    "name": "ILE",
-                    "number": 186
-                },
-                {
-                    "name": "ALA",
-                    "number": 187
-                },
-                {
-                    "name": "GLN",
-                    "number": 188
-                },
-                {
-                    "name": "GLY",
-                    "number": 189
-                },
-                {
-                    "name": "ASN",
-                    "number": 190
-                },
-                {
-                    "name": "HIS",
-                    "number": 191
-                },
-                {
-                    "name": "ALA",
-                    "number": 192
-                },
-                {
-                    "name": "THR",
-                    "number": 193
-                },
-                {
-                    "name": "PRO",
-                    "number": 194
-                },
-                {
-                    "name": "PHE",
-                    "number": 195
-                },
-                {
-                    "name": "GLY",
-                    "number": 196
-                },
-                {
-                    "name": "VAL",
-                    "number": 197
-                },
-                {
-                    "name": "ASN",
-                    "number": 198
-                },
-                {
-                    "name": "ILE",
-                    "number": 199
-                },
-                {
-                    "name": "GLU",
-                    "number": 200
-                },
-                {
-                    "name": "GLY",
-                    "number": 201
-                },
-                {
-                    "name": "LEU",
-                    "number": 202
-                },
-                {
-                    "name": "LYS",
-                    "number": 203
-                },
-                {
-                    "name": "ARG",
-                    "number": 204
-                },
-                {
-                    "name": "ARG",
-                    "number": 205
-                },
-                {
-                    "name": "GLY",
-                    "number": 206
-                },
-                {
-                    "name": "PHE",
-                    "number": 207
-                },
-                {
-                    "name": "SER",
-                    "number": 208
-                },
-                {
-                    "name": "ARG",
-                    "number": 209
-                },
-                {
-                    "name": "GLU",
-                    "number": 210
-                },
-                {
-                    "name": "ALA",
-                    "number": 211
-                },
-                {
-                    "name": "ILE",
-                    "number": 212
-                },
-                {
-                    "name": "THR",
-                    "number": 213
-                },
-                {
-                    "name": "ALA",
-                    "number": 214
-                },
-                {
-                    "name": "ILE",
-                    "number": 215
-                },
-                {
-                    "name": "ARG",
-                    "number": 216
-                },
-                {
-                    "name": "ASN",
-                    "number": 217
-                },
-                {
-                    "name": "ALA",
-                    "number": 218
-                },
-                {
-                    "name": "TYR",
-                    "number": 219
-                },
-                {
-                    "name": "LYS",
-                    "number": 220
-                },
-                {
-                    "name": "LEU",
-                    "number": 221
-                },
-                {
-                    "name": "ILE",
-                    "number": 222
-                },
-                {
-                    "name": "TYR",
-                    "number": 223
-                },
-                {
-                    "name": "ARG",
-                    "number": 224
-                },
-                {
-                    "name": "SER",
-                    "number": 225
-                },
-                {
-                    "name": "GLY",
-                    "number": 226
-                },
-                {
-                    "name": "LYS",
-                    "number": 227
-                },
-                {
-                    "name": "THR",
-                    "number": 228
-                },
-                {
-                    "name": "LEU",
-                    "number": 229
-                },
-                {
-                    "name": "ASP",
-                    "number": 230
-                },
-                {
-                    "name": "GLU",
-                    "number": 231
-                },
-                {
-                    "name": "VAL",
-                    "number": 232
-                },
-                {
-                    "name": "LYS",
-                    "number": 233
-                },
-                {
-                    "name": "PRO",
-                    "number": 234
-                },
-                {
-                    "name": "GLU",
-                    "number": 235
-                },
-                {
-                    "name": "ILE",
-                    "number": 236
-                },
-                {
-                    "name": "ALA",
-                    "number": 237
-                },
-                {
-                    "name": "GLU",
-                    "number": 238
-                },
-                {
-                    "name": "LEU",
-                    "number": 239
-                },
-                {
-                    "name": "ALA",
-                    "number": 240
-                },
-                {
-                    "name": "GLU",
-                    "number": 241
-                },
-                {
-                    "name": "THR",
-                    "number": 242
-                },
-                {
-                    "name": "TYR",
-                    "number": 243
-                },
-                {
-                    "name": "PRO",
-                    "number": 244
-                },
-                {
-                    "name": "GLU",
-                    "number": 245
-                },
-                {
-                    "name": "VAL",
-                    "number": 246
-                },
-                {
-                    "name": "LYS",
-                    "number": 247
-                },
-                {
-                    "name": "ALA",
-                    "number": 248
-                },
-                {
-                    "name": "PHE",
-                    "number": 249
-                },
-                {
-                    "name": "THR",
-                    "number": 250
-                },
-                {
-                    "name": "ASP",
-                    "number": 251
-                },
-                {
-                    "name": "PHE",
-                    "number": 252
-                },
-                {
-                    "name": "PHE",
-                    "number": 253
-                },
-                {
-                    "name": "ALA",
-                    "number": 254
-                },
-                {
-                    "name": "ARG",
-                    "number": 255
-                },
-                {
-                    "name": "SER",
-                    "number": 256
-                },
-                {
-                    "name": "THR",
-                    "number": 257
-                },
-                {
-                    "name": "ARG",
-                    "number": 258
-                },
-                {
-                    "name": "GLY",
-                    "number": 259
-                },
-                {
-                    "name": "LEU",
-                    "number": 260
-                },
-                {
-                    "name": "ILE",
-                    "number": 261
-                },
-                {
-                    "name": "ARG",
-                    "number": 262
-                }
+               {
+                  "name": "MET",
+                  "number": 1,
+                  "uniprot_number": 1
+               },
+               {
+                  "name": "ILE",
+                  "number": 2,
+                  "uniprot_number": 2
+               },
+               {
+                  "name": "ASP",
+                  "number": 3,
+                  "uniprot_number": 3
+               },
+               {
+                  "name": "LYS",
+                  "number": 4,
+                  "uniprot_number": 4
+               },
+               {
+                  "name": "SER",
+                  "number": 5,
+                  "uniprot_number": 5
+               },
+               {
+                  "name": "ALA",
+                  "number": 6,
+                  "uniprot_number": 6
+               },
+               {
+                  "name": "PHE",
+                  "number": 7,
+                  "uniprot_number": 7
+               },
+               {
+                  "name": "VAL",
+                  "number": 8,
+                  "uniprot_number": 8
+               },
+               {
+                  "name": "HIS",
+                  "number": 9,
+                  "uniprot_number": 9
+               },
+               {
+                  "name": "PRO",
+                  "number": 10,
+                  "uniprot_number": 10
+               },
+               {
+                  "name": "THR",
+                  "number": 11,
+                  "uniprot_number": 11
+               },
+               {
+                  "name": "ALA",
+                  "number": 12,
+                  "uniprot_number": 12
+               },
+               {
+                  "name": "ILE",
+                  "number": 13,
+                  "uniprot_number": 13
+               },
+               {
+                  "name": "VAL",
+                  "number": 14,
+                  "uniprot_number": 14
+               },
+               {
+                  "name": "GLU",
+                  "number": 15,
+                  "uniprot_number": 15
+               },
+               {
+                  "name": "GLU",
+                  "number": 16,
+                  "uniprot_number": 16
+               },
+               {
+                  "name": "GLY",
+                  "number": 17,
+                  "uniprot_number": 17
+               },
+               {
+                  "name": "ALA",
+                  "number": 18,
+                  "uniprot_number": 18
+               },
+               {
+                  "name": "SER",
+                  "number": 19,
+                  "uniprot_number": 19
+               },
+               {
+                  "name": "ILE",
+                  "number": 20,
+                  "uniprot_number": 20
+               },
+               {
+                  "name": "GLY",
+                  "number": 21,
+                  "uniprot_number": 21
+               },
+               {
+                  "name": "ALA",
+                  "number": 22,
+                  "uniprot_number": 22
+               },
+               {
+                  "name": "ASN",
+                  "number": 23,
+                  "uniprot_number": 23
+               },
+               {
+                  "name": "ALA",
+                  "number": 24,
+                  "uniprot_number": 24
+               },
+               {
+                  "name": "HIS",
+                  "number": 25,
+                  "uniprot_number": 25
+               },
+               {
+                  "name": "ILE",
+                  "number": 26,
+                  "uniprot_number": 26
+               },
+               {
+                  "name": "GLY",
+                  "number": 27,
+                  "uniprot_number": 27
+               },
+               {
+                  "name": "PRO",
+                  "number": 28,
+                  "uniprot_number": 28
+               },
+               {
+                  "name": "PHE",
+                  "number": 29,
+                  "uniprot_number": 29
+               },
+               {
+                  "name": "CYS",
+                  "number": 30,
+                  "uniprot_number": 30
+               },
+               {
+                  "name": "ILE",
+                  "number": 31,
+                  "uniprot_number": 31
+               },
+               {
+                  "name": "VAL",
+                  "number": 32,
+                  "uniprot_number": 32
+               },
+               {
+                  "name": "GLY",
+                  "number": 33,
+                  "uniprot_number": 33
+               },
+               {
+                  "name": "PRO",
+                  "number": 34,
+                  "uniprot_number": 34
+               },
+               {
+                  "name": "HIS",
+                  "number": 35,
+                  "uniprot_number": 35
+               },
+               {
+                  "name": "VAL",
+                  "number": 36,
+                  "uniprot_number": 36
+               },
+               {
+                  "name": "GLU",
+                  "number": 37,
+                  "uniprot_number": 37
+               },
+               {
+                  "name": "ILE",
+                  "number": 38,
+                  "uniprot_number": 38
+               },
+               {
+                  "name": "GLY",
+                  "number": 39,
+                  "uniprot_number": 39
+               },
+               {
+                  "name": "GLU",
+                  "number": 40,
+                  "uniprot_number": 40
+               },
+               {
+                  "name": "GLY",
+                  "number": 41,
+                  "uniprot_number": 41
+               },
+               {
+                  "name": "THR",
+                  "number": 42,
+                  "uniprot_number": 42
+               },
+               {
+                  "name": "VAL",
+                  "number": 43,
+                  "uniprot_number": 43
+               },
+               {
+                  "name": "LEU",
+                  "number": 44,
+                  "uniprot_number": 44
+               },
+               {
+                  "name": "LYS",
+                  "number": 45,
+                  "uniprot_number": 45
+               },
+               {
+                  "name": "SER",
+                  "number": 46,
+                  "uniprot_number": 46
+               },
+               {
+                  "name": "HIS",
+                  "number": 47,
+                  "uniprot_number": 47
+               },
+               {
+                  "name": "VAL",
+                  "number": 48,
+                  "uniprot_number": 48
+               },
+               {
+                  "name": "VAL",
+                  "number": 49,
+                  "uniprot_number": 49
+               },
+               {
+                  "name": "VAL",
+                  "number": 50,
+                  "uniprot_number": 50
+               },
+               {
+                  "name": "ASN",
+                  "number": 51,
+                  "uniprot_number": 51
+               },
+               {
+                  "name": "GLY",
+                  "number": 52,
+                  "uniprot_number": 52
+               },
+               {
+                  "name": "HIS",
+                  "number": 53,
+                  "uniprot_number": 53
+               },
+               {
+                  "name": "THR",
+                  "number": 54,
+                  "uniprot_number": 54
+               },
+               {
+                  "name": "LYS",
+                  "number": 55,
+                  "uniprot_number": 55
+               },
+               {
+                  "name": "ILE",
+                  "number": 56,
+                  "uniprot_number": 56
+               },
+               {
+                  "name": "GLY",
+                  "number": 57,
+                  "uniprot_number": 57
+               },
+               {
+                  "name": "ARG",
+                  "number": 58,
+                  "uniprot_number": 58
+               },
+               {
+                  "name": "ASP",
+                  "number": 59,
+                  "uniprot_number": 59
+               },
+               {
+                  "name": "ASN",
+                  "number": 60,
+                  "uniprot_number": 60
+               },
+               {
+                  "name": "GLU",
+                  "number": 61,
+                  "uniprot_number": 61
+               },
+               {
+                  "name": "ILE",
+                  "number": 62,
+                  "uniprot_number": 62
+               },
+               {
+                  "name": "TYR",
+                  "number": 63,
+                  "uniprot_number": 63
+               },
+               {
+                  "name": "GLN",
+                  "number": 64,
+                  "uniprot_number": 64
+               },
+               {
+                  "name": "PHE",
+                  "number": 65,
+                  "uniprot_number": 65
+               },
+               {
+                  "name": "ALA",
+                  "number": 66,
+                  "uniprot_number": 66
+               },
+               {
+                  "name": "SER",
+                  "number": 67,
+                  "uniprot_number": 67
+               },
+               {
+                  "name": "ILE",
+                  "number": 68,
+                  "uniprot_number": 68
+               },
+               {
+                  "name": "GLY",
+                  "number": 69,
+                  "uniprot_number": 69
+               },
+               {
+                  "name": "GLU",
+                  "number": 70,
+                  "uniprot_number": 70
+               },
+               {
+                  "name": "VAL",
+                  "number": 71,
+                  "uniprot_number": 71
+               },
+               {
+                  "name": "ASN",
+                  "number": 72,
+                  "uniprot_number": 72
+               },
+               {
+                  "name": "GLN",
+                  "number": 73,
+                  "uniprot_number": 73
+               },
+               {
+                  "name": "ASP",
+                  "number": 74,
+                  "uniprot_number": 74
+               },
+               {
+                  "name": "LEU",
+                  "number": 75,
+                  "uniprot_number": 75
+               },
+               {
+                  "name": "LYS",
+                  "number": 76,
+                  "uniprot_number": 76
+               },
+               {
+                  "name": "TYR",
+                  "number": 77,
+                  "uniprot_number": 77
+               },
+               {
+                  "name": "ALA",
+                  "number": 78,
+                  "uniprot_number": 78
+               },
+               {
+                  "name": "GLY",
+                  "number": 79,
+                  "uniprot_number": 79
+               },
+               {
+                  "name": "GLU",
+                  "number": 80,
+                  "uniprot_number": 80
+               },
+               {
+                  "name": "PRO",
+                  "number": 81,
+                  "uniprot_number": 81
+               },
+               {
+                  "name": "THR",
+                  "number": 82,
+                  "uniprot_number": 82
+               },
+               {
+                  "name": "ARG",
+                  "number": 83,
+                  "uniprot_number": 83
+               },
+               {
+                  "name": "VAL",
+                  "number": 84,
+                  "uniprot_number": 84
+               },
+               {
+                  "name": "GLU",
+                  "number": 85,
+                  "uniprot_number": 85
+               },
+               {
+                  "name": "ILE",
+                  "number": 86,
+                  "uniprot_number": 86
+               },
+               {
+                  "name": "GLY",
+                  "number": 87,
+                  "uniprot_number": 87
+               },
+               {
+                  "name": "ASP",
+                  "number": 88,
+                  "uniprot_number": 88
+               },
+               {
+                  "name": "ARG",
+                  "number": 89,
+                  "uniprot_number": 89
+               },
+               {
+                  "name": "ASN",
+                  "number": 90,
+                  "uniprot_number": 90
+               },
+               {
+                  "name": "ARG",
+                  "number": 91,
+                  "uniprot_number": 91
+               },
+               {
+                  "name": "ILE",
+                  "number": 92,
+                  "uniprot_number": 92
+               },
+               {
+                  "name": "ARG",
+                  "number": 93,
+                  "uniprot_number": 93
+               },
+               {
+                  "name": "GLU",
+                  "number": 94,
+                  "uniprot_number": 94
+               },
+               {
+                  "name": "SER",
+                  "number": 95,
+                  "uniprot_number": 95
+               },
+               {
+                  "name": "VAL",
+                  "number": 96,
+                  "uniprot_number": 96
+               },
+               {
+                  "name": "THR",
+                  "number": 97,
+                  "uniprot_number": 97
+               },
+               {
+                  "name": "ILE",
+                  "number": 98,
+                  "uniprot_number": 98
+               },
+               {
+                  "name": "HIS",
+                  "number": 99,
+                  "uniprot_number": 99
+               },
+               {
+                  "name": "ARG",
+                  "number": 100,
+                  "uniprot_number": 100
+               },
+               {
+                  "name": "GLY",
+                  "number": 101,
+                  "uniprot_number": 101
+               },
+               {
+                  "name": "THR",
+                  "number": 102,
+                  "uniprot_number": 102
+               },
+               {
+                  "name": "VAL",
+                  "number": 103,
+                  "uniprot_number": 103
+               },
+               {
+                  "name": "GLN",
+                  "number": 104,
+                  "uniprot_number": 104
+               },
+               {
+                  "name": "GLY",
+                  "number": 105,
+                  "uniprot_number": 105
+               },
+               {
+                  "name": "GLY",
+                  "number": 106,
+                  "uniprot_number": 106
+               },
+               {
+                  "name": "GLY",
+                  "number": 107,
+                  "uniprot_number": 107
+               },
+               {
+                  "name": "LEU",
+                  "number": 108,
+                  "uniprot_number": 108
+               },
+               {
+                  "name": "THR",
+                  "number": 109,
+                  "uniprot_number": 109
+               },
+               {
+                  "name": "LYS",
+                  "number": 110,
+                  "uniprot_number": 110
+               },
+               {
+                  "name": "VAL",
+                  "number": 111,
+                  "uniprot_number": 111
+               },
+               {
+                  "name": "GLY",
+                  "number": 112,
+                  "uniprot_number": 112
+               },
+               {
+                  "name": "SER",
+                  "number": 113,
+                  "uniprot_number": 113
+               },
+               {
+                  "name": "ASP",
+                  "number": 114,
+                  "uniprot_number": 114
+               },
+               {
+                  "name": "ASN",
+                  "number": 115,
+                  "uniprot_number": 115
+               },
+               {
+                  "name": "LEU",
+                  "number": 116,
+                  "uniprot_number": 116
+               },
+               {
+                  "name": "LEU",
+                  "number": 117,
+                  "uniprot_number": 117
+               },
+               {
+                  "name": "MET",
+                  "number": 118,
+                  "uniprot_number": 118
+               },
+               {
+                  "name": "ILE",
+                  "number": 119,
+                  "uniprot_number": 119
+               },
+               {
+                  "name": "ASN",
+                  "number": 120,
+                  "uniprot_number": 120
+               },
+               {
+                  "name": "ALA",
+                  "number": 121,
+                  "uniprot_number": 121
+               },
+               {
+                  "name": "HIS",
+                  "number": 122,
+                  "uniprot_number": 122
+               },
+               {
+                  "name": "ILE",
+                  "number": 123,
+                  "uniprot_number": 123
+               },
+               {
+                  "name": "ALA",
+                  "number": 124,
+                  "uniprot_number": 124
+               },
+               {
+                  "name": "HIS",
+                  "number": 125,
+                  "uniprot_number": 125
+               },
+               {
+                  "name": "ASP",
+                  "number": 126,
+                  "uniprot_number": 126
+               },
+               {
+                  "name": "CYS",
+                  "number": 127,
+                  "uniprot_number": 127
+               },
+               {
+                  "name": "THR",
+                  "number": 128,
+                  "uniprot_number": 128
+               },
+               {
+                  "name": "VAL",
+                  "number": 129,
+                  "uniprot_number": 129
+               },
+               {
+                  "name": "GLY",
+                  "number": 130,
+                  "uniprot_number": 130
+               },
+               {
+                  "name": "ASN",
+                  "number": 131,
+                  "uniprot_number": 131
+               },
+               {
+                  "name": "ARG",
+                  "number": 132,
+                  "uniprot_number": 132
+               },
+               {
+                  "name": "CYS",
+                  "number": 133,
+                  "uniprot_number": 133
+               },
+               {
+                  "name": "ILE",
+                  "number": 134,
+                  "uniprot_number": 134
+               },
+               {
+                  "name": "LEU",
+                  "number": 135,
+                  "uniprot_number": 135
+               },
+               {
+                  "name": "ALA",
+                  "number": 136,
+                  "uniprot_number": 136
+               },
+               {
+                  "name": "ASN",
+                  "number": 137,
+                  "uniprot_number": 137
+               },
+               {
+                  "name": "ASN",
+                  "number": 138,
+                  "uniprot_number": 138
+               },
+               {
+                  "name": "ALA",
+                  "number": 139,
+                  "uniprot_number": 139
+               },
+               {
+                  "name": "THR",
+                  "number": 140,
+                  "uniprot_number": 140
+               },
+               {
+                  "name": "LEU",
+                  "number": 141,
+                  "uniprot_number": 141
+               },
+               {
+                  "name": "ALA",
+                  "number": 142,
+                  "uniprot_number": 142
+               },
+               {
+                  "name": "GLY",
+                  "number": 143,
+                  "uniprot_number": 143
+               },
+               {
+                  "name": "HIS",
+                  "number": 144,
+                  "uniprot_number": 144
+               },
+               {
+                  "name": "VAL",
+                  "number": 145,
+                  "uniprot_number": 145
+               },
+               {
+                  "name": "SER",
+                  "number": 146,
+                  "uniprot_number": 146
+               },
+               {
+                  "name": "VAL",
+                  "number": 147,
+                  "uniprot_number": 147
+               },
+               {
+                  "name": "ASP",
+                  "number": 148,
+                  "uniprot_number": 148
+               },
+               {
+                  "name": "ASP",
+                  "number": 149,
+                  "uniprot_number": 149
+               },
+               {
+                  "name": "PHE",
+                  "number": 150,
+                  "uniprot_number": 150
+               },
+               {
+                  "name": "ALA",
+                  "number": 151,
+                  "uniprot_number": 151
+               },
+               {
+                  "name": "ILE",
+                  "number": 152,
+                  "uniprot_number": 152
+               },
+               {
+                  "name": "ILE",
+                  "number": 153,
+                  "uniprot_number": 153
+               },
+               {
+                  "name": "GLY",
+                  "number": 154,
+                  "uniprot_number": 154
+               },
+               {
+                  "name": "GLY",
+                  "number": 155,
+                  "uniprot_number": 155
+               },
+               {
+                  "name": "MET",
+                  "number": 156,
+                  "uniprot_number": 156
+               },
+               {
+                  "name": "THR",
+                  "number": 157,
+                  "uniprot_number": 157
+               },
+               {
+                  "name": "ALA",
+                  "number": 158,
+                  "uniprot_number": 158
+               },
+               {
+                  "name": "VAL",
+                  "number": 159,
+                  "uniprot_number": 159
+               },
+               {
+                  "name": "HIS",
+                  "number": 160,
+                  "uniprot_number": 160
+               },
+               {
+                  "name": "GLN",
+                  "number": 161,
+                  "uniprot_number": 161
+               },
+               {
+                  "name": "PHE",
+                  "number": 162,
+                  "uniprot_number": 162
+               },
+               {
+                  "name": "CYS",
+                  "number": 163,
+                  "uniprot_number": 163
+               },
+               {
+                  "name": "ILE",
+                  "number": 164,
+                  "uniprot_number": 164
+               },
+               {
+                  "name": "ILE",
+                  "number": 165,
+                  "uniprot_number": 165
+               },
+               {
+                  "name": "GLY",
+                  "number": 166,
+                  "uniprot_number": 166
+               },
+               {
+                  "name": "ALA",
+                  "number": 167,
+                  "uniprot_number": 167
+               },
+               {
+                  "name": "HIS",
+                  "number": 168,
+                  "uniprot_number": 168
+               },
+               {
+                  "name": "VAL",
+                  "number": 169,
+                  "uniprot_number": 169
+               },
+               {
+                  "name": "MET",
+                  "number": 170,
+                  "uniprot_number": 170
+               },
+               {
+                  "name": "VAL",
+                  "number": 171,
+                  "uniprot_number": 171
+               },
+               {
+                  "name": "GLY",
+                  "number": 172,
+                  "uniprot_number": 172
+               },
+               {
+                  "name": "GLY",
+                  "number": 173,
+                  "uniprot_number": 173
+               },
+               {
+                  "name": "CYS",
+                  "number": 174,
+                  "uniprot_number": 174
+               },
+               {
+                  "name": "SER",
+                  "number": 175,
+                  "uniprot_number": 175
+               },
+               {
+                  "name": "GLY",
+                  "number": 176,
+                  "uniprot_number": 176
+               },
+               {
+                  "name": "VAL",
+                  "number": 177,
+                  "uniprot_number": 177
+               },
+               {
+                  "name": "ALA",
+                  "number": 178,
+                  "uniprot_number": 178
+               },
+               {
+                  "name": "GLN",
+                  "number": 179,
+                  "uniprot_number": 179
+               },
+               {
+                  "name": "ASP",
+                  "number": 180,
+                  "uniprot_number": 180
+               },
+               {
+                  "name": "VAL",
+                  "number": 181,
+                  "uniprot_number": 181
+               },
+               {
+                  "name": "PRO",
+                  "number": 182,
+                  "uniprot_number": 182
+               },
+               {
+                  "name": "PRO",
+                  "number": 183,
+                  "uniprot_number": 183
+               },
+               {
+                  "name": "TYR",
+                  "number": 184,
+                  "uniprot_number": 184
+               },
+               {
+                  "name": "VAL",
+                  "number": 185,
+                  "uniprot_number": 185
+               },
+               {
+                  "name": "ILE",
+                  "number": 186,
+                  "uniprot_number": 186
+               },
+               {
+                  "name": "ALA",
+                  "number": 187,
+                  "uniprot_number": 187
+               },
+               {
+                  "name": "GLN",
+                  "number": 188,
+                  "uniprot_number": 188
+               },
+               {
+                  "name": "GLY",
+                  "number": 189,
+                  "uniprot_number": 189
+               },
+               {
+                  "name": "ASN",
+                  "number": 190,
+                  "uniprot_number": 190
+               },
+               {
+                  "name": "HIS",
+                  "number": 191,
+                  "uniprot_number": 191
+               },
+               {
+                  "name": "ALA",
+                  "number": 192,
+                  "uniprot_number": 192
+               },
+               {
+                  "name": "THR",
+                  "number": 193,
+                  "uniprot_number": 193
+               },
+               {
+                  "name": "PRO",
+                  "number": 194,
+                  "uniprot_number": 194
+               },
+               {
+                  "name": "PHE",
+                  "number": 195,
+                  "uniprot_number": 195
+               },
+               {
+                  "name": "GLY",
+                  "number": 196,
+                  "uniprot_number": 196
+               },
+               {
+                  "name": "VAL",
+                  "number": 197,
+                  "uniprot_number": 197
+               },
+               {
+                  "name": "ASN",
+                  "number": 198,
+                  "uniprot_number": 198
+               },
+               {
+                  "name": "ILE",
+                  "number": 199,
+                  "uniprot_number": 199
+               },
+               {
+                  "name": "GLU",
+                  "number": 200,
+                  "uniprot_number": 200
+               },
+               {
+                  "name": "GLY",
+                  "number": 201,
+                  "uniprot_number": 201
+               },
+               {
+                  "name": "LEU",
+                  "number": 202,
+                  "uniprot_number": 202
+               },
+               {
+                  "name": "LYS",
+                  "number": 203,
+                  "uniprot_number": 203
+               },
+               {
+                  "name": "ARG",
+                  "number": 204,
+                  "uniprot_number": 204
+               },
+               {
+                  "name": "ARG",
+                  "number": 205,
+                  "uniprot_number": 205
+               },
+               {
+                  "name": "GLY",
+                  "number": 206,
+                  "uniprot_number": 206
+               },
+               {
+                  "name": "PHE",
+                  "number": 207,
+                  "uniprot_number": 207
+               },
+               {
+                  "name": "SER",
+                  "number": 208,
+                  "uniprot_number": 208
+               },
+               {
+                  "name": "ARG",
+                  "number": 209,
+                  "uniprot_number": 209
+               },
+               {
+                  "name": "GLU",
+                  "number": 210,
+                  "uniprot_number": 210
+               },
+               {
+                  "name": "ALA",
+                  "number": 211,
+                  "uniprot_number": 211
+               },
+               {
+                  "name": "ILE",
+                  "number": 212,
+                  "uniprot_number": 212
+               },
+               {
+                  "name": "THR",
+                  "number": 213,
+                  "uniprot_number": 213
+               },
+               {
+                  "name": "ALA",
+                  "number": 214,
+                  "uniprot_number": 214
+               },
+               {
+                  "name": "ILE",
+                  "number": 215,
+                  "uniprot_number": 215
+               },
+               {
+                  "name": "ARG",
+                  "number": 216,
+                  "uniprot_number": 216
+               },
+               {
+                  "name": "ASN",
+                  "number": 217,
+                  "uniprot_number": 217
+               },
+               {
+                  "name": "ALA",
+                  "number": 218,
+                  "uniprot_number": 218
+               },
+               {
+                  "name": "TYR",
+                  "number": 219,
+                  "uniprot_number": 219
+               },
+               {
+                  "name": "LYS",
+                  "number": 220,
+                  "uniprot_number": 220
+               },
+               {
+                  "name": "LEU",
+                  "number": 221,
+                  "uniprot_number": 221
+               },
+               {
+                  "name": "ILE",
+                  "number": 222,
+                  "uniprot_number": 222
+               },
+               {
+                  "name": "TYR",
+                  "number": 223,
+                  "uniprot_number": 223
+               },
+               {
+                  "name": "ARG",
+                  "number": 224,
+                  "uniprot_number": 224
+               },
+               {
+                  "name": "SER",
+                  "number": 225,
+                  "uniprot_number": 225
+               },
+               {
+                  "name": "GLY",
+                  "number": 226,
+                  "uniprot_number": 226
+               },
+               {
+                  "name": "LYS",
+                  "number": 227,
+                  "uniprot_number": 227
+               },
+               {
+                  "name": "THR",
+                  "number": 228,
+                  "uniprot_number": 228
+               },
+               {
+                  "name": "LEU",
+                  "number": 229,
+                  "uniprot_number": 229
+               },
+               {
+                  "name": "ASP",
+                  "number": 230,
+                  "uniprot_number": 230
+               },
+               {
+                  "name": "GLU",
+                  "number": 231,
+                  "uniprot_number": 231
+               },
+               {
+                  "name": "VAL",
+                  "number": 232,
+                  "uniprot_number": 232
+               },
+               {
+                  "name": "LYS",
+                  "number": 233,
+                  "uniprot_number": 233
+               },
+               {
+                  "name": "PRO",
+                  "number": 234,
+                  "uniprot_number": 234
+               },
+               {
+                  "name": "GLU",
+                  "number": 235,
+                  "uniprot_number": 235
+               },
+               {
+                  "name": "ILE",
+                  "number": 236,
+                  "uniprot_number": 236
+               },
+               {
+                  "name": "ALA",
+                  "number": 237,
+                  "uniprot_number": 237
+               },
+               {
+                  "name": "GLU",
+                  "number": 238,
+                  "uniprot_number": 238
+               },
+               {
+                  "name": "LEU",
+                  "number": 239,
+                  "uniprot_number": 239
+               },
+               {
+                  "name": "ALA",
+                  "number": 240,
+                  "uniprot_number": 240
+               },
+               {
+                  "name": "GLU",
+                  "number": 241,
+                  "uniprot_number": 241
+               },
+               {
+                  "name": "THR",
+                  "number": 242,
+                  "uniprot_number": 242
+               },
+               {
+                  "name": "TYR",
+                  "number": 243,
+                  "uniprot_number": 243
+               },
+               {
+                  "name": "PRO",
+                  "number": 244,
+                  "uniprot_number": 244
+               },
+               {
+                  "name": "GLU",
+                  "number": 245,
+                  "uniprot_number": 245
+               },
+               {
+                  "name": "VAL",
+                  "number": 246,
+                  "uniprot_number": 246
+               },
+               {
+                  "name": "LYS",
+                  "number": 247,
+                  "uniprot_number": 247
+               },
+               {
+                  "name": "ALA",
+                  "number": 248,
+                  "uniprot_number": 248
+               },
+               {
+                  "name": "PHE",
+                  "number": 249,
+                  "uniprot_number": 249
+               },
+               {
+                  "name": "THR",
+                  "number": 250,
+                  "uniprot_number": 250
+               },
+               {
+                  "name": "ASP",
+                  "number": 251,
+                  "uniprot_number": 251
+               },
+               {
+                  "name": "PHE",
+                  "number": 252,
+                  "uniprot_number": 252
+               },
+               {
+                  "name": "PHE",
+                  "number": 253,
+                  "uniprot_number": 253
+               },
+               {
+                  "name": "ALA",
+                  "number": 254,
+                  "uniprot_number": 254
+               },
+               {
+                  "name": "ARG",
+                  "number": 255,
+                  "uniprot_number": 255
+               },
+               {
+                  "name": "SER",
+                  "number": 256,
+                  "uniprot_number": 256
+               },
+               {
+                  "name": "THR",
+                  "number": 257,
+                  "uniprot_number": 257
+               },
+               {
+                  "name": "ARG",
+                  "number": 258,
+                  "uniprot_number": 258
+               },
+               {
+                  "name": "GLY",
+                  "number": 259,
+                  "uniprot_number": 259
+               },
+               {
+                  "name": "LEU",
+                  "number": 260,
+                  "uniprot_number": 260
+               },
+               {
+                  "name": "ILE",
+                  "number": 261,
+                  "uniprot_number": 261
+               },
+               {
+                  "name": "ARG",
+                  "number": 262,
+                  "uniprot_number": 262
+               }
             ],
             "secondary_structure": {}
         }
     ],
-    "missing_residues": [
+    "missing_residues": {},
+    "pdb_id": "1LXA",
+    "pdb_sequence": "MIDKSAFVHPTAIVEEGASIGANAHIGPFCIVGPHVEIGEGTVLKSHVVVNGHTKIGRDNEIYQFASIGEVNQDLKYAGEPTRVEIGDRNRIRESVTIHRGTVQGGGLTKVGSDNLLMINAHIAHDCTVGNRCILANNATLAGHVSVDDFAIIGGMTAVHQFCIIGAHVMVGGCSGVAQDVPPYVIAQGNHATPFGVNIEGLKRRGFSREAITAIRNAYKLIYRSGKTLDEVKPEIAELAETYPEVKAFTDFFARSTRGLIR"
+}
+_1thj = {
+    "related_uniprot_accessions": [
+        "P40881"
+    ],
+    "summary": [
         {
-            "P0A722": [
-                {}
+            "related_structures": [],
+            "split_entry": [],
+            "title": "CARBONIC ANHYDRASE FROM METHANOSARCINA",
+            "release_date": "19961014",
+            "experimental_method": [
+                "X-ray diffraction"
+            ],
+            "experimental_method_class": [
+                "x-ray"
+            ],
+            "revision_date": "20110713",
+            "entry_authors": [
+                "Kisker, C.",
+                "Schindelin, H.",
+                "Rees, D.C."
+            ],
+            "deposition_site": None,
+            "number_of_entities": {
+                "polypeptide": 1,
+                "dna": 0,
+                "ligand": 1,
+                "dna/rna": 0,
+                "rna": 0,
+                "sugar": 0,
+                "water": 1,
+                "other": 0,
+                "carbohydrate_polymer": 0
+            },
+            "processing_site": None,
+            "deposition_date": "19960402",
+            "assemblies": [
+                {
+                    "assembly_id": "1",
+                    "form": "homo",
+                    "preferred": True,
+                    "name": "trimer"
+                },
+                {
+                    "assembly_id": "2",
+                    "form": "homo",
+                    "preferred": False,
+                    "name": "hexamer"
+                }
             ]
         }
     ],
-    "pdb_id": "1LXA",
-    "sequence": "MIDKSAFVHPTAIVEEGASIGANAHIGPFCIVGPHVEIGEGTVLKSHVVVNGHTKIGRDNEIYQFASIGEVNQDLKYAGEPTRVEIGDRNRIRESVTIHRGTVQGGGLTKVGSDNLLMINAHIAHDCTVGNRCILANNATLAGHVSVDDFAIIGGMTAVHQFCIIGAHVMVGGCSGVAQDVPPYVIAQGNHATPFGVNIEGLKRRGFSREAITAIRNAYKLIYRSGKTLDEVKPEIAELAETYPEVKAFTDFFARSTRGLIR"
-}
-_1thj = {
     "chains": [
         {
             "chain_id": "A",
             "residues": [
-                {
-                    "name": "MET",
-                    "number": 1
-                },
-                {
-                    "name": "GLN",
-                    "number": 2
-                },
-                {
-                    "name": "GLU",
-                    "number": 3
-                },
-                {
-                    "name": "ILE",
-                    "number": 4
-                },
-                {
-                    "name": "THR",
-                    "number": 5
-                },
-                {
-                    "name": "VAL",
-                    "number": 6
-                },
-                {
-                    "name": "ASP",
-                    "number": 7
-                },
-                {
-                    "name": "GLU",
-                    "number": 8
-                },
-                {
-                    "name": "PHE",
-                    "number": 9
-                },
-                {
-                    "name": "SER",
-                    "number": 10
-                },
-                {
-                    "name": "ASN",
-                    "number": 11
-                },
-                {
-                    "name": "ILE",
-                    "number": 12
-                },
-                {
-                    "name": "ARG",
-                    "number": 13
-                },
-                {
-                    "name": "GLU",
-                    "number": 14
-                },
-                {
-                    "name": "ASN",
-                    "number": 15
-                },
-                {
-                    "name": "PRO",
-                    "number": 16
-                },
-                {
-                    "name": "VAL",
-                    "number": 17
-                },
-                {
-                    "name": "THR",
-                    "number": 18
-                },
-                {
-                    "name": "PRO",
-                    "number": 19
-                },
-                {
-                    "name": "TRP",
-                    "number": 20
-                },
-                {
-                    "name": "ASN",
-                    "number": 21
-                },
-                {
-                    "name": "PRO",
-                    "number": 22
-                },
-                {
-                    "name": "GLU",
-                    "number": 23
-                },
-                {
-                    "name": "PRO",
-                    "number": 24
-                },
-                {
-                    "name": "SER",
-                    "number": 25
-                },
-                {
-                    "name": "ALA",
-                    "number": 26
-                },
-                {
-                    "name": "PRO",
-                    "number": 27
-                },
-                {
-                    "name": "VAL",
-                    "number": 28
-                },
-                {
-                    "name": "ILE",
-                    "number": 29
-                },
-                {
-                    "name": "ASP",
-                    "number": 30
-                },
-                {
-                    "name": "PRO",
-                    "number": 31
-                },
-                {
-                    "name": "THR",
-                    "number": 32
-                },
-                {
-                    "name": "ALA",
-                    "number": 33
-                },
-                {
-                    "name": "TYR",
-                    "number": 34
-                },
-                {
-                    "name": "ILE",
-                    "number": 35
-                },
-                {
-                    "name": "ASP",
-                    "number": 36
-                },
-                {
-                    "name": "PRO",
-                    "number": 37
-                },
-                {
-                    "name": "GLU",
-                    "number": 38
-                },
-                {
-                    "name": "ALA",
-                    "number": 39
-                },
-                {
-                    "name": "SER",
-                    "number": 40
-                },
-                {
-                    "name": "VAL",
-                    "number": 41
-                },
-                {
-                    "name": "ILE",
-                    "number": 42
-                },
-                {
-                    "name": "GLY",
-                    "number": 43
-                },
-                {
-                    "name": "GLU",
-                    "number": 44
-                },
-                {
-                    "name": "VAL",
-                    "number": 45
-                },
-                {
-                    "name": "THR",
-                    "number": 46
-                },
-                {
-                    "name": "ILE",
-                    "number": 47
-                },
-                {
-                    "name": "GLY",
-                    "number": 48
-                },
-                {
-                    "name": "ALA",
-                    "number": 49
-                },
-                {
-                    "name": "ASN",
-                    "number": 50
-                },
-                {
-                    "name": "VAL",
-                    "number": 51
-                },
-                {
-                    "name": "MET",
-                    "number": 52
-                },
-                {
-                    "name": "VAL",
-                    "number": 53
-                },
-                {
-                    "name": "SER",
-                    "number": 54
-                },
-                {
-                    "name": "PRO",
-                    "number": 55
-                },
-                {
-                    "name": "MET",
-                    "number": 56
-                },
-                {
-                    "name": "ALA",
-                    "number": 57
-                },
-                {
-                    "name": "SER",
-                    "number": 58
-                },
-                {
-                    "name": "ILE",
-                    "number": 59
-                },
-                {
-                    "name": "ARG",
-                    "number": 60
-                },
-                {
-                    "name": "SER",
-                    "number": 61
-                },
-                {
-                    "name": "ASP",
-                    "number": 62
-                },
-                {
-                    "name": "GLU",
-                    "number": 63
-                },
-                {
-                    "name": "GLY",
-                    "number": 64
-                },
-                {
-                    "name": "MET",
-                    "number": 65
-                },
-                {
-                    "name": "PRO",
-                    "number": 66
-                },
-                {
-                    "name": "ILE",
-                    "number": 67
-                },
-                {
-                    "name": "PHE",
-                    "number": 68
-                },
-                {
-                    "name": "VAL",
-                    "number": 69
-                },
-                {
-                    "name": "GLY",
-                    "number": 70
-                },
-                {
-                    "name": "ASP",
-                    "number": 71
-                },
-                {
-                    "name": "ARG",
-                    "number": 72
-                },
-                {
-                    "name": "SER",
-                    "number": 73
-                },
-                {
-                    "name": "ASN",
-                    "number": 74
-                },
-                {
-                    "name": "VAL",
-                    "number": 75
-                },
-                {
-                    "name": "GLN",
-                    "number": 76
-                },
-                {
-                    "name": "ASP",
-                    "number": 77
-                },
-                {
-                    "name": "GLY",
-                    "number": 78
-                },
-                {
-                    "name": "VAL",
-                    "number": 79
-                },
-                {
-                    "name": "VAL",
-                    "number": 80
-                },
-                {
-                    "name": "LEU",
-                    "number": 81
-                },
-                {
-                    "name": "HIS",
-                    "number": 82
-                },
-                {
-                    "name": "ALA",
-                    "number": 83
-                },
-                {
-                    "name": "LEU",
-                    "number": 84
-                },
-                {
-                    "name": "GLU",
-                    "number": 85
-                },
-                {
-                    "name": "THR",
-                    "number": 86
-                },
-                {
-                    "name": "ILE",
-                    "number": 87
-                },
-                {
-                    "name": "ASN",
-                    "number": 88
-                },
-                {
-                    "name": "GLU",
-                    "number": 89
-                },
-                {
-                    "name": "GLU",
-                    "number": 90
-                },
-                {
-                    "name": "GLY",
-                    "number": 91
-                },
-                {
-                    "name": "GLU",
-                    "number": 92
-                },
-                {
-                    "name": "PRO",
-                    "number": 93
-                },
-                {
-                    "name": "ILE",
-                    "number": 94
-                },
-                {
-                    "name": "GLU",
-                    "number": 95
-                },
-                {
-                    "name": "ASP",
-                    "number": 96
-                },
-                {
-                    "name": "ASN",
-                    "number": 97
-                },
-                {
-                    "name": "ILE",
-                    "number": 98
-                },
-                {
-                    "name": "VAL",
-                    "number": 99
-                },
-                {
-                    "name": "GLU",
-                    "number": 100
-                },
-                {
-                    "name": "VAL",
-                    "number": 101
-                },
-                {
-                    "name": "ASP",
-                    "number": 102
-                },
-                {
-                    "name": "GLY",
-                    "number": 103
-                },
-                {
-                    "name": "LYS",
-                    "number": 104
-                },
-                {
-                    "name": "GLU",
-                    "number": 105
-                },
-                {
-                    "name": "TYR",
-                    "number": 106
-                },
-                {
-                    "name": "ALA",
-                    "number": 107
-                },
-                {
-                    "name": "VAL",
-                    "number": 108
-                },
-                {
-                    "name": "TYR",
-                    "number": 109
-                },
-                {
-                    "name": "ILE",
-                    "number": 110
-                },
-                {
-                    "name": "GLY",
-                    "number": 111
-                },
-                {
-                    "name": "ASN",
-                    "number": 112
-                },
-                {
-                    "name": "ASN",
-                    "number": 113
-                },
-                {
-                    "name": "VAL",
-                    "number": 114
-                },
-                {
-                    "name": "SER",
-                    "number": 115
-                },
-                {
-                    "name": "LEU",
-                    "number": 116
-                },
-                {
-                    "name": "ALA",
-                    "number": 117
-                },
-                {
-                    "name": "HIS",
-                    "number": 118
-                },
-                {
-                    "name": "GLN",
-                    "number": 119
-                },
-                {
-                    "name": "SER",
-                    "number": 120
-                },
-                {
-                    "name": "GLN",
-                    "number": 121
-                },
-                {
-                    "name": "VAL",
-                    "number": 122
-                },
-                {
-                    "name": "HIS",
-                    "number": 123
-                },
-                {
-                    "name": "GLY",
-                    "number": 124
-                },
-                {
-                    "name": "PRO",
-                    "number": 125
-                },
-                {
-                    "name": "ALA",
-                    "number": 126
-                },
-                {
-                    "name": "ALA",
-                    "number": 127
-                },
-                {
-                    "name": "VAL",
-                    "number": 128
-                },
-                {
-                    "name": "GLY",
-                    "number": 129
-                },
-                {
-                    "name": "ASP",
-                    "number": 130
-                },
-                {
-                    "name": "ASP",
-                    "number": 131
-                },
-                {
-                    "name": "THR",
-                    "number": 132
-                },
-                {
-                    "name": "PHE",
-                    "number": 133
-                },
-                {
-                    "name": "ILE",
-                    "number": 134
-                },
-                {
-                    "name": "GLY",
-                    "number": 135
-                },
-                {
-                    "name": "MET",
-                    "number": 136
-                },
-                {
-                    "name": "GLN",
-                    "number": 137
-                },
-                {
-                    "name": "ALA",
-                    "number": 138
-                },
-                {
-                    "name": "PHE",
-                    "number": 139
-                },
-                {
-                    "name": "VAL",
-                    "number": 140
-                },
-                {
-                    "name": "PHE",
-                    "number": 141
-                },
-                {
-                    "name": "LYS",
-                    "number": 142
-                },
-                {
-                    "name": "SER",
-                    "number": 143
-                },
-                {
-                    "name": "LYS",
-                    "number": 144
-                },
-                {
-                    "name": "VAL",
-                    "number": 145
-                },
-                {
-                    "name": "GLY",
-                    "number": 146
-                },
-                {
-                    "name": "ASN",
-                    "number": 147
-                },
-                {
-                    "name": "ASN",
-                    "number": 148
-                },
-                {
-                    "name": "CYS",
-                    "number": 149
-                },
-                {
-                    "name": "VAL",
-                    "number": 150
-                },
-                {
-                    "name": "LEU",
-                    "number": 151
-                },
-                {
-                    "name": "GLU",
-                    "number": 152
-                },
-                {
-                    "name": "PRO",
-                    "number": 153
-                },
-                {
-                    "name": "ARG",
-                    "number": 154
-                },
-                {
-                    "name": "SER",
-                    "number": 155
-                },
-                {
-                    "name": "ALA",
-                    "number": 156
-                },
-                {
-                    "name": "ALA",
-                    "number": 157
-                },
-                {
-                    "name": "ILE",
-                    "number": 158
-                },
-                {
-                    "name": "GLY",
-                    "number": 159
-                },
-                {
-                    "name": "VAL",
-                    "number": 160
-                },
-                {
-                    "name": "THR",
-                    "number": 161
-                },
-                {
-                    "name": "ILE",
-                    "number": 162
-                },
-                {
-                    "name": "PRO",
-                    "number": 163
-                },
-                {
-                    "name": "ASP",
-                    "number": 164
-                },
-                {
-                    "name": "GLY",
-                    "number": 165
-                },
-                {
-                    "name": "ARG",
-                    "number": 166
-                },
-                {
-                    "name": "TYR",
-                    "number": 167
-                },
-                {
-                    "name": "ILE",
-                    "number": 168
-                },
-                {
-                    "name": "PRO",
-                    "number": 169
-                },
-                {
-                    "name": "ALA",
-                    "number": 170
-                },
-                {
-                    "name": "GLY",
-                    "number": 171
-                },
-                {
-                    "name": "MET",
-                    "number": 172
-                },
-                {
-                    "name": "VAL",
-                    "number": 173
-                },
-                {
-                    "name": "VAL",
-                    "number": 174
-                },
-                {
-                    "name": "THR",
-                    "number": 175
-                },
-                {
-                    "name": "SER",
-                    "number": 176
-                },
-                {
-                    "name": "GLN",
-                    "number": 177
-                },
-                {
-                    "name": "ALA",
-                    "number": 178
-                },
-                {
-                    "name": "GLU",
-                    "number": 179
-                },
-                {
-                    "name": "ALA",
-                    "number": 180
-                },
-                {
-                    "name": "ASP",
-                    "number": 181
-                },
-                {
-                    "name": "LYS",
-                    "number": 182
-                },
-                {
-                    "name": "LEU",
-                    "number": 183
-                },
-                {
-                    "name": "PRO",
-                    "number": 184
-                },
-                {
-                    "name": "GLU",
-                    "number": 185
-                },
-                {
-                    "name": "VAL",
-                    "number": 186
-                },
-                {
-                    "name": "THR",
-                    "number": 187
-                },
-                {
-                    "name": "ASP",
-                    "number": 188
-                },
-                {
-                    "name": "ASP",
-                    "number": 189
-                },
-                {
-                    "name": "TYR",
-                    "number": 190
-                },
-                {
-                    "name": "ALA",
-                    "number": 191
-                },
-                {
-                    "name": "TYR",
-                    "number": 192
-                },
-                {
-                    "name": "SER",
-                    "number": 193
-                },
-                {
-                    "name": "HIS",
-                    "number": 194
-                },
-                {
-                    "name": "THR",
-                    "number": 195
-                },
-                {
-                    "name": "ASN",
-                    "number": 196
-                },
-                {
-                    "name": "GLU",
-                    "number": 197
-                },
-                {
-                    "name": "ALA",
-                    "number": 198
-                },
-                {
-                    "name": "VAL",
-                    "number": 199
-                },
-                {
-                    "name": "VAL",
-                    "number": 200
-                },
-                {
-                    "name": "TYR",
-                    "number": 201
-                },
-                {
-                    "name": "VAL",
-                    "number": 202
-                },
-                {
-                    "name": "ASN",
-                    "number": 203
-                },
-                {
-                    "name": "VAL",
-                    "number": 204
-                },
-                {
-                    "name": "HIS",
-                    "number": 205
-                },
-                {
-                    "name": "LEU",
-                    "number": 206
-                },
-                {
-                    "name": "ALA",
-                    "number": 207
-                },
-                {
-                    "name": "GLU",
-                    "number": 208
-                },
-                {
-                    "name": "GLY",
-                    "number": 209
-                },
-                {
-                    "name": "TYR",
-                    "number": 210
-                },
-                {
-                    "name": "LYS",
-                    "number": 211
-                },
-                {
-                    "name": "GLU",
-                    "number": 212
-                },
-                {
-                    "name": "THR",
-                    "number": 213
-                },
-                {
-                    "name": "SER",
-                    "number": 214
-                },
-                {
-                    "name": "MET",
-                    "number": 1
-                },
-                {
-                    "name": "GLN",
-                    "number": 2
-                },
-                {
-                    "name": "GLU",
-                    "number": 3
-                },
-                {
-                    "name": "ILE",
-                    "number": 4
-                },
-                {
-                    "name": "THR",
-                    "number": 5
-                },
-                {
-                    "name": "VAL",
-                    "number": 6
-                },
-                {
-                    "name": "ASP",
-                    "number": 7
-                },
-                {
-                    "name": "GLU",
-                    "number": 8
-                },
-                {
-                    "name": "PHE",
-                    "number": 9
-                },
-                {
-                    "name": "SER",
-                    "number": 10
-                },
-                {
-                    "name": "ASN",
-                    "number": 11
-                },
-                {
-                    "name": "ILE",
-                    "number": 12
-                },
-                {
-                    "name": "ARG",
-                    "number": 13
-                },
-                {
-                    "name": "GLU",
-                    "number": 14
-                },
-                {
-                    "name": "ASN",
-                    "number": 15
-                },
-                {
-                    "name": "PRO",
-                    "number": 16
-                },
-                {
-                    "name": "VAL",
-                    "number": 17
-                },
-                {
-                    "name": "THR",
-                    "number": 18
-                },
-                {
-                    "name": "PRO",
-                    "number": 19
-                },
-                {
-                    "name": "TRP",
-                    "number": 20
-                },
-                {
-                    "name": "ASN",
-                    "number": 21
-                },
-                {
-                    "name": "PRO",
-                    "number": 22
-                },
-                {
-                    "name": "GLU",
-                    "number": 23
-                },
-                {
-                    "name": "PRO",
-                    "number": 24
-                },
-                {
-                    "name": "SER",
-                    "number": 25
-                },
-                {
-                    "name": "ALA",
-                    "number": 26
-                },
-                {
-                    "name": "PRO",
-                    "number": 27
-                },
-                {
-                    "name": "VAL",
-                    "number": 28
-                },
-                {
-                    "name": "ILE",
-                    "number": 29
-                },
-                {
-                    "name": "ASP",
-                    "number": 30
-                },
-                {
-                    "name": "PRO",
-                    "number": 31
-                },
-                {
-                    "name": "THR",
-                    "number": 32
-                },
-                {
-                    "name": "ALA",
-                    "number": 33
-                },
-                {
-                    "name": "TYR",
-                    "number": 34
-                },
-                {
-                    "name": "ILE",
-                    "number": 35
-                },
-                {
-                    "name": "ASP",
-                    "number": 36
-                },
-                {
-                    "name": "PRO",
-                    "number": 37
-                },
-                {
-                    "name": "GLU",
-                    "number": 38
-                },
-                {
-                    "name": "ALA",
-                    "number": 39
-                },
-                {
-                    "name": "SER",
-                    "number": 40
-                },
-                {
-                    "name": "VAL",
-                    "number": 41
-                },
-                {
-                    "name": "ILE",
-                    "number": 42
-                },
-                {
-                    "name": "GLY",
-                    "number": 43
-                },
-                {
-                    "name": "GLU",
-                    "number": 44
-                },
-                {
-                    "name": "VAL",
-                    "number": 45
-                },
-                {
-                    "name": "THR",
-                    "number": 46
-                },
-                {
-                    "name": "ILE",
-                    "number": 47
-                },
-                {
-                    "name": "GLY",
-                    "number": 48
-                },
-                {
-                    "name": "ALA",
-                    "number": 49
-                },
-                {
-                    "name": "ASN",
-                    "number": 50
-                },
-                {
-                    "name": "VAL",
-                    "number": 51
-                },
-                {
-                    "name": "MET",
-                    "number": 52
-                },
-                {
-                    "name": "VAL",
-                    "number": 53
-                },
-                {
-                    "name": "SER",
-                    "number": 54
-                },
-                {
-                    "name": "PRO",
-                    "number": 55
-                },
-                {
-                    "name": "MET",
-                    "number": 56
-                },
-                {
-                    "name": "ALA",
-                    "number": 57
-                },
-                {
-                    "name": "SER",
-                    "number": 58
-                },
-                {
-                    "name": "ILE",
-                    "number": 59
-                },
-                {
-                    "name": "ARG",
-                    "number": 60
-                },
-                {
-                    "name": "SER",
-                    "number": 61
-                },
-                {
-                    "name": "ASP",
-                    "number": 62
-                },
-                {
-                    "name": "GLU",
-                    "number": 63
-                },
-                {
-                    "name": "GLY",
-                    "number": 64
-                },
-                {
-                    "name": "MET",
-                    "number": 65
-                },
-                {
-                    "name": "PRO",
-                    "number": 66
-                },
-                {
-                    "name": "ILE",
-                    "number": 67
-                },
-                {
-                    "name": "PHE",
-                    "number": 68
-                },
-                {
-                    "name": "VAL",
-                    "number": 69
-                },
-                {
-                    "name": "GLY",
-                    "number": 70
-                },
-                {
-                    "name": "ASP",
-                    "number": 71
-                },
-                {
-                    "name": "ARG",
-                    "number": 72
-                },
-                {
-                    "name": "SER",
-                    "number": 73
-                },
-                {
-                    "name": "ASN",
-                    "number": 74
-                },
-                {
-                    "name": "VAL",
-                    "number": 75
-                },
-                {
-                    "name": "GLN",
-                    "number": 76
-                },
-                {
-                    "name": "ASP",
-                    "number": 77
-                },
-                {
-                    "name": "GLY",
-                    "number": 78
-                },
-                {
-                    "name": "VAL",
-                    "number": 79
-                },
-                {
-                    "name": "VAL",
-                    "number": 80
-                },
-                {
-                    "name": "LEU",
-                    "number": 81
-                },
-                {
-                    "name": "HIS",
-                    "number": 82
-                },
-                {
-                    "name": "ALA",
-                    "number": 83
-                },
-                {
-                    "name": "LEU",
-                    "number": 84
-                },
-                {
-                    "name": "GLU",
-                    "number": 85
-                },
-                {
-                    "name": "THR",
-                    "number": 86
-                },
-                {
-                    "name": "ILE",
-                    "number": 87
-                },
-                {
-                    "name": "ASN",
-                    "number": 88
-                },
-                {
-                    "name": "GLU",
-                    "number": 89
-                },
-                {
-                    "name": "GLU",
-                    "number": 90
-                },
-                {
-                    "name": "GLY",
-                    "number": 91
-                },
-                {
-                    "name": "GLU",
-                    "number": 92
-                },
-                {
-                    "name": "PRO",
-                    "number": 93
-                },
-                {
-                    "name": "ILE",
-                    "number": 94
-                },
-                {
-                    "name": "GLU",
-                    "number": 95
-                },
-                {
-                    "name": "ASP",
-                    "number": 96
-                },
-                {
-                    "name": "ASN",
-                    "number": 97
-                },
-                {
-                    "name": "ILE",
-                    "number": 98
-                },
-                {
-                    "name": "VAL",
-                    "number": 99
-                },
-                {
-                    "name": "GLU",
-                    "number": 100
-                },
-                {
-                    "name": "VAL",
-                    "number": 101
-                },
-                {
-                    "name": "ASP",
-                    "number": 102
-                },
-                {
-                    "name": "GLY",
-                    "number": 103
-                },
-                {
-                    "name": "LYS",
-                    "number": 104
-                },
-                {
-                    "name": "GLU",
-                    "number": 105
-                },
-                {
-                    "name": "TYR",
-                    "number": 106
-                },
-                {
-                    "name": "ALA",
-                    "number": 107
-                },
-                {
-                    "name": "VAL",
-                    "number": 108
-                },
-                {
-                    "name": "TYR",
-                    "number": 109
-                },
-                {
-                    "name": "ILE",
-                    "number": 110
-                },
-                {
-                    "name": "GLY",
-                    "number": 111
-                },
-                {
-                    "name": "ASN",
-                    "number": 112
-                },
-                {
-                    "name": "ASN",
-                    "number": 113
-                },
-                {
-                    "name": "VAL",
-                    "number": 114
-                },
-                {
-                    "name": "SER",
-                    "number": 115
-                },
-                {
-                    "name": "LEU",
-                    "number": 116
-                },
-                {
-                    "name": "ALA",
-                    "number": 117
-                },
-                {
-                    "name": "HIS",
-                    "number": 118
-                },
-                {
-                    "name": "GLN",
-                    "number": 119
-                },
-                {
-                    "name": "SER",
-                    "number": 120
-                },
-                {
-                    "name": "GLN",
-                    "number": 121
-                },
-                {
-                    "name": "VAL",
-                    "number": 122
-                },
-                {
-                    "name": "HIS",
-                    "number": 123
-                },
-                {
-                    "name": "GLY",
-                    "number": 124
-                },
-                {
-                    "name": "PRO",
-                    "number": 125
-                },
-                {
-                    "name": "ALA",
-                    "number": 126
-                },
-                {
-                    "name": "ALA",
-                    "number": 127
-                },
-                {
-                    "name": "VAL",
-                    "number": 128
-                },
-                {
-                    "name": "GLY",
-                    "number": 129
-                },
-                {
-                    "name": "ASP",
-                    "number": 130
-                },
-                {
-                    "name": "ASP",
-                    "number": 131
-                },
-                {
-                    "name": "THR",
-                    "number": 132
-                },
-                {
-                    "name": "PHE",
-                    "number": 133
-                },
-                {
-                    "name": "ILE",
-                    "number": 134
-                },
-                {
-                    "name": "GLY",
-                    "number": 135
-                },
-                {
-                    "name": "MET",
-                    "number": 136
-                },
-                {
-                    "name": "GLN",
-                    "number": 137
-                },
-                {
-                    "name": "ALA",
-                    "number": 138
-                },
-                {
-                    "name": "PHE",
-                    "number": 139
-                },
-                {
-                    "name": "VAL",
-                    "number": 140
-                },
-                {
-                    "name": "PHE",
-                    "number": 141
-                },
-                {
-                    "name": "LYS",
-                    "number": 142
-                },
-                {
-                    "name": "SER",
-                    "number": 143
-                },
-                {
-                    "name": "LYS",
-                    "number": 144
-                },
-                {
-                    "name": "VAL",
-                    "number": 145
-                },
-                {
-                    "name": "GLY",
-                    "number": 146
-                },
-                {
-                    "name": "ASN",
-                    "number": 147
-                },
-                {
-                    "name": "ASN",
-                    "number": 148
-                },
-                {
-                    "name": "CYS",
-                    "number": 149
-                },
-                {
-                    "name": "VAL",
-                    "number": 150
-                },
-                {
-                    "name": "LEU",
-                    "number": 151
-                },
-                {
-                    "name": "GLU",
-                    "number": 152
-                },
-                {
-                    "name": "PRO",
-                    "number": 153
-                },
-                {
-                    "name": "ARG",
-                    "number": 154
-                },
-                {
-                    "name": "SER",
-                    "number": 155
-                },
-                {
-                    "name": "ALA",
-                    "number": 156
-                },
-                {
-                    "name": "ALA",
-                    "number": 157
-                },
-                {
-                    "name": "ILE",
-                    "number": 158
-                },
-                {
-                    "name": "GLY",
-                    "number": 159
-                },
-                {
-                    "name": "VAL",
-                    "number": 160
-                },
-                {
-                    "name": "THR",
-                    "number": 161
-                },
-                {
-                    "name": "ILE",
-                    "number": 162
-                },
-                {
-                    "name": "PRO",
-                    "number": 163
-                },
-                {
-                    "name": "ASP",
-                    "number": 164
-                },
-                {
-                    "name": "GLY",
-                    "number": 165
-                },
-                {
-                    "name": "ARG",
-                    "number": 166
-                },
-                {
-                    "name": "TYR",
-                    "number": 167
-                },
-                {
-                    "name": "ILE",
-                    "number": 168
-                },
-                {
-                    "name": "PRO",
-                    "number": 169
-                },
-                {
-                    "name": "ALA",
-                    "number": 170
-                },
-                {
-                    "name": "GLY",
-                    "number": 171
-                },
-                {
-                    "name": "MET",
-                    "number": 172
-                },
-                {
-                    "name": "VAL",
-                    "number": 173
-                },
-                {
-                    "name": "VAL",
-                    "number": 174
-                },
-                {
-                    "name": "THR",
-                    "number": 175
-                },
-                {
-                    "name": "SER",
-                    "number": 176
-                },
-                {
-                    "name": "GLN",
-                    "number": 177
-                },
-                {
-                    "name": "ALA",
-                    "number": 178
-                },
-                {
-                    "name": "GLU",
-                    "number": 179
-                },
-                {
-                    "name": "ALA",
-                    "number": 180
-                },
-                {
-                    "name": "ASP",
-                    "number": 181
-                },
-                {
-                    "name": "LYS",
-                    "number": 182
-                },
-                {
-                    "name": "LEU",
-                    "number": 183
-                },
-                {
-                    "name": "PRO",
-                    "number": 184
-                },
-                {
-                    "name": "GLU",
-                    "number": 185
-                },
-                {
-                    "name": "VAL",
-                    "number": 186
-                },
-                {
-                    "name": "THR",
-                    "number": 187
-                },
-                {
-                    "name": "ASP",
-                    "number": 188
-                },
-                {
-                    "name": "ASP",
-                    "number": 189
-                },
-                {
-                    "name": "TYR",
-                    "number": 190
-                },
-                {
-                    "name": "ALA",
-                    "number": 191
-                },
-                {
-                    "name": "TYR",
-                    "number": 192
-                },
-                {
-                    "name": "SER",
-                    "number": 193
-                },
-                {
-                    "name": "HIS",
-                    "number": 194
-                },
-                {
-                    "name": "THR",
-                    "number": 195
-                },
-                {
-                    "name": "ASN",
-                    "number": 196
-                },
-                {
-                    "name": "GLU",
-                    "number": 197
-                },
-                {
-                    "name": "ALA",
-                    "number": 198
-                },
-                {
-                    "name": "VAL",
-                    "number": 199
-                },
-                {
-                    "name": "VAL",
-                    "number": 200
-                },
-                {
-                    "name": "TYR",
-                    "number": 201
-                },
-                {
-                    "name": "VAL",
-                    "number": 202
-                },
-                {
-                    "name": "ASN",
-                    "number": 203
-                },
-                {
-                    "name": "VAL",
-                    "number": 204
-                },
-                {
-                    "name": "HIS",
-                    "number": 205
-                },
-                {
-                    "name": "LEU",
-                    "number": 206
-                },
-                {
-                    "name": "ALA",
-                    "number": 207
-                },
-                {
-                    "name": "GLU",
-                    "number": 208
-                },
-                {
-                    "name": "GLY",
-                    "number": 209
-                },
-                {
-                    "name": "TYR",
-                    "number": 210
-                },
-                {
-                    "name": "LYS",
-                    "number": 211
-                },
-                {
-                    "name": "GLU",
-                    "number": 212
-                },
-                {
-                    "name": "THR",
-                    "number": 213
-                },
-                {
-                    "name": "SER",
-                    "number": 214
-                },
-                {
-                    "name": "MET",
-                    "number": 1
-                },
-                {
-                    "name": "GLN",
-                    "number": 2
-                },
-                {
-                    "name": "GLU",
-                    "number": 3
-                },
-                {
-                    "name": "ILE",
-                    "number": 4
-                },
-                {
-                    "name": "THR",
-                    "number": 5
-                },
-                {
-                    "name": "VAL",
-                    "number": 6
-                },
-                {
-                    "name": "ASP",
-                    "number": 7
-                },
-                {
-                    "name": "GLU",
-                    "number": 8
-                },
-                {
-                    "name": "PHE",
-                    "number": 9
-                },
-                {
-                    "name": "SER",
-                    "number": 10
-                },
-                {
-                    "name": "ASN",
-                    "number": 11
-                },
-                {
-                    "name": "ILE",
-                    "number": 12
-                },
-                {
-                    "name": "ARG",
-                    "number": 13
-                },
-                {
-                    "name": "GLU",
-                    "number": 14
-                },
-                {
-                    "name": "ASN",
-                    "number": 15
-                },
-                {
-                    "name": "PRO",
-                    "number": 16
-                },
-                {
-                    "name": "VAL",
-                    "number": 17
-                },
-                {
-                    "name": "THR",
-                    "number": 18
-                },
-                {
-                    "name": "PRO",
-                    "number": 19
-                },
-                {
-                    "name": "TRP",
-                    "number": 20
-                },
-                {
-                    "name": "ASN",
-                    "number": 21
-                },
-                {
-                    "name": "PRO",
-                    "number": 22
-                },
-                {
-                    "name": "GLU",
-                    "number": 23
-                },
-                {
-                    "name": "PRO",
-                    "number": 24
-                },
-                {
-                    "name": "SER",
-                    "number": 25
-                },
-                {
-                    "name": "ALA",
-                    "number": 26
-                },
-                {
-                    "name": "PRO",
-                    "number": 27
-                },
-                {
-                    "name": "VAL",
-                    "number": 28
-                },
-                {
-                    "name": "ILE",
-                    "number": 29
-                },
-                {
-                    "name": "ASP",
-                    "number": 30
-                },
-                {
-                    "name": "PRO",
-                    "number": 31
-                },
-                {
-                    "name": "THR",
-                    "number": 32
-                },
-                {
-                    "name": "ALA",
-                    "number": 33
-                },
-                {
-                    "name": "TYR",
-                    "number": 34
-                },
-                {
-                    "name": "ILE",
-                    "number": 35
-                },
-                {
-                    "name": "ASP",
-                    "number": 36
-                },
-                {
-                    "name": "PRO",
-                    "number": 37
-                },
-                {
-                    "name": "GLU",
-                    "number": 38
-                },
-                {
-                    "name": "ALA",
-                    "number": 39
-                },
-                {
-                    "name": "SER",
-                    "number": 40
-                },
-                {
-                    "name": "VAL",
-                    "number": 41
-                },
-                {
-                    "name": "ILE",
-                    "number": 42
-                },
-                {
-                    "name": "GLY",
-                    "number": 43
-                },
-                {
-                    "name": "GLU",
-                    "number": 44
-                },
-                {
-                    "name": "VAL",
-                    "number": 45
-                },
-                {
-                    "name": "THR",
-                    "number": 46
-                },
-                {
-                    "name": "ILE",
-                    "number": 47
-                },
-                {
-                    "name": "GLY",
-                    "number": 48
-                },
-                {
-                    "name": "ALA",
-                    "number": 49
-                },
-                {
-                    "name": "ASN",
-                    "number": 50
-                },
-                {
-                    "name": "VAL",
-                    "number": 51
-                },
-                {
-                    "name": "MET",
-                    "number": 52
-                },
-                {
-                    "name": "VAL",
-                    "number": 53
-                },
-                {
-                    "name": "SER",
-                    "number": 54
-                },
-                {
-                    "name": "PRO",
-                    "number": 55
-                },
-                {
-                    "name": "MET",
-                    "number": 56
-                },
-                {
-                    "name": "ALA",
-                    "number": 57
-                },
-                {
-                    "name": "SER",
-                    "number": 58
-                },
-                {
-                    "name": "ILE",
-                    "number": 59
-                },
-                {
-                    "name": "ARG",
-                    "number": 60
-                },
-                {
-                    "name": "SER",
-                    "number": 61
-                },
-                {
-                    "name": "ASP",
-                    "number": 62
-                },
-                {
-                    "name": "GLU",
-                    "number": 63
-                },
-                {
-                    "name": "GLY",
-                    "number": 64
-                },
-                {
-                    "name": "MET",
-                    "number": 65
-                },
-                {
-                    "name": "PRO",
-                    "number": 66
-                },
-                {
-                    "name": "ILE",
-                    "number": 67
-                },
-                {
-                    "name": "PHE",
-                    "number": 68
-                },
-                {
-                    "name": "VAL",
-                    "number": 69
-                },
-                {
-                    "name": "GLY",
-                    "number": 70
-                },
-                {
-                    "name": "ASP",
-                    "number": 71
-                },
-                {
-                    "name": "ARG",
-                    "number": 72
-                },
-                {
-                    "name": "SER",
-                    "number": 73
-                },
-                {
-                    "name": "ASN",
-                    "number": 74
-                },
-                {
-                    "name": "VAL",
-                    "number": 75
-                },
-                {
-                    "name": "GLN",
-                    "number": 76
-                },
-                {
-                    "name": "ASP",
-                    "number": 77
-                },
-                {
-                    "name": "GLY",
-                    "number": 78
-                },
-                {
-                    "name": "VAL",
-                    "number": 79
-                },
-                {
-                    "name": "VAL",
-                    "number": 80
-                },
-                {
-                    "name": "LEU",
-                    "number": 81
-                },
-                {
-                    "name": "HIS",
-                    "number": 82
-                },
-                {
-                    "name": "ALA",
-                    "number": 83
-                },
-                {
-                    "name": "LEU",
-                    "number": 84
-                },
-                {
-                    "name": "GLU",
-                    "number": 85
-                },
-                {
-                    "name": "THR",
-                    "number": 86
-                },
-                {
-                    "name": "ILE",
-                    "number": 87
-                },
-                {
-                    "name": "ASN",
-                    "number": 88
-                },
-                {
-                    "name": "GLU",
-                    "number": 89
-                },
-                {
-                    "name": "GLU",
-                    "number": 90
-                },
-                {
-                    "name": "GLY",
-                    "number": 91
-                },
-                {
-                    "name": "GLU",
-                    "number": 92
-                },
-                {
-                    "name": "PRO",
-                    "number": 93
-                },
-                {
-                    "name": "ILE",
-                    "number": 94
-                },
-                {
-                    "name": "GLU",
-                    "number": 95
-                },
-                {
-                    "name": "ASP",
-                    "number": 96
-                },
-                {
-                    "name": "ASN",
-                    "number": 97
-                },
-                {
-                    "name": "ILE",
-                    "number": 98
-                },
-                {
-                    "name": "VAL",
-                    "number": 99
-                },
-                {
-                    "name": "GLU",
-                    "number": 100
-                },
-                {
-                    "name": "VAL",
-                    "number": 101
-                },
-                {
-                    "name": "ASP",
-                    "number": 102
-                },
-                {
-                    "name": "GLY",
-                    "number": 103
-                },
-                {
-                    "name": "LYS",
-                    "number": 104
-                },
-                {
-                    "name": "GLU",
-                    "number": 105
-                },
-                {
-                    "name": "TYR",
-                    "number": 106
-                },
-                {
-                    "name": "ALA",
-                    "number": 107
-                },
-                {
-                    "name": "VAL",
-                    "number": 108
-                },
-                {
-                    "name": "TYR",
-                    "number": 109
-                },
-                {
-                    "name": "ILE",
-                    "number": 110
-                },
-                {
-                    "name": "GLY",
-                    "number": 111
-                },
-                {
-                    "name": "ASN",
-                    "number": 112
-                },
-                {
-                    "name": "ASN",
-                    "number": 113
-                },
-                {
-                    "name": "VAL",
-                    "number": 114
-                },
-                {
-                    "name": "SER",
-                    "number": 115
-                },
-                {
-                    "name": "LEU",
-                    "number": 116
-                },
-                {
-                    "name": "ALA",
-                    "number": 117
-                },
-                {
-                    "name": "HIS",
-                    "number": 118
-                },
-                {
-                    "name": "GLN",
-                    "number": 119
-                },
-                {
-                    "name": "SER",
-                    "number": 120
-                },
-                {
-                    "name": "GLN",
-                    "number": 121
-                },
-                {
-                    "name": "VAL",
-                    "number": 122
-                },
-                {
-                    "name": "HIS",
-                    "number": 123
-                },
-                {
-                    "name": "GLY",
-                    "number": 124
-                },
-                {
-                    "name": "PRO",
-                    "number": 125
-                },
-                {
-                    "name": "ALA",
-                    "number": 126
-                },
-                {
-                    "name": "ALA",
-                    "number": 127
-                },
-                {
-                    "name": "VAL",
-                    "number": 128
-                },
-                {
-                    "name": "GLY",
-                    "number": 129
-                },
-                {
-                    "name": "ASP",
-                    "number": 130
-                },
-                {
-                    "name": "ASP",
-                    "number": 131
-                },
-                {
-                    "name": "THR",
-                    "number": 132
-                },
-                {
-                    "name": "PHE",
-                    "number": 133
-                },
-                {
-                    "name": "ILE",
-                    "number": 134
-                },
-                {
-                    "name": "GLY",
-                    "number": 135
-                },
-                {
-                    "name": "MET",
-                    "number": 136
-                },
-                {
-                    "name": "GLN",
-                    "number": 137
-                },
-                {
-                    "name": "ALA",
-                    "number": 138
-                },
-                {
-                    "name": "PHE",
-                    "number": 139
-                },
-                {
-                    "name": "VAL",
-                    "number": 140
-                },
-                {
-                    "name": "PHE",
-                    "number": 141
-                },
-                {
-                    "name": "LYS",
-                    "number": 142
-                },
-                {
-                    "name": "SER",
-                    "number": 143
-                },
-                {
-                    "name": "LYS",
-                    "number": 144
-                },
-                {
-                    "name": "VAL",
-                    "number": 145
-                },
-                {
-                    "name": "GLY",
-                    "number": 146
-                },
-                {
-                    "name": "ASN",
-                    "number": 147
-                },
-                {
-                    "name": "ASN",
-                    "number": 148
-                },
-                {
-                    "name": "CYS",
-                    "number": 149
-                },
-                {
-                    "name": "VAL",
-                    "number": 150
-                },
-                {
-                    "name": "LEU",
-                    "number": 151
-                },
-                {
-                    "name": "GLU",
-                    "number": 152
-                },
-                {
-                    "name": "PRO",
-                    "number": 153
-                },
-                {
-                    "name": "ARG",
-                    "number": 154
-                },
-                {
-                    "name": "SER",
-                    "number": 155
-                },
-                {
-                    "name": "ALA",
-                    "number": 156
-                },
-                {
-                    "name": "ALA",
-                    "number": 157
-                },
-                {
-                    "name": "ILE",
-                    "number": 158
-                },
-                {
-                    "name": "GLY",
-                    "number": 159
-                },
-                {
-                    "name": "VAL",
-                    "number": 160
-                },
-                {
-                    "name": "THR",
-                    "number": 161
-                },
-                {
-                    "name": "ILE",
-                    "number": 162
-                },
-                {
-                    "name": "PRO",
-                    "number": 163
-                },
-                {
-                    "name": "ASP",
-                    "number": 164
-                },
-                {
-                    "name": "GLY",
-                    "number": 165
-                },
-                {
-                    "name": "ARG",
-                    "number": 166
-                },
-                {
-                    "name": "TYR",
-                    "number": 167
-                },
-                {
-                    "name": "ILE",
-                    "number": 168
-                },
-                {
-                    "name": "PRO",
-                    "number": 169
-                },
-                {
-                    "name": "ALA",
-                    "number": 170
-                },
-                {
-                    "name": "GLY",
-                    "number": 171
-                },
-                {
-                    "name": "MET",
-                    "number": 172
-                },
-                {
-                    "name": "VAL",
-                    "number": 173
-                },
-                {
-                    "name": "VAL",
-                    "number": 174
-                },
-                {
-                    "name": "THR",
-                    "number": 175
-                },
-                {
-                    "name": "SER",
-                    "number": 176
-                },
-                {
-                    "name": "GLN",
-                    "number": 177
-                },
-                {
-                    "name": "ALA",
-                    "number": 178
-                },
-                {
-                    "name": "GLU",
-                    "number": 179
-                },
-                {
-                    "name": "ALA",
-                    "number": 180
-                },
-                {
-                    "name": "ASP",
-                    "number": 181
-                },
-                {
-                    "name": "LYS",
-                    "number": 182
-                },
-                {
-                    "name": "LEU",
-                    "number": 183
-                },
-                {
-                    "name": "PRO",
-                    "number": 184
-                },
-                {
-                    "name": "GLU",
-                    "number": 185
-                },
-                {
-                    "name": "VAL",
-                    "number": 186
-                },
-                {
-                    "name": "THR",
-                    "number": 187
-                },
-                {
-                    "name": "ASP",
-                    "number": 188
-                },
-                {
-                    "name": "ASP",
-                    "number": 189
-                },
-                {
-                    "name": "TYR",
-                    "number": 190
-                },
-                {
-                    "name": "ALA",
-                    "number": 191
-                },
-                {
-                    "name": "TYR",
-                    "number": 192
-                },
-                {
-                    "name": "SER",
-                    "number": 193
-                },
-                {
-                    "name": "HIS",
-                    "number": 194
-                },
-                {
-                    "name": "THR",
-                    "number": 195
-                },
-                {
-                    "name": "ASN",
-                    "number": 196
-                },
-                {
-                    "name": "GLU",
-                    "number": 197
-                },
-                {
-                    "name": "ALA",
-                    "number": 198
-                },
-                {
-                    "name": "VAL",
-                    "number": 199
-                },
-                {
-                    "name": "VAL",
-                    "number": 200
-                },
-                {
-                    "name": "TYR",
-                    "number": 201
-                },
-                {
-                    "name": "VAL",
-                    "number": 202
-                },
-                {
-                    "name": "ASN",
-                    "number": 203
-                },
-                {
-                    "name": "VAL",
-                    "number": 204
-                },
-                {
-                    "name": "HIS",
-                    "number": 205
-                },
-                {
-                    "name": "LEU",
-                    "number": 206
-                },
-                {
-                    "name": "ALA",
-                    "number": 207
-                },
-                {
-                    "name": "GLU",
-                    "number": 208
-                },
-                {
-                    "name": "GLY",
-                    "number": 209
-                },
-                {
-                    "name": "TYR",
-                    "number": 210
-                },
-                {
-                    "name": "LYS",
-                    "number": 211
-                },
-                {
-                    "name": "GLU",
-                    "number": 212
-                },
-                {
-                    "name": "THR",
-                    "number": 213
-                },
-                {
-                    "name": "SER",
-                    "number": 214
-                }
-            ],
+                    {
+                        "name": "MET",
+                        "number": 1,
+                        "uniprot_number": "NA"
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 2,
+                        "uniprot_number": 35
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 3,
+                        "uniprot_number": 36
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 4,
+                        "uniprot_number": 37
+                    },
+                    {
+                        "name": "THR",
+                        "number": 5,
+                        "uniprot_number": 38
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 6,
+                        "uniprot_number": 39
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 7,
+                        "uniprot_number": 40
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 8,
+                        "uniprot_number": 41
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 9,
+                        "uniprot_number": 42
+                    },
+                    {
+                        "name": "SER",
+                        "number": 10,
+                        "uniprot_number": 43
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 11,
+                        "uniprot_number": 44
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 12,
+                        "uniprot_number": 45
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 13,
+                        "uniprot_number": 46
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 14,
+                        "uniprot_number": 47
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 15,
+                        "uniprot_number": 48
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 16,
+                        "uniprot_number": 49
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 17,
+                        "uniprot_number": 50
+                    },
+                    {
+                        "name": "THR",
+                        "number": 18,
+                        "uniprot_number": 51
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 19,
+                        "uniprot_number": 52
+                    },
+                    {
+                        "name": "TRP",
+                        "number": 20,
+                        "uniprot_number": 53
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 21,
+                        "uniprot_number": 54
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 22,
+                        "uniprot_number": 55
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 23,
+                        "uniprot_number": 56
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 24,
+                        "uniprot_number": 57
+                    },
+                    {
+                        "name": "SER",
+                        "number": 25,
+                        "uniprot_number": 58
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 26,
+                        "uniprot_number": 59
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 27,
+                        "uniprot_number": 60
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 28,
+                        "uniprot_number": 61
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 29,
+                        "uniprot_number": 62
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 30,
+                        "uniprot_number": 63
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 31,
+                        "uniprot_number": 64
+                    },
+                    {
+                        "name": "THR",
+                        "number": 32,
+                        "uniprot_number": 65
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 33,
+                        "uniprot_number": 66
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 34,
+                        "uniprot_number": 67
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 35,
+                        "uniprot_number": 68
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 36,
+                        "uniprot_number": 69
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 37,
+                        "uniprot_number": 70
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 38,
+                        "uniprot_number": 71
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 39,
+                        "uniprot_number": 72
+                    },
+                    {
+                        "name": "SER",
+                        "number": 40,
+                        "uniprot_number": 73
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 41,
+                        "uniprot_number": 74
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 42,
+                        "uniprot_number": 75
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 43,
+                        "uniprot_number": 76
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 44,
+                        "uniprot_number": 77
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 45,
+                        "uniprot_number": 78
+                    },
+                    {
+                        "name": "THR",
+                        "number": 46,
+                        "uniprot_number": 79
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 47,
+                        "uniprot_number": 80
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 48,
+                        "uniprot_number": 81
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 49,
+                        "uniprot_number": 82
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 50,
+                        "uniprot_number": 83
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 51,
+                        "uniprot_number": 84
+                    },
+                    {
+                        "name": "MET",
+                        "number": 52,
+                        "uniprot_number": 85
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 53,
+                        "uniprot_number": 86
+                    },
+                    {
+                        "name": "SER",
+                        "number": 54,
+                        "uniprot_number": 87
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 55,
+                        "uniprot_number": 88
+                    },
+                    {
+                        "name": "MET",
+                        "number": 56,
+                        "uniprot_number": 89
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 57,
+                        "uniprot_number": 90
+                    },
+                    {
+                        "name": "SER",
+                        "number": 58,
+                        "uniprot_number": 91
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 59,
+                        "uniprot_number": 92
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 60,
+                        "uniprot_number": 93
+                    },
+                    {
+                        "name": "SER",
+                        "number": 61,
+                        "uniprot_number": 94
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 62,
+                        "uniprot_number": 95
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 63,
+                        "uniprot_number": 96
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 64,
+                        "uniprot_number": 97
+                    },
+                    {
+                        "name": "MET",
+                        "number": 65,
+                        "uniprot_number": 98
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 66,
+                        "uniprot_number": 99
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 67,
+                        "uniprot_number": 100
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 68,
+                        "uniprot_number": 101
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 69,
+                        "uniprot_number": 102
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 70,
+                        "uniprot_number": 103
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 71,
+                        "uniprot_number": 104
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 72,
+                        "uniprot_number": 105
+                    },
+                    {
+                        "name": "SER",
+                        "number": 73,
+                        "uniprot_number": 106
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 74,
+                        "uniprot_number": 107
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 75,
+                        "uniprot_number": 108
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 76,
+                        "uniprot_number": 109
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 77,
+                        "uniprot_number": 110
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 78,
+                        "uniprot_number": 111
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 79,
+                        "uniprot_number": 112
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 80,
+                        "uniprot_number": 113
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 81,
+                        "uniprot_number": 114
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 82,
+                        "uniprot_number": 115
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 83,
+                        "uniprot_number": 116
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 84,
+                        "uniprot_number": 117
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 85,
+                        "uniprot_number": 118
+                    },
+                    {
+                        "name": "THR",
+                        "number": 86,
+                        "uniprot_number": 119
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 87,
+                        "uniprot_number": 120
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 88,
+                        "uniprot_number": 121
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 89,
+                        "uniprot_number": 122
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 90,
+                        "uniprot_number": 123
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 91,
+                        "uniprot_number": 124
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 92,
+                        "uniprot_number": 125
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 93,
+                        "uniprot_number": 126
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 94,
+                        "uniprot_number": 127
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 95,
+                        "uniprot_number": 128
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 96,
+                        "uniprot_number": 129
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 97,
+                        "uniprot_number": 130
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 98,
+                        "uniprot_number": 131
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 99,
+                        "uniprot_number": 132
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 100,
+                        "uniprot_number": 133
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 101,
+                        "uniprot_number": 134
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 102,
+                        "uniprot_number": 135
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 103,
+                        "uniprot_number": 136
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 104,
+                        "uniprot_number": 137
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 105,
+                        "uniprot_number": 138
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 106,
+                        "uniprot_number": 139
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 107,
+                        "uniprot_number": 140
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 108,
+                        "uniprot_number": 141
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 109,
+                        "uniprot_number": 142
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 110,
+                        "uniprot_number": 143
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 111,
+                        "uniprot_number": 144
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 112,
+                        "uniprot_number": 145
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 113,
+                        "uniprot_number": 146
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 114,
+                        "uniprot_number": 147
+                    },
+                    {
+                        "name": "SER",
+                        "number": 115,
+                        "uniprot_number": 148
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 116,
+                        "uniprot_number": 149
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 117,
+                        "uniprot_number": 150
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 118,
+                        "uniprot_number": 151
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 119,
+                        "uniprot_number": 152
+                    },
+                    {
+                        "name": "SER",
+                        "number": 120,
+                        "uniprot_number": 153
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 121,
+                        "uniprot_number": 154
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 122,
+                        "uniprot_number": 155
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 123,
+                        "uniprot_number": 156
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 124,
+                        "uniprot_number": 157
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 125,
+                        "uniprot_number": 158
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 126,
+                        "uniprot_number": 159
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 127,
+                        "uniprot_number": 160
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 128,
+                        "uniprot_number": 161
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 129,
+                        "uniprot_number": 162
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 130,
+                        "uniprot_number": 163
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 131,
+                        "uniprot_number": 164
+                    },
+                    {
+                        "name": "THR",
+                        "number": 132,
+                        "uniprot_number": 165
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 133,
+                        "uniprot_number": 166
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 134,
+                        "uniprot_number": 167
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 135,
+                        "uniprot_number": 168
+                    },
+                    {
+                        "name": "MET",
+                        "number": 136,
+                        "uniprot_number": 169
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 137,
+                        "uniprot_number": 170
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 138,
+                        "uniprot_number": 171
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 139,
+                        "uniprot_number": 172
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 140,
+                        "uniprot_number": 173
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 141,
+                        "uniprot_number": 174
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 142,
+                        "uniprot_number": 175
+                    },
+                    {
+                        "name": "SER",
+                        "number": 143,
+                        "uniprot_number": 176
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 144,
+                        "uniprot_number": 177
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 145,
+                        "uniprot_number": 178
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 146,
+                        "uniprot_number": 179
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 147,
+                        "uniprot_number": 180
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 148,
+                        "uniprot_number": 181
+                    },
+                    {
+                        "name": "CYS",
+                        "number": 149,
+                        "uniprot_number": 182
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 150,
+                        "uniprot_number": 183
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 151,
+                        "uniprot_number": 184
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 152,
+                        "uniprot_number": 185
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 153,
+                        "uniprot_number": 186
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 154,
+                        "uniprot_number": 187
+                    },
+                    {
+                        "name": "SER",
+                        "number": 155,
+                        "uniprot_number": 188
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 156,
+                        "uniprot_number": 189
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 157,
+                        "uniprot_number": 190
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 158,
+                        "uniprot_number": 191
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 159,
+                        "uniprot_number": 192
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 160,
+                        "uniprot_number": 193
+                    },
+                    {
+                        "name": "THR",
+                        "number": 161,
+                        "uniprot_number": 194
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 162,
+                        "uniprot_number": 195
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 163,
+                        "uniprot_number": 196
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 164,
+                        "uniprot_number": 197
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 165,
+                        "uniprot_number": 198
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 166,
+                        "uniprot_number": 199
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 167,
+                        "uniprot_number": 200
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 168,
+                        "uniprot_number": 201
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 169,
+                        "uniprot_number": 202
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 170,
+                        "uniprot_number": 203
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 171,
+                        "uniprot_number": 204
+                    },
+                    {
+                        "name": "MET",
+                        "number": 172,
+                        "uniprot_number": 205
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 173,
+                        "uniprot_number": 206
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 174,
+                        "uniprot_number": 207
+                    },
+                    {
+                        "name": "THR",
+                        "number": 175,
+                        "uniprot_number": 208
+                    },
+                    {
+                        "name": "SER",
+                        "number": 176,
+                        "uniprot_number": 209
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 177,
+                        "uniprot_number": 210
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 178,
+                        "uniprot_number": 211
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 179,
+                        "uniprot_number": 212
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 180,
+                        "uniprot_number": 213
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 181,
+                        "uniprot_number": 214
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 182,
+                        "uniprot_number": 215
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 183,
+                        "uniprot_number": 216
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 184,
+                        "uniprot_number": 217
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 185,
+                        "uniprot_number": 218
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 186,
+                        "uniprot_number": 219
+                    },
+                    {
+                        "name": "THR",
+                        "number": 187,
+                        "uniprot_number": 220
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 188,
+                        "uniprot_number": 221
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 189,
+                        "uniprot_number": 222
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 190,
+                        "uniprot_number": 223
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 191,
+                        "uniprot_number": 224
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 192,
+                        "uniprot_number": 225
+                    },
+                    {
+                        "name": "SER",
+                        "number": 193,
+                        "uniprot_number": 226
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 194,
+                        "uniprot_number": 227
+                    },
+                    {
+                        "name": "THR",
+                        "number": 195,
+                        "uniprot_number": 228
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 196,
+                        "uniprot_number": 229
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 197,
+                        "uniprot_number": 230
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 198,
+                        "uniprot_number": 231
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 199,
+                        "uniprot_number": 232
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 200,
+                        "uniprot_number": 233
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 201,
+                        "uniprot_number": 234
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 202,
+                        "uniprot_number": 235
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 203,
+                        "uniprot_number": 236
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 204,
+                        "uniprot_number": 237
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 205,
+                        "uniprot_number": 238
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 206,
+                        "uniprot_number": 239
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 207,
+                        "uniprot_number": 240
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 208,
+                        "uniprot_number": 241
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 209,
+                        "uniprot_number": 242
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 210,
+                        "uniprot_number": 243
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 211,
+                        "uniprot_number": 244
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 212,
+                        "uniprot_number": 245
+                    },
+                    {
+                        "name": "THR",
+                        "number": 213,
+                        "uniprot_number": 246
+                    },
+                    {
+                        "name": "SER",
+                        "number": 214,
+                        "uniprot_number": 247
+                    }
+                ],
             "secondary_structure": {}
         },
         {
             "chain_id": "C",
             "residues": [
-                {
-                    "name": "MET",
-                    "number": 1
-                },
-                {
-                    "name": "GLN",
-                    "number": 2
-                },
-                {
-                    "name": "GLU",
-                    "number": 3
-                },
-                {
-                    "name": "ILE",
-                    "number": 4
-                },
-                {
-                    "name": "THR",
-                    "number": 5
-                },
-                {
-                    "name": "VAL",
-                    "number": 6
-                },
-                {
-                    "name": "ASP",
-                    "number": 7
-                },
-                {
-                    "name": "GLU",
-                    "number": 8
-                },
-                {
-                    "name": "PHE",
-                    "number": 9
-                },
-                {
-                    "name": "SER",
-                    "number": 10
-                },
-                {
-                    "name": "ASN",
-                    "number": 11
-                },
-                {
-                    "name": "ILE",
-                    "number": 12
-                },
-                {
-                    "name": "ARG",
-                    "number": 13
-                },
-                {
-                    "name": "GLU",
-                    "number": 14
-                },
-                {
-                    "name": "ASN",
-                    "number": 15
-                },
-                {
-                    "name": "PRO",
-                    "number": 16
-                },
-                {
-                    "name": "VAL",
-                    "number": 17
-                },
-                {
-                    "name": "THR",
-                    "number": 18
-                },
-                {
-                    "name": "PRO",
-                    "number": 19
-                },
-                {
-                    "name": "TRP",
-                    "number": 20
-                },
-                {
-                    "name": "ASN",
-                    "number": 21
-                },
-                {
-                    "name": "PRO",
-                    "number": 22
-                },
-                {
-                    "name": "GLU",
-                    "number": 23
-                },
-                {
-                    "name": "PRO",
-                    "number": 24
-                },
-                {
-                    "name": "SER",
-                    "number": 25
-                },
-                {
-                    "name": "ALA",
-                    "number": 26
-                },
-                {
-                    "name": "PRO",
-                    "number": 27
-                },
-                {
-                    "name": "VAL",
-                    "number": 28
-                },
-                {
-                    "name": "ILE",
-                    "number": 29
-                },
-                {
-                    "name": "ASP",
-                    "number": 30
-                },
-                {
-                    "name": "PRO",
-                    "number": 31
-                },
-                {
-                    "name": "THR",
-                    "number": 32
-                },
-                {
-                    "name": "ALA",
-                    "number": 33
-                },
-                {
-                    "name": "TYR",
-                    "number": 34
-                },
-                {
-                    "name": "ILE",
-                    "number": 35
-                },
-                {
-                    "name": "ASP",
-                    "number": 36
-                },
-                {
-                    "name": "PRO",
-                    "number": 37
-                },
-                {
-                    "name": "GLU",
-                    "number": 38
-                },
-                {
-                    "name": "ALA",
-                    "number": 39
-                },
-                {
-                    "name": "SER",
-                    "number": 40
-                },
-                {
-                    "name": "VAL",
-                    "number": 41
-                },
-                {
-                    "name": "ILE",
-                    "number": 42
-                },
-                {
-                    "name": "GLY",
-                    "number": 43
-                },
-                {
-                    "name": "GLU",
-                    "number": 44
-                },
-                {
-                    "name": "VAL",
-                    "number": 45
-                },
-                {
-                    "name": "THR",
-                    "number": 46
-                },
-                {
-                    "name": "ILE",
-                    "number": 47
-                },
-                {
-                    "name": "GLY",
-                    "number": 48
-                },
-                {
-                    "name": "ALA",
-                    "number": 49
-                },
-                {
-                    "name": "ASN",
-                    "number": 50
-                },
-                {
-                    "name": "VAL",
-                    "number": 51
-                },
-                {
-                    "name": "MET",
-                    "number": 52
-                },
-                {
-                    "name": "VAL",
-                    "number": 53
-                },
-                {
-                    "name": "SER",
-                    "number": 54
-                },
-                {
-                    "name": "PRO",
-                    "number": 55
-                },
-                {
-                    "name": "MET",
-                    "number": 56
-                },
-                {
-                    "name": "ALA",
-                    "number": 57
-                },
-                {
-                    "name": "SER",
-                    "number": 58
-                },
-                {
-                    "name": "ILE",
-                    "number": 59
-                },
-                {
-                    "name": "ARG",
-                    "number": 60
-                },
-                {
-                    "name": "SER",
-                    "number": 61
-                },
-                {
-                    "name": "ASP",
-                    "number": 62
-                },
-                {
-                    "name": "GLU",
-                    "number": 63
-                },
-                {
-                    "name": "GLY",
-                    "number": 64
-                },
-                {
-                    "name": "MET",
-                    "number": 65
-                },
-                {
-                    "name": "PRO",
-                    "number": 66
-                },
-                {
-                    "name": "ILE",
-                    "number": 67
-                },
-                {
-                    "name": "PHE",
-                    "number": 68
-                },
-                {
-                    "name": "VAL",
-                    "number": 69
-                },
-                {
-                    "name": "GLY",
-                    "number": 70
-                },
-                {
-                    "name": "ASP",
-                    "number": 71
-                },
-                {
-                    "name": "ARG",
-                    "number": 72
-                },
-                {
-                    "name": "SER",
-                    "number": 73
-                },
-                {
-                    "name": "ASN",
-                    "number": 74
-                },
-                {
-                    "name": "VAL",
-                    "number": 75
-                },
-                {
-                    "name": "GLN",
-                    "number": 76
-                },
-                {
-                    "name": "ASP",
-                    "number": 77
-                },
-                {
-                    "name": "GLY",
-                    "number": 78
-                },
-                {
-                    "name": "VAL",
-                    "number": 79
-                },
-                {
-                    "name": "VAL",
-                    "number": 80
-                },
-                {
-                    "name": "LEU",
-                    "number": 81
-                },
-                {
-                    "name": "HIS",
-                    "number": 82
-                },
-                {
-                    "name": "ALA",
-                    "number": 83
-                },
-                {
-                    "name": "LEU",
-                    "number": 84
-                },
-                {
-                    "name": "GLU",
-                    "number": 85
-                },
-                {
-                    "name": "THR",
-                    "number": 86
-                },
-                {
-                    "name": "ILE",
-                    "number": 87
-                },
-                {
-                    "name": "ASN",
-                    "number": 88
-                },
-                {
-                    "name": "GLU",
-                    "number": 89
-                },
-                {
-                    "name": "GLU",
-                    "number": 90
-                },
-                {
-                    "name": "GLY",
-                    "number": 91
-                },
-                {
-                    "name": "GLU",
-                    "number": 92
-                },
-                {
-                    "name": "PRO",
-                    "number": 93
-                },
-                {
-                    "name": "ILE",
-                    "number": 94
-                },
-                {
-                    "name": "GLU",
-                    "number": 95
-                },
-                {
-                    "name": "ASP",
-                    "number": 96
-                },
-                {
-                    "name": "ASN",
-                    "number": 97
-                },
-                {
-                    "name": "ILE",
-                    "number": 98
-                },
-                {
-                    "name": "VAL",
-                    "number": 99
-                },
-                {
-                    "name": "GLU",
-                    "number": 100
-                },
-                {
-                    "name": "VAL",
-                    "number": 101
-                },
-                {
-                    "name": "ASP",
-                    "number": 102
-                },
-                {
-                    "name": "GLY",
-                    "number": 103
-                },
-                {
-                    "name": "LYS",
-                    "number": 104
-                },
-                {
-                    "name": "GLU",
-                    "number": 105
-                },
-                {
-                    "name": "TYR",
-                    "number": 106
-                },
-                {
-                    "name": "ALA",
-                    "number": 107
-                },
-                {
-                    "name": "VAL",
-                    "number": 108
-                },
-                {
-                    "name": "TYR",
-                    "number": 109
-                },
-                {
-                    "name": "ILE",
-                    "number": 110
-                },
-                {
-                    "name": "GLY",
-                    "number": 111
-                },
-                {
-                    "name": "ASN",
-                    "number": 112
-                },
-                {
-                    "name": "ASN",
-                    "number": 113
-                },
-                {
-                    "name": "VAL",
-                    "number": 114
-                },
-                {
-                    "name": "SER",
-                    "number": 115
-                },
-                {
-                    "name": "LEU",
-                    "number": 116
-                },
-                {
-                    "name": "ALA",
-                    "number": 117
-                },
-                {
-                    "name": "HIS",
-                    "number": 118
-                },
-                {
-                    "name": "GLN",
-                    "number": 119
-                },
-                {
-                    "name": "SER",
-                    "number": 120
-                },
-                {
-                    "name": "GLN",
-                    "number": 121
-                },
-                {
-                    "name": "VAL",
-                    "number": 122
-                },
-                {
-                    "name": "HIS",
-                    "number": 123
-                },
-                {
-                    "name": "GLY",
-                    "number": 124
-                },
-                {
-                    "name": "PRO",
-                    "number": 125
-                },
-                {
-                    "name": "ALA",
-                    "number": 126
-                },
-                {
-                    "name": "ALA",
-                    "number": 127
-                },
-                {
-                    "name": "VAL",
-                    "number": 128
-                },
-                {
-                    "name": "GLY",
-                    "number": 129
-                },
-                {
-                    "name": "ASP",
-                    "number": 130
-                },
-                {
-                    "name": "ASP",
-                    "number": 131
-                },
-                {
-                    "name": "THR",
-                    "number": 132
-                },
-                {
-                    "name": "PHE",
-                    "number": 133
-                },
-                {
-                    "name": "ILE",
-                    "number": 134
-                },
-                {
-                    "name": "GLY",
-                    "number": 135
-                },
-                {
-                    "name": "MET",
-                    "number": 136
-                },
-                {
-                    "name": "GLN",
-                    "number": 137
-                },
-                {
-                    "name": "ALA",
-                    "number": 138
-                },
-                {
-                    "name": "PHE",
-                    "number": 139
-                },
-                {
-                    "name": "VAL",
-                    "number": 140
-                },
-                {
-                    "name": "PHE",
-                    "number": 141
-                },
-                {
-                    "name": "LYS",
-                    "number": 142
-                },
-                {
-                    "name": "SER",
-                    "number": 143
-                },
-                {
-                    "name": "LYS",
-                    "number": 144
-                },
-                {
-                    "name": "VAL",
-                    "number": 145
-                },
-                {
-                    "name": "GLY",
-                    "number": 146
-                },
-                {
-                    "name": "ASN",
-                    "number": 147
-                },
-                {
-                    "name": "ASN",
-                    "number": 148
-                },
-                {
-                    "name": "CYS",
-                    "number": 149
-                },
-                {
-                    "name": "VAL",
-                    "number": 150
-                },
-                {
-                    "name": "LEU",
-                    "number": 151
-                },
-                {
-                    "name": "GLU",
-                    "number": 152
-                },
-                {
-                    "name": "PRO",
-                    "number": 153
-                },
-                {
-                    "name": "ARG",
-                    "number": 154
-                },
-                {
-                    "name": "SER",
-                    "number": 155
-                },
-                {
-                    "name": "ALA",
-                    "number": 156
-                },
-                {
-                    "name": "ALA",
-                    "number": 157
-                },
-                {
-                    "name": "ILE",
-                    "number": 158
-                },
-                {
-                    "name": "GLY",
-                    "number": 159
-                },
-                {
-                    "name": "VAL",
-                    "number": 160
-                },
-                {
-                    "name": "THR",
-                    "number": 161
-                },
-                {
-                    "name": "ILE",
-                    "number": 162
-                },
-                {
-                    "name": "PRO",
-                    "number": 163
-                },
-                {
-                    "name": "ASP",
-                    "number": 164
-                },
-                {
-                    "name": "GLY",
-                    "number": 165
-                },
-                {
-                    "name": "ARG",
-                    "number": 166
-                },
-                {
-                    "name": "TYR",
-                    "number": 167
-                },
-                {
-                    "name": "ILE",
-                    "number": 168
-                },
-                {
-                    "name": "PRO",
-                    "number": 169
-                },
-                {
-                    "name": "ALA",
-                    "number": 170
-                },
-                {
-                    "name": "GLY",
-                    "number": 171
-                },
-                {
-                    "name": "MET",
-                    "number": 172
-                },
-                {
-                    "name": "VAL",
-                    "number": 173
-                },
-                {
-                    "name": "VAL",
-                    "number": 174
-                },
-                {
-                    "name": "THR",
-                    "number": 175
-                },
-                {
-                    "name": "SER",
-                    "number": 176
-                },
-                {
-                    "name": "GLN",
-                    "number": 177
-                },
-                {
-                    "name": "ALA",
-                    "number": 178
-                },
-                {
-                    "name": "GLU",
-                    "number": 179
-                },
-                {
-                    "name": "ALA",
-                    "number": 180
-                },
-                {
-                    "name": "ASP",
-                    "number": 181
-                },
-                {
-                    "name": "LYS",
-                    "number": 182
-                },
-                {
-                    "name": "LEU",
-                    "number": 183
-                },
-                {
-                    "name": "PRO",
-                    "number": 184
-                },
-                {
-                    "name": "GLU",
-                    "number": 185
-                },
-                {
-                    "name": "VAL",
-                    "number": 186
-                },
-                {
-                    "name": "THR",
-                    "number": 187
-                },
-                {
-                    "name": "ASP",
-                    "number": 188
-                },
-                {
-                    "name": "ASP",
-                    "number": 189
-                },
-                {
-                    "name": "TYR",
-                    "number": 190
-                },
-                {
-                    "name": "ALA",
-                    "number": 191
-                },
-                {
-                    "name": "TYR",
-                    "number": 192
-                },
-                {
-                    "name": "SER",
-                    "number": 193
-                },
-                {
-                    "name": "HIS",
-                    "number": 194
-                },
-                {
-                    "name": "THR",
-                    "number": 195
-                },
-                {
-                    "name": "ASN",
-                    "number": 196
-                },
-                {
-                    "name": "GLU",
-                    "number": 197
-                },
-                {
-                    "name": "ALA",
-                    "number": 198
-                },
-                {
-                    "name": "VAL",
-                    "number": 199
-                },
-                {
-                    "name": "VAL",
-                    "number": 200
-                },
-                {
-                    "name": "TYR",
-                    "number": 201
-                },
-                {
-                    "name": "VAL",
-                    "number": 202
-                },
-                {
-                    "name": "ASN",
-                    "number": 203
-                },
-                {
-                    "name": "VAL",
-                    "number": 204
-                },
-                {
-                    "name": "HIS",
-                    "number": 205
-                },
-                {
-                    "name": "LEU",
-                    "number": 206
-                },
-                {
-                    "name": "ALA",
-                    "number": 207
-                },
-                {
-                    "name": "GLU",
-                    "number": 208
-                },
-                {
-                    "name": "GLY",
-                    "number": 209
-                },
-                {
-                    "name": "TYR",
-                    "number": 210
-                },
-                {
-                    "name": "LYS",
-                    "number": 211
-                },
-                {
-                    "name": "GLU",
-                    "number": 212
-                },
-                {
-                    "name": "THR",
-                    "number": 213
-                },
-                {
-                    "name": "SER",
-                    "number": 214
-                },
-                {
-                    "name": "MET",
-                    "number": 1
-                },
-                {
-                    "name": "GLN",
-                    "number": 2
-                },
-                {
-                    "name": "GLU",
-                    "number": 3
-                },
-                {
-                    "name": "ILE",
-                    "number": 4
-                },
-                {
-                    "name": "THR",
-                    "number": 5
-                },
-                {
-                    "name": "VAL",
-                    "number": 6
-                },
-                {
-                    "name": "ASP",
-                    "number": 7
-                },
-                {
-                    "name": "GLU",
-                    "number": 8
-                },
-                {
-                    "name": "PHE",
-                    "number": 9
-                },
-                {
-                    "name": "SER",
-                    "number": 10
-                },
-                {
-                    "name": "ASN",
-                    "number": 11
-                },
-                {
-                    "name": "ILE",
-                    "number": 12
-                },
-                {
-                    "name": "ARG",
-                    "number": 13
-                },
-                {
-                    "name": "GLU",
-                    "number": 14
-                },
-                {
-                    "name": "ASN",
-                    "number": 15
-                },
-                {
-                    "name": "PRO",
-                    "number": 16
-                },
-                {
-                    "name": "VAL",
-                    "number": 17
-                },
-                {
-                    "name": "THR",
-                    "number": 18
-                },
-                {
-                    "name": "PRO",
-                    "number": 19
-                },
-                {
-                    "name": "TRP",
-                    "number": 20
-                },
-                {
-                    "name": "ASN",
-                    "number": 21
-                },
-                {
-                    "name": "PRO",
-                    "number": 22
-                },
-                {
-                    "name": "GLU",
-                    "number": 23
-                },
-                {
-                    "name": "PRO",
-                    "number": 24
-                },
-                {
-                    "name": "SER",
-                    "number": 25
-                },
-                {
-                    "name": "ALA",
-                    "number": 26
-                },
-                {
-                    "name": "PRO",
-                    "number": 27
-                },
-                {
-                    "name": "VAL",
-                    "number": 28
-                },
-                {
-                    "name": "ILE",
-                    "number": 29
-                },
-                {
-                    "name": "ASP",
-                    "number": 30
-                },
-                {
-                    "name": "PRO",
-                    "number": 31
-                },
-                {
-                    "name": "THR",
-                    "number": 32
-                },
-                {
-                    "name": "ALA",
-                    "number": 33
-                },
-                {
-                    "name": "TYR",
-                    "number": 34
-                },
-                {
-                    "name": "ILE",
-                    "number": 35
-                },
-                {
-                    "name": "ASP",
-                    "number": 36
-                },
-                {
-                    "name": "PRO",
-                    "number": 37
-                },
-                {
-                    "name": "GLU",
-                    "number": 38
-                },
-                {
-                    "name": "ALA",
-                    "number": 39
-                },
-                {
-                    "name": "SER",
-                    "number": 40
-                },
-                {
-                    "name": "VAL",
-                    "number": 41
-                },
-                {
-                    "name": "ILE",
-                    "number": 42
-                },
-                {
-                    "name": "GLY",
-                    "number": 43
-                },
-                {
-                    "name": "GLU",
-                    "number": 44
-                },
-                {
-                    "name": "VAL",
-                    "number": 45
-                },
-                {
-                    "name": "THR",
-                    "number": 46
-                },
-                {
-                    "name": "ILE",
-                    "number": 47
-                },
-                {
-                    "name": "GLY",
-                    "number": 48
-                },
-                {
-                    "name": "ALA",
-                    "number": 49
-                },
-                {
-                    "name": "ASN",
-                    "number": 50
-                },
-                {
-                    "name": "VAL",
-                    "number": 51
-                },
-                {
-                    "name": "MET",
-                    "number": 52
-                },
-                {
-                    "name": "VAL",
-                    "number": 53
-                },
-                {
-                    "name": "SER",
-                    "number": 54
-                },
-                {
-                    "name": "PRO",
-                    "number": 55
-                },
-                {
-                    "name": "MET",
-                    "number": 56
-                },
-                {
-                    "name": "ALA",
-                    "number": 57
-                },
-                {
-                    "name": "SER",
-                    "number": 58
-                },
-                {
-                    "name": "ILE",
-                    "number": 59
-                },
-                {
-                    "name": "ARG",
-                    "number": 60
-                },
-                {
-                    "name": "SER",
-                    "number": 61
-                },
-                {
-                    "name": "ASP",
-                    "number": 62
-                },
-                {
-                    "name": "GLU",
-                    "number": 63
-                },
-                {
-                    "name": "GLY",
-                    "number": 64
-                },
-                {
-                    "name": "MET",
-                    "number": 65
-                },
-                {
-                    "name": "PRO",
-                    "number": 66
-                },
-                {
-                    "name": "ILE",
-                    "number": 67
-                },
-                {
-                    "name": "PHE",
-                    "number": 68
-                },
-                {
-                    "name": "VAL",
-                    "number": 69
-                },
-                {
-                    "name": "GLY",
-                    "number": 70
-                },
-                {
-                    "name": "ASP",
-                    "number": 71
-                },
-                {
-                    "name": "ARG",
-                    "number": 72
-                },
-                {
-                    "name": "SER",
-                    "number": 73
-                },
-                {
-                    "name": "ASN",
-                    "number": 74
-                },
-                {
-                    "name": "VAL",
-                    "number": 75
-                },
-                {
-                    "name": "GLN",
-                    "number": 76
-                },
-                {
-                    "name": "ASP",
-                    "number": 77
-                },
-                {
-                    "name": "GLY",
-                    "number": 78
-                },
-                {
-                    "name": "VAL",
-                    "number": 79
-                },
-                {
-                    "name": "VAL",
-                    "number": 80
-                },
-                {
-                    "name": "LEU",
-                    "number": 81
-                },
-                {
-                    "name": "HIS",
-                    "number": 82
-                },
-                {
-                    "name": "ALA",
-                    "number": 83
-                },
-                {
-                    "name": "LEU",
-                    "number": 84
-                },
-                {
-                    "name": "GLU",
-                    "number": 85
-                },
-                {
-                    "name": "THR",
-                    "number": 86
-                },
-                {
-                    "name": "ILE",
-                    "number": 87
-                },
-                {
-                    "name": "ASN",
-                    "number": 88
-                },
-                {
-                    "name": "GLU",
-                    "number": 89
-                },
-                {
-                    "name": "GLU",
-                    "number": 90
-                },
-                {
-                    "name": "GLY",
-                    "number": 91
-                },
-                {
-                    "name": "GLU",
-                    "number": 92
-                },
-                {
-                    "name": "PRO",
-                    "number": 93
-                },
-                {
-                    "name": "ILE",
-                    "number": 94
-                },
-                {
-                    "name": "GLU",
-                    "number": 95
-                },
-                {
-                    "name": "ASP",
-                    "number": 96
-                },
-                {
-                    "name": "ASN",
-                    "number": 97
-                },
-                {
-                    "name": "ILE",
-                    "number": 98
-                },
-                {
-                    "name": "VAL",
-                    "number": 99
-                },
-                {
-                    "name": "GLU",
-                    "number": 100
-                },
-                {
-                    "name": "VAL",
-                    "number": 101
-                },
-                {
-                    "name": "ASP",
-                    "number": 102
-                },
-                {
-                    "name": "GLY",
-                    "number": 103
-                },
-                {
-                    "name": "LYS",
-                    "number": 104
-                },
-                {
-                    "name": "GLU",
-                    "number": 105
-                },
-                {
-                    "name": "TYR",
-                    "number": 106
-                },
-                {
-                    "name": "ALA",
-                    "number": 107
-                },
-                {
-                    "name": "VAL",
-                    "number": 108
-                },
-                {
-                    "name": "TYR",
-                    "number": 109
-                },
-                {
-                    "name": "ILE",
-                    "number": 110
-                },
-                {
-                    "name": "GLY",
-                    "number": 111
-                },
-                {
-                    "name": "ASN",
-                    "number": 112
-                },
-                {
-                    "name": "ASN",
-                    "number": 113
-                },
-                {
-                    "name": "VAL",
-                    "number": 114
-                },
-                {
-                    "name": "SER",
-                    "number": 115
-                },
-                {
-                    "name": "LEU",
-                    "number": 116
-                },
-                {
-                    "name": "ALA",
-                    "number": 117
-                },
-                {
-                    "name": "HIS",
-                    "number": 118
-                },
-                {
-                    "name": "GLN",
-                    "number": 119
-                },
-                {
-                    "name": "SER",
-                    "number": 120
-                },
-                {
-                    "name": "GLN",
-                    "number": 121
-                },
-                {
-                    "name": "VAL",
-                    "number": 122
-                },
-                {
-                    "name": "HIS",
-                    "number": 123
-                },
-                {
-                    "name": "GLY",
-                    "number": 124
-                },
-                {
-                    "name": "PRO",
-                    "number": 125
-                },
-                {
-                    "name": "ALA",
-                    "number": 126
-                },
-                {
-                    "name": "ALA",
-                    "number": 127
-                },
-                {
-                    "name": "VAL",
-                    "number": 128
-                },
-                {
-                    "name": "GLY",
-                    "number": 129
-                },
-                {
-                    "name": "ASP",
-                    "number": 130
-                },
-                {
-                    "name": "ASP",
-                    "number": 131
-                },
-                {
-                    "name": "THR",
-                    "number": 132
-                },
-                {
-                    "name": "PHE",
-                    "number": 133
-                },
-                {
-                    "name": "ILE",
-                    "number": 134
-                },
-                {
-                    "name": "GLY",
-                    "number": 135
-                },
-                {
-                    "name": "MET",
-                    "number": 136
-                },
-                {
-                    "name": "GLN",
-                    "number": 137
-                },
-                {
-                    "name": "ALA",
-                    "number": 138
-                },
-                {
-                    "name": "PHE",
-                    "number": 139
-                },
-                {
-                    "name": "VAL",
-                    "number": 140
-                },
-                {
-                    "name": "PHE",
-                    "number": 141
-                },
-                {
-                    "name": "LYS",
-                    "number": 142
-                },
-                {
-                    "name": "SER",
-                    "number": 143
-                },
-                {
-                    "name": "LYS",
-                    "number": 144
-                },
-                {
-                    "name": "VAL",
-                    "number": 145
-                },
-                {
-                    "name": "GLY",
-                    "number": 146
-                },
-                {
-                    "name": "ASN",
-                    "number": 147
-                },
-                {
-                    "name": "ASN",
-                    "number": 148
-                },
-                {
-                    "name": "CYS",
-                    "number": 149
-                },
-                {
-                    "name": "VAL",
-                    "number": 150
-                },
-                {
-                    "name": "LEU",
-                    "number": 151
-                },
-                {
-                    "name": "GLU",
-                    "number": 152
-                },
-                {
-                    "name": "PRO",
-                    "number": 153
-                },
-                {
-                    "name": "ARG",
-                    "number": 154
-                },
-                {
-                    "name": "SER",
-                    "number": 155
-                },
-                {
-                    "name": "ALA",
-                    "number": 156
-                },
-                {
-                    "name": "ALA",
-                    "number": 157
-                },
-                {
-                    "name": "ILE",
-                    "number": 158
-                },
-                {
-                    "name": "GLY",
-                    "number": 159
-                },
-                {
-                    "name": "VAL",
-                    "number": 160
-                },
-                {
-                    "name": "THR",
-                    "number": 161
-                },
-                {
-                    "name": "ILE",
-                    "number": 162
-                },
-                {
-                    "name": "PRO",
-                    "number": 163
-                },
-                {
-                    "name": "ASP",
-                    "number": 164
-                },
-                {
-                    "name": "GLY",
-                    "number": 165
-                },
-                {
-                    "name": "ARG",
-                    "number": 166
-                },
-                {
-                    "name": "TYR",
-                    "number": 167
-                },
-                {
-                    "name": "ILE",
-                    "number": 168
-                },
-                {
-                    "name": "PRO",
-                    "number": 169
-                },
-                {
-                    "name": "ALA",
-                    "number": 170
-                },
-                {
-                    "name": "GLY",
-                    "number": 171
-                },
-                {
-                    "name": "MET",
-                    "number": 172
-                },
-                {
-                    "name": "VAL",
-                    "number": 173
-                },
-                {
-                    "name": "VAL",
-                    "number": 174
-                },
-                {
-                    "name": "THR",
-                    "number": 175
-                },
-                {
-                    "name": "SER",
-                    "number": 176
-                },
-                {
-                    "name": "GLN",
-                    "number": 177
-                },
-                {
-                    "name": "ALA",
-                    "number": 178
-                },
-                {
-                    "name": "GLU",
-                    "number": 179
-                },
-                {
-                    "name": "ALA",
-                    "number": 180
-                },
-                {
-                    "name": "ASP",
-                    "number": 181
-                },
-                {
-                    "name": "LYS",
-                    "number": 182
-                },
-                {
-                    "name": "LEU",
-                    "number": 183
-                },
-                {
-                    "name": "PRO",
-                    "number": 184
-                },
-                {
-                    "name": "GLU",
-                    "number": 185
-                },
-                {
-                    "name": "VAL",
-                    "number": 186
-                },
-                {
-                    "name": "THR",
-                    "number": 187
-                },
-                {
-                    "name": "ASP",
-                    "number": 188
-                },
-                {
-                    "name": "ASP",
-                    "number": 189
-                },
-                {
-                    "name": "TYR",
-                    "number": 190
-                },
-                {
-                    "name": "ALA",
-                    "number": 191
-                },
-                {
-                    "name": "TYR",
-                    "number": 192
-                },
-                {
-                    "name": "SER",
-                    "number": 193
-                },
-                {
-                    "name": "HIS",
-                    "number": 194
-                },
-                {
-                    "name": "THR",
-                    "number": 195
-                },
-                {
-                    "name": "ASN",
-                    "number": 196
-                },
-                {
-                    "name": "GLU",
-                    "number": 197
-                },
-                {
-                    "name": "ALA",
-                    "number": 198
-                },
-                {
-                    "name": "VAL",
-                    "number": 199
-                },
-                {
-                    "name": "VAL",
-                    "number": 200
-                },
-                {
-                    "name": "TYR",
-                    "number": 201
-                },
-                {
-                    "name": "VAL",
-                    "number": 202
-                },
-                {
-                    "name": "ASN",
-                    "number": 203
-                },
-                {
-                    "name": "VAL",
-                    "number": 204
-                },
-                {
-                    "name": "HIS",
-                    "number": 205
-                },
-                {
-                    "name": "LEU",
-                    "number": 206
-                },
-                {
-                    "name": "ALA",
-                    "number": 207
-                },
-                {
-                    "name": "GLU",
-                    "number": 208
-                },
-                {
-                    "name": "GLY",
-                    "number": 209
-                },
-                {
-                    "name": "TYR",
-                    "number": 210
-                },
-                {
-                    "name": "LYS",
-                    "number": 211
-                },
-                {
-                    "name": "GLU",
-                    "number": 212
-                },
-                {
-                    "name": "THR",
-                    "number": 213
-                },
-                {
-                    "name": "SER",
-                    "number": 214
-                },
-                {
-                    "name": "MET",
-                    "number": 1
-                },
-                {
-                    "name": "GLN",
-                    "number": 2
-                },
-                {
-                    "name": "GLU",
-                    "number": 3
-                },
-                {
-                    "name": "ILE",
-                    "number": 4
-                },
-                {
-                    "name": "THR",
-                    "number": 5
-                },
-                {
-                    "name": "VAL",
-                    "number": 6
-                },
-                {
-                    "name": "ASP",
-                    "number": 7
-                },
-                {
-                    "name": "GLU",
-                    "number": 8
-                },
-                {
-                    "name": "PHE",
-                    "number": 9
-                },
-                {
-                    "name": "SER",
-                    "number": 10
-                },
-                {
-                    "name": "ASN",
-                    "number": 11
-                },
-                {
-                    "name": "ILE",
-                    "number": 12
-                },
-                {
-                    "name": "ARG",
-                    "number": 13
-                },
-                {
-                    "name": "GLU",
-                    "number": 14
-                },
-                {
-                    "name": "ASN",
-                    "number": 15
-                },
-                {
-                    "name": "PRO",
-                    "number": 16
-                },
-                {
-                    "name": "VAL",
-                    "number": 17
-                },
-                {
-                    "name": "THR",
-                    "number": 18
-                },
-                {
-                    "name": "PRO",
-                    "number": 19
-                },
-                {
-                    "name": "TRP",
-                    "number": 20
-                },
-                {
-                    "name": "ASN",
-                    "number": 21
-                },
-                {
-                    "name": "PRO",
-                    "number": 22
-                },
-                {
-                    "name": "GLU",
-                    "number": 23
-                },
-                {
-                    "name": "PRO",
-                    "number": 24
-                },
-                {
-                    "name": "SER",
-                    "number": 25
-                },
-                {
-                    "name": "ALA",
-                    "number": 26
-                },
-                {
-                    "name": "PRO",
-                    "number": 27
-                },
-                {
-                    "name": "VAL",
-                    "number": 28
-                },
-                {
-                    "name": "ILE",
-                    "number": 29
-                },
-                {
-                    "name": "ASP",
-                    "number": 30
-                },
-                {
-                    "name": "PRO",
-                    "number": 31
-                },
-                {
-                    "name": "THR",
-                    "number": 32
-                },
-                {
-                    "name": "ALA",
-                    "number": 33
-                },
-                {
-                    "name": "TYR",
-                    "number": 34
-                },
-                {
-                    "name": "ILE",
-                    "number": 35
-                },
-                {
-                    "name": "ASP",
-                    "number": 36
-                },
-                {
-                    "name": "PRO",
-                    "number": 37
-                },
-                {
-                    "name": "GLU",
-                    "number": 38
-                },
-                {
-                    "name": "ALA",
-                    "number": 39
-                },
-                {
-                    "name": "SER",
-                    "number": 40
-                },
-                {
-                    "name": "VAL",
-                    "number": 41
-                },
-                {
-                    "name": "ILE",
-                    "number": 42
-                },
-                {
-                    "name": "GLY",
-                    "number": 43
-                },
-                {
-                    "name": "GLU",
-                    "number": 44
-                },
-                {
-                    "name": "VAL",
-                    "number": 45
-                },
-                {
-                    "name": "THR",
-                    "number": 46
-                },
-                {
-                    "name": "ILE",
-                    "number": 47
-                },
-                {
-                    "name": "GLY",
-                    "number": 48
-                },
-                {
-                    "name": "ALA",
-                    "number": 49
-                },
-                {
-                    "name": "ASN",
-                    "number": 50
-                },
-                {
-                    "name": "VAL",
-                    "number": 51
-                },
-                {
-                    "name": "MET",
-                    "number": 52
-                },
-                {
-                    "name": "VAL",
-                    "number": 53
-                },
-                {
-                    "name": "SER",
-                    "number": 54
-                },
-                {
-                    "name": "PRO",
-                    "number": 55
-                },
-                {
-                    "name": "MET",
-                    "number": 56
-                },
-                {
-                    "name": "ALA",
-                    "number": 57
-                },
-                {
-                    "name": "SER",
-                    "number": 58
-                },
-                {
-                    "name": "ILE",
-                    "number": 59
-                },
-                {
-                    "name": "ARG",
-                    "number": 60
-                },
-                {
-                    "name": "SER",
-                    "number": 61
-                },
-                {
-                    "name": "ASP",
-                    "number": 62
-                },
-                {
-                    "name": "GLU",
-                    "number": 63
-                },
-                {
-                    "name": "GLY",
-                    "number": 64
-                },
-                {
-                    "name": "MET",
-                    "number": 65
-                },
-                {
-                    "name": "PRO",
-                    "number": 66
-                },
-                {
-                    "name": "ILE",
-                    "number": 67
-                },
-                {
-                    "name": "PHE",
-                    "number": 68
-                },
-                {
-                    "name": "VAL",
-                    "number": 69
-                },
-                {
-                    "name": "GLY",
-                    "number": 70
-                },
-                {
-                    "name": "ASP",
-                    "number": 71
-                },
-                {
-                    "name": "ARG",
-                    "number": 72
-                },
-                {
-                    "name": "SER",
-                    "number": 73
-                },
-                {
-                    "name": "ASN",
-                    "number": 74
-                },
-                {
-                    "name": "VAL",
-                    "number": 75
-                },
-                {
-                    "name": "GLN",
-                    "number": 76
-                },
-                {
-                    "name": "ASP",
-                    "number": 77
-                },
-                {
-                    "name": "GLY",
-                    "number": 78
-                },
-                {
-                    "name": "VAL",
-                    "number": 79
-                },
-                {
-                    "name": "VAL",
-                    "number": 80
-                },
-                {
-                    "name": "LEU",
-                    "number": 81
-                },
-                {
-                    "name": "HIS",
-                    "number": 82
-                },
-                {
-                    "name": "ALA",
-                    "number": 83
-                },
-                {
-                    "name": "LEU",
-                    "number": 84
-                },
-                {
-                    "name": "GLU",
-                    "number": 85
-                },
-                {
-                    "name": "THR",
-                    "number": 86
-                },
-                {
-                    "name": "ILE",
-                    "number": 87
-                },
-                {
-                    "name": "ASN",
-                    "number": 88
-                },
-                {
-                    "name": "GLU",
-                    "number": 89
-                },
-                {
-                    "name": "GLU",
-                    "number": 90
-                },
-                {
-                    "name": "GLY",
-                    "number": 91
-                },
-                {
-                    "name": "GLU",
-                    "number": 92
-                },
-                {
-                    "name": "PRO",
-                    "number": 93
-                },
-                {
-                    "name": "ILE",
-                    "number": 94
-                },
-                {
-                    "name": "GLU",
-                    "number": 95
-                },
-                {
-                    "name": "ASP",
-                    "number": 96
-                },
-                {
-                    "name": "ASN",
-                    "number": 97
-                },
-                {
-                    "name": "ILE",
-                    "number": 98
-                },
-                {
-                    "name": "VAL",
-                    "number": 99
-                },
-                {
-                    "name": "GLU",
-                    "number": 100
-                },
-                {
-                    "name": "VAL",
-                    "number": 101
-                },
-                {
-                    "name": "ASP",
-                    "number": 102
-                },
-                {
-                    "name": "GLY",
-                    "number": 103
-                },
-                {
-                    "name": "LYS",
-                    "number": 104
-                },
-                {
-                    "name": "GLU",
-                    "number": 105
-                },
-                {
-                    "name": "TYR",
-                    "number": 106
-                },
-                {
-                    "name": "ALA",
-                    "number": 107
-                },
-                {
-                    "name": "VAL",
-                    "number": 108
-                },
-                {
-                    "name": "TYR",
-                    "number": 109
-                },
-                {
-                    "name": "ILE",
-                    "number": 110
-                },
-                {
-                    "name": "GLY",
-                    "number": 111
-                },
-                {
-                    "name": "ASN",
-                    "number": 112
-                },
-                {
-                    "name": "ASN",
-                    "number": 113
-                },
-                {
-                    "name": "VAL",
-                    "number": 114
-                },
-                {
-                    "name": "SER",
-                    "number": 115
-                },
-                {
-                    "name": "LEU",
-                    "number": 116
-                },
-                {
-                    "name": "ALA",
-                    "number": 117
-                },
-                {
-                    "name": "HIS",
-                    "number": 118
-                },
-                {
-                    "name": "GLN",
-                    "number": 119
-                },
-                {
-                    "name": "SER",
-                    "number": 120
-                },
-                {
-                    "name": "GLN",
-                    "number": 121
-                },
-                {
-                    "name": "VAL",
-                    "number": 122
-                },
-                {
-                    "name": "HIS",
-                    "number": 123
-                },
-                {
-                    "name": "GLY",
-                    "number": 124
-                },
-                {
-                    "name": "PRO",
-                    "number": 125
-                },
-                {
-                    "name": "ALA",
-                    "number": 126
-                },
-                {
-                    "name": "ALA",
-                    "number": 127
-                },
-                {
-                    "name": "VAL",
-                    "number": 128
-                },
-                {
-                    "name": "GLY",
-                    "number": 129
-                },
-                {
-                    "name": "ASP",
-                    "number": 130
-                },
-                {
-                    "name": "ASP",
-                    "number": 131
-                },
-                {
-                    "name": "THR",
-                    "number": 132
-                },
-                {
-                    "name": "PHE",
-                    "number": 133
-                },
-                {
-                    "name": "ILE",
-                    "number": 134
-                },
-                {
-                    "name": "GLY",
-                    "number": 135
-                },
-                {
-                    "name": "MET",
-                    "number": 136
-                },
-                {
-                    "name": "GLN",
-                    "number": 137
-                },
-                {
-                    "name": "ALA",
-                    "number": 138
-                },
-                {
-                    "name": "PHE",
-                    "number": 139
-                },
-                {
-                    "name": "VAL",
-                    "number": 140
-                },
-                {
-                    "name": "PHE",
-                    "number": 141
-                },
-                {
-                    "name": "LYS",
-                    "number": 142
-                },
-                {
-                    "name": "SER",
-                    "number": 143
-                },
-                {
-                    "name": "LYS",
-                    "number": 144
-                },
-                {
-                    "name": "VAL",
-                    "number": 145
-                },
-                {
-                    "name": "GLY",
-                    "number": 146
-                },
-                {
-                    "name": "ASN",
-                    "number": 147
-                },
-                {
-                    "name": "ASN",
-                    "number": 148
-                },
-                {
-                    "name": "CYS",
-                    "number": 149
-                },
-                {
-                    "name": "VAL",
-                    "number": 150
-                },
-                {
-                    "name": "LEU",
-                    "number": 151
-                },
-                {
-                    "name": "GLU",
-                    "number": 152
-                },
-                {
-                    "name": "PRO",
-                    "number": 153
-                },
-                {
-                    "name": "ARG",
-                    "number": 154
-                },
-                {
-                    "name": "SER",
-                    "number": 155
-                },
-                {
-                    "name": "ALA",
-                    "number": 156
-                },
-                {
-                    "name": "ALA",
-                    "number": 157
-                },
-                {
-                    "name": "ILE",
-                    "number": 158
-                },
-                {
-                    "name": "GLY",
-                    "number": 159
-                },
-                {
-                    "name": "VAL",
-                    "number": 160
-                },
-                {
-                    "name": "THR",
-                    "number": 161
-                },
-                {
-                    "name": "ILE",
-                    "number": 162
-                },
-                {
-                    "name": "PRO",
-                    "number": 163
-                },
-                {
-                    "name": "ASP",
-                    "number": 164
-                },
-                {
-                    "name": "GLY",
-                    "number": 165
-                },
-                {
-                    "name": "ARG",
-                    "number": 166
-                },
-                {
-                    "name": "TYR",
-                    "number": 167
-                },
-                {
-                    "name": "ILE",
-                    "number": 168
-                },
-                {
-                    "name": "PRO",
-                    "number": 169
-                },
-                {
-                    "name": "ALA",
-                    "number": 170
-                },
-                {
-                    "name": "GLY",
-                    "number": 171
-                },
-                {
-                    "name": "MET",
-                    "number": 172
-                },
-                {
-                    "name": "VAL",
-                    "number": 173
-                },
-                {
-                    "name": "VAL",
-                    "number": 174
-                },
-                {
-                    "name": "THR",
-                    "number": 175
-                },
-                {
-                    "name": "SER",
-                    "number": 176
-                },
-                {
-                    "name": "GLN",
-                    "number": 177
-                },
-                {
-                    "name": "ALA",
-                    "number": 178
-                },
-                {
-                    "name": "GLU",
-                    "number": 179
-                },
-                {
-                    "name": "ALA",
-                    "number": 180
-                },
-                {
-                    "name": "ASP",
-                    "number": 181
-                },
-                {
-                    "name": "LYS",
-                    "number": 182
-                },
-                {
-                    "name": "LEU",
-                    "number": 183
-                },
-                {
-                    "name": "PRO",
-                    "number": 184
-                },
-                {
-                    "name": "GLU",
-                    "number": 185
-                },
-                {
-                    "name": "VAL",
-                    "number": 186
-                },
-                {
-                    "name": "THR",
-                    "number": 187
-                },
-                {
-                    "name": "ASP",
-                    "number": 188
-                },
-                {
-                    "name": "ASP",
-                    "number": 189
-                },
-                {
-                    "name": "TYR",
-                    "number": 190
-                },
-                {
-                    "name": "ALA",
-                    "number": 191
-                },
-                {
-                    "name": "TYR",
-                    "number": 192
-                },
-                {
-                    "name": "SER",
-                    "number": 193
-                },
-                {
-                    "name": "HIS",
-                    "number": 194
-                },
-                {
-                    "name": "THR",
-                    "number": 195
-                },
-                {
-                    "name": "ASN",
-                    "number": 196
-                },
-                {
-                    "name": "GLU",
-                    "number": 197
-                },
-                {
-                    "name": "ALA",
-                    "number": 198
-                },
-                {
-                    "name": "VAL",
-                    "number": 199
-                },
-                {
-                    "name": "VAL",
-                    "number": 200
-                },
-                {
-                    "name": "TYR",
-                    "number": 201
-                },
-                {
-                    "name": "VAL",
-                    "number": 202
-                },
-                {
-                    "name": "ASN",
-                    "number": 203
-                },
-                {
-                    "name": "VAL",
-                    "number": 204
-                },
-                {
-                    "name": "HIS",
-                    "number": 205
-                },
-                {
-                    "name": "LEU",
-                    "number": 206
-                },
-                {
-                    "name": "ALA",
-                    "number": 207
-                },
-                {
-                    "name": "GLU",
-                    "number": 208
-                },
-                {
-                    "name": "GLY",
-                    "number": 209
-                },
-                {
-                    "name": "TYR",
-                    "number": 210
-                },
-                {
-                    "name": "LYS",
-                    "number": 211
-                },
-                {
-                    "name": "GLU",
-                    "number": 212
-                },
-                {
-                    "name": "THR",
-                    "number": 213
-                },
-                {
-                    "name": "SER",
-                    "number": 214
-                }
-            ],
+                    {
+                        "name": "MET",
+                        "number": 1,
+                        "uniprot_number": "NA"
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 2,
+                        "uniprot_number": 35
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 3,
+                        "uniprot_number": 36
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 4,
+                        "uniprot_number": 37
+                    },
+                    {
+                        "name": "THR",
+                        "number": 5,
+                        "uniprot_number": 38
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 6,
+                        "uniprot_number": 39
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 7,
+                        "uniprot_number": 40
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 8,
+                        "uniprot_number": 41
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 9,
+                        "uniprot_number": 42
+                    },
+                    {
+                        "name": "SER",
+                        "number": 10,
+                        "uniprot_number": 43
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 11,
+                        "uniprot_number": 44
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 12,
+                        "uniprot_number": 45
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 13,
+                        "uniprot_number": 46
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 14,
+                        "uniprot_number": 47
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 15,
+                        "uniprot_number": 48
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 16,
+                        "uniprot_number": 49
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 17,
+                        "uniprot_number": 50
+                    },
+                    {
+                        "name": "THR",
+                        "number": 18,
+                        "uniprot_number": 51
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 19,
+                        "uniprot_number": 52
+                    },
+                    {
+                        "name": "TRP",
+                        "number": 20,
+                        "uniprot_number": 53
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 21,
+                        "uniprot_number": 54
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 22,
+                        "uniprot_number": 55
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 23,
+                        "uniprot_number": 56
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 24,
+                        "uniprot_number": 57
+                    },
+                    {
+                        "name": "SER",
+                        "number": 25,
+                        "uniprot_number": 58
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 26,
+                        "uniprot_number": 59
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 27,
+                        "uniprot_number": 60
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 28,
+                        "uniprot_number": 61
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 29,
+                        "uniprot_number": 62
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 30,
+                        "uniprot_number": 63
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 31,
+                        "uniprot_number": 64
+                    },
+                    {
+                        "name": "THR",
+                        "number": 32,
+                        "uniprot_number": 65
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 33,
+                        "uniprot_number": 66
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 34,
+                        "uniprot_number": 67
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 35,
+                        "uniprot_number": 68
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 36,
+                        "uniprot_number": 69
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 37,
+                        "uniprot_number": 70
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 38,
+                        "uniprot_number": 71
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 39,
+                        "uniprot_number": 72
+                    },
+                    {
+                        "name": "SER",
+                        "number": 40,
+                        "uniprot_number": 73
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 41,
+                        "uniprot_number": 74
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 42,
+                        "uniprot_number": 75
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 43,
+                        "uniprot_number": 76
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 44,
+                        "uniprot_number": 77
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 45,
+                        "uniprot_number": 78
+                    },
+                    {
+                        "name": "THR",
+                        "number": 46,
+                        "uniprot_number": 79
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 47,
+                        "uniprot_number": 80
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 48,
+                        "uniprot_number": 81
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 49,
+                        "uniprot_number": 82
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 50,
+                        "uniprot_number": 83
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 51,
+                        "uniprot_number": 84
+                    },
+                    {
+                        "name": "MET",
+                        "number": 52,
+                        "uniprot_number": 85
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 53,
+                        "uniprot_number": 86
+                    },
+                    {
+                        "name": "SER",
+                        "number": 54,
+                        "uniprot_number": 87
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 55,
+                        "uniprot_number": 88
+                    },
+                    {
+                        "name": "MET",
+                        "number": 56,
+                        "uniprot_number": 89
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 57,
+                        "uniprot_number": 90
+                    },
+                    {
+                        "name": "SER",
+                        "number": 58,
+                        "uniprot_number": 91
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 59,
+                        "uniprot_number": 92
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 60,
+                        "uniprot_number": 93
+                    },
+                    {
+                        "name": "SER",
+                        "number": 61,
+                        "uniprot_number": 94
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 62,
+                        "uniprot_number": 95
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 63,
+                        "uniprot_number": 96
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 64,
+                        "uniprot_number": 97
+                    },
+                    {
+                        "name": "MET",
+                        "number": 65,
+                        "uniprot_number": 98
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 66,
+                        "uniprot_number": 99
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 67,
+                        "uniprot_number": 100
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 68,
+                        "uniprot_number": 101
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 69,
+                        "uniprot_number": 102
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 70,
+                        "uniprot_number": 103
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 71,
+                        "uniprot_number": 104
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 72,
+                        "uniprot_number": 105
+                    },
+                    {
+                        "name": "SER",
+                        "number": 73,
+                        "uniprot_number": 106
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 74,
+                        "uniprot_number": 107
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 75,
+                        "uniprot_number": 108
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 76,
+                        "uniprot_number": 109
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 77,
+                        "uniprot_number": 110
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 78,
+                        "uniprot_number": 111
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 79,
+                        "uniprot_number": 112
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 80,
+                        "uniprot_number": 113
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 81,
+                        "uniprot_number": 114
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 82,
+                        "uniprot_number": 115
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 83,
+                        "uniprot_number": 116
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 84,
+                        "uniprot_number": 117
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 85,
+                        "uniprot_number": 118
+                    },
+                    {
+                        "name": "THR",
+                        "number": 86,
+                        "uniprot_number": 119
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 87,
+                        "uniprot_number": 120
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 88,
+                        "uniprot_number": 121
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 89,
+                        "uniprot_number": 122
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 90,
+                        "uniprot_number": 123
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 91,
+                        "uniprot_number": 124
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 92,
+                        "uniprot_number": 125
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 93,
+                        "uniprot_number": 126
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 94,
+                        "uniprot_number": 127
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 95,
+                        "uniprot_number": 128
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 96,
+                        "uniprot_number": 129
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 97,
+                        "uniprot_number": 130
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 98,
+                        "uniprot_number": 131
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 99,
+                        "uniprot_number": 132
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 100,
+                        "uniprot_number": 133
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 101,
+                        "uniprot_number": 134
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 102,
+                        "uniprot_number": 135
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 103,
+                        "uniprot_number": 136
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 104,
+                        "uniprot_number": 137
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 105,
+                        "uniprot_number": 138
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 106,
+                        "uniprot_number": 139
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 107,
+                        "uniprot_number": 140
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 108,
+                        "uniprot_number": 141
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 109,
+                        "uniprot_number": 142
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 110,
+                        "uniprot_number": 143
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 111,
+                        "uniprot_number": 144
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 112,
+                        "uniprot_number": 145
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 113,
+                        "uniprot_number": 146
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 114,
+                        "uniprot_number": 147
+                    },
+                    {
+                        "name": "SER",
+                        "number": 115,
+                        "uniprot_number": 148
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 116,
+                        "uniprot_number": 149
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 117,
+                        "uniprot_number": 150
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 118,
+                        "uniprot_number": 151
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 119,
+                        "uniprot_number": 152
+                    },
+                    {
+                        "name": "SER",
+                        "number": 120,
+                        "uniprot_number": 153
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 121,
+                        "uniprot_number": 154
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 122,
+                        "uniprot_number": 155
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 123,
+                        "uniprot_number": 156
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 124,
+                        "uniprot_number": 157
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 125,
+                        "uniprot_number": 158
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 126,
+                        "uniprot_number": 159
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 127,
+                        "uniprot_number": 160
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 128,
+                        "uniprot_number": 161
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 129,
+                        "uniprot_number": 162
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 130,
+                        "uniprot_number": 163
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 131,
+                        "uniprot_number": 164
+                    },
+                    {
+                        "name": "THR",
+                        "number": 132,
+                        "uniprot_number": 165
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 133,
+                        "uniprot_number": 166
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 134,
+                        "uniprot_number": 167
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 135,
+                        "uniprot_number": 168
+                    },
+                    {
+                        "name": "MET",
+                        "number": 136,
+                        "uniprot_number": 169
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 137,
+                        "uniprot_number": 170
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 138,
+                        "uniprot_number": 171
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 139,
+                        "uniprot_number": 172
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 140,
+                        "uniprot_number": 173
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 141,
+                        "uniprot_number": 174
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 142,
+                        "uniprot_number": 175
+                    },
+                    {
+                        "name": "SER",
+                        "number": 143,
+                        "uniprot_number": 176
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 144,
+                        "uniprot_number": 177
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 145,
+                        "uniprot_number": 178
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 146,
+                        "uniprot_number": 179
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 147,
+                        "uniprot_number": 180
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 148,
+                        "uniprot_number": 181
+                    },
+                    {
+                        "name": "CYS",
+                        "number": 149,
+                        "uniprot_number": 182
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 150,
+                        "uniprot_number": 183
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 151,
+                        "uniprot_number": 184
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 152,
+                        "uniprot_number": 185
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 153,
+                        "uniprot_number": 186
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 154,
+                        "uniprot_number": 187
+                    },
+                    {
+                        "name": "SER",
+                        "number": 155,
+                        "uniprot_number": 188
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 156,
+                        "uniprot_number": 189
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 157,
+                        "uniprot_number": 190
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 158,
+                        "uniprot_number": 191
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 159,
+                        "uniprot_number": 192
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 160,
+                        "uniprot_number": 193
+                    },
+                    {
+                        "name": "THR",
+                        "number": 161,
+                        "uniprot_number": 194
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 162,
+                        "uniprot_number": 195
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 163,
+                        "uniprot_number": 196
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 164,
+                        "uniprot_number": 197
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 165,
+                        "uniprot_number": 198
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 166,
+                        "uniprot_number": 199
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 167,
+                        "uniprot_number": 200
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 168,
+                        "uniprot_number": 201
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 169,
+                        "uniprot_number": 202
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 170,
+                        "uniprot_number": 203
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 171,
+                        "uniprot_number": 204
+                    },
+                    {
+                        "name": "MET",
+                        "number": 172,
+                        "uniprot_number": 205
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 173,
+                        "uniprot_number": 206
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 174,
+                        "uniprot_number": 207
+                    },
+                    {
+                        "name": "THR",
+                        "number": 175,
+                        "uniprot_number": 208
+                    },
+                    {
+                        "name": "SER",
+                        "number": 176,
+                        "uniprot_number": 209
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 177,
+                        "uniprot_number": 210
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 178,
+                        "uniprot_number": 211
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 179,
+                        "uniprot_number": 212
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 180,
+                        "uniprot_number": 213
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 181,
+                        "uniprot_number": 214
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 182,
+                        "uniprot_number": 215
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 183,
+                        "uniprot_number": 216
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 184,
+                        "uniprot_number": 217
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 185,
+                        "uniprot_number": 218
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 186,
+                        "uniprot_number": 219
+                    },
+                    {
+                        "name": "THR",
+                        "number": 187,
+                        "uniprot_number": 220
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 188,
+                        "uniprot_number": 221
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 189,
+                        "uniprot_number": 222
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 190,
+                        "uniprot_number": 223
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 191,
+                        "uniprot_number": 224
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 192,
+                        "uniprot_number": 225
+                    },
+                    {
+                        "name": "SER",
+                        "number": 193,
+                        "uniprot_number": 226
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 194,
+                        "uniprot_number": 227
+                    },
+                    {
+                        "name": "THR",
+                        "number": 195,
+                        "uniprot_number": 228
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 196,
+                        "uniprot_number": 229
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 197,
+                        "uniprot_number": 230
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 198,
+                        "uniprot_number": 231
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 199,
+                        "uniprot_number": 232
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 200,
+                        "uniprot_number": 233
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 201,
+                        "uniprot_number": 234
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 202,
+                        "uniprot_number": 235
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 203,
+                        "uniprot_number": 236
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 204,
+                        "uniprot_number": 237
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 205,
+                        "uniprot_number": 238
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 206,
+                        "uniprot_number": 239
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 207,
+                        "uniprot_number": 240
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 208,
+                        "uniprot_number": 241
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 209,
+                        "uniprot_number": 242
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 210,
+                        "uniprot_number": 243
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 211,
+                        "uniprot_number": 244
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 212,
+                        "uniprot_number": 245
+                    },
+                    {
+                        "name": "THR",
+                        "number": 213,
+                        "uniprot_number": 246
+                    },
+                    {
+                        "name": "SER",
+                        "number": 214,
+                        "uniprot_number": 247
+                    }
+                ],
             "secondary_structure": {}
         },
         {
             "chain_id": "B",
             "residues": [
-                {
-                    "name": "MET",
-                    "number": 1
-                },
-                {
-                    "name": "GLN",
-                    "number": 2
-                },
-                {
-                    "name": "GLU",
-                    "number": 3
-                },
-                {
-                    "name": "ILE",
-                    "number": 4
-                },
-                {
-                    "name": "THR",
-                    "number": 5
-                },
-                {
-                    "name": "VAL",
-                    "number": 6
-                },
-                {
-                    "name": "ASP",
-                    "number": 7
-                },
-                {
-                    "name": "GLU",
-                    "number": 8
-                },
-                {
-                    "name": "PHE",
-                    "number": 9
-                },
-                {
-                    "name": "SER",
-                    "number": 10
-                },
-                {
-                    "name": "ASN",
-                    "number": 11
-                },
-                {
-                    "name": "ILE",
-                    "number": 12
-                },
-                {
-                    "name": "ARG",
-                    "number": 13
-                },
-                {
-                    "name": "GLU",
-                    "number": 14
-                },
-                {
-                    "name": "ASN",
-                    "number": 15
-                },
-                {
-                    "name": "PRO",
-                    "number": 16
-                },
-                {
-                    "name": "VAL",
-                    "number": 17
-                },
-                {
-                    "name": "THR",
-                    "number": 18
-                },
-                {
-                    "name": "PRO",
-                    "number": 19
-                },
-                {
-                    "name": "TRP",
-                    "number": 20
-                },
-                {
-                    "name": "ASN",
-                    "number": 21
-                },
-                {
-                    "name": "PRO",
-                    "number": 22
-                },
-                {
-                    "name": "GLU",
-                    "number": 23
-                },
-                {
-                    "name": "PRO",
-                    "number": 24
-                },
-                {
-                    "name": "SER",
-                    "number": 25
-                },
-                {
-                    "name": "ALA",
-                    "number": 26
-                },
-                {
-                    "name": "PRO",
-                    "number": 27
-                },
-                {
-                    "name": "VAL",
-                    "number": 28
-                },
-                {
-                    "name": "ILE",
-                    "number": 29
-                },
-                {
-                    "name": "ASP",
-                    "number": 30
-                },
-                {
-                    "name": "PRO",
-                    "number": 31
-                },
-                {
-                    "name": "THR",
-                    "number": 32
-                },
-                {
-                    "name": "ALA",
-                    "number": 33
-                },
-                {
-                    "name": "TYR",
-                    "number": 34
-                },
-                {
-                    "name": "ILE",
-                    "number": 35
-                },
-                {
-                    "name": "ASP",
-                    "number": 36
-                },
-                {
-                    "name": "PRO",
-                    "number": 37
-                },
-                {
-                    "name": "GLU",
-                    "number": 38
-                },
-                {
-                    "name": "ALA",
-                    "number": 39
-                },
-                {
-                    "name": "SER",
-                    "number": 40
-                },
-                {
-                    "name": "VAL",
-                    "number": 41
-                },
-                {
-                    "name": "ILE",
-                    "number": 42
-                },
-                {
-                    "name": "GLY",
-                    "number": 43
-                },
-                {
-                    "name": "GLU",
-                    "number": 44
-                },
-                {
-                    "name": "VAL",
-                    "number": 45
-                },
-                {
-                    "name": "THR",
-                    "number": 46
-                },
-                {
-                    "name": "ILE",
-                    "number": 47
-                },
-                {
-                    "name": "GLY",
-                    "number": 48
-                },
-                {
-                    "name": "ALA",
-                    "number": 49
-                },
-                {
-                    "name": "ASN",
-                    "number": 50
-                },
-                {
-                    "name": "VAL",
-                    "number": 51
-                },
-                {
-                    "name": "MET",
-                    "number": 52
-                },
-                {
-                    "name": "VAL",
-                    "number": 53
-                },
-                {
-                    "name": "SER",
-                    "number": 54
-                },
-                {
-                    "name": "PRO",
-                    "number": 55
-                },
-                {
-                    "name": "MET",
-                    "number": 56
-                },
-                {
-                    "name": "ALA",
-                    "number": 57
-                },
-                {
-                    "name": "SER",
-                    "number": 58
-                },
-                {
-                    "name": "ILE",
-                    "number": 59
-                },
-                {
-                    "name": "ARG",
-                    "number": 60
-                },
-                {
-                    "name": "SER",
-                    "number": 61
-                },
-                {
-                    "name": "ASP",
-                    "number": 62
-                },
-                {
-                    "name": "GLU",
-                    "number": 63
-                },
-                {
-                    "name": "GLY",
-                    "number": 64
-                },
-                {
-                    "name": "MET",
-                    "number": 65
-                },
-                {
-                    "name": "PRO",
-                    "number": 66
-                },
-                {
-                    "name": "ILE",
-                    "number": 67
-                },
-                {
-                    "name": "PHE",
-                    "number": 68
-                },
-                {
-                    "name": "VAL",
-                    "number": 69
-                },
-                {
-                    "name": "GLY",
-                    "number": 70
-                },
-                {
-                    "name": "ASP",
-                    "number": 71
-                },
-                {
-                    "name": "ARG",
-                    "number": 72
-                },
-                {
-                    "name": "SER",
-                    "number": 73
-                },
-                {
-                    "name": "ASN",
-                    "number": 74
-                },
-                {
-                    "name": "VAL",
-                    "number": 75
-                },
-                {
-                    "name": "GLN",
-                    "number": 76
-                },
-                {
-                    "name": "ASP",
-                    "number": 77
-                },
-                {
-                    "name": "GLY",
-                    "number": 78
-                },
-                {
-                    "name": "VAL",
-                    "number": 79
-                },
-                {
-                    "name": "VAL",
-                    "number": 80
-                },
-                {
-                    "name": "LEU",
-                    "number": 81
-                },
-                {
-                    "name": "HIS",
-                    "number": 82
-                },
-                {
-                    "name": "ALA",
-                    "number": 83
-                },
-                {
-                    "name": "LEU",
-                    "number": 84
-                },
-                {
-                    "name": "GLU",
-                    "number": 85
-                },
-                {
-                    "name": "THR",
-                    "number": 86
-                },
-                {
-                    "name": "ILE",
-                    "number": 87
-                },
-                {
-                    "name": "ASN",
-                    "number": 88
-                },
-                {
-                    "name": "GLU",
-                    "number": 89
-                },
-                {
-                    "name": "GLU",
-                    "number": 90
-                },
-                {
-                    "name": "GLY",
-                    "number": 91
-                },
-                {
-                    "name": "GLU",
-                    "number": 92
-                },
-                {
-                    "name": "PRO",
-                    "number": 93
-                },
-                {
-                    "name": "ILE",
-                    "number": 94
-                },
-                {
-                    "name": "GLU",
-                    "number": 95
-                },
-                {
-                    "name": "ASP",
-                    "number": 96
-                },
-                {
-                    "name": "ASN",
-                    "number": 97
-                },
-                {
-                    "name": "ILE",
-                    "number": 98
-                },
-                {
-                    "name": "VAL",
-                    "number": 99
-                },
-                {
-                    "name": "GLU",
-                    "number": 100
-                },
-                {
-                    "name": "VAL",
-                    "number": 101
-                },
-                {
-                    "name": "ASP",
-                    "number": 102
-                },
-                {
-                    "name": "GLY",
-                    "number": 103
-                },
-                {
-                    "name": "LYS",
-                    "number": 104
-                },
-                {
-                    "name": "GLU",
-                    "number": 105
-                },
-                {
-                    "name": "TYR",
-                    "number": 106
-                },
-                {
-                    "name": "ALA",
-                    "number": 107
-                },
-                {
-                    "name": "VAL",
-                    "number": 108
-                },
-                {
-                    "name": "TYR",
-                    "number": 109
-                },
-                {
-                    "name": "ILE",
-                    "number": 110
-                },
-                {
-                    "name": "GLY",
-                    "number": 111
-                },
-                {
-                    "name": "ASN",
-                    "number": 112
-                },
-                {
-                    "name": "ASN",
-                    "number": 113
-                },
-                {
-                    "name": "VAL",
-                    "number": 114
-                },
-                {
-                    "name": "SER",
-                    "number": 115
-                },
-                {
-                    "name": "LEU",
-                    "number": 116
-                },
-                {
-                    "name": "ALA",
-                    "number": 117
-                },
-                {
-                    "name": "HIS",
-                    "number": 118
-                },
-                {
-                    "name": "GLN",
-                    "number": 119
-                },
-                {
-                    "name": "SER",
-                    "number": 120
-                },
-                {
-                    "name": "GLN",
-                    "number": 121
-                },
-                {
-                    "name": "VAL",
-                    "number": 122
-                },
-                {
-                    "name": "HIS",
-                    "number": 123
-                },
-                {
-                    "name": "GLY",
-                    "number": 124
-                },
-                {
-                    "name": "PRO",
-                    "number": 125
-                },
-                {
-                    "name": "ALA",
-                    "number": 126
-                },
-                {
-                    "name": "ALA",
-                    "number": 127
-                },
-                {
-                    "name": "VAL",
-                    "number": 128
-                },
-                {
-                    "name": "GLY",
-                    "number": 129
-                },
-                {
-                    "name": "ASP",
-                    "number": 130
-                },
-                {
-                    "name": "ASP",
-                    "number": 131
-                },
-                {
-                    "name": "THR",
-                    "number": 132
-                },
-                {
-                    "name": "PHE",
-                    "number": 133
-                },
-                {
-                    "name": "ILE",
-                    "number": 134
-                },
-                {
-                    "name": "GLY",
-                    "number": 135
-                },
-                {
-                    "name": "MET",
-                    "number": 136
-                },
-                {
-                    "name": "GLN",
-                    "number": 137
-                },
-                {
-                    "name": "ALA",
-                    "number": 138
-                },
-                {
-                    "name": "PHE",
-                    "number": 139
-                },
-                {
-                    "name": "VAL",
-                    "number": 140
-                },
-                {
-                    "name": "PHE",
-                    "number": 141
-                },
-                {
-                    "name": "LYS",
-                    "number": 142
-                },
-                {
-                    "name": "SER",
-                    "number": 143
-                },
-                {
-                    "name": "LYS",
-                    "number": 144
-                },
-                {
-                    "name": "VAL",
-                    "number": 145
-                },
-                {
-                    "name": "GLY",
-                    "number": 146
-                },
-                {
-                    "name": "ASN",
-                    "number": 147
-                },
-                {
-                    "name": "ASN",
-                    "number": 148
-                },
-                {
-                    "name": "CYS",
-                    "number": 149
-                },
-                {
-                    "name": "VAL",
-                    "number": 150
-                },
-                {
-                    "name": "LEU",
-                    "number": 151
-                },
-                {
-                    "name": "GLU",
-                    "number": 152
-                },
-                {
-                    "name": "PRO",
-                    "number": 153
-                },
-                {
-                    "name": "ARG",
-                    "number": 154
-                },
-                {
-                    "name": "SER",
-                    "number": 155
-                },
-                {
-                    "name": "ALA",
-                    "number": 156
-                },
-                {
-                    "name": "ALA",
-                    "number": 157
-                },
-                {
-                    "name": "ILE",
-                    "number": 158
-                },
-                {
-                    "name": "GLY",
-                    "number": 159
-                },
-                {
-                    "name": "VAL",
-                    "number": 160
-                },
-                {
-                    "name": "THR",
-                    "number": 161
-                },
-                {
-                    "name": "ILE",
-                    "number": 162
-                },
-                {
-                    "name": "PRO",
-                    "number": 163
-                },
-                {
-                    "name": "ASP",
-                    "number": 164
-                },
-                {
-                    "name": "GLY",
-                    "number": 165
-                },
-                {
-                    "name": "ARG",
-                    "number": 166
-                },
-                {
-                    "name": "TYR",
-                    "number": 167
-                },
-                {
-                    "name": "ILE",
-                    "number": 168
-                },
-                {
-                    "name": "PRO",
-                    "number": 169
-                },
-                {
-                    "name": "ALA",
-                    "number": 170
-                },
-                {
-                    "name": "GLY",
-                    "number": 171
-                },
-                {
-                    "name": "MET",
-                    "number": 172
-                },
-                {
-                    "name": "VAL",
-                    "number": 173
-                },
-                {
-                    "name": "VAL",
-                    "number": 174
-                },
-                {
-                    "name": "THR",
-                    "number": 175
-                },
-                {
-                    "name": "SER",
-                    "number": 176
-                },
-                {
-                    "name": "GLN",
-                    "number": 177
-                },
-                {
-                    "name": "ALA",
-                    "number": 178
-                },
-                {
-                    "name": "GLU",
-                    "number": 179
-                },
-                {
-                    "name": "ALA",
-                    "number": 180
-                },
-                {
-                    "name": "ASP",
-                    "number": 181
-                },
-                {
-                    "name": "LYS",
-                    "number": 182
-                },
-                {
-                    "name": "LEU",
-                    "number": 183
-                },
-                {
-                    "name": "PRO",
-                    "number": 184
-                },
-                {
-                    "name": "GLU",
-                    "number": 185
-                },
-                {
-                    "name": "VAL",
-                    "number": 186
-                },
-                {
-                    "name": "THR",
-                    "number": 187
-                },
-                {
-                    "name": "ASP",
-                    "number": 188
-                },
-                {
-                    "name": "ASP",
-                    "number": 189
-                },
-                {
-                    "name": "TYR",
-                    "number": 190
-                },
-                {
-                    "name": "ALA",
-                    "number": 191
-                },
-                {
-                    "name": "TYR",
-                    "number": 192
-                },
-                {
-                    "name": "SER",
-                    "number": 193
-                },
-                {
-                    "name": "HIS",
-                    "number": 194
-                },
-                {
-                    "name": "THR",
-                    "number": 195
-                },
-                {
-                    "name": "ASN",
-                    "number": 196
-                },
-                {
-                    "name": "GLU",
-                    "number": 197
-                },
-                {
-                    "name": "ALA",
-                    "number": 198
-                },
-                {
-                    "name": "VAL",
-                    "number": 199
-                },
-                {
-                    "name": "VAL",
-                    "number": 200
-                },
-                {
-                    "name": "TYR",
-                    "number": 201
-                },
-                {
-                    "name": "VAL",
-                    "number": 202
-                },
-                {
-                    "name": "ASN",
-                    "number": 203
-                },
-                {
-                    "name": "VAL",
-                    "number": 204
-                },
-                {
-                    "name": "HIS",
-                    "number": 205
-                },
-                {
-                    "name": "LEU",
-                    "number": 206
-                },
-                {
-                    "name": "ALA",
-                    "number": 207
-                },
-                {
-                    "name": "GLU",
-                    "number": 208
-                },
-                {
-                    "name": "GLY",
-                    "number": 209
-                },
-                {
-                    "name": "TYR",
-                    "number": 210
-                },
-                {
-                    "name": "LYS",
-                    "number": 211
-                },
-                {
-                    "name": "GLU",
-                    "number": 212
-                },
-                {
-                    "name": "THR",
-                    "number": 213
-                },
-                {
-                    "name": "SER",
-                    "number": 214
-                },
-                {
-                    "name": "MET",
-                    "number": 1
-                },
-                {
-                    "name": "GLN",
-                    "number": 2
-                },
-                {
-                    "name": "GLU",
-                    "number": 3
-                },
-                {
-                    "name": "ILE",
-                    "number": 4
-                },
-                {
-                    "name": "THR",
-                    "number": 5
-                },
-                {
-                    "name": "VAL",
-                    "number": 6
-                },
-                {
-                    "name": "ASP",
-                    "number": 7
-                },
-                {
-                    "name": "GLU",
-                    "number": 8
-                },
-                {
-                    "name": "PHE",
-                    "number": 9
-                },
-                {
-                    "name": "SER",
-                    "number": 10
-                },
-                {
-                    "name": "ASN",
-                    "number": 11
-                },
-                {
-                    "name": "ILE",
-                    "number": 12
-                },
-                {
-                    "name": "ARG",
-                    "number": 13
-                },
-                {
-                    "name": "GLU",
-                    "number": 14
-                },
-                {
-                    "name": "ASN",
-                    "number": 15
-                },
-                {
-                    "name": "PRO",
-                    "number": 16
-                },
-                {
-                    "name": "VAL",
-                    "number": 17
-                },
-                {
-                    "name": "THR",
-                    "number": 18
-                },
-                {
-                    "name": "PRO",
-                    "number": 19
-                },
-                {
-                    "name": "TRP",
-                    "number": 20
-                },
-                {
-                    "name": "ASN",
-                    "number": 21
-                },
-                {
-                    "name": "PRO",
-                    "number": 22
-                },
-                {
-                    "name": "GLU",
-                    "number": 23
-                },
-                {
-                    "name": "PRO",
-                    "number": 24
-                },
-                {
-                    "name": "SER",
-                    "number": 25
-                },
-                {
-                    "name": "ALA",
-                    "number": 26
-                },
-                {
-                    "name": "PRO",
-                    "number": 27
-                },
-                {
-                    "name": "VAL",
-                    "number": 28
-                },
-                {
-                    "name": "ILE",
-                    "number": 29
-                },
-                {
-                    "name": "ASP",
-                    "number": 30
-                },
-                {
-                    "name": "PRO",
-                    "number": 31
-                },
-                {
-                    "name": "THR",
-                    "number": 32
-                },
-                {
-                    "name": "ALA",
-                    "number": 33
-                },
-                {
-                    "name": "TYR",
-                    "number": 34
-                },
-                {
-                    "name": "ILE",
-                    "number": 35
-                },
-                {
-                    "name": "ASP",
-                    "number": 36
-                },
-                {
-                    "name": "PRO",
-                    "number": 37
-                },
-                {
-                    "name": "GLU",
-                    "number": 38
-                },
-                {
-                    "name": "ALA",
-                    "number": 39
-                },
-                {
-                    "name": "SER",
-                    "number": 40
-                },
-                {
-                    "name": "VAL",
-                    "number": 41
-                },
-                {
-                    "name": "ILE",
-                    "number": 42
-                },
-                {
-                    "name": "GLY",
-                    "number": 43
-                },
-                {
-                    "name": "GLU",
-                    "number": 44
-                },
-                {
-                    "name": "VAL",
-                    "number": 45
-                },
-                {
-                    "name": "THR",
-                    "number": 46
-                },
-                {
-                    "name": "ILE",
-                    "number": 47
-                },
-                {
-                    "name": "GLY",
-                    "number": 48
-                },
-                {
-                    "name": "ALA",
-                    "number": 49
-                },
-                {
-                    "name": "ASN",
-                    "number": 50
-                },
-                {
-                    "name": "VAL",
-                    "number": 51
-                },
-                {
-                    "name": "MET",
-                    "number": 52
-                },
-                {
-                    "name": "VAL",
-                    "number": 53
-                },
-                {
-                    "name": "SER",
-                    "number": 54
-                },
-                {
-                    "name": "PRO",
-                    "number": 55
-                },
-                {
-                    "name": "MET",
-                    "number": 56
-                },
-                {
-                    "name": "ALA",
-                    "number": 57
-                },
-                {
-                    "name": "SER",
-                    "number": 58
-                },
-                {
-                    "name": "ILE",
-                    "number": 59
-                },
-                {
-                    "name": "ARG",
-                    "number": 60
-                },
-                {
-                    "name": "SER",
-                    "number": 61
-                },
-                {
-                    "name": "ASP",
-                    "number": 62
-                },
-                {
-                    "name": "GLU",
-                    "number": 63
-                },
-                {
-                    "name": "GLY",
-                    "number": 64
-                },
-                {
-                    "name": "MET",
-                    "number": 65
-                },
-                {
-                    "name": "PRO",
-                    "number": 66
-                },
-                {
-                    "name": "ILE",
-                    "number": 67
-                },
-                {
-                    "name": "PHE",
-                    "number": 68
-                },
-                {
-                    "name": "VAL",
-                    "number": 69
-                },
-                {
-                    "name": "GLY",
-                    "number": 70
-                },
-                {
-                    "name": "ASP",
-                    "number": 71
-                },
-                {
-                    "name": "ARG",
-                    "number": 72
-                },
-                {
-                    "name": "SER",
-                    "number": 73
-                },
-                {
-                    "name": "ASN",
-                    "number": 74
-                },
-                {
-                    "name": "VAL",
-                    "number": 75
-                },
-                {
-                    "name": "GLN",
-                    "number": 76
-                },
-                {
-                    "name": "ASP",
-                    "number": 77
-                },
-                {
-                    "name": "GLY",
-                    "number": 78
-                },
-                {
-                    "name": "VAL",
-                    "number": 79
-                },
-                {
-                    "name": "VAL",
-                    "number": 80
-                },
-                {
-                    "name": "LEU",
-                    "number": 81
-                },
-                {
-                    "name": "HIS",
-                    "number": 82
-                },
-                {
-                    "name": "ALA",
-                    "number": 83
-                },
-                {
-                    "name": "LEU",
-                    "number": 84
-                },
-                {
-                    "name": "GLU",
-                    "number": 85
-                },
-                {
-                    "name": "THR",
-                    "number": 86
-                },
-                {
-                    "name": "ILE",
-                    "number": 87
-                },
-                {
-                    "name": "ASN",
-                    "number": 88
-                },
-                {
-                    "name": "GLU",
-                    "number": 89
-                },
-                {
-                    "name": "GLU",
-                    "number": 90
-                },
-                {
-                    "name": "GLY",
-                    "number": 91
-                },
-                {
-                    "name": "GLU",
-                    "number": 92
-                },
-                {
-                    "name": "PRO",
-                    "number": 93
-                },
-                {
-                    "name": "ILE",
-                    "number": 94
-                },
-                {
-                    "name": "GLU",
-                    "number": 95
-                },
-                {
-                    "name": "ASP",
-                    "number": 96
-                },
-                {
-                    "name": "ASN",
-                    "number": 97
-                },
-                {
-                    "name": "ILE",
-                    "number": 98
-                },
-                {
-                    "name": "VAL",
-                    "number": 99
-                },
-                {
-                    "name": "GLU",
-                    "number": 100
-                },
-                {
-                    "name": "VAL",
-                    "number": 101
-                },
-                {
-                    "name": "ASP",
-                    "number": 102
-                },
-                {
-                    "name": "GLY",
-                    "number": 103
-                },
-                {
-                    "name": "LYS",
-                    "number": 104
-                },
-                {
-                    "name": "GLU",
-                    "number": 105
-                },
-                {
-                    "name": "TYR",
-                    "number": 106
-                },
-                {
-                    "name": "ALA",
-                    "number": 107
-                },
-                {
-                    "name": "VAL",
-                    "number": 108
-                },
-                {
-                    "name": "TYR",
-                    "number": 109
-                },
-                {
-                    "name": "ILE",
-                    "number": 110
-                },
-                {
-                    "name": "GLY",
-                    "number": 111
-                },
-                {
-                    "name": "ASN",
-                    "number": 112
-                },
-                {
-                    "name": "ASN",
-                    "number": 113
-                },
-                {
-                    "name": "VAL",
-                    "number": 114
-                },
-                {
-                    "name": "SER",
-                    "number": 115
-                },
-                {
-                    "name": "LEU",
-                    "number": 116
-                },
-                {
-                    "name": "ALA",
-                    "number": 117
-                },
-                {
-                    "name": "HIS",
-                    "number": 118
-                },
-                {
-                    "name": "GLN",
-                    "number": 119
-                },
-                {
-                    "name": "SER",
-                    "number": 120
-                },
-                {
-                    "name": "GLN",
-                    "number": 121
-                },
-                {
-                    "name": "VAL",
-                    "number": 122
-                },
-                {
-                    "name": "HIS",
-                    "number": 123
-                },
-                {
-                    "name": "GLY",
-                    "number": 124
-                },
-                {
-                    "name": "PRO",
-                    "number": 125
-                },
-                {
-                    "name": "ALA",
-                    "number": 126
-                },
-                {
-                    "name": "ALA",
-                    "number": 127
-                },
-                {
-                    "name": "VAL",
-                    "number": 128
-                },
-                {
-                    "name": "GLY",
-                    "number": 129
-                },
-                {
-                    "name": "ASP",
-                    "number": 130
-                },
-                {
-                    "name": "ASP",
-                    "number": 131
-                },
-                {
-                    "name": "THR",
-                    "number": 132
-                },
-                {
-                    "name": "PHE",
-                    "number": 133
-                },
-                {
-                    "name": "ILE",
-                    "number": 134
-                },
-                {
-                    "name": "GLY",
-                    "number": 135
-                },
-                {
-                    "name": "MET",
-                    "number": 136
-                },
-                {
-                    "name": "GLN",
-                    "number": 137
-                },
-                {
-                    "name": "ALA",
-                    "number": 138
-                },
-                {
-                    "name": "PHE",
-                    "number": 139
-                },
-                {
-                    "name": "VAL",
-                    "number": 140
-                },
-                {
-                    "name": "PHE",
-                    "number": 141
-                },
-                {
-                    "name": "LYS",
-                    "number": 142
-                },
-                {
-                    "name": "SER",
-                    "number": 143
-                },
-                {
-                    "name": "LYS",
-                    "number": 144
-                },
-                {
-                    "name": "VAL",
-                    "number": 145
-                },
-                {
-                    "name": "GLY",
-                    "number": 146
-                },
-                {
-                    "name": "ASN",
-                    "number": 147
-                },
-                {
-                    "name": "ASN",
-                    "number": 148
-                },
-                {
-                    "name": "CYS",
-                    "number": 149
-                },
-                {
-                    "name": "VAL",
-                    "number": 150
-                },
-                {
-                    "name": "LEU",
-                    "number": 151
-                },
-                {
-                    "name": "GLU",
-                    "number": 152
-                },
-                {
-                    "name": "PRO",
-                    "number": 153
-                },
-                {
-                    "name": "ARG",
-                    "number": 154
-                },
-                {
-                    "name": "SER",
-                    "number": 155
-                },
-                {
-                    "name": "ALA",
-                    "number": 156
-                },
-                {
-                    "name": "ALA",
-                    "number": 157
-                },
-                {
-                    "name": "ILE",
-                    "number": 158
-                },
-                {
-                    "name": "GLY",
-                    "number": 159
-                },
-                {
-                    "name": "VAL",
-                    "number": 160
-                },
-                {
-                    "name": "THR",
-                    "number": 161
-                },
-                {
-                    "name": "ILE",
-                    "number": 162
-                },
-                {
-                    "name": "PRO",
-                    "number": 163
-                },
-                {
-                    "name": "ASP",
-                    "number": 164
-                },
-                {
-                    "name": "GLY",
-                    "number": 165
-                },
-                {
-                    "name": "ARG",
-                    "number": 166
-                },
-                {
-                    "name": "TYR",
-                    "number": 167
-                },
-                {
-                    "name": "ILE",
-                    "number": 168
-                },
-                {
-                    "name": "PRO",
-                    "number": 169
-                },
-                {
-                    "name": "ALA",
-                    "number": 170
-                },
-                {
-                    "name": "GLY",
-                    "number": 171
-                },
-                {
-                    "name": "MET",
-                    "number": 172
-                },
-                {
-                    "name": "VAL",
-                    "number": 173
-                },
-                {
-                    "name": "VAL",
-                    "number": 174
-                },
-                {
-                    "name": "THR",
-                    "number": 175
-                },
-                {
-                    "name": "SER",
-                    "number": 176
-                },
-                {
-                    "name": "GLN",
-                    "number": 177
-                },
-                {
-                    "name": "ALA",
-                    "number": 178
-                },
-                {
-                    "name": "GLU",
-                    "number": 179
-                },
-                {
-                    "name": "ALA",
-                    "number": 180
-                },
-                {
-                    "name": "ASP",
-                    "number": 181
-                },
-                {
-                    "name": "LYS",
-                    "number": 182
-                },
-                {
-                    "name": "LEU",
-                    "number": 183
-                },
-                {
-                    "name": "PRO",
-                    "number": 184
-                },
-                {
-                    "name": "GLU",
-                    "number": 185
-                },
-                {
-                    "name": "VAL",
-                    "number": 186
-                },
-                {
-                    "name": "THR",
-                    "number": 187
-                },
-                {
-                    "name": "ASP",
-                    "number": 188
-                },
-                {
-                    "name": "ASP",
-                    "number": 189
-                },
-                {
-                    "name": "TYR",
-                    "number": 190
-                },
-                {
-                    "name": "ALA",
-                    "number": 191
-                },
-                {
-                    "name": "TYR",
-                    "number": 192
-                },
-                {
-                    "name": "SER",
-                    "number": 193
-                },
-                {
-                    "name": "HIS",
-                    "number": 194
-                },
-                {
-                    "name": "THR",
-                    "number": 195
-                },
-                {
-                    "name": "ASN",
-                    "number": 196
-                },
-                {
-                    "name": "GLU",
-                    "number": 197
-                },
-                {
-                    "name": "ALA",
-                    "number": 198
-                },
-                {
-                    "name": "VAL",
-                    "number": 199
-                },
-                {
-                    "name": "VAL",
-                    "number": 200
-                },
-                {
-                    "name": "TYR",
-                    "number": 201
-                },
-                {
-                    "name": "VAL",
-                    "number": 202
-                },
-                {
-                    "name": "ASN",
-                    "number": 203
-                },
-                {
-                    "name": "VAL",
-                    "number": 204
-                },
-                {
-                    "name": "HIS",
-                    "number": 205
-                },
-                {
-                    "name": "LEU",
-                    "number": 206
-                },
-                {
-                    "name": "ALA",
-                    "number": 207
-                },
-                {
-                    "name": "GLU",
-                    "number": 208
-                },
-                {
-                    "name": "GLY",
-                    "number": 209
-                },
-                {
-                    "name": "TYR",
-                    "number": 210
-                },
-                {
-                    "name": "LYS",
-                    "number": 211
-                },
-                {
-                    "name": "GLU",
-                    "number": 212
-                },
-                {
-                    "name": "THR",
-                    "number": 213
-                },
-                {
-                    "name": "SER",
-                    "number": 214
-                },
-                {
-                    "name": "MET",
-                    "number": 1
-                },
-                {
-                    "name": "GLN",
-                    "number": 2
-                },
-                {
-                    "name": "GLU",
-                    "number": 3
-                },
-                {
-                    "name": "ILE",
-                    "number": 4
-                },
-                {
-                    "name": "THR",
-                    "number": 5
-                },
-                {
-                    "name": "VAL",
-                    "number": 6
-                },
-                {
-                    "name": "ASP",
-                    "number": 7
-                },
-                {
-                    "name": "GLU",
-                    "number": 8
-                },
-                {
-                    "name": "PHE",
-                    "number": 9
-                },
-                {
-                    "name": "SER",
-                    "number": 10
-                },
-                {
-                    "name": "ASN",
-                    "number": 11
-                },
-                {
-                    "name": "ILE",
-                    "number": 12
-                },
-                {
-                    "name": "ARG",
-                    "number": 13
-                },
-                {
-                    "name": "GLU",
-                    "number": 14
-                },
-                {
-                    "name": "ASN",
-                    "number": 15
-                },
-                {
-                    "name": "PRO",
-                    "number": 16
-                },
-                {
-                    "name": "VAL",
-                    "number": 17
-                },
-                {
-                    "name": "THR",
-                    "number": 18
-                },
-                {
-                    "name": "PRO",
-                    "number": 19
-                },
-                {
-                    "name": "TRP",
-                    "number": 20
-                },
-                {
-                    "name": "ASN",
-                    "number": 21
-                },
-                {
-                    "name": "PRO",
-                    "number": 22
-                },
-                {
-                    "name": "GLU",
-                    "number": 23
-                },
-                {
-                    "name": "PRO",
-                    "number": 24
-                },
-                {
-                    "name": "SER",
-                    "number": 25
-                },
-                {
-                    "name": "ALA",
-                    "number": 26
-                },
-                {
-                    "name": "PRO",
-                    "number": 27
-                },
-                {
-                    "name": "VAL",
-                    "number": 28
-                },
-                {
-                    "name": "ILE",
-                    "number": 29
-                },
-                {
-                    "name": "ASP",
-                    "number": 30
-                },
-                {
-                    "name": "PRO",
-                    "number": 31
-                },
-                {
-                    "name": "THR",
-                    "number": 32
-                },
-                {
-                    "name": "ALA",
-                    "number": 33
-                },
-                {
-                    "name": "TYR",
-                    "number": 34
-                },
-                {
-                    "name": "ILE",
-                    "number": 35
-                },
-                {
-                    "name": "ASP",
-                    "number": 36
-                },
-                {
-                    "name": "PRO",
-                    "number": 37
-                },
-                {
-                    "name": "GLU",
-                    "number": 38
-                },
-                {
-                    "name": "ALA",
-                    "number": 39
-                },
-                {
-                    "name": "SER",
-                    "number": 40
-                },
-                {
-                    "name": "VAL",
-                    "number": 41
-                },
-                {
-                    "name": "ILE",
-                    "number": 42
-                },
-                {
-                    "name": "GLY",
-                    "number": 43
-                },
-                {
-                    "name": "GLU",
-                    "number": 44
-                },
-                {
-                    "name": "VAL",
-                    "number": 45
-                },
-                {
-                    "name": "THR",
-                    "number": 46
-                },
-                {
-                    "name": "ILE",
-                    "number": 47
-                },
-                {
-                    "name": "GLY",
-                    "number": 48
-                },
-                {
-                    "name": "ALA",
-                    "number": 49
-                },
-                {
-                    "name": "ASN",
-                    "number": 50
-                },
-                {
-                    "name": "VAL",
-                    "number": 51
-                },
-                {
-                    "name": "MET",
-                    "number": 52
-                },
-                {
-                    "name": "VAL",
-                    "number": 53
-                },
-                {
-                    "name": "SER",
-                    "number": 54
-                },
-                {
-                    "name": "PRO",
-                    "number": 55
-                },
-                {
-                    "name": "MET",
-                    "number": 56
-                },
-                {
-                    "name": "ALA",
-                    "number": 57
-                },
-                {
-                    "name": "SER",
-                    "number": 58
-                },
-                {
-                    "name": "ILE",
-                    "number": 59
-                },
-                {
-                    "name": "ARG",
-                    "number": 60
-                },
-                {
-                    "name": "SER",
-                    "number": 61
-                },
-                {
-                    "name": "ASP",
-                    "number": 62
-                },
-                {
-                    "name": "GLU",
-                    "number": 63
-                },
-                {
-                    "name": "GLY",
-                    "number": 64
-                },
-                {
-                    "name": "MET",
-                    "number": 65
-                },
-                {
-                    "name": "PRO",
-                    "number": 66
-                },
-                {
-                    "name": "ILE",
-                    "number": 67
-                },
-                {
-                    "name": "PHE",
-                    "number": 68
-                },
-                {
-                    "name": "VAL",
-                    "number": 69
-                },
-                {
-                    "name": "GLY",
-                    "number": 70
-                },
-                {
-                    "name": "ASP",
-                    "number": 71
-                },
-                {
-                    "name": "ARG",
-                    "number": 72
-                },
-                {
-                    "name": "SER",
-                    "number": 73
-                },
-                {
-                    "name": "ASN",
-                    "number": 74
-                },
-                {
-                    "name": "VAL",
-                    "number": 75
-                },
-                {
-                    "name": "GLN",
-                    "number": 76
-                },
-                {
-                    "name": "ASP",
-                    "number": 77
-                },
-                {
-                    "name": "GLY",
-                    "number": 78
-                },
-                {
-                    "name": "VAL",
-                    "number": 79
-                },
-                {
-                    "name": "VAL",
-                    "number": 80
-                },
-                {
-                    "name": "LEU",
-                    "number": 81
-                },
-                {
-                    "name": "HIS",
-                    "number": 82
-                },
-                {
-                    "name": "ALA",
-                    "number": 83
-                },
-                {
-                    "name": "LEU",
-                    "number": 84
-                },
-                {
-                    "name": "GLU",
-                    "number": 85
-                },
-                {
-                    "name": "THR",
-                    "number": 86
-                },
-                {
-                    "name": "ILE",
-                    "number": 87
-                },
-                {
-                    "name": "ASN",
-                    "number": 88
-                },
-                {
-                    "name": "GLU",
-                    "number": 89
-                },
-                {
-                    "name": "GLU",
-                    "number": 90
-                },
-                {
-                    "name": "GLY",
-                    "number": 91
-                },
-                {
-                    "name": "GLU",
-                    "number": 92
-                },
-                {
-                    "name": "PRO",
-                    "number": 93
-                },
-                {
-                    "name": "ILE",
-                    "number": 94
-                },
-                {
-                    "name": "GLU",
-                    "number": 95
-                },
-                {
-                    "name": "ASP",
-                    "number": 96
-                },
-                {
-                    "name": "ASN",
-                    "number": 97
-                },
-                {
-                    "name": "ILE",
-                    "number": 98
-                },
-                {
-                    "name": "VAL",
-                    "number": 99
-                },
-                {
-                    "name": "GLU",
-                    "number": 100
-                },
-                {
-                    "name": "VAL",
-                    "number": 101
-                },
-                {
-                    "name": "ASP",
-                    "number": 102
-                },
-                {
-                    "name": "GLY",
-                    "number": 103
-                },
-                {
-                    "name": "LYS",
-                    "number": 104
-                },
-                {
-                    "name": "GLU",
-                    "number": 105
-                },
-                {
-                    "name": "TYR",
-                    "number": 106
-                },
-                {
-                    "name": "ALA",
-                    "number": 107
-                },
-                {
-                    "name": "VAL",
-                    "number": 108
-                },
-                {
-                    "name": "TYR",
-                    "number": 109
-                },
-                {
-                    "name": "ILE",
-                    "number": 110
-                },
-                {
-                    "name": "GLY",
-                    "number": 111
-                },
-                {
-                    "name": "ASN",
-                    "number": 112
-                },
-                {
-                    "name": "ASN",
-                    "number": 113
-                },
-                {
-                    "name": "VAL",
-                    "number": 114
-                },
-                {
-                    "name": "SER",
-                    "number": 115
-                },
-                {
-                    "name": "LEU",
-                    "number": 116
-                },
-                {
-                    "name": "ALA",
-                    "number": 117
-                },
-                {
-                    "name": "HIS",
-                    "number": 118
-                },
-                {
-                    "name": "GLN",
-                    "number": 119
-                },
-                {
-                    "name": "SER",
-                    "number": 120
-                },
-                {
-                    "name": "GLN",
-                    "number": 121
-                },
-                {
-                    "name": "VAL",
-                    "number": 122
-                },
-                {
-                    "name": "HIS",
-                    "number": 123
-                },
-                {
-                    "name": "GLY",
-                    "number": 124
-                },
-                {
-                    "name": "PRO",
-                    "number": 125
-                },
-                {
-                    "name": "ALA",
-                    "number": 126
-                },
-                {
-                    "name": "ALA",
-                    "number": 127
-                },
-                {
-                    "name": "VAL",
-                    "number": 128
-                },
-                {
-                    "name": "GLY",
-                    "number": 129
-                },
-                {
-                    "name": "ASP",
-                    "number": 130
-                },
-                {
-                    "name": "ASP",
-                    "number": 131
-                },
-                {
-                    "name": "THR",
-                    "number": 132
-                },
-                {
-                    "name": "PHE",
-                    "number": 133
-                },
-                {
-                    "name": "ILE",
-                    "number": 134
-                },
-                {
-                    "name": "GLY",
-                    "number": 135
-                },
-                {
-                    "name": "MET",
-                    "number": 136
-                },
-                {
-                    "name": "GLN",
-                    "number": 137
-                },
-                {
-                    "name": "ALA",
-                    "number": 138
-                },
-                {
-                    "name": "PHE",
-                    "number": 139
-                },
-                {
-                    "name": "VAL",
-                    "number": 140
-                },
-                {
-                    "name": "PHE",
-                    "number": 141
-                },
-                {
-                    "name": "LYS",
-                    "number": 142
-                },
-                {
-                    "name": "SER",
-                    "number": 143
-                },
-                {
-                    "name": "LYS",
-                    "number": 144
-                },
-                {
-                    "name": "VAL",
-                    "number": 145
-                },
-                {
-                    "name": "GLY",
-                    "number": 146
-                },
-                {
-                    "name": "ASN",
-                    "number": 147
-                },
-                {
-                    "name": "ASN",
-                    "number": 148
-                },
-                {
-                    "name": "CYS",
-                    "number": 149
-                },
-                {
-                    "name": "VAL",
-                    "number": 150
-                },
-                {
-                    "name": "LEU",
-                    "number": 151
-                },
-                {
-                    "name": "GLU",
-                    "number": 152
-                },
-                {
-                    "name": "PRO",
-                    "number": 153
-                },
-                {
-                    "name": "ARG",
-                    "number": 154
-                },
-                {
-                    "name": "SER",
-                    "number": 155
-                },
-                {
-                    "name": "ALA",
-                    "number": 156
-                },
-                {
-                    "name": "ALA",
-                    "number": 157
-                },
-                {
-                    "name": "ILE",
-                    "number": 158
-                },
-                {
-                    "name": "GLY",
-                    "number": 159
-                },
-                {
-                    "name": "VAL",
-                    "number": 160
-                },
-                {
-                    "name": "THR",
-                    "number": 161
-                },
-                {
-                    "name": "ILE",
-                    "number": 162
-                },
-                {
-                    "name": "PRO",
-                    "number": 163
-                },
-                {
-                    "name": "ASP",
-                    "number": 164
-                },
-                {
-                    "name": "GLY",
-                    "number": 165
-                },
-                {
-                    "name": "ARG",
-                    "number": 166
-                },
-                {
-                    "name": "TYR",
-                    "number": 167
-                },
-                {
-                    "name": "ILE",
-                    "number": 168
-                },
-                {
-                    "name": "PRO",
-                    "number": 169
-                },
-                {
-                    "name": "ALA",
-                    "number": 170
-                },
-                {
-                    "name": "GLY",
-                    "number": 171
-                },
-                {
-                    "name": "MET",
-                    "number": 172
-                },
-                {
-                    "name": "VAL",
-                    "number": 173
-                },
-                {
-                    "name": "VAL",
-                    "number": 174
-                },
-                {
-                    "name": "THR",
-                    "number": 175
-                },
-                {
-                    "name": "SER",
-                    "number": 176
-                },
-                {
-                    "name": "GLN",
-                    "number": 177
-                },
-                {
-                    "name": "ALA",
-                    "number": 178
-                },
-                {
-                    "name": "GLU",
-                    "number": 179
-                },
-                {
-                    "name": "ALA",
-                    "number": 180
-                },
-                {
-                    "name": "ASP",
-                    "number": 181
-                },
-                {
-                    "name": "LYS",
-                    "number": 182
-                },
-                {
-                    "name": "LEU",
-                    "number": 183
-                },
-                {
-                    "name": "PRO",
-                    "number": 184
-                },
-                {
-                    "name": "GLU",
-                    "number": 185
-                },
-                {
-                    "name": "VAL",
-                    "number": 186
-                },
-                {
-                    "name": "THR",
-                    "number": 187
-                },
-                {
-                    "name": "ASP",
-                    "number": 188
-                },
-                {
-                    "name": "ASP",
-                    "number": 189
-                },
-                {
-                    "name": "TYR",
-                    "number": 190
-                },
-                {
-                    "name": "ALA",
-                    "number": 191
-                },
-                {
-                    "name": "TYR",
-                    "number": 192
-                },
-                {
-                    "name": "SER",
-                    "number": 193
-                },
-                {
-                    "name": "HIS",
-                    "number": 194
-                },
-                {
-                    "name": "THR",
-                    "number": 195
-                },
-                {
-                    "name": "ASN",
-                    "number": 196
-                },
-                {
-                    "name": "GLU",
-                    "number": 197
-                },
-                {
-                    "name": "ALA",
-                    "number": 198
-                },
-                {
-                    "name": "VAL",
-                    "number": 199
-                },
-                {
-                    "name": "VAL",
-                    "number": 200
-                },
-                {
-                    "name": "TYR",
-                    "number": 201
-                },
-                {
-                    "name": "VAL",
-                    "number": 202
-                },
-                {
-                    "name": "ASN",
-                    "number": 203
-                },
-                {
-                    "name": "VAL",
-                    "number": 204
-                },
-                {
-                    "name": "HIS",
-                    "number": 205
-                },
-                {
-                    "name": "LEU",
-                    "number": 206
-                },
-                {
-                    "name": "ALA",
-                    "number": 207
-                },
-                {
-                    "name": "GLU",
-                    "number": 208
-                },
-                {
-                    "name": "GLY",
-                    "number": 209
-                },
-                {
-                    "name": "TYR",
-                    "number": 210
-                },
-                {
-                    "name": "LYS",
-                    "number": 211
-                },
-                {
-                    "name": "GLU",
-                    "number": 212
-                },
-                {
-                    "name": "THR",
-                    "number": 213
-                },
-                {
-                    "name": "SER",
-                    "number": 214
-                }
-            ],
+                    {
+                        "name": "MET",
+                        "number": 1,
+                        "uniprot_number": "NA"
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 2,
+                        "uniprot_number": 35
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 3,
+                        "uniprot_number": 36
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 4,
+                        "uniprot_number": 37
+                    },
+                    {
+                        "name": "THR",
+                        "number": 5,
+                        "uniprot_number": 38
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 6,
+                        "uniprot_number": 39
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 7,
+                        "uniprot_number": 40
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 8,
+                        "uniprot_number": 41
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 9,
+                        "uniprot_number": 42
+                    },
+                    {
+                        "name": "SER",
+                        "number": 10,
+                        "uniprot_number": 43
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 11,
+                        "uniprot_number": 44
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 12,
+                        "uniprot_number": 45
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 13,
+                        "uniprot_number": 46
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 14,
+                        "uniprot_number": 47
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 15,
+                        "uniprot_number": 48
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 16,
+                        "uniprot_number": 49
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 17,
+                        "uniprot_number": 50
+                    },
+                    {
+                        "name": "THR",
+                        "number": 18,
+                        "uniprot_number": 51
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 19,
+                        "uniprot_number": 52
+                    },
+                    {
+                        "name": "TRP",
+                        "number": 20,
+                        "uniprot_number": 53
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 21,
+                        "uniprot_number": 54
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 22,
+                        "uniprot_number": 55
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 23,
+                        "uniprot_number": 56
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 24,
+                        "uniprot_number": 57
+                    },
+                    {
+                        "name": "SER",
+                        "number": 25,
+                        "uniprot_number": 58
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 26,
+                        "uniprot_number": 59
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 27,
+                        "uniprot_number": 60
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 28,
+                        "uniprot_number": 61
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 29,
+                        "uniprot_number": 62
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 30,
+                        "uniprot_number": 63
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 31,
+                        "uniprot_number": 64
+                    },
+                    {
+                        "name": "THR",
+                        "number": 32,
+                        "uniprot_number": 65
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 33,
+                        "uniprot_number": 66
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 34,
+                        "uniprot_number": 67
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 35,
+                        "uniprot_number": 68
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 36,
+                        "uniprot_number": 69
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 37,
+                        "uniprot_number": 70
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 38,
+                        "uniprot_number": 71
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 39,
+                        "uniprot_number": 72
+                    },
+                    {
+                        "name": "SER",
+                        "number": 40,
+                        "uniprot_number": 73
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 41,
+                        "uniprot_number": 74
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 42,
+                        "uniprot_number": 75
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 43,
+                        "uniprot_number": 76
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 44,
+                        "uniprot_number": 77
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 45,
+                        "uniprot_number": 78
+                    },
+                    {
+                        "name": "THR",
+                        "number": 46,
+                        "uniprot_number": 79
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 47,
+                        "uniprot_number": 80
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 48,
+                        "uniprot_number": 81
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 49,
+                        "uniprot_number": 82
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 50,
+                        "uniprot_number": 83
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 51,
+                        "uniprot_number": 84
+                    },
+                    {
+                        "name": "MET",
+                        "number": 52,
+                        "uniprot_number": 85
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 53,
+                        "uniprot_number": 86
+                    },
+                    {
+                        "name": "SER",
+                        "number": 54,
+                        "uniprot_number": 87
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 55,
+                        "uniprot_number": 88
+                    },
+                    {
+                        "name": "MET",
+                        "number": 56,
+                        "uniprot_number": 89
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 57,
+                        "uniprot_number": 90
+                    },
+                    {
+                        "name": "SER",
+                        "number": 58,
+                        "uniprot_number": 91
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 59,
+                        "uniprot_number": 92
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 60,
+                        "uniprot_number": 93
+                    },
+                    {
+                        "name": "SER",
+                        "number": 61,
+                        "uniprot_number": 94
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 62,
+                        "uniprot_number": 95
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 63,
+                        "uniprot_number": 96
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 64,
+                        "uniprot_number": 97
+                    },
+                    {
+                        "name": "MET",
+                        "number": 65,
+                        "uniprot_number": 98
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 66,
+                        "uniprot_number": 99
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 67,
+                        "uniprot_number": 100
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 68,
+                        "uniprot_number": 101
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 69,
+                        "uniprot_number": 102
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 70,
+                        "uniprot_number": 103
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 71,
+                        "uniprot_number": 104
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 72,
+                        "uniprot_number": 105
+                    },
+                    {
+                        "name": "SER",
+                        "number": 73,
+                        "uniprot_number": 106
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 74,
+                        "uniprot_number": 107
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 75,
+                        "uniprot_number": 108
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 76,
+                        "uniprot_number": 109
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 77,
+                        "uniprot_number": 110
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 78,
+                        "uniprot_number": 111
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 79,
+                        "uniprot_number": 112
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 80,
+                        "uniprot_number": 113
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 81,
+                        "uniprot_number": 114
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 82,
+                        "uniprot_number": 115
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 83,
+                        "uniprot_number": 116
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 84,
+                        "uniprot_number": 117
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 85,
+                        "uniprot_number": 118
+                    },
+                    {
+                        "name": "THR",
+                        "number": 86,
+                        "uniprot_number": 119
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 87,
+                        "uniprot_number": 120
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 88,
+                        "uniprot_number": 121
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 89,
+                        "uniprot_number": 122
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 90,
+                        "uniprot_number": 123
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 91,
+                        "uniprot_number": 124
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 92,
+                        "uniprot_number": 125
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 93,
+                        "uniprot_number": 126
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 94,
+                        "uniprot_number": 127
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 95,
+                        "uniprot_number": 128
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 96,
+                        "uniprot_number": 129
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 97,
+                        "uniprot_number": 130
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 98,
+                        "uniprot_number": 131
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 99,
+                        "uniprot_number": 132
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 100,
+                        "uniprot_number": 133
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 101,
+                        "uniprot_number": 134
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 102,
+                        "uniprot_number": 135
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 103,
+                        "uniprot_number": 136
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 104,
+                        "uniprot_number": 137
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 105,
+                        "uniprot_number": 138
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 106,
+                        "uniprot_number": 139
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 107,
+                        "uniprot_number": 140
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 108,
+                        "uniprot_number": 141
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 109,
+                        "uniprot_number": 142
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 110,
+                        "uniprot_number": 143
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 111,
+                        "uniprot_number": 144
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 112,
+                        "uniprot_number": 145
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 113,
+                        "uniprot_number": 146
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 114,
+                        "uniprot_number": 147
+                    },
+                    {
+                        "name": "SER",
+                        "number": 115,
+                        "uniprot_number": 148
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 116,
+                        "uniprot_number": 149
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 117,
+                        "uniprot_number": 150
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 118,
+                        "uniprot_number": 151
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 119,
+                        "uniprot_number": 152
+                    },
+                    {
+                        "name": "SER",
+                        "number": 120,
+                        "uniprot_number": 153
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 121,
+                        "uniprot_number": 154
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 122,
+                        "uniprot_number": 155
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 123,
+                        "uniprot_number": 156
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 124,
+                        "uniprot_number": 157
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 125,
+                        "uniprot_number": 158
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 126,
+                        "uniprot_number": 159
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 127,
+                        "uniprot_number": 160
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 128,
+                        "uniprot_number": 161
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 129,
+                        "uniprot_number": 162
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 130,
+                        "uniprot_number": 163
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 131,
+                        "uniprot_number": 164
+                    },
+                    {
+                        "name": "THR",
+                        "number": 132,
+                        "uniprot_number": 165
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 133,
+                        "uniprot_number": 166
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 134,
+                        "uniprot_number": 167
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 135,
+                        "uniprot_number": 168
+                    },
+                    {
+                        "name": "MET",
+                        "number": 136,
+                        "uniprot_number": 169
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 137,
+                        "uniprot_number": 170
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 138,
+                        "uniprot_number": 171
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 139,
+                        "uniprot_number": 172
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 140,
+                        "uniprot_number": 173
+                    },
+                    {
+                        "name": "PHE",
+                        "number": 141,
+                        "uniprot_number": 174
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 142,
+                        "uniprot_number": 175
+                    },
+                    {
+                        "name": "SER",
+                        "number": 143,
+                        "uniprot_number": 176
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 144,
+                        "uniprot_number": 177
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 145,
+                        "uniprot_number": 178
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 146,
+                        "uniprot_number": 179
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 147,
+                        "uniprot_number": 180
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 148,
+                        "uniprot_number": 181
+                    },
+                    {
+                        "name": "CYS",
+                        "number": 149,
+                        "uniprot_number": 182
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 150,
+                        "uniprot_number": 183
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 151,
+                        "uniprot_number": 184
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 152,
+                        "uniprot_number": 185
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 153,
+                        "uniprot_number": 186
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 154,
+                        "uniprot_number": 187
+                    },
+                    {
+                        "name": "SER",
+                        "number": 155,
+                        "uniprot_number": 188
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 156,
+                        "uniprot_number": 189
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 157,
+                        "uniprot_number": 190
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 158,
+                        "uniprot_number": 191
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 159,
+                        "uniprot_number": 192
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 160,
+                        "uniprot_number": 193
+                    },
+                    {
+                        "name": "THR",
+                        "number": 161,
+                        "uniprot_number": 194
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 162,
+                        "uniprot_number": 195
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 163,
+                        "uniprot_number": 196
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 164,
+                        "uniprot_number": 197
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 165,
+                        "uniprot_number": 198
+                    },
+                    {
+                        "name": "ARG",
+                        "number": 166,
+                        "uniprot_number": 199
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 167,
+                        "uniprot_number": 200
+                    },
+                    {
+                        "name": "ILE",
+                        "number": 168,
+                        "uniprot_number": 201
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 169,
+                        "uniprot_number": 202
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 170,
+                        "uniprot_number": 203
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 171,
+                        "uniprot_number": 204
+                    },
+                    {
+                        "name": "MET",
+                        "number": 172,
+                        "uniprot_number": 205
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 173,
+                        "uniprot_number": 206
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 174,
+                        "uniprot_number": 207
+                    },
+                    {
+                        "name": "THR",
+                        "number": 175,
+                        "uniprot_number": 208
+                    },
+                    {
+                        "name": "SER",
+                        "number": 176,
+                        "uniprot_number": 209
+                    },
+                    {
+                        "name": "GLN",
+                        "number": 177,
+                        "uniprot_number": 210
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 178,
+                        "uniprot_number": 211
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 179,
+                        "uniprot_number": 212
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 180,
+                        "uniprot_number": 213
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 181,
+                        "uniprot_number": 214
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 182,
+                        "uniprot_number": 215
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 183,
+                        "uniprot_number": 216
+                    },
+                    {
+                        "name": "PRO",
+                        "number": 184,
+                        "uniprot_number": 217
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 185,
+                        "uniprot_number": 218
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 186,
+                        "uniprot_number": 219
+                    },
+                    {
+                        "name": "THR",
+                        "number": 187,
+                        "uniprot_number": 220
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 188,
+                        "uniprot_number": 221
+                    },
+                    {
+                        "name": "ASP",
+                        "number": 189,
+                        "uniprot_number": 222
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 190,
+                        "uniprot_number": 223
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 191,
+                        "uniprot_number": 224
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 192,
+                        "uniprot_number": 225
+                    },
+                    {
+                        "name": "SER",
+                        "number": 193,
+                        "uniprot_number": 226
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 194,
+                        "uniprot_number": 227
+                    },
+                    {
+                        "name": "THR",
+                        "number": 195,
+                        "uniprot_number": 228
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 196,
+                        "uniprot_number": 229
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 197,
+                        "uniprot_number": 230
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 198,
+                        "uniprot_number": 231
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 199,
+                        "uniprot_number": 232
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 200,
+                        "uniprot_number": 233
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 201,
+                        "uniprot_number": 234
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 202,
+                        "uniprot_number": 235
+                    },
+                    {
+                        "name": "ASN",
+                        "number": 203,
+                        "uniprot_number": 236
+                    },
+                    {
+                        "name": "VAL",
+                        "number": 204,
+                        "uniprot_number": 237
+                    },
+                    {
+                        "name": "HIS",
+                        "number": 205,
+                        "uniprot_number": 238
+                    },
+                    {
+                        "name": "LEU",
+                        "number": 206,
+                        "uniprot_number": 239
+                    },
+                    {
+                        "name": "ALA",
+                        "number": 207,
+                        "uniprot_number": 240
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 208,
+                        "uniprot_number": 241
+                    },
+                    {
+                        "name": "GLY",
+                        "number": 209,
+                        "uniprot_number": 242
+                    },
+                    {
+                        "name": "TYR",
+                        "number": 210,
+                        "uniprot_number": 243
+                    },
+                    {
+                        "name": "LYS",
+                        "number": 211,
+                        "uniprot_number": 244
+                    },
+                    {
+                        "name": "GLU",
+                        "number": 212,
+                        "uniprot_number": 245
+                    },
+                    {
+                        "name": "THR",
+                        "number": 213,
+                        "uniprot_number": 246
+                    },
+                    {
+                        "name": "SER",
+                        "number": 214,
+                        "uniprot_number": 247
+                    }
+                ],
             "secondary_structure": {}
         }
     ],
-    "missing_residues": [
+    "missing_residues": {
+            "derived-missing_residues-mobi-1thj_A": {
+                "content_count": 1,
+                "content_fraction": 0.004,
+                "regions": [
+                    [
+                        247,
+                        247
+                    ]
+                ],
+                "source_id": "1thj_A",
+                "uniprot_source": "P40881"
+            }
+        },
+    "pdb_id": "1THJ",
+    "pdb_sequence": "MQEITVDEFSNIRENPVTPWNPEPSAPVIDPTAYIDPEASVIGEVTIGANVMVSPMASIRSDEGMPIFVGDRSNVQDGVVLHALETINEEGEPIEDNIVEVDGKEYAVYIGNNVSLAHQSQVHGPAAVGDDTFIGMQAFVFKSKVGNNCVLEPRSAAIGVTIPDGRYIPAGMVVTSQAEADKLPEVTDDYAYSHTNEAVVYVNVHLAEGYKETS"
+}
+_2cpe = {
+    "related_uniprot_accessions": [
+        "Q01844"
+    ],
+    "summary": [
         {
-            "P40881": [
+            "related_structures": [],
+            "split_entry": [],
+            "title": "Solution structure of the RNA recognition motif of Ewing Sarcoma(EWS) protein",
+            "release_date": "20051119",
+            "experimental_method": [
+                "Solution NMR"
+            ],
+            "experimental_method_class": [
+                "nmr"
+            ],
+            "revision_date": "20220309",
+            "entry_authors": [
+                "Nagata, T.",
+                "Muto, Y.",
+                "Inoue, M.",
+                "Kigawa, T.",
+                "Terada, T.",
+                "Shirouzu, M.",
+                "Yokoyama, S.",
+                "RIKEN Structural Genomics/Proteomics Initiative (RSGI)"
+            ],
+            "deposition_site": "PDBJ",
+            "number_of_entities": {
+                "polypeptide": 1,
+                "dna": 0,
+                "ligand": 0,
+                "dna/rna": 0,
+                "rna": 0,
+                "sugar": 0,
+                "water": 0,
+                "other": 0,
+                "carbohydrate_polymer": 0
+            },
+            "processing_site": "PDBJ",
+            "deposition_date": "20050519",
+            "assemblies": [
                 {
-                    "derived-missing_residues-mobi-1qq0_A": {
-                        "content_count": 39,
-                        "content_fraction": 0.158,
-                        "regions": [
-                            [
-                                1,
-                                39
-                            ]
-                        ],
-                        "source_id": "1qq0_A"
-                    },
-                    "derived-missing_residues-mobi-1qre_A": {
-                        "content_count": 37,
-                        "content_fraction": 0.15,
-                        "regions": [
-                            [
-                                1,
-                                37
-                            ]
-                        ],
-                        "source_id": "1qre_A"
-                    },
-                    "derived-missing_residues-mobi-1qrf_A": {
-                        "content_count": 7,
-                        "content_fraction": 0.028,
-                        "regions": [
-                            [
-                                35,
-                                41
-                            ]
-                        ],
-                        "source_id": "1qrf_A"
-                    },
-                    "derived-missing_residues-mobi-1qrg_A": {
-                        "content_count": 7,
-                        "content_fraction": 0.028,
-                        "regions": [
-                            [
-                                35,
-                                41
-                            ]
-                        ],
-                        "source_id": "1qrg_A"
-                    },
-                    "derived-missing_residues-mobi-1qrm_A": {
-                        "content_count": 4,
-                        "content_fraction": 0.016,
-                        "regions": [
-                            [
-                                35,
-                                38
-                            ]
-                        ],
-                        "source_id": "1qrm_A"
-                    },
-                    "derived-missing_residues-mobi-1thj_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.004,
-                        "regions": [
-                            [
-                                247,
-                                247
-                            ]
-                        ],
-                        "source_id": "1thj_A"
-                    },
-                    "derived-missing_residues-mobi-1thj_B": {
-                        "content_count": 1,
-                        "content_fraction": 0.004,
-                        "regions": [
-                            [
-                                247,
-                                247
-                            ]
-                        ],
-                        "source_id": "1thj_B"
-                    },
-                    "derived-missing_residues-mobi-1thj_C": {
-                        "content_count": 1,
-                        "content_fraction": 0.004,
-                        "regions": [
-                            [
-                                247,
-                                247
-                            ]
-                        ],
-                        "source_id": "1thj_C"
-                    },
-                    "derived-missing_residues-mobi-3otm_A": {
-                        "content_count": 7,
-                        "content_fraction": 0.028,
-                        "regions": [
-                            [
-                                36,
-                                42
-                            ]
-                        ],
-                        "source_id": "3otm_A"
-                    },
-                    "derived-missing_residues-mobi-3otz_A": {
-                        "content_count": 8,
-                        "content_fraction": 0.032,
-                        "regions": [
-                            [
-                                35,
-                                42
-                            ]
-                        ],
-                        "source_id": "3otz_A"
-                    },
-                    "derived-missing_residues-mobi-3ou9_A": {
-                        "content_count": 8,
-                        "content_fraction": 0.032,
-                        "regions": [
-                            [
-                                35,
-                                42
-                            ]
-                        ],
-                        "source_id": "3ou9_A"
-                    },
-                    "derived-missing_residues-mobi-3oup_A": {
-                        "content_count": 8,
-                        "content_fraction": 0.032,
-                        "regions": [
-                            [
-                                35,
-                                42
-                            ]
-                        ],
-                        "source_id": "3oup_A"
-                    },
-                    "derived-missing_residues-mobi-3ow5_A": {
-                        "content_count": 8,
-                        "content_fraction": 0.032,
-                        "regions": [
-                            [
-                                35,
-                                42
-                            ]
-                        ],
-                        "source_id": "3ow5_A"
-                    },
-                    "derived-missing_residues-th_90": {
-                        "content_count": 33,
-                        "content_fraction": 0.134,
-                        "regions": [
-                            [
-                                1,
-                                33
-                            ]
-                        ]
-                    },
-                    "derived-missing_residues_context_dependent-th_90": {
-                        "content_count": 10,
-                        "content_fraction": 0.04,
-                        "regions": [
-                            [
-                                34,
-                                42
-                            ],
-                            [
-                                247,
-                                247
-                            ]
-                        ]
-                    }
+                    "assembly_id": "1",
+                    "form": "homo",
+                    "preferred": True,
+                    "name": "monomer"
                 }
             ]
         }
     ],
-    "pdb_id": "1THJ",
-    "sequence": "MQEITVDEFSNIRENPVTPWNPEPSAPVIDPTAYIDPEASVIGEVTIGANVMVSPMASIRSDEGMPIFVGDRSNVQDGVVLHALETINEEGEPIEDNIVEVDGKEYAVYIGNNVSLAHQSQVHGPAAVGDDTFIGMQAFVFKSKVGNNCVLEPRSAAIGVTIPDGRYIPAGMVVTSQAEADKLPEVTDDYAYSHTNEAVVYVNVHLAEGYKETS"
-}
-_2cpe = {
     "chains": [
         {
             "chain_id": "A",
@@ -14315,17 +7698,59 @@ _2cpe = {
             "secondary_structure": {}
         }
     ],
-    "missing_residues": [
+    "missing_residues": {},
+    "pdb_id": "2CPE",
+    "pdb_sequence": "GSSGSSGDPDEDSDNSAIYVQGLNDSVTLDDLADFFKQCGVVKMNKRTGQPMIHIYLDKETGKPKGDATVSYEDPPTAKAAVEWFDGKDFQGSKLKVSLARKKPPMNSGPSSG"
+}
+_3lvl = {
+    "related_uniprot_accessions": [
+        "P0A6B9",
+        "P0ACD6"
+    ],
+    "summary": [
         {
-            "Q01844": [
-                {}
+            "related_structures": [],
+            "split_entry": [],
+            "title": "Crystal Structure of E.coli IscS-IscU complex",
+            "release_date": "20100421",
+            "experimental_method": [
+                "X-ray diffraction"
+            ],
+            "experimental_method_class": [
+                "x-ray"
+            ],
+            "revision_date": "20171108",
+            "entry_authors": [
+                "Shi, R.",
+                "Proteau, A.",
+                "Matte, A.",
+                "Cygler, M.",
+                "Montreal-Kingston Bacterial Structural Genomics Initiative (BSGI)"
+            ],
+            "deposition_site": "RCSB",
+            "number_of_entities": {
+                "polypeptide": 2,
+                "dna": 0,
+                "ligand": 1,
+                "dna/rna": 0,
+                "rna": 0,
+                "sugar": 0,
+                "water": 1,
+                "other": 0,
+                "carbohydrate_polymer": 0
+            },
+            "processing_site": "RCSB",
+            "deposition_date": "20100222",
+            "assemblies": [
+                {
+                    "assembly_id": "1",
+                    "form": "hetero",
+                    "preferred": True,
+                    "name": "tetramer"
+                }
             ]
         }
     ],
-    "pdb_id": "2CPE",
-    "sequence": "GSSGSSGDPDEDSDNSAIYVQGLNDSVTLDDLADFFKQCGVVKMNKRTGQPMIHIYLDKETGKPKGDATVSYEDPPTAKAAVEWFDGKDFQGSKLKVSLARKKPPMNSGPSSG"
-}
-_3lvl = {
     "chains": [
         {
             "chain_id": "B",
@@ -16026,187 +9451,85 @@ _3lvl = {
             "secondary_structure": {}
         }
     ],
-    "missing_residues": [
-        {
-            "P0A6B9": [
-                {
-                    "derived-missing_residues-mobi-3lvj_A": {
-                        "content_count": 20,
-                        "content_fraction": 0.05,
-                        "regions": [
-                            [
-                                327,
-                                332
-                            ],
-                            [
-                                391,
-                                404
-                            ]
-                        ],
-                        "source_id": "3lvj_A"
-                    },
-                    "derived-missing_residues-mobi-3lvj_B": {
-                        "content_count": 16,
-                        "content_fraction": 0.04,
-                        "regions": [
-                            [
-                                329,
-                                332
-                            ],
-                            [
-                                393,
-                                404
-                            ]
-                        ],
-                        "source_id": "3lvj_B"
-                    },
-                    "derived-missing_residues-mobi-3lvk_A": {
-                        "content_count": 16,
-                        "content_fraction": 0.04,
-                        "regions": [
-                            [
-                                329,
-                                332
-                            ],
-                            [
-                                393,
-                                404
-                            ]
-                        ],
-                        "source_id": "3lvk_A"
-                    },
-                    "derived-missing_residues-mobi-3lvl_B": {
-                        "content_count": 16,
-                        "content_fraction": 0.04,
-                        "regions": [
-                            [
-                                328,
-                                332
-                            ],
-                            [
-                                394,
-                                404
-                            ]
-                        ],
-                        "source_id": "3lvl_B"
-                    },
-                    "derived-missing_residues-mobi-3lvm_A": {
-                        "content_count": 11,
-                        "content_fraction": 0.027,
-                        "regions": [
-                            [
-                                328,
-                                332
-                            ],
-                            [
-                                399,
-                                404
-                            ]
-                        ],
-                        "source_id": "3lvm_A"
-                    },
-                    "derived-missing_residues-mobi-3lvm_B": {
-                        "content_count": 16,
-                        "content_fraction": 0.04,
-                        "regions": [
-                            [
-                                328,
-                                332
-                            ],
-                            [
-                                394,
-                                404
-                            ]
-                        ],
-                        "source_id": "3lvm_B"
-                    },
-                    "derived-missing_residues-priority": {
-                        "content_count": 10,
-                        "content_fraction": 0.025,
-                        "regions": [
-                            [
-                                329,
-                                332
-                            ],
-                            [
-                                399,
-                                404
-                            ]
-                        ]
-                    },
-                    "derived-missing_residues-th_90": {
-                        "content_count": 10,
-                        "content_fraction": 0.025,
-                        "regions": [
-                            [
-                                329,
-                                332
-                            ],
-                            [
-                                399,
-                                404
-                            ]
-                        ]
-                    },
-                    "derived-missing_residues_context_dependent-th_90": {
-                        "content_count": 10,
-                        "content_fraction": 0.025,
-                        "regions": [
-                            [
-                                327,
-                                328
-                            ],
-                            [
-                                391,
-                                398
-                            ]
-                        ]
-                    }
-                }
-            ]
+    "missing_residues": {
+            "derived-missing_residues-mobi-3lvl_A": {
+                "content_count": 2,
+                "content_fraction": 0.016,
+                "regions": [
+                    [
+                        127,
+                        128
+                    ]
+                ],
+                "source_id": "3lvl_A",
+                "uniprot_source": "P0ACD6"
+            },
+            "derived-missing_residues-mobi-3lvl_B": {
+                "content_count": 16,
+                "content_fraction": 0.04,
+                "regions": [
+                    [
+                        328,
+                        332
+                    ],
+                    [
+                        394,
+                        404
+                    ]
+                ],
+                "source_id": "3lvl_B",
+                "uniprot_source": "P0A6B9"
+            }
         },
+    "pdb_id": "3LVL",
+    "pdb_sequence": "MGSSHHHHHHGSMYGVYRAMKLPIYLDYSATTPVDPRVAEKMMQFMTMDGTFGNPASRSHRFGWQAEEAVDIARNQIADLVGADPREIVFTSGATESDNLAIKGAANFYQKKGKHIITSKTEHKAVLDTCRQLEREGFEVTYLAPQRNGIIDLKELEAAMRDDTILVSIMHVNNEIGVVQDIAAIGEMCRARGIIYHVDATQSVGKLPIDLSQLKVDLMSFSGHKIYGPKGIGALYVRRKPRVRIEAQMHGGGHERGMRSGTLPVHQIVGMGEAYRIAKEEMATEMERLRGLRNRLWNGIKDIEEVYLNGDLEHGAPNILNVSFNYVEGESLIMALKDLAVSSGSACTSASLEPSYVLRALGLNDELAHSSIRFSLGRFTTEEEIDYTIELVRKSIGRLRDLSPLWEMYKQGVDLNSIEWAHH"
+}
+_3ogb = {
+    "related_uniprot_accessions": [
+        "P02185"
+    ],
+    "summary": [
         {
-            "P0ACD6": [
+            "related_structures": [],
+            "split_entry": [],
+            "title": "Sperm whale myoglobin mutant H64W deoxy-form",
+            "release_date": "20100908",
+            "experimental_method": [
+                "X-ray diffraction"
+            ],
+            "experimental_method_class": [
+                "x-ray"
+            ],
+            "revision_date": "20110713",
+            "entry_authors": [
+                "Birukou, I.",
+                "Soman, J.",
+                "Olson, J.S."
+            ],
+            "deposition_site": "RCSB",
+            "number_of_entities": {
+                "polypeptide": 1,
+                "dna": 0,
+                "ligand": 2,
+                "dna/rna": 0,
+                "rna": 0,
+                "sugar": 0,
+                "water": 1,
+                "other": 0,
+                "carbohydrate_polymer": 0
+            },
+            "processing_site": "RCSB",
+            "deposition_date": "20100816",
+            "assemblies": [
                 {
-                    "derived-missing_residues-mobi-3lvl_A": {
-                        "content_count": 2,
-                        "content_fraction": 0.016,
-                        "regions": [
-                            [
-                                127,
-                                128
-                            ]
-                        ],
-                        "source_id": "3lvl_A"
-                    },
-                    "derived-missing_residues-priority": {
-                        "content_count": 2,
-                        "content_fraction": 0.016,
-                        "regions": [
-                            [
-                                127,
-                                128
-                            ]
-                        ]
-                    },
-                    "derived-missing_residues-th_90": {
-                        "content_count": 2,
-                        "content_fraction": 0.016,
-                        "regions": [
-                            [
-                                127,
-                                128
-                            ]
-                        ]
-                    }
+                    "assembly_id": "1",
+                    "form": "homo",
+                    "preferred": True,
+                    "name": "monomer"
                 }
             ]
         }
     ],
-    "pdb_id": "3LVL",
-    "sequence": "MGSSHHHHHHGSMYGVYRAMKLPIYLDYSATTPVDPRVAEKMMQFMTMDGTFGNPASRSHRFGWQAEEAVDIARNQIADLVGADPREIVFTSGATESDNLAIKGAANFYQKKGKHIITSKTEHKAVLDTCRQLEREGFEVTYLAPQRNGIIDLKELEAAMRDDTILVSIMHVNNEIGVVQDIAAIGEMCRARGIIYHVDATQSVGKLPIDLSQLKVDLMSFSGHKIYGPKGIGALYVRRKPRVRIEAQMHGGGHERGMRSGTLPVHQIVGMGEAYRIAKEEMATEMERLRGLRNRLWNGIKDIEEVYLNGDLEHGAPNILNVSFNYVEGESLIMALKDLAVSSGSACTSASLEPSYVLRALGLNDELAHSSIRFSLGRFTTEEEIDYTIELVRKSIGRLRDLSPLWEMYKQGVDLNSIEWAHH"
-}
-_3ogb = {
     "chains": [
         {
             "chain_id": "A",
@@ -16831,753 +10154,32 @@ _3ogb = {
             "secondary_structure": {}
         }
     ],
-    "missing_residues": [
-        {
-            "P02185": [
-                {
-                    "derived-missing_residues-mobi-1do1_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "1do1_A"
-                    },
-                    "derived-missing_residues-mobi-1do3_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "1do3_A"
-                    },
-                    "derived-missing_residues-mobi-1do4_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "1do4_A"
-                    },
-                    "derived-missing_residues-mobi-1do7_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "1do7_A"
-                    },
-                    "derived-missing_residues-mobi-1dtm_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                154,
-                                154
-                            ]
-                        ],
-                        "source_id": "1dtm_A"
-                    },
-                    "derived-missing_residues-mobi-1duk_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                154,
-                                154
-                            ]
-                        ],
-                        "source_id": "1duk_A"
-                    },
-                    "derived-missing_residues-mobi-1duo_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                154,
-                                154
-                            ]
-                        ],
-                        "source_id": "1duo_A"
-                    },
-                    "derived-missing_residues-mobi-1irc_A": {
-                        "content_count": 2,
-                        "content_fraction": 0.013,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ],
-                            [
-                                154,
-                                154
-                            ]
-                        ],
-                        "source_id": "1irc_A"
-                    },
-                    "derived-missing_residues-mobi-1j3f_A": {
-                        "content_count": 2,
-                        "content_fraction": 0.013,
-                        "regions": [
-                            [
-                                97,
-                                98
-                            ]
-                        ],
-                        "source_id": "1j3f_A"
-                    },
-                    "derived-missing_residues-mobi-1jp6_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                154,
-                                154
-                            ]
-                        ],
-                        "source_id": "1jp6_A"
-                    },
-                    "derived-missing_residues-mobi-1jp8_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                154,
-                                154
-                            ]
-                        ],
-                        "source_id": "1jp8_A"
-                    },
-                    "derived-missing_residues-mobi-1jp9_A": {
-                        "content_count": 2,
-                        "content_fraction": 0.013,
-                        "regions": [
-                            [
-                                153,
-                                154
-                            ]
-                        ],
-                        "source_id": "1jp9_A"
-                    },
-                    "derived-missing_residues-mobi-1jpb_A": {
-                        "content_count": 2,
-                        "content_fraction": 0.013,
-                        "regions": [
-                            [
-                                153,
-                                154
-                            ]
-                        ],
-                        "source_id": "1jpb_A"
-                    },
-                    "derived-missing_residues-mobi-1l2k_A": {
-                        "content_count": 2,
-                        "content_fraction": 0.013,
-                        "regions": [
-                            [
-                                153,
-                                154
-                            ]
-                        ],
-                        "source_id": "1l2k_A"
-                    },
-                    "derived-missing_residues-mobi-1wvp_A": {
-                        "content_count": 2,
-                        "content_fraction": 0.013,
-                        "regions": [
-                            [
-                                153,
-                                154
-                            ]
-                        ],
-                        "source_id": "1wvp_A"
-                    },
-                    "derived-missing_residues-mobi-2d6c_B": {
-                        "content_count": 2,
-                        "content_fraction": 0.013,
-                        "regions": [
-                            [
-                                153,
-                                154
-                            ]
-                        ],
-                        "source_id": "2d6c_B"
-                    },
-                    "derived-missing_residues-mobi-2eb9_A": {
-                        "content_count": 4,
-                        "content_fraction": 0.026,
-                        "regions": [
-                            [
-                                95,
-                                98
-                            ]
-                        ],
-                        "source_id": "2eb9_A"
-                    },
-                    "derived-missing_residues-mobi-2ef2_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                98,
-                                98
-                            ]
-                        ],
-                        "source_id": "2ef2_A"
-                    },
-                    "derived-missing_residues-mobi-2jho_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "2jho_A"
-                    },
-                    "derived-missing_residues-mobi-2w6w_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "2w6w_A"
-                    },
-                    "derived-missing_residues-mobi-2w6y_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "2w6y_A"
-                    },
-                    "derived-missing_residues-mobi-2z6s_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                154,
-                                154
-                            ]
-                        ],
-                        "source_id": "2z6s_A"
-                    },
-                    "derived-missing_residues-mobi-2z6t_A": {
-                        "content_count": 2,
-                        "content_fraction": 0.013,
-                        "regions": [
-                            [
-                                153,
-                                154
-                            ]
-                        ],
-                        "source_id": "2z6t_A"
-                    },
-                    "derived-missing_residues-mobi-3sdn_A": {
-                        "content_count": 2,
-                        "content_fraction": 0.013,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ],
-                            [
-                                154,
-                                154
-                            ]
-                        ],
-                        "source_id": "3sdn_A"
-                    },
-                    "derived-missing_residues-mobi-3u3e_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "3u3e_A"
-                    },
-                    "derived-missing_residues-mobi-4it8_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "4it8_A"
-                    },
-                    "derived-missing_residues-mobi-4lpi_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "4lpi_A"
-                    },
-                    "derived-missing_residues-mobi-4nxa_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "4nxa_A"
-                    },
-                    "derived-missing_residues-mobi-4nxc_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "4nxc_A"
-                    },
-                    "derived-missing_residues-mobi-4pq6_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "4pq6_A"
-                    },
-                    "derived-missing_residues-mobi-4pqb_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "4pqb_A"
-                    },
-                    "derived-missing_residues-mobi-4pqc_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "4pqc_A"
-                    },
-                    "derived-missing_residues-mobi-4qau_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "4qau_A"
-                    },
-                    "derived-missing_residues-mobi-5c6y_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "5c6y_A"
-                    },
-                    "derived-missing_residues-mobi-5hlq_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                2,
-                                2
-                            ]
-                        ],
-                        "source_id": "5hlq_A"
-                    },
-                    "derived-missing_residues-mobi-5hlu_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                2,
-                                2
-                            ]
-                        ],
-                        "source_id": "5hlu_A"
-                    },
-                    "derived-missing_residues-mobi-5ilm_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "5ilm_A"
-                    },
-                    "derived-missing_residues-mobi-5ilp_A": {
-                        "content_count": 3,
-                        "content_fraction": 0.019,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ],
-                            [
-                                153,
-                                154
-                            ]
-                        ],
-                        "source_id": "5ilp_A"
-                    },
-                    "derived-missing_residues-mobi-5ilr_A": {
-                        "content_count": 3,
-                        "content_fraction": 0.019,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ],
-                            [
-                                153,
-                                154
-                            ]
-                        ],
-                        "source_id": "5ilr_A"
-                    },
-                    "derived-missing_residues-mobi-5oj9_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "5oj9_A"
-                    },
-                    "derived-missing_residues-mobi-5oja_A": {
-                        "content_count": 2,
-                        "content_fraction": 0.013,
-                        "regions": [
-                            [
-                                153,
-                                154
-                            ]
-                        ],
-                        "source_id": "5oja_A"
-                    },
-                    "derived-missing_residues-mobi-5ut8_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "5ut8_A"
-                    },
-                    "derived-missing_residues-mobi-5ut9_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "5ut9_A"
-                    },
-                    "derived-missing_residues-mobi-5uta_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "5uta_A"
-                    },
-                    "derived-missing_residues-mobi-5utb_A": {
-                        "content_count": 2,
-                        "content_fraction": 0.013,
-                        "regions": [
-                            [
-                                153,
-                                154
-                            ]
-                        ],
-                        "source_id": "5utb_A"
-                    },
-                    "derived-missing_residues-mobi-5utc_A": {
-                        "content_count": 2,
-                        "content_fraction": 0.013,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ],
-                            [
-                                154,
-                                154
-                            ]
-                        ],
-                        "source_id": "5utc_A"
-                    },
-                    "derived-missing_residues-mobi-5utd_A": {
-                        "content_count": 3,
-                        "content_fraction": 0.019,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ],
-                            [
-                                153,
-                                154
-                            ]
-                        ],
-                        "source_id": "5utd_A"
-                    },
-                    "derived-missing_residues-mobi-5vzn_A": {
-                        "content_count": 3,
-                        "content_fraction": 0.019,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ],
-                            [
-                                153,
-                                154
-                            ]
-                        ],
-                        "source_id": "5vzn_A"
-                    },
-                    "derived-missing_residues-mobi-5vzo_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "5vzo_A"
-                    },
-                    "derived-missing_residues-mobi-5vzp_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "5vzp_A"
-                    },
-                    "derived-missing_residues-mobi-5vzq_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "5vzq_A"
-                    },
-                    "derived-missing_residues-mobi-5wjk_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "5wjk_A"
-                    },
-                    "derived-missing_residues-mobi-5yce_A": {
-                        "content_count": 3,
-                        "content_fraction": 0.019,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ],
-                            [
-                                153,
-                                154
-                            ]
-                        ],
-                        "source_id": "5yce_A"
-                    },
-                    "derived-missing_residues-mobi-5ych_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                154,
-                                154
-                            ]
-                        ],
-                        "source_id": "5ych_A"
-                    },
-                    "derived-missing_residues-mobi-6cf0_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "6cf0_A"
-                    },
-                    "derived-missing_residues-mobi-6e02_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "6e02_A"
-                    },
-                    "derived-missing_residues-mobi-6e03_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "6e03_A"
-                    },
-                    "derived-missing_residues-mobi-6e04_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "6e04_A"
-                    },
-                    "derived-missing_residues-mobi-6g5a_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "6g5a_A"
-                    },
-                    "derived-missing_residues-mobi-6g5b_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "6g5b_A"
-                    },
-                    "derived-missing_residues-mobi-7kyr_A": {
-                        "content_count": 2,
-                        "content_fraction": 0.013,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ],
-                            [
-                                154,
-                                154
-                            ]
-                        ],
-                        "source_id": "7kyr_A"
-                    },
-                    "derived-missing_residues-mobi-7l3u_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "7l3u_A"
-                    },
-                    "derived-missing_residues-mobi-7l3y_A": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ],
-                        "source_id": "7l3y_A"
-                    },
-                    "derived-missing_residues_context_dependent-th_90": {
-                        "content_count": 1,
-                        "content_fraction": 0.006,
-                        "regions": [
-                            [
-                                1,
-                                1
-                            ]
-                        ]
-                    }
-                }
-            ]
-        }
-    ],
+    "missing_residues": {
+            "derived-missing_residues-mobi-3obg_A": {
+                "content_count": 28,
+                "content_fraction": 0.078,
+                "regions": [
+                    [
+                        1,
+                        4
+                    ],
+                    [
+                        32,
+                        35
+                    ],
+                    [
+                        173,
+                        184
+                    ],
+                    [
+                        353,
+                        360
+                    ]
+                ],
+                "source_id": "3obg_A",
+                "uniprot_source": "Q16539"
+            }
+        },
     "pdb_id": "3OGB",
-    "sequence": "MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKWGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG"
+    "pdb_sequence": "MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKWGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG"
 }
