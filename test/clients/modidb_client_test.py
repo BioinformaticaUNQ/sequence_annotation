@@ -2,7 +2,7 @@ import unittest
 import sys
 
 sys.path.append("..")
-from src.clients.mobidb_client import MobiDBClient
+from sequence_annotation.clients.mobidb_client import MobiDBClient
 from test.utils.data_sample import query_data_example
 
 

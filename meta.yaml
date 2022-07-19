@@ -1,0 +1,53 @@
+{% set name = "sequence_annotation" %}
+{% set version = "0.0.6" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
+  sha256: d983c2c8ca21f9a872673db91688347777813fd1a3ccfa9b20b90623c9fc97a0
+
+build:
+  number: 0
+  entry_points:
+    - sequence_annotation = sequence_annotation:main
+
+requirements:
+  host:
+    - pip
+    - python
+    - requests >=2.13.0
+    - setuptools==59.2.0
+  run:
+    - python
+    - requests >=2.13.0
+    - setuptools==59.2.0
+
+test:
+  imports:
+    - sequence_annotation
+    - sequence_annotation.clients
+    - sequence_annotation.dto
+    - sequence_annotation.services
+    - sequence_annotation.utils
+    - test
+  commands:
+    - sequence_annotation --help
+
+about:
+  home: "https://github.com/BioinformaticaUNQ/sequence_annotation.git"
+  license: UNKNOWN
+  license_family: OTHER
+  license_file: 
+  summary: "Proteins info mapper"
+  doc_url: 
+  dev_url: 
+
+extra:
+  recipe-maintainers:
+    - apiorno
+    - CardozoCasariegoLuciano
+    - angelodpadron
+    - marilaumedici

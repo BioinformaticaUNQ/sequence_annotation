@@ -1,6 +1,6 @@
 import unittest
 import sys
-from src.services.proteins_search_service import ProteinsSearchService
+from sequence_annotation.services.proteins_search_service import ProteinsSearchService
 from test.utils.data_sample import _3lvl, _1a7e, _1ej1, _1lxa, _1thj, _2cpe, _3ogb
 
 sys.path.append("..")
