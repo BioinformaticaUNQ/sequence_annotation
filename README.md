@@ -4,7 +4,7 @@
 # TP final
 
 ## Want to release a version?
-FOllow instructions in [RELEASE A VERSION](RELEASE.md).
+Follow instructions in [RELEASE A VERSION](RELEASE.md).
 
 ## Installation
 
