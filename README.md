@@ -20,12 +20,12 @@ Follow instructions in [RELEASE A VERSION](RELEASE.md).
 
 ## Actual manteiners
 
-Angelo Padron
-Maria Laura Medici
-Alvaro Piorno
+Angelo Padron /n
+Maria Laura Medici /n
+Alvaro Piorno /n
 
 ## Dead in battle :skull_and_crossbones:
 
-Luciano Cardozo
-Alejo
-Cristian Espindola
+Luciano Cardozo /n
+Alejo /n
+Cristian Espindola /n
