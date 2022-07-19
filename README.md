@@ -1,3 +1,13 @@
 [![Unit Tests](https://github.com/BioinformaticaUNQ/sequence_annotation/actions/workflows/ci.yml/badge.svg)](github.com/BioinformaticaUNQ/sequence_annotation/actions/workflows/ci.yml)
 
-TP final
+[![PyPI version](https://badge.fury.io/py/sequence-annotation.svg)](https://badge.fury.io/py/sequence-annotation)
+
+
+# TP final
+
+## Want to release a version?
+[HOW TO RELEASE A VERSION](RELEASE.md).
+
+## Installation
+
+`pip install sequence-annotation`
