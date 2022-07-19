@@ -6,6 +6,9 @@
 ## Want to release a version?
 Follow instructions in [RELEASE A VERSION](RELEASE.md).
 
+## Tech info
+Technical information in [TECHNICAL INFO](TECHINFO.md).
+
 ## Installation
 
 `pip install sequence-annotation`
