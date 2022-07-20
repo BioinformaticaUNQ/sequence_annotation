@@ -22,7 +22,7 @@ GET https://mobidb.bio.unipd.it/api/download?acc={acc}<br>
 
 **UNIPROT**
 
-Uniprot was used to get the uniprot id of each aminoacids of the PDB secuence <br>
+Uniprot was used to get the uniprot id of each aminoacids of the PDB sequence <br>
 
 GET https://rest.uniprot.org/uniprotkb/search?size=1&query={pdb_id} <br>
 
