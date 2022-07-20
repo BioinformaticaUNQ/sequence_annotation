@@ -9,6 +9,9 @@ Follow instructions in [RELEASE A VERSION](RELEASE.md).
 ## Tech info
 Technical information in [TECHNICAL INFO](TECHINFO.md).
 
+## Pre Installation
+ Install pip following this : https://pip.pypa.io/en/stable/installation/
+
 ## Installation
 
 `pip install sequence-annotation`
