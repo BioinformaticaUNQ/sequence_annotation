@@ -5,6 +5,8 @@
 
 **SIFTS**
 
+Sift was used to list the aminoacids of the input PBD, to obtain the entire secuence first and second structure and the accession ids. <br>
+
 GET https://www.ebi.ac.uk/pdbe/api/mappings/{pdb_id} <br>
 GET https://www.ebi.ac.uk/pdbe/api/mappings/uniprot/{pdb_id} <br>
 GET https://www.ebi.ac.uk/pdbe/api/pdb/entry/summary/{pdb_id} <br>
@@ -14,9 +16,13 @@ GET https://www.ebi.ac.uk/pdbe/api/pdb/entry/residue_listing/{pdb_id} <br>
 
 **MOBIDB**
 
+MobiDB was used to obtain the missing residues of the PDB  <br>
+
 GET https://mobidb.bio.unipd.it/api/download?acc={acc}<br>
 
 **UNIPROT**
+
+Uniprot was used to get the uniprot id of each aminoacids of the PDB secuence <br>
 
 GET https://rest.uniprot.org/uniprotkb/search?size=1&query={pdb_id} <br>
 
