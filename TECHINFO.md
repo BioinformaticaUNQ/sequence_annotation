@@ -23,7 +23,90 @@ GET https://rest.uniprot.org/uniprotkb/search?size=1&query={pdb_id} <br>
 
 ## JSON Response
 
+````
 
+[
+   {
+      "pdb_id": "String",
+      "related_uniprot_accessions": [
+         "String"
+      ],
+      "summary": [
+         {
+            "related_structures": [],
+            "split_entry": [],
+            "title": "String",
+            "release_date": "String",
+            "experimental_method": [
+               "String"
+            ],
+            "experimental_method_class": [
+               "String"
+            ],
+            "revision_date": "String",
+            "entry_authors": [
+               "String",
+               "String",
+               "String"
+            ],
+            "deposition_site": null,
+            "number_of_entities": {
+               "polypeptide": int,
+               "dna": int,
+               "ligand": int,
+               "dna/rna": int,
+               "rna": int,
+               "sugar": int,
+               "water": int,
+               "other": int,
+               "carbohydrate_polymer": int
+            },
+            "processing_site": null,
+            "deposition_date": "String",
+            "assemblies": [
+               {
+                  "assembly_id": "String",
+                  "form": "String",
+                  "preferred": boolean,
+                  "name": "String"
+               },
+               {
+                  "assembly_id": "String",
+                  "form": "String",
+                  "preferred": false,
+                  "name": "String"
+               }
+            ]
+         }
+      ],
+      "pdb_sequence": "String",
+      "chains": [
+         {
+            "chain_id": "String",
+            "residues": [
+               {
+                  "name": "String",
+                  "number": int
+               }
+            ],
+            "secondary_structure": {}
+         }
+      ],
+      "missing_residues_in_pdb": {
+         "derived-missing_residues-mobi-1thj_A": {
+            "source_id": "String",
+            "regions": [
+               [int]
+            ],
+            "content_fraction": float,
+            "content_count": int,
+            "uniprot_source": "String"
+         }
+      }
+   }
+]
+
+````
 
 
 ## Example output
